@@ -57,7 +57,6 @@ public class HomeActivity extends BaseActivity implements OnMapListChangeListene
     /*private TrainerListFragment trainerListFragment;
     private MapFragment mapFragment;*/
     private String schoolName;
-
     public String getSchoolName() {
         return schoolName;
     }
