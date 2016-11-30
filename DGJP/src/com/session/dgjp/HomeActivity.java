@@ -63,7 +63,6 @@ public class HomeActivity extends BaseActivity implements OnMapListChangeListene
     public void setSchoolName(String schoolName) {
         this.schoolName = schoolName;
     }
-
     private BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
 
         @Override
