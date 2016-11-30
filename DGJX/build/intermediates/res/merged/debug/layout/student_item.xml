@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:baselineAligned="false"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/view_10"
+    android:paddingLeft="@dimen/view_29"
+    android:paddingStart="@dimen/view_29"
+    android:paddingRight="@dimen/view_16"
+    android:paddingEnd="@dimen/view_16"
+    android:paddingTop="@dimen/view_10" >
+
+    <ImageView
+        android:id="@id/ivHead"
+        android:layout_width="@dimen/view_50"
+        android:layout_height="@dimen/view_50"
+        android:contentDescription="@null" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/view_15"
+        android:layout_marginStart="@dimen/view_15"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/order_item_tv_1"
+                android:text="@string/time" />
+
+            <TextView
+                style="@style/order_item_tv_1"
+                android:text="@string/colon" />
+
+            <TextView
+                android:id="@id/time"
+                style="@style/order_item_tv_2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/view_6_5"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/order_item_tv_1"
+                        android:text="@string/student"/>
+
+                    <TextView
+                        style="@style/order_item_tv_1"
+                        android:text="@string/colon"/>
+
+                    <TextView
+                        android:id="@id/student"
+                        style="@style/order_item_tv_2"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/view_6_5"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/order_item_tv_1"
+                        android:text="@string/course"/>
+
+                    <TextView
+                        style="@style/order_item_tv_1"
+                        android:text="@string/colon"/>
+
+                    <TextView
+                        android:id="@id/course"
+                        style="@style/order_item_tv_2"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_more"
+                android:contentDescription="@null" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

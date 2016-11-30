@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <com.session.dgjp.view.NoScollerViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+    <RadioGroup 
+        android:id="@+id/rg_bottom"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_74"
+        >
+           <RadioButton 
+               android:gravity="center"
+	           android:id="@+id/bt_main" 
+	           android:layout_width="0dp"
+	           android:checked="true"
+	           android:textColor="@drawable/bottom_tv_color"
+	           android:layout_weight="1"
+	           android:layout_height="match_parent" 
+	           android:text="@string/bottom_home" 
+	           android:button="@null"                      
+          /> 
+          <RadioButton 
+              android:gravity="center"
+              android:textColor="@drawable/bottom_tv_color"
+	           android:id="@+id/bt_practice_driving" 
+	           android:layout_width="0dp"
+	           android:layout_weight="1"
+	           android:layout_height="match_parent" 
+	           android:text="@string/bottom_drive" 
+	           android:button="@null"                      
+          /> 
+          <RadioButton 
+              android:gravity="center"
+	           android:id="@+id/bt_me" 
+	           android:layout_width="0dp"
+	           android:textColor="@drawable/bottom_tv_color"
+	           android:layout_weight="1"
+	           android:layout_height="match_parent" 
+	           android:text="@string/person_center" 
+	           android:button="@null"                      
+          /> 
+    </RadioGroup>
+
+</LinearLayout>

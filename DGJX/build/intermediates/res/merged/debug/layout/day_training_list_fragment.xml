@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@id/course"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_42"
+        android:spinnerMode="dialog"
+        android:background="@android:color/white"
+        android:paddingBottom="@dimen/view_8"
+        android:paddingTop="@dimen/view_8"
+        android:gravity="center"
+        />
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/pager_paddding">
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/common_background"
+            android:divider="@null"/>
+        
+        <TextView
+            android:id="@id/no_data"
+            style="@style/no_data_tv"
+            />
+    </FrameLayout>
+
+</LinearLayout>

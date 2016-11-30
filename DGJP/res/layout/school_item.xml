@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/view_16"
+        android:paddingLeft="@dimen/view_30"
+        android:paddingStart="@dimen/view_30"
+        android:paddingRight="@dimen/view_16"
+        android:paddingEnd="@dimen/view_16"
+        android:paddingTop="@dimen/view_18"
+        >
+
+        <ImageView
+            android:id="@id/photo"
+            android:layout_width="@dimen/view_49"
+            android:layout_height="@dimen/view_49"
+            android:contentDescription="@null" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/view_20"
+            android:layout_marginStart="@dimen/view_20">
+
+            <TextView
+                android:id="@id/school"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_333333"
+                android:textSize="@dimen/text_medium_xx" />
+
+            <LinearLayout style="@style/order_item_layout"
+                android:layout_marginTop="@dimen/view_3_5">
+
+                <TextView
+                    style="@style/school_item_tv_1"
+                    android:text="@string/phone" />
+
+                <TextView
+                    style="@style/school_item_tv_1"
+                    android:text="@string/colon" />
+
+                <TextView
+                    android:id="@id/phone"
+                    style="@style/school_item_tv_2" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/order_item_layout"
+                android:layout_marginTop="@dimen/view_3">
+
+                <TextView
+                    style="@style/school_item_tv_1"
+                    android:text="@string/_address" />
+
+                <TextView
+                    style="@style/school_item_tv_1"
+                    android:text="@string/colon" />
+
+                <TextView
+                    android:id="@id/address"
+                    style="@style/school_item_tv_2" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/view_10"
+            android:layout_marginStart="@dimen/view_10"
+            >
+			
+            <TextView
+                android:id="@id/operation"
+                android:layout_width="@dimen/view_48"
+                android:layout_height="@dimen/view_25"
+                android:background="@drawable/btn_white"
+                android:gravity="center"
+                android:text="@string/book"
+                android:textColor="@color/app_color"
+                android:textSize="@dimen/text_12_5"
+                />
+            <View
+			    android:layout_width="0dp"
+			    android:layout_height="0dp"
+			    android:layout_weight="1"
+			    />
+            
+            <TextView
+                android:id="@id/distance"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:textColor="@color/gray_888888"
+                android:textSize="@dimen/text_medium_x"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@id/hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/view_6"
+        android:layout_marginLeft="@dimen/view_6"
+        android:visibility="invisible"
+        android:contentDescription="@null"
+        />
+
+</FrameLayout>

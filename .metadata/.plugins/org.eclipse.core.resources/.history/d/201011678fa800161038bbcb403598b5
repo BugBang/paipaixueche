@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:background="@color/common_background"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent" >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+  <!--   <include layout="@layout/inc_common_title" /> -->
+  <RelativeLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="180dp">
+       <ImageView
+	        android:id="@+id/top_ad_view"
+	        android:layout_width="match_parent"
+		    android:layout_height="180dp"
+		    android:background="@drawable/personal_top_bg"
+        />
+        <RelativeLayout 
+            android:background="@android:color/transparent" 
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_48"
+            >
+            <TextView 
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_title"
+                android:text="@string/personal_center_tv_title"
+                />
+        </RelativeLayout>
+        <ImageView 
+            android:id="@+id/ivHead"
+            android:background="@drawable/personal_user_photo"
+            android:layout_marginLeft="@dimen/view_20"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/view_80"
+            android:layout_height="@dimen/view_80"
+            />
+        <LinearLayout 
+            android:layout_marginLeft="22dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/ivHead"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            >
+            <TextView 
+                android:id="@id/tvName"
+                android:layout_width="wrap_content"
+           		 android:layout_height="wrap_content"
+           		 android:text="猴子搬来的逗逼"
+           		 android:textColor="@color/white"
+                />
+            
+            <TextView 
+                android:id="@id/tvPhone"
+                android:layout_marginTop="@dimen/view_18"
+                android:layout_width="wrap_content"
+           		 android:layout_height="wrap_content"
+           		 android:text="135****4158"
+           		  android:textColor="@color/white"
+           		 
+                />
+            
+        </LinearLayout>
+        
+    </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <View
+                style="@style/divider"
+                android:layout_marginTop="@dimen/pager_paddding"
+                android:visibility="invisible" />
+
+           <!-- <LinearLayout
+                android:id="@id/llPersonInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/about_press"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="@dimen/pager_paddding" >
+
+                <ImageView
+                    android:id="@id/ivHead"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/img_def_head" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/pager_paddding"
+                    android:layout_marginStart="@dimen/pager_paddding"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                     <TextView
+                        android:id="@id/tvName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_medium_xxx" />
+
+                    <TextView
+                        android:id="@id/tvPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/view_5"
+                        android:textColor="@color/gray_999999"
+                        android:textSize="@dimen/text_medium_xxx" /> 
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_more" />
+            </LinearLayout>-->
+
+            <View style="@style/divider" />
+
+            <LinearLayout
+                android:id="@+id/llModifyPayPwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/about_press"
+                android:gravity="center"
+                android:minHeight="@dimen/about_menu_height"
+                android:orientation="horizontal"
+                android:padding="@dimen/pager_paddding" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="@string/modify_pay_pwd"
+                    android:textColor="@color/text_personal_center_item"
+                    android:textSize="@dimen/text_medium_xxx" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_more" />
+            </LinearLayout>
+
+            <View style="@style/divider" />
+
+            <LinearLayout
+                android:id="@+id/llResetPayPwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/about_press"
+                android:gravity="center"
+                android:minHeight="@dimen/about_menu_height"
+                android:orientation="horizontal"
+                android:padding="@dimen/pager_paddding" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="@string/reset_pay_pwd"
+                    android:textColor="@color/text_personal_center_item"
+                    android:textSize="@dimen/text_medium_xxx" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_more" />
+            </LinearLayout>
+
+            <View style="@style/divider" />
+
+            <LinearLayout
+                android:id="@+id/llMyWallet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/about_press"
+                android:gravity="center"
+                android:minHeight="@dimen/about_menu_height"
+                android:orientation="horizontal"
+                android:padding="@dimen/pager_paddding" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="@string/my_wallet"
+                    android:textColor="@color/text_personal_center_item"
+                    android:textSize="@dimen/text_medium_xxx" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_more" />
+            </LinearLayout>
+
+            <View style="@style/divider" />
+
+            <LinearLayout
+                android:id="@+id/llMyCoupon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/about_press"
+                android:gravity="center"
+                android:minHeight="@dimen/about_menu_height"
+                android:orientation="horizontal"
+                android:padding="@dimen/pager_paddding" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="@string/my_coupon"
+                    android:textColor="@color/text_personal_center_item"
+                    android:textSize="@dimen/text_medium_xxx" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_more" />
+            </LinearLayout>
+
+            <View style="@style/divider" />
+
+            <LinearLayout
+                android:id="@id/llVersion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/about_press"
+                android:gravity="center"
+                android:minHeight="@dimen/about_menu_height"
+                android:orientation="horizontal"
+                android:padding="@dimen/pager_paddding" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/version_update"
+                        android:textColor="@color/text_personal_center_item"
+                        android:textSize="@dimen/text_medium_xxx" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_more" />
+            </LinearLayout>
+
+            <View style="@style/divider" />
+
+            <LinearLayout
+                android:id="@id/llAbout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/about_press"
+                android:gravity="center"
+                android:minHeight="@dimen/about_menu_height"
+                android:orientation="horizontal"
+                android:padding="@dimen/pager_paddding" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="@string/about"
+                    android:textColor="@color/text_personal_center_item"
+                    android:textSize="@dimen/text_medium_xxx" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_more" />
+            </LinearLayout>
+
+            <View
+                style="@style/divider"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btnLogout"
+                style="@style/ButtonBlue"
+                android:layout_marginBottom="@dimen/login_et_margin_top"
+                android:layout_marginLeft="@dimen/view_10"
+                android:layout_marginRight="@dimen/view_10"
+                android:layout_marginTop="@dimen/login_et_margin_top"
+                android:text="@string/logout" />
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+

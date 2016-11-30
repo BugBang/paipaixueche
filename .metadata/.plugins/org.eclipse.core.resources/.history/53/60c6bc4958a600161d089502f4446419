@@ -1,0 +1,205 @@
+import com.example.panoramagltest.R;
+import com.panoramagl.PLCubicPanorama;
+import com.panoramagl.PLCylindricalPanorama;
+import com.panoramagl.PLIPanorama;
+import com.panoramagl.PLIView;
+import com.panoramagl.PLImage;
+import com.panoramagl.PLSpherical2Panorama;
+import com.panoramagl.PLSphericalPanorama;
+import com.panoramagl.PLView;
+import com.panoramagl.PLViewListener;
+import com.panoramagl.enumerations.PLCubeFaceOrientation;
+import com.panoramagl.hotspots.PLHotspot;
+import com.panoramagl.hotspots.PLIHotspot;
+import com.panoramagl.ios.structs.CGPoint;
+import com.panoramagl.loaders.PLILoader;
+import com.panoramagl.loaders.PLJSONLoader;
+import com.panoramagl.structs.PLPosition;
+import com.panoramagl.transitions.PLTransitionBlend;
+import com.panoramagl.utils.PLUtils;
+
+import android.content.Context;
+import android.os.Bundle;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemSelectedListener;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+import android.widget.Toast;
+
+public class MainActivity extends PLView {  
+    /* 下拉控件 */  
+    private Spinner mPanoramaTypeSpinner;  
+    @Override  
+    public void onCreate(Bundle savedInstanceState) {  
+        super.onCreate(savedInstanceState);  
+        this.setListener(new PLViewListener() {  
+            @Override  
+            public void onDidClickHotspot(PLIView view, PLIHotspot hotspot,  
+                    CGPoint screenPoint, PLPosition scene3DPoint) {  
+                Toast.makeText(  
+                        view.getActivity().getApplicationContext(),  
+                        String.format("You select the hotspot with ID %d",  
+                                hotspot.getIdentifier()), Toast.LENGTH_SHORT)  
+                        .show();  
+            }  
+  
+        });  
+    }  
+  
+    /** 
+     * @param contentView表示当前根内容视图 
+     * @return activity的根内容视图 
+     */  
+    @Override  
+    protected View onContentViewCreated(View contentView) {  
+        // 加载布局  
+        ViewGroup mainView = (ViewGroup) this.getLayoutInflater().inflate(  
+                R.layout.mainactivity, null);  
+        // 添加360视图  
+        mainView.addView(contentView, 0);  
+        // 下拉列表控制  
+        mPanoramaTypeSpinner = (Spinner) mainView  
+                .findViewById(R.id.spinner_panorama_type);  
+        ArrayAdapter<?> adapter = ArrayAdapter.createFromResource(this,  
+                R.array.panorama_types, android.R.layout.simple_spinner_item);  
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);  
+        mPanoramaTypeSpinner.setAdapter(adapter);  
+        mPanoramaTypeSpinner  
+                .setOnItemSelectedListener(new OnItemSelectedListener() {  
+                    @Override  
+                    public void onItemSelected(AdapterView<?> parentView,  
+                            View selectedItemView, int position, long id) {  
+                        loadPanoramaFromJSON(position);  
+                    }  
+  
+                    @Override  
+                    public void onNothingSelected(AdapterView<?> parentView) {  
+                    }  
+                });  
+  
+        return super.onContentViewCreated(mainView);  
+    }  
+  
+    /** 
+     * 加载全景图像 
+     *  
+     * @param index表示的位置 
+     *            0 = 立方体, 1 =球体 , 2 = 球体, 3 = 圆柱体 
+     */  
+    @SuppressWarnings("unused")  
+    private void loadPanorama(int index) {  
+        try {  
+            Context context = this.getApplicationContext();  
+            PLIPanorama panorama = null;  
+            // 锁定全景视图  
+            this.setLocked(true);  
+            // 全景全景视图  
+            switch (index) {  
+            // 立方体全景 (supports up 1024x1024 image per face)  
+            case 0:  
+                PLCubicPanorama cubicPanorama = new PLCubicPanorama();  
+                cubicPanorama.setImage(  
+                        new PLImage(PLUtils.getBitmap(context,  
+                                R.raw.panorama_f1), false),  
+                        PLCubeFaceOrientation.PLCubeFaceOrientationFront);  
+                cubicPanorama.setImage(  
+                        new PLImage(PLUtils.getBitmap(context,  
+                                R.raw.panorama_b1), false),  
+                        PLCubeFaceOrientation.PLCubeFaceOrientationBack);  
+                cubicPanorama.setImage(  
+                        new PLImage(PLUtils.getBitmap(context,  
+                                R.raw.panorama_l1), false),  
+                        PLCubeFaceOrientation.PLCubeFaceOrientationLeft);  
+                cubicPanorama.setImage(  
+                        new PLImage(PLUtils.getBitmap(context,  
+                                R.raw.panorama_r1), false),  
+                        PLCubeFaceOrientation.PLCubeFaceOrientationRight);  
+                cubicPanorama.setImage(  
+                        new PLImage(PLUtils.getBitmap(context,  
+                                R.raw.panorama_u1), false),  
+                        PLCubeFaceOrientation.PLCubeFaceOrientationUp);  
+                cubicPanorama.setImage(  
+                        new PLImage(PLUtils.getBitmap(context,  
+                                R.raw.panorama_d1), false),  
+                        PLCubeFaceOrientation.PLCubeFaceOrientationDown);  
+                panorama = cubicPanorama;  
+                break;  
+            // 球形全景 panorama (supports up 2048x1024 image)  
+            case 1:  
+                panorama = new PLSpherical2Panorama();  
+                ((PLSpherical2Panorama) panorama).setImage(new PLImage(PLUtils  
+                        .getBitmap(context, R.raw.panorama2), false));  
+                break;  
+            // 球形全景 (supports up 1024x512 image)  
+            case 2:  
+                panorama = new PLSphericalPanorama();  
+                ((PLSphericalPanorama) panorama).setImage(new PLImage(PLUtils  
+                        .getBitmap(context, R.raw.panorama), false));  
+                break;  
+            // 圆柱形全景 (supports up 1024x1024 image)  
+            case 3:  
+                PLCylindricalPanorama cylindricalPanorama = new PLCylindricalPanorama();  
+                cylindricalPanorama.setHeight(3.0f);  
+                cylindricalPanorama.getCamera().setPitchRange(0.0f, 0.0f);  
+                cylindricalPanorama.setImage(new PLImage(PLUtils.getBitmap(  
+                        context, R.raw.panorama), false));  
+                panorama = cylindricalPanorama;  
+                break;  
+            default:  
+                break;  
+            }  
+            if (panorama != null) {  
+                // 设置摄像机的旋转角度  
+                panorama.getCamera().lookAt(0.0f, 170.0f);  
+                // 添加一个热点  
+                panorama.addHotspot(new PLHotspot(1, new PLImage(PLUtils  
+                        .getBitmap(context, R.raw.hotspot), false), 0.0f,  
+                        170.0f, 0.05f, 0.05f));  
+                // 重置视图  
+                this.reset();  
+                // 加载全景图  
+                this.startTransition(new PLTransitionBlend(2.0f), panorama); // 或者  
+                                                                                // this.setPanorama(panorama);  
+            }  
+            // 开启全景视图  
+            this.setLocked(false);  
+        } catch (Throwable e) {  
+            Toast.makeText(this.getApplicationContext(), "Error: " + e,  
+                    Toast.LENGTH_SHORT).show();  
+        }  
+    }  
+  
+    /** 
+     * 负载全景图像使用JSON协议 
+     *  
+     * @param index表示的位置 
+     *            0 = 立方体, 1 =球柱 , 2 = 球体, 3 = 圆柱体 
+     */  
+    private void loadPanoramaFromJSON(int index) {  
+        try {  
+            PLILoader loader = null;  
+            switch (index) {  
+            case 0:  
+                loader = new PLJSONLoader("res://raw/json_cubic");  
+                break;  
+            case 1:  
+                loader = new PLJSONLoader("res://raw/json_spherical2");  
+                break;  
+            case 2:  
+                loader = new PLJSONLoader("res://raw/json_spherical");  
+                break;  
+            case 3:  
+                loader = new PLJSONLoader("res://raw/json_cylindrical");  
+                break;  
+            default:  
+                break;  
+            }  
+            if (loader != null)  
+                this.load(loader, true, new PLTransitionBlend(2.0f));  
+        } catch (Throwable e) {  
+            Toast.makeText(this.getApplicationContext(), "Error: " + e,  
+                    Toast.LENGTH_SHORT).show();  
+        }  
+    }  

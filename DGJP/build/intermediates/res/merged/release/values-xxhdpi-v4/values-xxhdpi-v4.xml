@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="message_head_photo">43.4dp</dimen>
+    <dimen name="password_text">15sp</dimen>
+    <dimen name="radio_button_height">42.7dp</dimen>
+    <dimen name="radio_button_lower_bar_height">2.7dp</dimen>
+    <dimen name="radio_button_lower_bar_height_minus">-3dp</dimen>
+    <dimen name="radio_group_padding">20dp</dimen>
+    <dimen name="rating_bar_height_big">26dp</dimen>
+    <dimen name="rating_bar_height_small">8dp</dimen>
+</resources>

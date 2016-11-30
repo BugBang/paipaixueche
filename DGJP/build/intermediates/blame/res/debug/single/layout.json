@@ -1,0 +1,310 @@
+[
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\custom_info_window.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\custom_info_window.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\web_view.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\web_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\training_list_fragment.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\training_list_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_welcome.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\item_wallet_month.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\item_wallet_month.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_about_app.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_about_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_bootm_personal_center.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_bootm_personal_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\item_choose_dialog.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\item_choose_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\item_coupon.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\item_coupon.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\sign_school_fragment.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\sign_school_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\PullToRefresh\\unspecified\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\notification_download.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\notification_download.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_main.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\it_message.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\it_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_my_wallet.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_my_wallet.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\school_item.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\school_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\car_item.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\car_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\inc_common_title.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\inc_common_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_register.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\divider.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\divider.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\sign_school_details_item.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\sign_school_details_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\sign_all_comment_item.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\sign_all_comment_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_home.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\school_list_fragment.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\school_list_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_sign.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_sign.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\period_tv.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\period_tv.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_choose.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\dialog_choose.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\unpaid_order_detail_activity.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\unpaid_order_detail_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\sign_class_detail_fragment.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\sign_class_detail_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\textview.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\textview.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\PullToRefresh\\unspecified\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_scan_qrcode.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_scan_qrcode.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\my_location_marker.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\my_location_marker.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_my_coupon.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_my_coupon.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\order_option_dialog.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\order_option_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\sign_all_comment_fragment.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\sign_all_comment_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\paid_order_detail_activity.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\paid_order_detail_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\training_evaluation_activity.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\training_evaluation_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\order_activity.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\order_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\drop_down_textview_2.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\drop_down_textview_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\training_record_item.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\training_record_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\it_splash.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\it_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\info_window.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\info_window.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\enter_person_information_fragment2.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\enter_person_information_fragment2.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\pay_type_item.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\pay_type_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_base.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\dialog_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\gridpasswordview.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\gridpasswordview.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\sign_school_details_fragment.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\sign_school_details_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_personal_center.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_personal_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\coupon_item.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\coupon_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\carousel_layout.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\carousel_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\trainer_list_activity.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\trainer_list_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_modify_pay_password.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_modify_pay_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_personal_info.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_personal_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\school_marker.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\school_marker.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_message.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_home_pager.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_home_pager.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\item_wallet_record.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\item_wallet_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_tv.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\spinner_tv.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\label_item.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\label_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\trainer_layout.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\trainer_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_set_pay_password.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_set_pay_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\order_payment_activity.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\order_payment_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\inc_home_title.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\inc_home_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_map.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\fragment_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\tv_input_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\tv_input_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_login.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\order_list_fragment.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\order_list_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\sign_school_list_item.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\sign_school_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\drop_down_textview.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\drop_down_textview.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_reset_pay_password.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_reset_pay_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\pay_result.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\pay_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\trainer_item.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\trainer_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\top_ad_item.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\top_ad_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\order_item.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\order_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\pay_password_verificaiton_dialog.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\pay_password_verificaiton_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\enter_person_information_fragment1.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\enter_person_information_fragment1.xml"
+    }
+]

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Copyright (C) 2010 Regis Montoya (aka r3gis - www.r3gis.fr)
+
+	This file is part of hdhome. 
+	hdhome is free software: you can
+	redistribute it and/or modify it under the terms of the GNU General
+	Public License as published by the Free Software Foundation, either
+	version 3 of the License, or (at your option) any later version.
+
+	hdhome is distributed in the hope that it will be useful, but
+	WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+	General Public License for more details. You should have received a
+	copy of the GNU General Public License along with hdhome. If not,
+	see <http://www.gnu.org/licenses/>.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="trainer_name"><xliff:g id="_name" >%s</xliff:g>教练</string>
+    <string name="eval"><xliff:g id="eval" >%1$.1f</xliff:g>分</string>
+    <string name="selected_order_time"><xliff:g id="date" >%1$s</xliff:g> <xliff:g id="start_time" >%2$s</xliff:g>--<xliff:g id="end_time" >%3$s</xliff:g></string>
+    <string name="order_hour"><xliff:g id="hour" >%d</xliff:g>小时</string>
+    <!-- <string name="order_fee"><xliff:g id="hour" >%1$.2f</xliff:g>元</string> -->
+    <string name="order_fee"><xliff:g id="fee" >%1$.2f</xliff:g>元</string>
+    <string name="order_duration"><xliff:g id="duration" >%d</xliff:g>小时</string>
+    <string name="date_format"><xliff:g id="year" >%1$d</xliff:g>年<xliff:g id="month">%2$d</xliff:g>月<xliff:g id="day">%3$d</xliff:g>日<xliff:g id="day_of_week">%4$8s</xliff:g></string>
+    <string name="toast_press_exit">再按一次退出<xliff:g id="app_name" >%s</xliff:g></string>
+    <string name="declare_detail">感谢您使用<xliff:g id="app_name1" >%s</xliff:g>客户端应用程序。如有疑问，请联系<xliff:g id="app_name2" >%s</xliff:g>管理人员。欢迎您提供宝贵的意见。</string>
+</resources>

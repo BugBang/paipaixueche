@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DGJP/DGJP.iml" filepath="$PROJECT_DIR$/DGJP/DGJP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DGJX/DGJX.iml" filepath="$PROJECT_DIR$/DGJX/DGJX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PullToRefresh/PullToRefresh.iml" filepath="$PROJECT_DIR$/PullToRefresh/PullToRefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paipaixueche.iml" filepath="$PROJECT_DIR$/paipaixueche.iml" />
+    </modules>
+  </component>
+</project>

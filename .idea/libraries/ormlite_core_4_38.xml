@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ormlite-core-4.38">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/DGJP/libs/ormlite-core-4.38.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/inc_common_title" />
+    
+    <include layout="@layout/trainer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pager_paddding"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/divider"
+        android:dividerPadding="@dimen/view_4"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:layout_marginTop="@dimen/pager_paddding"
+        android:showDividers="middle" >
+
+        <!-- 培训课程 -->
+
+        <LinearLayout
+            style="@style/order_activity_layout_1"
+            >
+
+            <TextView
+                style="@style/order_activity_tv_1"
+                android:text="@string/training_course" />
+
+            <TextView
+                android:id="@id/course"
+                style="@style/order_activity_tv_2"/>
+            
+        </LinearLayout>
+
+        <!-- 预约时间 -->
+
+        <LinearLayout style="@style/order_activity_layout_1" >
+
+            <TextView
+                style="@style/order_activity_tv_1"
+                android:text="@string/order_time" />
+
+            <TextView
+                android:id="@id/time"
+                style="@style/order_activity_tv_2"/>
+            
+        </LinearLayout>
+        
+        <!-- 学时 -->
+
+        <LinearLayout
+            style="@style/order_activity_layout_1">
+
+            <TextView
+                style="@style/order_activity_tv_1"
+                android:text="@string/training_period" />
+
+            <TextView
+                android:id="@id/period"
+                style="@style/order_activity_tv_2"
+                />
+            
+        </LinearLayout>
+        
+        <!-- 车辆 -->
+
+        <LinearLayout
+            style="@style/order_activity_layout_1"
+            android:divider="@drawable/divider_5"
+            android:showDividers="middle" >
+
+            <TextView
+                style="@style/order_activity_tv_1"
+                android:text="@string/training_car" />
+
+            <TextView
+                android:id="@id/carno"
+                style="@style/order_activity_tv_2"
+                android:layout_marginLeft="@dimen/view_10"
+                android:layout_marginStart="@dimen/view_10"/>
+
+            <TextView
+                android:id="@id/_name"
+                style="@style/order_activity_tv_2"
+                />
+
+            <TextView
+                android:id="@id/gear_type"
+                style="@style/order_activity_tv_2" />
+            
+        </LinearLayout>
+
+        <!-- 费用 -->
+
+        <LinearLayout
+            style="@style/order_activity_layout_1">
+
+
+            <TextView
+                style="@style/order_activity_tv_1"
+                android:text="@string/training_fee" />
+
+            <TextView
+                android:id="@id/original_fee"
+                style="@style/order_activity_tv_2"/>
+            
+        </LinearLayout>
+        
+        <!-- 实际支付 -->
+
+        <LinearLayout
+            style="@style/order_activity_layout_1">
+
+
+            <TextView
+                style="@style/order_activity_tv_1"
+                android:text="@string/actual_payment" />
+
+            <TextView
+                android:id="@id/fee"
+                style="@style/order_activity_tv_2"/>
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <Button
+        android:id="@id/back"
+        style="@style/ButtonBlue"
+        android:layout_marginLeft="@dimen/view_12"
+        android:layout_marginStart="@dimen/view_12"
+        android:layout_marginEnd="@dimen/view_12"
+        android:layout_marginRight="@dimen/view_12"
+        android:layout_marginTop="@dimen/view_20"
+        android:text="@string/back"
+        />
+
+</LinearLayout>

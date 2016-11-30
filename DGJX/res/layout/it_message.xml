@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/view_30"
+    android:paddingStart="@dimen/view_30"
+    android:paddingRight="@dimen/view_60"
+    android:paddingEnd="@dimen/view_60"
+    android:paddingTop="@dimen/view_16"
+    android:paddingBottom="@dimen/view_16">
+
+    <ImageView
+        android:layout_width="@dimen/view_50"
+        android:layout_height="@dimen/view_50"
+        android:background="@drawable/img_kf2"
+        android:contentDescription="@null"
+        android:layout_marginTop="@dimen/view_11"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/view_17"
+        android:layout_marginStart="@dimen/view_17"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@id/tvTime"
+            android:layout_width="@dimen/view_136"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/view_5"
+            android:layout_marginStart="@dimen/view_5"
+            android:background="@color/bg_message_time"
+            android:gravity="center"
+            android:textColor="@color/text_gray_dark"
+            android:textSize="@dimen/text_medium_x" />
+
+        <TextView
+            android:id="@id/tvMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/view_10"
+            android:background="@drawable/bg_message"
+            android:singleLine="false"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/text_medium_x" />
+    </LinearLayout>
+
+</LinearLayout>

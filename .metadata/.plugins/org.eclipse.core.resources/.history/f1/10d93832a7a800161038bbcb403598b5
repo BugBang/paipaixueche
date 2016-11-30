@@ -1,0 +1,14 @@
+package com.session.dgjp.sign;
+
+import com.session.common.BaseActivity;
+
+import android.os.Bundle;
+
+public class SignActivity extends BaseActivity{
+
+	@Override
+	protected void init(Bundle savedInstanceState) {
+		
+	}
+
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:ratingbar="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_120"
+        >
+
+        <ImageView
+            android:id="@+id/iv_school_photo"
+            android:layout_width="@dimen/view_80"
+            android:layout_height="@dimen/view_80"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_25"
+            android:background="#323232"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/iv_school_photo"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="石牌分校"
+                    android:textColor="@color/black_333333"
+                    android:textSize="@dimen/text_medium_xxx"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="距离2.4km"
+                    android:textColor="@color/text_gray2"
+                    android:textSize="@dimen/text_medium_x"
+                    />
+            </LinearLayout>
+
+            <com.session.dgjp.view.StarBar
+                android:id="@+id/starBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                ratingbar:starCount="5"
+                ratingbar:starDistance="5dp"
+                ratingbar:starEmpty="@drawable/star_empty"
+                ratingbar:starFill="@drawable/star_full"
+                ratingbar:starSize="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="8dp"
+                android:text="100人报名"
+                android:textColor="@color/text_gray2"
+                android:textSize="@dimen/text_medium_x"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="8dp"
+                android:singleLine="true"
+                android:text="地址:asdfajskdfajsifefnfaisdf;jai;iew"
+                android:textColor="@color/text_gray2"
+                android:textSize="@dimen/text_medium_x"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

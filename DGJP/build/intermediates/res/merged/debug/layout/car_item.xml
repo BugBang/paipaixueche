@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="@drawable/divider_5"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/view_10"
+    android:paddingBottom="@dimen/view_10"
+    android:showDividers="middle" >
+
+    <TextView
+        android:id="@id/carno"
+        style="@style/order_option_dialog_list_item"
+        android:layout_weight="4"
+        android:layout_marginLeft="@dimen/view_20"
+        android:layout_marginStart="@dimen/view_20"
+        android:gravity="start"
+        />
+
+    <TextView
+        android:id="@id/_name"
+        style="@style/order_option_dialog_list_item"
+        android:layout_weight="4"
+        />
+
+    <TextView
+        android:id="@id/gear_type"
+        style="@style/order_option_dialog_list_item"
+        android:layout_weight="3"
+        />
+    
+    <CheckBox
+        android:id="@id/check_box"
+        android:layout_width="@dimen/view_22"
+        android:layout_height="@dimen/view_22"
+        android:background="@drawable/check_box_bg"
+        android:button="@null"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_marginEnd="@dimen/view_7"
+        android:layout_marginRight="@dimen/view_7"
+        />
+
+</LinearLayout>

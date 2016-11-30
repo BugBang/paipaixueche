@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_background"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <requestFocus />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/app_color">
+
+        <ImageView
+            android:id="@id/ivTitleLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/btn_back"
+            android:layout_marginLeft="@dimen/view_12"
+            android:layout_marginStart="@dimen/view_12"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/view_27"
+            android:layout_weight="1"
+            android:background="@drawable/bg_gray"
+            android:divider="@drawable/divider_9"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:showDividers="middle"
+            android:layout_marginLeft="@dimen/view_6"
+            android:layout_marginStart="@dimen/view_6"
+            android:layout_marginRight="@dimen/view_25"
+            android:layout_marginEnd="@dimen/view_25"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/search"
+                android:contentDescription="@null"
+                android:layout_marginLeft="@dimen/view_10"
+                android:layout_marginStart="@dimen/view_10"/>
+
+            <EditText
+                android:id="@id/search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:textColor="@color/black_333333"
+                android:hint="@string/search_by_trainer_name"
+                android:inputType="text"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:textSize="@dimen/text_medium_x" />
+
+            <ImageView
+                android:id="@id/reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/reset"
+                android:contentDescription="@null"
+                android:layout_marginRight="@dimen/view_10"
+                android:layout_marginEnd="@dimen/view_10"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/view_8"
+        android:paddingLeft="@dimen/view_30"
+        android:paddingRight="@dimen/view_30"
+        android:paddingStart="@dimen/view_30"
+        android:paddingEnd="@dimen/view_30"
+        android:paddingTop="@dimen/view_8"
+        android:background="@android:color/white"
+        >
+
+        <ImageView
+            android:id="@id/photo"
+            android:layout_width="@dimen/view_49"
+            android:layout_height="@dimen/view_49"
+            android:contentDescription="@null" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/view_20"
+            android:layout_marginStart="@dimen/view_20">
+
+            <TextView
+                android:id="@id/school"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_333333"
+                android:textSize="@dimen/text_medium_xx" />
+
+            <LinearLayout style="@style/order_item_layout"
+                android:layout_marginTop="@dimen/view_3_5">
+
+                <TextView
+                    style="@style/school_item_tv_1"
+                    android:text="@string/phone" />
+
+                <TextView
+                    style="@style/school_item_tv_1"
+                    android:text="@string/colon" />
+
+                <TextView
+                    android:id="@id/phone"
+                    style="@style/school_item_tv_2" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/order_item_layout"
+                android:layout_marginTop="@dimen/view_3">
+
+                <TextView
+                    style="@style/school_item_tv_1"
+                    android:text="@string/_address" />
+
+                <TextView
+                    style="@style/school_item_tv_1"
+                    android:text="@string/colon" />
+
+                <TextView
+                    android:id="@id/address"
+                    style="@style/school_item_tv_2" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/pager_paddding">
+
+        <!-- <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/common_background"
+            android:divider="@null"
+            /> -->
+        <ListView
+            android:id="@id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/common_background"
+            android:divider="@color/divider"
+            android:dividerHeight="@dimen/divider"
+            />
+        
+        <TextView
+            android:id="@id/no_data"
+            style="@style/no_data_tv"
+            />
+    </FrameLayout>
+
+</LinearLayout>

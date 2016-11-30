@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:left="@dimen/view_minus_1"
+        android:right="@dimen/view_minus_1"
+        android:top="@dimen/view_minus_1">
+        <shape>
+            <stroke
+                android:width="@dimen/view_1"
+                android:color="@color/divider" />
+
+            <!-- <padding android:bottom="@dimen/view_1" /> -->
+
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,5 @@
+package android.support.percent;
+
+public class PercentLinearLayout {
+
+}

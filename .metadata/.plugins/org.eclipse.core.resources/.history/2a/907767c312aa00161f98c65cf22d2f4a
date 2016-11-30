@@ -1,0 +1,20 @@
+package com.session.dgjp.sign;
+
+import com.session.common.BaseActivity;
+import com.session.dgjp.R;
+
+import android.os.Bundle;
+
+public class SignActivity extends BaseActivity{
+
+
+	@Override
+	protected void init(Bundle savedInstanceState) {
+		setContentView(R.layout.act_sign);
+
+		getSupportFragmentManager().beginTransaction()
+        .replace(R.id.content, SignSchoolFragment.newInstance(), SignSchoolFragment.newInstance().getClass().getSimpleName())
+        .addToBackStack(SignSchoolFragment.newInstance().getClass().getSimpleName())
+        .commitAllowingStateLoss();
+	}
+}

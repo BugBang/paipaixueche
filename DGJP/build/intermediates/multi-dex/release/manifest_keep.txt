@@ -1,0 +1,48 @@
+-keep class com.session.dgjp.AppInstance {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.session.dgjp.login.WelcomActivity { <init>(); }
+-keep class com.session.dgjp.login.LoginActivity { <init>(); }
+-keep class com.session.dgjp.login.RegisterActivity { <init>(); }
+-keep class com.session.dgjp.MainActivity { <init>(); }
+-keep class com.session.dgjp.HomePagerActivity { <init>(); }
+-keep class com.session.dgjp.sign.SignActivity { <init>(); }
+-keep class com.session.dgjp.HomeActivity { <init>(); }
+-keep class com.session.dgjp.PersonalCenterActivity { <init>(); }
+-keep class com.session.dgjp.personal.PersonalCenterActivity { <init>(); }
+-keep class com.session.dgjp.personal.SetPayPasswordActivity { <init>(); }
+-keep class com.session.dgjp.personal.ModifyPayPasswordActivity { <init>(); }
+-keep class com.session.dgjp.personal.ResetPayPasswordActivity { <init>(); }
+-keep class com.session.dgjp.personal.MyWalletActivity { <init>(); }
+-keep class com.session.dgjp.personal.MyCouponActivity { <init>(); }
+-keep class com.session.dgjp.personal.PersonalInfoActivity { <init>(); }
+-keep class com.session.dgjp.personal.AboutAppActivity { <init>(); }
+-keep class com.session.dgjp.message.MessageActivity { <init>(); }
+-keep class com.session.dgjp.training.TrainingEvaluationActivity { <init>(); }
+-keep class com.session.dgjp.trainer.TrainerListActivity { <init>(); }
+-keep class com.session.dgjp.trainer.OrderActivity { <init>(); }
+-keep class com.session.dgjp.order.OrderPaymentActivity { <init>(); }
+-keep class com.session.dgjp.order.PaidOrderDetailActivity { <init>(); }
+-keep class com.session.dgjp.order.UnpaidOrderDetailActivity { <init>(); }
+-keep class com.session.dgjp.ScanQRCodeActivity { <init>(); }
+-keep class com.session.dgjp.wxapi.WXPayEntryActivity { <init>(); }
+-keep class com.alipay.sdk.app.H5PayActivity { <init>(); }
+-keep class com.alipay.sdk.auth.AuthActivity { <init>(); }
+-keep class cn.jpush.android.ui.PushActivity { <init>(); }
+-keep class cn.jpush.android.service.DownloadService { <init>(); }
+-keep class cn.jpush.android.service.PushService { <init>(); }
+-keep class cn.jpush.android.service.PushReceiver { <init>(); }
+-keep class com.session.dgjp.receiver.JpushReceiver { <init>(); }
+-keep class cn.jpush.android.service.AlarmReceiver { <init>(); }
+-keep class com.amap.api.location.APSService { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}
+-keep class com.android.tools.fd.** {
+    *;
+}
+-dontnote com.android.tools.fd.**,android.support.multidex.MultiDexExtractor

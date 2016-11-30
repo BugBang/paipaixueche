@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/inc_common_title" />
+
+    <include layout="@layout/trainer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pager_paddding"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pager_paddding"
+        android:background="@android:color/white"
+        android:divider="@drawable/divider"
+        android:dividerPadding="@dimen/view_4"
+        android:orientation="vertical"
+        android:showDividers="middle" >
+
+        <!-- 培训课程 -->
+
+        <LinearLayout style="@style/order_activity_layout_1" >
+
+            <TextView
+                style="@style/order_activity_tv_1"
+                android:text="@string/training_course" />
+
+            <Spinner
+                android:id="@id/course"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="start|center_vertical"
+                android:spinnerMode="dialog" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_more" />
+        </LinearLayout>
+
+        <!-- 预约时间 -->
+
+        <LinearLayout
+            android:id="@id/time_layout"
+            style="@style/order_activity_layout_1" >
+
+            <TextView
+                style="@style/order_activity_tv_1"
+                android:text="@string/order_time" />
+
+            <TextView
+                android:id="@id/time"
+                style="@style/order_activity_tv_2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/clock"
+                android:contentDescription="@null" />
+        </LinearLayout>
+
+        <!-- 学时 -->
+
+        <LinearLayout
+            android:id="@id/period_layout"
+            style="@style/order_activity_layout_1" >
+
+            <TextView
+                style="@style/order_activity_tv_1"
+                android:text="@string/training_period" />
+
+            <TextView
+                android:id="@id/period"
+                style="@style/order_activity_tv_2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_more"
+                android:contentDescription="@null" />
+        </LinearLayout>
+
+        <!-- 车辆 -->
+
+        <LinearLayout
+            android:id="@id/car_layout"
+            style="@style/order_activity_layout_1"
+            android:divider="@drawable/divider_5"
+            android:showDividers="middle" >
+
+            <TextView
+                style="@style/order_activity_tv_1"
+                android:text="@string/training_car" />
+
+            <TextView
+                android:id="@id/carno"
+                style="@style/order_activity_tv_2"
+                android:layout_marginLeft="@dimen/view_10"
+                android:layout_marginStart="@dimen/view_10" />
+
+            <TextView
+                android:id="@id/_name"
+                style="@style/order_activity_tv_2" />
+
+            <TextView
+                android:id="@id/gear_type"
+                style="@style/order_activity_tv_2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_more"
+                android:contentDescription="@null" />
+        </LinearLayout>
+
+        <!-- 费用 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/divider_4"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/view_6_5"
+            android:paddingEnd="@dimen/view_13"
+            android:paddingLeft="@dimen/view_13"
+            android:paddingRight="@dimen/view_13"
+            android:paddingStart="@dimen/view_13"
+            android:paddingTop="@dimen/view_6_5"
+            android:showDividers="middle" >
+
+            <TextView
+                style="@style/order_activity_tv_1"
+                android:text="@string/training_fee" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/order_activity_tv_3"
+                        android:text="@string/_original_price" />
+
+                    <TextView
+                        style="@style/order_activity_tv_3"
+                        android:text="@string/colon" />
+
+                    <TextView
+                        android:id="@id/original_fee"
+                        style="@style/order_activity_tv_3"
+                        android:visibility="invisible" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/view_6_5">
+
+                    <TextView
+                        style="@style/order_activity_tv_3"
+                        android:text="@string/preferential_price" />
+
+                    <TextView
+                        style="@style/order_activity_tv_3"
+                        android:text="@string/colon" />
+
+                    <TextView
+                        android:id="@id/preferential_fee"
+                        style="@style/order_activity_tv_3"
+                        android:visibility="invisible" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@id/confirm"
+        style="@style/ButtonBlue"
+        android:layout_marginEnd="@dimen/view_12"
+        android:layout_marginLeft="@dimen/view_12"
+        android:layout_marginRight="@dimen/view_12"
+        android:layout_marginStart="@dimen/view_12"
+        android:layout_marginTop="@dimen/view_20"
+        android:text="@string/submit_order" />
+
+</LinearLayout>

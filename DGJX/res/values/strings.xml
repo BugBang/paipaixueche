@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 通用 -->
+    <string name="colon">：</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="default_error_msg">应用异常，请稍后重试</string>
+    <string name="query_datas_fail">查询数据失败，请稍后重试</string>
+    <string name="no_data">无记录</string>
+    <string name="unknown">未知</string>
+    <string name="querying">正在查询</string>
+    <string name="submitting_request">正在提交请求</string>
+    <string name="submit_fail">请求失败</string>
+    <string name="operation_success">操作成功</string>
+    <string name="back">返回</string>
+    <string name="hint">提示</string>
+    <string name="status">状态</string>
+
+    <!-- 密码 -->
+    <string name="set_password_hint">请设置您的支付密码以便后续操作</string>
+    <string name="set_password">设置支付密码</string>
+    <string name="modify_password">修改支付密码</string>
+    <string name="old_password">原密码</string>
+    <string name="new_password">新密码</string>
+    <string name="new_password_again">确认新密码</string>
+    <string name="hint_old">请输入原密码</string>
+    <string name="hint_new">请输入6位数字的新密码</string>
+    <string name="hint_new_again">请再次输入新密码</string>
+    <string name="id_card">身份证号码</string>
+    <string name="id_card_hint">请输入身份证号码</string>
+    <string name="verify_code">验证码</string>
+    <string name="save">保存</string>
+
+    <!-- 预约时间选择 -->
+    <string name="select_date">选择日期</string>
+    <string name="select_period">选择时段</string>
+    <string name="app_name">拍拍学车教练版</string>
+    <string name="version_name">1.0.7</string>
+
+    <!-- 扫描二维码 -->
+    <string name="scan">扫描二维码</string>
+    <string name="scan_text">将二维码放入框内，即可自动扫描</string>
+    <string name="scan_result_abnormal">扫描结果异常</string>
+    <string name="start_hint">学员扫码开始培训</string>
+    <string name="start_qrcode">开始签到二维码</string>
+    <string name="end_hint">学员扫码结束培训</string>
+    <string name="end_qrcode">结束签到二维码</string>
+
+    <!-- 登录 -->
+    <string name="hint_input_phone">请输入手机号码</string>
+    <string name="hint_input_captcha">请输入验证码</string>
+    <string name="get_captcha">获取验证码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="toast_input_phone">请输入手机号码</string>
+    <string name="toast_input_right_phone">请输入正确的手机号码</string>
+    <string name="toast_get_captcha">请先获取验证码</string>
+    <string name="toast_input_captcha">请输入验证码</string>
+    <string name="toast_input_right_captcha">请输入正确的验证码</string>
+
+    <!-- 个人中心 -->
+    <string name="logout">退出登录</string>
+    <string name="about">关于</string>
+    <string name="personal_center">个人中心</string>
+    <string name="modify_pay_pwd">修改支付密码</string>
+    <string name="reset_pay_pwd">重置支付密码</string>
+    <string name="personal_info">个人资料</string>
+    <string name="version_update">版本更新</string>
+    <string name="declare">声明：</string>
+    <string name="branch_school">所属分校：</string>
+
+    <!-- 主页 -->
+    <!-- 约教练 -->
+    <string name="order_times">预约次数</string>
+    <string name="order">单</string>
+    <string name="book">预约</string>
+    <string name="search_by_trainer_name">按教练姓名查询</string>
+
+    <!-- 我的预约 -->
+    <string name="my_order">我的预约</string>
+    <string name="evaluation_detail">评价详情</string>
+    <string name="waiting_confirm">待确认</string>
+    <string name="confirmed">已确认</string>
+    <string name="in_training">培训中</string>
+    <string name="cancel_order">取消订单</string>
+    <string name="start_sign_in">开始签到</string>
+    <string name="end_sign_in">结束签到</string>
+    <string name="training_course">培训课程</string>
+    <string name="order_time">预约时间</string>
+    <string name="training_period">培训学时</string>
+    <string name="training_fee">培训费用</string>
+    <string name="order_trainer">预约教练</string>
+    <string name="order_status">订单状态</string>
+
+    <!-- 历史订单 -->
+    <string name="history_order">历史订单</string>
+    <string name="finished">完成</string>
+    <string name="evaled">查看评价</string>
+    <string name="uneval">未评价</string>
+    <string name="training_car">培训车辆</string>
+    <string name="begintime_before_endtime">开始时间不能大于结束时间</string>
+
+    <!-- 订单详情 -->
+    <string name="order_detail">订单详情</string>
+    <string name="period">学时</string>
+    <string name="training_address">培训地址</string>
+    <string name="car">车辆</string>
+    <string name="fee">费用</string>
+    <string name="apply_time">报名时间</string>
+    <string name="apply_school">报名分校</string>
+
+    <!-- 支付 -->
+    <string name="pay_password">支付密码</string>
+    <string name="please_input_pay_password">请输入支付密码</string>
+    <string name="payment_verification">支付验证</string>
+
+    <!-- 我的消息 -->
+    <string name="my_message">我的消息</string>
+    <string name="get_message_fail">获取消息失败</string>
+    <string name="delete_message_fail">删除消息失败</string>
+    <string name="delete_record_or_not">是否删除该记录？</string>
+
+    <string-array name="message_operations">
+        <item>删除</item>
+    </string-array>
+
+    <!-- 培训详情 -->
+    <string name="training_complete">培训完成</string>
+    <string name="anonymous_evaluation">匿名评价</string>
+    <string name="duration">时长</string>
+    
+    <!-- 预约订单 -->
+    <string name="booking_order">预约订单</string>
+    <string name="time">时间</string>
+    <string name="student">学员</string>
+    <string name="course">课程</string>
+    <string name="student_name">学员姓名</string>
+    
+    <!-- 当日培训 -->
+    <string name="day_training">当日培训</string>
+    <string name="order_student">预约学员</string>
+    <string name="to">至</string>
+    <string name="operate_fail_update_app">操作失败，请更新应用</string>
+	
+
+</resources>

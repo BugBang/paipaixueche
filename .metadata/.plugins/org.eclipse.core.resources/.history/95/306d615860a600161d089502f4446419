@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="node1">
+  <input levelbias="0.400" levelingpitch="0" height="162" levelbiashidpi="0.400" width="162" levelingroll="0" overlap="1" leveltileurl="tiles/85458PICFNj_1024/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
+    <level height="162" width="162" preload="1" predecode="1"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start fov="70" pan="0" tilt="0"/>
+    <min fov="5" pan="-180" tilt="-39.5731"/>
+    <max fov="120" pan="180" tilt="39.5731"/>
+  </view>
+  <userdata comment="" datetime="" title="" info="" source="" tags="切图" latitude="" author="" copyright="" description="" longitude=""/>
+  <hotspots height="20" width="180" wordwrap="1">
+    <label height="20" border="1" width="180" textalpha="1" enabled="1" borderradius="1" wordwrap="1" textcolor="0x000000" background="1" backgroundalpha="1" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff"/>
+    <polystyle handcursor="1" backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
+  </hotspots>
+  <media/>
+  <transition zoomin="0" type="crossdissolve" softedge="0" zoomspeed="2" zoomout="0" blendcolor="0x000000" enabled="0" blendtime="1" zoomoutpause="1" zoomfov="20"/>
+  <control lockedkeyboardzoom="0" sensitivity="8" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" invertwheel="0" hideabout="0" contextfullscreen="0" simulatemass="1" speedwheel="1" lockedmouse="0" lockedwheel="0"/>
+</panorama>

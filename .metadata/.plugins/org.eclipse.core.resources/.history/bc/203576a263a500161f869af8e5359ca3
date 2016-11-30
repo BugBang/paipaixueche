@@ -1,0 +1,14 @@
+package com.session.dgjp;
+
+import com.session.common.BaseActivity;
+
+import android.os.Bundle;
+
+public class HomePagerActivity extends BaseActivity{
+
+	@Override
+	protected void init(Bundle savedInstanceState) {
+		setContentView(R);
+	}
+
+}

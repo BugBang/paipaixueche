@@ -1,0 +1,24 @@
+package com.session.dgjp.sign;
+
+import com.session.common.BaseFragment;
+import com.session.dgjp.R;
+
+import android.os.Bundle;
+
+public class SignSchoolFragment extends BaseFragment{
+
+    public static SignSchoolFragment newInstance() {
+        return new SignSchoolFragment();
+    }
+	
+	@Override
+	protected int getContentRes() {
+		return R.layout.sign_school_fragment;
+	}
+
+	@Override
+	protected void init(Bundle savedInstanceState) {
+		
+	}
+
+}

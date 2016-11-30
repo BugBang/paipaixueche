@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/view_20"
+    android:paddingRight="@dimen/view_20" >
+
+    <TextView
+        android:id="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/view_10"
+        android:gravity="center"
+        android:textColor="@color/gray_666666"
+        android:textSize="18sp" />
+
+    <View
+        style="@style/divider"
+        android:layout_marginTop="@dimen/view_10" />
+
+    <TextView
+        android:id="@id/tvMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/view_10"
+        android:layout_marginTop="@dimen/view_10"
+        android:singleLine="false"
+        android:textColor="#303030"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@id/llDialogButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/view_20"
+        android:divider="@drawable/divider_dialog_button"
+        android:orientation="horizontal"
+        android:showDividers="middle"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@id/btnNegative"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_white_1"
+            android:text="@string/cancel"
+            android:textColor="@color/text_blue"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@id/btnPositive"
+            style="@style/ButtonBlue"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="@string/confirm"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@id/btnNeutral"
+            style="@style/ButtonBlue"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/btn_small"
+            android:layout_weight="1"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

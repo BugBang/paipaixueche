@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <include layout="@layout/inc_common_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/pager_paddding"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:scrollbars="@null" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:baselineAligned="false"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/view_12"
+                android:paddingEnd="@dimen/view_7_5"
+                android:paddingLeft="@dimen/view_16"
+                android:paddingRight="@dimen/view_7_5"
+                android:paddingStart="@dimen/view_16"
+                android:paddingTop="@dimen/view_12" >
+
+                <ImageView
+                    android:id="@id/ivHead"
+                    android:layout_width="@dimen/view_50"
+                    android:layout_height="@dimen/view_50"
+                    android:contentDescription="@null" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/view_12"
+                    android:layout_marginStart="@dimen/view_12"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <!-- 预约学员 -->
+
+                    <LinearLayout style="@style/order_item_layout" >
+
+                        <TextView
+                            style="@style/order_item_tv_1"
+                            android:text="@string/student_name"
+                            android:textSize="@dimen/text_medium_xx" />
+
+                        <TextView
+                            style="@style/order_item_tv_1"
+                            android:text="@string/colon"
+                            android:textSize="@dimen/text_medium_xx" />
+
+                        <TextView
+                            android:id="@id/student"
+                            style="@style/order_item_tv_2"
+                            android:textSize="@dimen/text_medium_xx" />
+                    </LinearLayout>
+                    <!-- 报名时间 -->
+
+                    <!-- <LinearLayout style="@style/order_item_layout" >
+
+                        <TextView
+                            style="@style/order_item_tv_1"
+                            android:text="@string/apply_time"
+                            android:textSize="@dimen/text_medium_xx" />
+
+                        <TextView
+                            style="@style/order_item_tv_1"
+                            android:text="@string/colon"
+                            android:textSize="@dimen/text_medium_xx" />
+
+                        <TextView
+                            android:id="@id/apply_time"
+                            style="@style/order_item_tv_2"
+                            android:textSize="@dimen/text_medium_xx" />
+                    </LinearLayout> -->
+                    <!-- 报名分校 -->
+
+                    <LinearLayout style="@style/order_item_layout" >
+
+                        <TextView
+                            style="@style/order_item_tv_1"
+                            android:text="@string/apply_school"
+                            android:textSize="@dimen/text_medium_xx" />
+
+                        <TextView
+                            style="@style/order_item_tv_1"
+                            android:text="@string/colon"
+                            android:textSize="@dimen/text_medium_xx" />
+
+                        <TextView
+                            android:id="@id/school"
+                            style="@style/order_item_tv_2"
+                            android:textSize="@dimen/text_medium_xx" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:contentDescription="@null"
+                    android:src="@drawable/phone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/view_17"
+                android:layout_marginLeft="@dimen/view_16"
+                android:layout_marginRight="@dimen/view_16"
+                android:layout_marginTop="@dimen/view_11"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <View
+                    android:layout_width="@dimen/view_0"
+                    android:layout_height="@dimen/divider"
+                    android:layout_weight="1"
+                    android:background="@color/divider" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/view_4"
+                    android:layout_marginLeft="@dimen/view_4"
+                    android:layout_marginRight="@dimen/view_4"
+                    android:layout_marginStart="@dimen/view_4"
+                    android:text="@string/training_complete"
+                    android:textColor="@color/gray_888888"
+                    android:textSize="@dimen/text_medium" />
+
+                <View
+                    android:layout_width="@dimen/view_0"
+                    android:layout_height="@dimen/divider"
+                    android:layout_weight="1"
+                    android:background="@color/divider" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/view_100"
+                android:layout_height="@dimen/view_100"
+                android:background="@drawable/circle_gray_bg"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/duration"
+                    android:textColor="@color/text_about_version"
+                    android:textSize="@dimen/text_medium_x" />
+
+                <TextView
+                    android:id="@id/duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_blue"
+                    android:textSize="@dimen/text_medium_x" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/view_20"
+                android:layout_marginLeft="@dimen/view_16"
+                android:layout_marginRight="@dimen/view_16"
+                android:layout_marginTop="@dimen/view_30"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <View
+                    android:layout_width="@dimen/view_0"
+                    android:layout_height="@dimen/divider"
+                    android:layout_weight="1"
+                    android:background="@color/divider" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/view_4"
+                    android:layout_marginLeft="@dimen/view_4"
+                    android:layout_marginRight="@dimen/view_4"
+                    android:layout_marginStart="@dimen/view_4"
+                    android:text="@string/anonymous_evaluation"
+                    android:textColor="@color/gray_888888"
+                    android:textSize="@dimen/text_medium" />
+
+                <View
+                    android:layout_width="@dimen/view_0"
+                    android:layout_height="@dimen/divider"
+                    android:layout_weight="1"
+                    android:background="@color/divider" />
+            </LinearLayout>
+
+            <RatingBar
+                android:id="@id/score_rating_bar"
+                style="@style/rating_bar" />
+
+            <TextView
+                android:id="@id/score_level"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/view_10"
+                android:textColor="@color/black_333333"
+                android:textSize="@dimen/text_12_5" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

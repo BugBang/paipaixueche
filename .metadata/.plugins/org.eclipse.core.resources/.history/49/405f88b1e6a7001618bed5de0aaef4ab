@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/gray_bg"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="180dp">
+       <!-- -->  <com.session.dgjp.view.CarouselView 
+	        android:id="@+id/top_ad_view"
+	        android:layout_width="match_parent"
+		    android:layout_height="180dp"
+        />
+        <RelativeLayout 
+            android:background="@android:color/transparent" 
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_48"
+            >
+            <TextView 
+                android:id="@+id/tv_local"
+                android:textColor="@color/white"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/view_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_medium_xx"
+                android:text="@string/home_tv_local"
+                />
+            <TextView 
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_title"
+                android:text="@string/home_tv_title"
+                />
+            <TextView 
+                android:id="@+id/tv_call"
+                android:textColor="@color/white"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/view_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_medium_xx"
+                android:text="@string/home_tv_call"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+    
+    <ImageView 
+        android:layout_marginTop="@dimen/view_10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_88"
+        android:background="@color/black_333333"
+        />
+    
+    <LinearLayout 
+        android:paddingLeft="@dimen/view_15"
+        android:paddingRight="@dimen/view_15"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/view_10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_100"
+        >
+        <LinearLayout 
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            >
+            <ImageView 
+                android:layout_width="@dimen/view_36"
+                android:layout_height="@dimen/view_36"
+                android:background="@color/black_333333"
+                />
+            <TextView 
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="学车流程"
+                android:textSize="@dimen/text_medium_x"
+                android:textColor="@color/text_gray_dark2"
+                />
+            
+        </LinearLayout>
+        <LinearLayout 
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            >
+            <ImageView 
+                android:layout_width="@dimen/view_36"
+                android:layout_height="@dimen/view_36"
+                android:background="@color/black_333333"
+                />
+            <TextView 
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="推荐有奖"
+                android:textSize="@dimen/text_medium_x"
+                android:textColor="@color/text_gray_dark2"
+                />
+        </LinearLayout>
+        <LinearLayout 
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            >
+            <ImageView 
+                android:layout_width="@dimen/view_36"
+                android:layout_height="@dimen/view_36"
+                android:background="@color/black_333333"
+                />
+            <TextView 
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="服务优势"
+                android:textSize="@dimen/text_medium_x"
+                android:textColor="@color/text_gray_dark2"
+                />
+            
+        </LinearLayout>
+        <LinearLayout 
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            >
+            <ImageView 
+                android:layout_width="@dimen/view_36"
+                android:layout_height="@dimen/view_36"
+                android:background="@color/black_333333"
+                />
+            <TextView 
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="体验门店"
+                android:textSize="@dimen/text_medium_x"
+                android:textColor="@color/text_gray_dark2"
+                />
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+    
+    <android.support.percent.PercentLinearLayout
+	    android:layout_width="match_parent"
+	    android:orientation="horizontal"
+	    android:layout_height="160dp"
+        >
+        
+        
+    </android.support.percent.PercentLinearLayout>
+
+</LinearLayout>
+

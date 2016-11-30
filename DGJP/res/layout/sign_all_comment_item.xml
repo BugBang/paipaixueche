@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:ratingbar="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/ll_comment_1"
+        android:layout_marginRight="@dimen/view_20"
+        android:layout_marginLeft="@dimen/view_20"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginTop="@dimen/view_12"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <com.session.dgjp.view.StarBar
+                android:id="@+id/comment_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                ratingbar:starEmpty="@drawable/star_empty"
+                ratingbar:starFill="@drawable/star_full"
+                ratingbar:starDistance="5dp"
+                ratingbar:starCount="5"
+                ratingbar:starSize="16dp" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/comment_user_name"
+                android:text="猴子搬来的救兵"
+                android:textSize="@dimen/text_medium_xxx"
+                android:textColor="@color/text_gray2"
+                android:layout_width="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/comment_content"
+            android:layout_marginTop="@dimen/view_12"
+            android:layout_width="match_parent"
+            android:lineSpacingExtra = "2dp"
+            android:maxLines="4"
+            android:ellipsize="end"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/text_medium_xx"
+            android:layout_marginBottom="@dimen/view_12"
+            android:text="还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错"
+            />
+    </LinearLayout>
+
+</LinearLayout>

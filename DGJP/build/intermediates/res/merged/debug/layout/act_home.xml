@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/inc_home_title" />
+
+    <RadioGroup
+        android:id="@id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/radio_group_padding"
+        android:paddingRight="@dimen/radio_group_padding" >
+
+        <RadioButton
+            android:id="@id/trainer"
+            style="@style/radio_button"
+            android:text="@string/order_trainer" />
+
+        <RadioButton
+            android:id="@id/order"
+            style="@style/radio_button"
+            android:text="@string/my_order" />
+
+        <RadioButton
+            android:id="@id/training"
+            style="@style/radio_button"
+            android:text="@string/history_order" />
+    </RadioGroup>
+
+
+    <com.session.dgjp.view.MyViewPager
+        android:id="@id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

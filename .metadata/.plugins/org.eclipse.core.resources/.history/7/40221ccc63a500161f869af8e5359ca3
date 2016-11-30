@@ -1,0 +1,44 @@
+package com.session.dgjp;
+
+import java.util.ArrayList;
+
+import com.session.common.BaseActivity;
+import com.session.dgjp.view.NoScollerViewPager;
+
+import android.app.LocalActivityManager;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.view.Window;
+
+
+public class MainActivity extends BaseActivity{
+	
+	private ArrayList<View> mlistview = new ArrayList<View>(); //viewpager中的内容  
+    private LocalActivityManager mactivityManager = null;  
+    private NoScollerViewPager mvp_content = null;  
+    private String[] mlistTag = {"home","drive","me"}; //activity标识  
+	
+	@Override
+	protected void init(Bundle savedInstanceState) {
+		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+		setContentView(R.layout.act_main);
+		mactivityManager = new LocalActivityManager(this, true);  
+        mactivityManager.dispatchCreate(savedInstanceState); 
+		initView();
+	}
+
+	private void initView() {
+		Intent intent = new Intent(getApplicationContext(), OneActivity.class);  
+        View v1 = getView(mlistTag[0], intent);  
+        mlistview.add(v1);  
+        Intent intent2 = new Intent(getApplicationContext(), HomeActivity.class);  
+        View v2 = getView(mlistTag[1], intent2);  
+        mlistview.add(v2);  
+		mvp_content = (NoScollerViewPager) findViewById(R.id.vp_content);
+	}
+	
+    private View getView(String id, Intent intent) {  
+        return mactivityManager.startActivity(id, intent).getDecorView();  
+    }  
+}

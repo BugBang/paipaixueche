@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/inc_common_title" />
+
+    <View style="@style/divider" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_42"
+        android:background="@color/gray_F4F4F4" >
+
+        <TextView
+            style="@style/order_time_dialog_tv_1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_20"
+            android:layout_marginStart="@dimen/view_20"
+            android:text="@string/select_date" />
+
+        <Spinner
+            android:id="@id/date_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:gravity="center"
+            android:spinnerMode="dialog" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/view_17"
+            android:layout_marginRight="@dimen/view_17"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_more" />
+    </RelativeLayout>
+
+    <View style="@style/divider" />
+
+    <TextView
+        style="@style/order_time_dialog_tv_1"
+        android:layout_marginLeft="@dimen/view_20"
+        android:layout_marginRight="@dimen/view_20"
+        android:layout_marginTop="@dimen/view_22"
+        android:text="@string/select_period" />
+
+    <com.session.dgjp.view.NoScrollGridView
+        android:id="@id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/view_18"
+        android:layout_marginLeft="@dimen/view_18"
+        android:layout_marginRight="@dimen/view_18"
+        android:layout_marginStart="@dimen/view_18"
+        android:layout_marginTop="@dimen/view_15"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/view_18"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="4"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/view_14" />
+
+    <RelativeLayout
+        android:id="@id/time_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_42"
+        android:layout_marginTop="@dimen/view_26"
+        android:background="@color/gray_F4F4F4"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_20"
+            android:layout_marginStart="@dimen/view_20"
+            android:text="@string/order_time"
+            android:textColor="@color/orange_FF7200"
+            android:textSize="@dimen/text_medium_xx" />
+
+        <TextView
+            android:id="@id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black_333333"
+            android:textSize="@dimen/text_medium_xx" />
+    </RelativeLayout>
+
+    <TextView
+        style="@style/order_time_dialog_tv_1"
+        android:layout_marginBottom="@dimen/view_10"
+        android:layout_marginLeft="@dimen/view_20"
+        android:layout_marginStart="@dimen/view_20"
+        android:layout_marginTop="@dimen/view_12"
+        android:text="@string/select_car" />
+
+    <View style="@style/divider" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <ListView
+            android:id="@id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:divider="@color/divider"
+            android:dividerHeight="@dimen/divider"
+            android:scrollbars="@null" />
+
+        <TextView
+            android:id="@id/no_data"
+            style="@style/no_data_tv" />
+    </FrameLayout>
+
+    <View style="@style/divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/common_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/view_10"
+        android:paddingLeft="@dimen/view_30"
+        android:paddingRight="@dimen/view_30"
+        android:paddingTop="@dimen/view_10" >
+
+        <Button
+            android:id="@id/cancel"
+            style="@style/ButtonBlue"
+            android:layout_width="@dimen/view_0"
+            android:layout_weight="1"
+            android:text="@string/cancel" />
+
+        <View
+            android:layout_width="@dimen/view_30"
+            android:layout_height="@dimen/view_0" />
+
+        <Button
+            android:id="@id/confirm"
+            style="@style/ButtonBlue"
+            android:layout_width="@dimen/view_0"
+            android:layout_weight="1"
+            android:text="@string/confirm" />
+    </LinearLayout>
+
+</LinearLayout>
