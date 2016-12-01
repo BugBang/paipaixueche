@@ -20,6 +20,8 @@ import com.session.dgjp.request.SignSchoolDetailsRequestData;
 import com.session.dgjp.view.NoScrollListview;
 import com.session.dgjp.view.StarBar;
 
+import java.util.List;
+
 /**
  * Created by user on 2016-11-15.
  */
@@ -32,20 +34,21 @@ public class SignSchoolDetailsFragment extends BaseFragment implements SignSchoo
     private TextView mTvComments;
     private TextView mTvAllComments;
 
+    private LinearLayout mLlComment1;
     private StarBar mCommentStart1;
     private TextView mCommentUserName1;
     private TextView mCommentContent1;
-    private LinearLayout mLlComment1;
 
+    private LinearLayout mLlComment2;
     private StarBar mCommentStart2;
     private TextView mCommentUserName2;
     private TextView mCommentContent2;
-    private LinearLayout mLlComment2;
 
+    private LinearLayout mLlComment3;
     private StarBar mCommentStart3;
     private TextView mCommentUserName3;
     private TextView mCommentContent3;
-    private LinearLayout mLlComment3;
+
 
     private ImageView mIvBack;
     private TextView mTvTitle;
@@ -53,8 +56,8 @@ public class SignSchoolDetailsFragment extends BaseFragment implements SignSchoo
     private Gson mGson;
     public static final String SCHOOL_ID = "school_id";
     public static final String SCHOOL_TITLE = "school_title";
-    private SchoolDetails.ListBean.SchoolDetail mSchoolDetail;
     private DialogUtil mDialogUtil;
+    private SignSchoolDetailsListAdapter mSignSchoolDetailsListAdapter;
 
     public static SignSchoolDetailsFragment newInstance() {
         return new SignSchoolDetailsFragment();
@@ -97,18 +100,20 @@ public class SignSchoolDetailsFragment extends BaseFragment implements SignSchoo
         mCommentContent3 = (TextView) view.findViewById(R.id.comment_content_3);
         mLlComment3 = (LinearLayout) view.findViewById(R.id.ll_comment_3);
 
+        mSignSchoolDetailsListAdapter = new SignSchoolDetailsListAdapter(mScList, act, this);
 
         mNoScrollListview = (NoScrollListview) view.findViewById(R.id.lv_class_list);
-        mNoScrollListview.setAdapter(new SignSchoolDetailsListAdapter(null, act, this));
+        mNoScrollListview.setAdapter(mSignSchoolDetailsListAdapter);
         mIvBack.setOnClickListener(this);
         mTvCallCenter.setOnClickListener(this);
         mTvAllComments.setOnClickListener(this);
     }
 
     private int id;
+
     private void initBundle() {
         Bundle arguments = getArguments();
-        if (arguments!=null){
+        if (arguments != null) {
             id = arguments.getInt(SCHOOL_ID);
             String title = arguments.getString(SCHOOL_TITLE);
             mTvTitle.setText(title);
@@ -125,56 +130,95 @@ public class SignSchoolDetailsFragment extends BaseFragment implements SignSchoo
         new BaseRequestTask() {
             @Override
             protected void onResponse(int code, String msg, String response) {
-                logI(" response="+response);
-                try {
-                    switch (code) {
-                        case BaseRequestTask.CODE_SUCCESS:
-                            parseData(response);
-                            break;
-                        case BaseRequestTask.CODE_SESSION_ABATE:
-                            getData();
-                            break;
-                        default:
-                            break;
-                    }
-                } catch (Exception e) {
-                    e.printStackTrace();
-                    toastShort("网络异常，请稍后重试");
-                } finally {
-
+                switch (code) {
+                    case BaseRequestTask.CODE_SUCCESS:
+                        parseData(response);
+                        break;
+                    case BaseRequestTask.CODE_SESSION_ABATE:
+                        getData();
+                        break;
+                    default:
+                        break;
                 }
             }
         }.request(Constants.URL_GET_SCHOOL_DETAILS, data, progressDialog, true);
     }
 
+    private SchoolDetails.BsListBean mBsListBean; //驾校信息
+    private List<SchoolDetails.ScListBean> mScList;//班别信息
+    private List<SchoolDetails.EListBean> mElList; //评论信息
+
+    private SchoolDetails mSchoolDetails;
+
     private void parseData(String data) {
         if (mGson == null) {
             mGson = new Gson();
         }
-        SchoolDetails schoolDetails = mGson.fromJson(data, SchoolDetails.class);
-        mSchoolDetail = schoolDetails.getList().get(0).getList().get(0);
-        if (mSchoolDetail!=null){
-            String timePeroid = mSchoolDetail.getTimePeroid();
-            String[] split = timePeroid.split(",");
-            String frontTime = split[0];
-            String endTime = split[split.length-1];
-            if (!(frontTime.indexOf(":")!=-1)){
-                frontTime = frontTime+":00";
-            }
-            if (!(endTime.indexOf(":")!=-1)){
-                endTime = endTime+":00";
-            }
-            mTvTime.setText(frontTime+" - "+endTime);
-            mTvAddress.setText(mSchoolDetail.getAddress());
-            String centerPhone = mSchoolDetail.getPhone();
-            if (centerPhone.length() == 11){
-                mTvCallCenter.setText(centerPhone);
-            }else {
-                String front = centerPhone.substring(0,4);
-                String end = centerPhone.substring(4,centerPhone.length());
-                mTvCallCenter.setText(front+" - "+end);
-            }
+        mSchoolDetails = mGson.fromJson(data, SchoolDetails.class);
+        if (mSchoolDetails != null) {
+            setSchoolData();
+            setClassData();
+            setCommentData();
+        }
+    }
 
+    private void setSchoolData() {
+        mBsListBean = mSchoolDetails.getBsList().get(0);
+        String timePeroid = mBsListBean.getTimePeroid();
+        mTvTime.setText(timePeroid);
+
+        mTvAddress.setText(mBsListBean.getAddress());
+        String centerPhone = mBsListBean.getPhone();
+        if (centerPhone.length() == 11) {
+            mTvCallCenter.setText(centerPhone);
+        } else {
+            String front = centerPhone.substring(0, 4);
+            String end = centerPhone.substring(4, centerPhone.length());
+            mTvCallCenter.setText(front + " - " + end);
+        }
+    }
+
+    private void setClassData() {
+        mScList = mSchoolDetails.getScList();
+        mSignSchoolDetailsListAdapter.updateListViewData(mScList);
+    }
+
+    private void setCommentData() {
+        mElList = mSchoolDetails.getEList();
+        switch (mElList.size()) {
+            case 0:
+                mLlComment1.setVisibility(View.GONE);
+                mLlComment2.setVisibility(View.GONE);
+                mLlComment3.setVisibility(View.GONE);
+                break;
+            case 1:
+                mLlComment2.setVisibility(View.GONE);
+                mLlComment3.setVisibility(View.GONE);
+                mCommentContent1.setText(mElList.get(0).getEComment());
+                mCommentStart1.setStarMark(mElList.get(0).getEScore());
+                mCommentUserName1.setText(mElList.get(0).getEName());
+                break;
+            case 2:
+                mLlComment3.setVisibility(View.GONE);
+                mCommentContent1.setText(mElList.get(0).getEComment());
+                mCommentStart1.setStarMark(mElList.get(0).getEScore());
+                mCommentUserName1.setText(mElList.get(0).getEName());
+
+                mCommentContent2.setText(mElList.get(1).getEComment());
+                mCommentStart2.setStarMark(mElList.get(1).getEScore());
+                mCommentUserName2.setText(mElList.get(1).getEName());
+                break;
+            case 3:
+                mCommentContent1.setText(mElList.get(0).getEComment());
+                mCommentStart1.setStarMark(mElList.get(0).getEScore());
+                mCommentUserName1.setText(mElList.get(0).getEName());
+                mCommentContent2.setText(mElList.get(1).getEComment());
+                mCommentStart2.setStarMark(mElList.get(1).getEScore());
+                mCommentUserName2.setText(mElList.get(1).getEName());
+                mCommentContent3.setText(mElList.get(2).getEComment());
+                mCommentStart3.setStarMark(mElList.get(2).getEScore());
+                mCommentUserName3.setText(mElList.get(2).getEName());
+                break;
         }
     }
 
@@ -189,16 +233,15 @@ public class SignSchoolDetailsFragment extends BaseFragment implements SignSchoo
                 break;
             case R.id.tv_all_comments:
                 Bundle _b = new Bundle();
-                _b.putInt(SignAllCommentFragment.ID,id);
-                addFragment(R.id.content,SignAllCommentFragment.newInstance(),_b);
+                _b.putInt(SignAllCommentFragment.ID, id);
+                addFragment(R.id.content, SignAllCommentFragment.newInstance(), _b);
                 break;
         }
     }
 
     private void clickServicePhone() {
-        if (mSchoolDetail!=null){
-            final String kf_phone = mSchoolDetail.getPhone();
-
+        if (mBsListBean != null) {
+            final String kf_phone = mBsListBean.getPhone();
             mDialogUtil.confirm("提示", "确定拨打客服电话?", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
@@ -219,7 +262,8 @@ public class SignSchoolDetailsFragment extends BaseFragment implements SignSchoo
     }
 
     @Override
-    public void onSign(SchoolDetails schoolDetails) {
+    public void onSign(SchoolDetails.ScListBean scListBean) {
         addFragment(R.id.content, SignClassDetailFragment.newInstance(), null);
     }
+
 }

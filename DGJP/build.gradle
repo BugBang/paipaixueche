@@ -9,16 +9,22 @@ dependencies {
 }
 
 android {
+    signingConfigs {
+        dgjp_key {
+            storeFile file('C:/Users/user/Desktop/证书/拍拍学车/Android源码/dgjp.keystore')
+            storePassword 'sessiontech'
+            keyAlias 'dgjp'
+            keyPassword 'sessiontech'
+        }
+    }
     compileSdkVersion 22
     buildToolsVersion "24.0.0"
-
     defaultConfig {
         multiDexEnabled true
     }
     configurations {
         all*.exclude group: 'com.android.support', module: 'support-v4'
     }
-
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
@@ -42,5 +48,10 @@ android {
         // by a similar customization.
         debug.setRoot('build-types/debug')
         release.setRoot('build-types/release')
+    }
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.dgjp_key
+        }
     }
 }

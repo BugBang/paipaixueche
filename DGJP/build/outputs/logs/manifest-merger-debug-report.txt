@@ -505,11 +505,11 @@ ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:280:9-68
 	android:name
 		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:280:18-65
 meta-data#com.amap.api.v2.apikey
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:288:9-290:64
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:283:9-285:64
 	android:value
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:290:13-61
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:285:13-61
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:289:13-50
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:284:13-50
 meta-data#UMENG_APPKEY
 ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:293:9-295:56
 	android:value
@@ -561,4 +561,4 @@ ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:323:9-328:52
 	android:theme
 		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:325:13-72
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:324:13-50
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:324:13-66

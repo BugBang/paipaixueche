@@ -185,6 +185,7 @@ cn/jpush/b/a/b/e.class
 cn/jpush/b/a/b/u.class
 com/session/dgjp/order/PaidOrderDetailActivity.class
 com/alipay/sdk/auth/h.class
+com/bumptech/glide/request/target/Target.class
 com/session/dgjp/order/OrderPaymentActivity$4.class
 android/support/v4/view/ViewConfigurationCompat.class
 com/tencent/mm/sdk/modelbase/BaseResp.class
@@ -333,11 +334,13 @@ com/session/dgjp/HomeActivity$3.class
 com/amap/api/mapcore2d/ds.class
 com/session/dgjp/ScanQRCodeActivity.class
 com/amap/api/mapcore2d/dk.class
+com/bumptech/glide/DrawableTypeRequest.class
 com/j256/ormlite/field/ForeignCollectionField.class
 android/support/v4/view/ViewPager$2.class
 android/support/v4/app/FragmentActivity$FragmentTag.class
 android/support/v13/app/FragmentTabHost.class
 com/google/gson/jpush/annotations/b.class
+com/bumptech/glide/DownloadOptions.class
 com/j256/ormlite/field/types/BooleanObjectType.class
 cn/jpush/android/util/p.class
 com/alipay/tscenter/biz/rpc/vkeydfp/DeviceDataReportService.class
@@ -385,6 +388,7 @@ com/j256/ormlite/field/types/FloatType.class
 com/mining/app/zxing/decoding/CaptureActivityHandler.class
 com/session/dgjp/order/OrderPaymentActivity$2.class
 com/alipay/sdk/auth/a.class
+com/bumptech/glide/manager/LifecycleListener.class
 com/session/dgjp/personal/ResetPayPasswordActivity.class
 cn/jpush/b/a/b/b.class
 com/session/dgjp/trainer/TrainerListActivity$3.class
@@ -393,6 +397,7 @@ com/session/dgjp/enity/TeachingSchedule.class
 com/session/dgjp/request/SetPayPasswordRequestData.class
 com/session/common/BaseActivity.class
 com/session/common/utils/CryptoUtil.class
+com/session/dgjp/enity/HomePager.class
 com/amap/api/location/AMapLocationListener.class
 android/support/v4/app/FragmentTabHost.class
 android/support/v4/view/ViewPager$PagerObserver.class
@@ -405,9 +410,11 @@ com/session/dgjp/enity/MyMessage.class
 android/support/v4/widget/CursorAdapter.class
 android/support/v4/util/DebugUtils.class
 cn/jpush/android/service/d.class
+com/handmark/pulltorefresh/library/PullToRefreshBase$Mode.class
 com/session/common/utils/NumberUtil.class
 com/session/dgjp/personal/ResetPayPasswordActivity$2.class
 com/session/dgjp/personal/PersonalCenterActivity$2.class
+com/session/dgjp/enity/HomePager$RotationListBean.class
 cn/jpush/android/ui/PopWinActivity.class
 cn/jpush/android/helpers/i.class
 com/session/dgjp/order/OrderPaymentActivity.class
@@ -428,6 +435,7 @@ com/session/dgjp/personal/PersonalCenterActivity$4.class
 com/alipay/sdk/auth/AuthActivity$a.class
 com/session/common/ExtraMap.class
 android/support/v4/view/ViewPager$1.class
+com/bumptech/glide/BitmapOptions.class
 android/support/v4/app/NotificationCompat$Builder.class
 cn/jpush/android/data/a.class
 android/support/v4/app/FragmentActivity$2.class
@@ -476,6 +484,7 @@ com/j256/ormlite/android/apptools/OpenHelperManager.class
 cn/jpush/android/data/JPushLocalNotification.class
 com/session/dgjp/receiver/JpushReceiver.class
 cn/jpush/android/api/TagAliasCallback.class
+com/session/dgjp/enity/HomePager$AdvertisementListBean.class
 com/session/common/BaseDialog.class
 cn/jpush/b/a/b/c.class
 com/session/dgjp/request/QueryBillLogListRequestData.class

@@ -1,7 +1,5 @@
 package com.session.dgjp.login;
 
-import java.util.ArrayList;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
@@ -12,7 +10,6 @@ import android.text.TextUtils;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import cn.jpush.android.api.JPushInterface;
 
 import com.google.gson.Gson;
 import com.session.common.BaseActivity;
@@ -20,12 +17,14 @@ import com.session.common.BaseRequestTask;
 import com.session.common.utils.SharedPreferencesUtil;
 import com.session.dgjp.AppInstance;
 import com.session.dgjp.Constants;
-import com.session.dgjp.HomeActivity;
 import com.session.dgjp.MainActivity;
 import com.session.dgjp.R;
 import com.session.dgjp.enity.Account;
-import com.session.dgjp.receiver.JpushReceiver;
 import com.session.dgjp.request.LoginRequestData;
+
+import java.util.ArrayList;
+
+import cn.jpush.android.api.JPushInterface;
 
 /** 欢迎 */
 public class WelcomActivity extends BaseActivity {
@@ -40,6 +39,7 @@ public class WelcomActivity extends BaseActivity {
 	protected void init(Bundle savedInstanceState) {
 		JPushInterface.stopPush(this);
 		setContentView(R.layout.act_welcome);
+
 		ids[0] = R.drawable.img_welcome_1;
 		layoutPager = (ViewPager) findViewById(R.id.layoutPager);
 		for (int i = 0; i < ids.length; i++) {
@@ -63,7 +63,6 @@ public class WelcomActivity extends BaseActivity {
 			login();
 		} else { // 倒计时自动跳转
 			new CountDownTimer(2000, 1000) {
-
 				@Override
 				public void onTick(long millisUntilFinished) {
 					if (isFinish)
@@ -79,7 +78,9 @@ public class WelcomActivity extends BaseActivity {
 		}
 	}
 
-	/** 登录 */
+
+
+    /** 登录 */
 	private void login() {
 		LoginRequestData requestData = new LoginRequestData();
 		requestData.setAccount(phone);

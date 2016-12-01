@@ -18,7 +18,8 @@ public class WXEntryActivity extends WechatHandlerActivity {
 	 * 做点其他的事情，包括根本不打开任何页面
 	 */
 	public void onGetMessageFromWXReq(WXMediaMessage msg) {
-		Intent iLaunchMyself = getPackageManager().getLaunchIntentForPackage(getPackageName());
+        System.out.println("aaaaaaaaaaaaaaaaaaaaaa");
+        Intent iLaunchMyself = getPackageManager().getLaunchIntentForPackage(getPackageName());
 		startActivity(iLaunchMyself);
 	}
 
@@ -33,6 +34,7 @@ public class WXEntryActivity extends WechatHandlerActivity {
 	 * 本Demo只是将信息展示出来，但你可做点其他的事情，而不仅仅只是Toast
 	 */
 	public void onShowMessageFromWXReq(WXMediaMessage msg) {
+        System.out.println("bbbbbbbbbbbbbbbbbbbbbbbbbbbb");
 		if (msg != null && msg.mediaObject != null
 				&& (msg.mediaObject instanceof WXAppExtendObject)) {
 			WXAppExtendObject obj = (WXAppExtendObject) msg.mediaObject;

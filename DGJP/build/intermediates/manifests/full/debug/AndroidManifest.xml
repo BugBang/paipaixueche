@@ -289,15 +289,15 @@
         <service android:name="com.amap.api.location.APSService" />
 
         <!-- 高德正式KEY -->
-        <!-- <meta-data -->
-        <!-- android:name="com.amap.api.v2.apikey" -->
-        <!-- android:value="b17ef2312b6a75d5e6aeddb6d296c357" /> -->
-
-
-        <!-- 高德测试KEY -->
         <meta-data
             android:name="com.amap.api.v2.apikey"
-            android:value="d5f3d9877386eeac522642539d41b445" />
+            android:value="b17ef2312b6a75d5e6aeddb6d296c357" />
+
+        <!-- 高德测试KEY -->
+        <!-- <meta-data -->
+        <!-- android:name="com.amap.api.v2.apikey" -->
+        <!-- android:value="d5f3d9877386eeac522642539d41b445" /> -->
+
 
         <!-- 友盟 -->
         <meta-data

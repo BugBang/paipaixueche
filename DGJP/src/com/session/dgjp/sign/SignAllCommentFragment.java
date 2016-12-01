@@ -70,11 +70,11 @@ public class SignAllCommentFragment extends BaseFragment {
         ProgressDialog progressDialog = buildProcessDialog(null, "请稍等", false);
         SignSchoolCommentRequestData requestData = new SignSchoolCommentRequestData();
         requestData.setId(id);
-        logI("id=" + id);
         String data = new Gson().toJson(requestData);
         new BaseRequestTask() {
             @Override
             protected void onResponse(int code, String msg, String response) {
+                logI("response="+response);
                 try {
                     switch (code) {
                         case BaseRequestTask.CODE_SUCCESS:

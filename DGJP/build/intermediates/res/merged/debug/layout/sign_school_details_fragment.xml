@@ -245,17 +245,19 @@
                     android:layout_marginBottom="@dimen/view_12"
                     android:text="还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错"
                     />
+
             </LinearLayout>
 
-            <View
-                android:layout_marginLeft="@dimen/view_20"
-                style="@style/divider2"/>
+
             <LinearLayout
                 android:id="@+id/ll_comment_2"
                 android:layout_marginLeft="@dimen/view_20"
                 android:layout_width="match_parent"
                 android:orientation="vertical"
                 android:layout_height="wrap_content">
+
+                <View
+                    style="@style/divider2"/>
                 <LinearLayout
                     android:layout_marginTop="@dimen/view_12"
                     android:gravity="center_vertical"
@@ -299,16 +301,17 @@
                     android:layout_marginBottom="@dimen/view_12"
                     android:text="还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错还不错"
                     />
+
             </LinearLayout>
-            <View
-                android:layout_marginLeft="@dimen/view_20"
-                style="@style/divider2"/>
+
             <LinearLayout
                 android:id="@+id/ll_comment_3"
                 android:layout_marginLeft="@dimen/view_20"
                 android:layout_width="match_parent"
                 android:orientation="vertical"
                 android:layout_height="wrap_content">
+                <View
+                    style="@style/divider2"/>
                 <LinearLayout
                     android:layout_marginTop="@dimen/view_12"
                     android:gravity="center_vertical"

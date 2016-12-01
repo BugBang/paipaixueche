@@ -20,6 +20,7 @@
 	    android:layout_height="@dimen/view_200">
        <com.session.dgjp.view.CarouselView 
 	        android:id="@+id/top_ad_view"
+            android:background="@drawable/placeholder_img"
 	        android:layout_width="match_parent"
 		    android:layout_height="@dimen/view_200"
         />
@@ -61,11 +62,13 @@
         </RelativeLayout>
     </RelativeLayout>
     
-    <ImageView 
+    <ImageView
+        android:id="@+id/iv_ad"
         android:layout_marginTop="@dimen/view_10"
         android:layout_width="match_parent"
         android:layout_height="@dimen/view_88"
-        android:background="@color/black_333333"
+        android:src="@drawable/placeholder_img"
+        android:scaleType="centerCrop"
         />
     
     <LinearLayout 

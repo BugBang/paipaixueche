@@ -56,6 +56,10 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xhdpi\\ssdk_oks_classic_wechatfavorite.png"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\placeholder_img.png",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xhdpi\\placeholder_img.png"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_flickr.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xhdpi\\ssdk_oks_classic_flickr.png"
     },
