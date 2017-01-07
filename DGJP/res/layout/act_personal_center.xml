@@ -303,6 +303,7 @@
             <Button
                 android:id="@+id/btnLogout"
                 style="@style/ButtonBlue"
+                android:layout_height="@dimen/view_50"
                 android:layout_marginBottom="@dimen/login_et_margin_top"
                 android:layout_marginLeft="@dimen/view_10"
                 android:layout_marginRight="@dimen/view_10"

@@ -8,13 +8,13 @@ import android.widget.Filterable;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
 import com.session.common.BXBaseAdapter;
 import com.session.common.ViewHolder;
 import com.session.dgjp.Constants;
 import com.session.dgjp.R;
 import com.session.dgjp.enity.SignSchoolList;
 import com.session.dgjp.view.StarBar;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -53,14 +53,16 @@ public class SignSchoolListAdapter extends BXBaseAdapter<SignSchoolList.SignScho
         TextView mTvSchoolAddress = ViewHolder.get(convertView, R.id.tv_school_address);
         TextView mTvSchoolTuition = ViewHolder.get(convertView, R.id.tv_tuition);
         if (model != null) {
-            Glide.with(mActivity).load(Constants.TEST_URL + model.getSmallPhotoUrl()).into(mIvClassPhoto);
+            Picasso.with(mActivity).load(Constants.RELEASE_IMG_URL+model.getSmallPhotoUrl()).
+                    placeholder(R.drawable.placeholder_img).into(mIvClassPhoto);
             mTvSchoolTitle.setText(mListModel.get(position).getName());
             //            if (TextUtil.isEmpty(mListModel.get(position).getDistance())){
             //                mSchoolLength.setText("未知");
             //            }else {
             mSchoolLength.setText("距离 " + mListModel.get(position).getDistance() + "千米");
             //            }
-            mStartBar.setStarMark(mListModel.get(position).getScore());
+            double score = mListModel.get(position).getScore();
+            mStartBar.setStarMark((float) score);
             mTvSchoolSignNum.setText(mListModel.get(position).getCountNum() + "人报名");
             mTvSchoolAddress.setText(mListModel.get(position).getAddress());
             mTvSchoolTuition.setText("￥"+mListModel.get(position).getExpenses()+"元起");

@@ -118,11 +118,19 @@
     <init>();
 }
 
+-keep class com.session.dgjp.UpActivity {
+    <init>();
+}
+
 -keep class com.alipay.sdk.auth.AuthActivity {
     <init>();
 }
 
 -keep class com.session.dgjp.WebViewActivity {
+    <init>();
+}
+
+-keep class com.session.dgjp.share.ShareActivity {
     <init>();
 }
 
@@ -159,6 +167,38 @@
 }
 
 -keep class com.session.dgjp.wxapi.WXEntryActivity {
+    <init>();
+}
+
+-keep class com.session.dgjp.service.LocationService {
+    <init>();
+}
+
+-keep class com.hyphenate.helpdesk.easeui.ui.ShowBigImageActivity {
+    <init>();
+}
+
+-keep class com.hyphenate.helpdesk.easeui.ui.ShowNormalFileActivity {
+    <init>();
+}
+
+-keep class com.hyphenate.helpdesk.easeui.ui.ShowVideoActivity {
+    <init>();
+}
+
+-keep class com.hyphenate.helpdesk.easeui.ui.BaseChatActivity {
+    <init>();
+}
+
+-keep class com.hyphenate.chat.EMChatService {
+    <init>();
+}
+
+-keep class com.hyphenate.chat.EMJobService {
+    <init>();
+}
+
+-keep class com.hyphenate.chat.EMMonitorReceiver {
     <init>();
 }
 

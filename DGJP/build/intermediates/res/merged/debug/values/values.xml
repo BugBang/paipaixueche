@@ -10,11 +10,19 @@
     <color name="blue_00BFF3">#00BFF3</color>
     <color name="blue_68DAFC">#68DAFC</color>
     <color name="blue_press">#0F7CC4</color>
+    <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="btn_gray_pressed_status">#b5b5b6</color>
     <color name="common_background">#EBEBEB</color>
     <color name="common_background_transparent">#AAEBEBEB</color>
+    <color name="common_bg">#fcfcfc</color>
+    <color name="common_botton_bar_blue">#2ea7e0</color>
     <color name="dialog_background">#EEEEEE</color>
     <color name="divider">#D2D2D2</color>
     <color name="divider2">#bababa</color>
+    <color name="emojicon_tab_nomal">#ffffff</color>
+    <color name="emojicon_tab_selected">#D9D9D9</color>
     <color name="gray">#B8B8B8</color>
     <color name="gray_666666">#666666</color>
     <color name="gray_888888">#888888</color>
@@ -36,7 +44,14 @@
     <color name="gray_F8F8F8">#F8F8F8</color>
     <color name="gray_FAFAFA">#FAFAFA</color>
     <color name="gray_bg">#efeff4</color>
+    <color name="gray_normal">#666667</color>
+    <color name="gray_pressed">#b5b5b6</color>
     <color name="green_00A00B">#00A00B</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="orange">#FFA500</color>
     <color name="orange_E56701">#E56701</color>
     <color name="orange_FF7200">#FF7200</color>
     <color name="possible_result_points">#00000000</color>
@@ -66,9 +81,15 @@
     <color name="text_red">#ff0014</color>
     <color name="text_title">#555555</color>
     <color name="text_white">@color/white</color>
+    <color name="top_bar_normal_bg">#ff4848</color>
     <color name="viewfinder_mask">#60000000</color>
     <color name="white">#FFFFFF</color>
     <color name="yellow_FEB53F">#FEB53F</color>
+    <declare-styleable name="BubbleImageView"><attr format="dimension|reference" name="bubble_arrowTop"/><attr format="dimension|reference" name="bubble_arrowWidth"/><attr format="dimension|reference" name="bubble_arrowHeight"/><attr format="dimension|reference" name="bubble_arrowOffset"/><attr format="dimension|reference" name="bubble_angle"/><attr format="enum" name="bubble_arrowLocation"><enum name="left" value="0"/><enum name="right" value="1"/></attr></declare-styleable>
+    <declare-styleable name="EaseChatExtendMenu"><attr format="integer" name="numColumns"/></declare-styleable>
+    <declare-styleable name="EaseChatMessageList"><attr format="reference" name="msgListMyBubbleBackground"/><attr format="reference" name="msgListOtherBubbleBackground"/><attr format="boolean" name="msgListShowUserAvatar"/><attr format="boolean" name="msgListShowUserNick"/></declare-styleable>
+    <declare-styleable name="EaseTitleBar"><attr format="string" name="titleBarTitle"/><attr format="reference" name="titleBarLeftImage"/><attr format="reference" name="titleBarRightImage"/><attr format="reference|color" name="titleBarBackground"/></declare-styleable>
+    <declare-styleable name="EmojiconMenu"><attr format="integer" name="bigEmojiconRows"/><attr format="integer" name="emojiconColumns"/></declare-styleable>
     <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle"><flag name="rotate" value="0x0"/><flag name="flip" value="0x1"/></attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
     <declare-styleable name="RatingBar"><attr format="dimension" name="starDistance"/><attr format="dimension" name="starSize"/><attr format="integer" name="starCount"/><attr format="reference" name="starEmpty"/><attr format="reference" name="starFill"/></declare-styleable>
     <declare-styleable name="gridPasswordView"><attr format="color|reference" name="gpvTextColor"/><attr format="dimension" name="gpvTextSize"/><attr format="color" name="gpvLineColor"/><attr format="color" name="gpvGridColor"/><attr format="dimension" name="gpvLineWidth"/><attr format="integer" name="gpvPasswordLength"/><attr format="string" name="gpvPasswordTransformation"/><attr format="enum" name="gpvPasswordType"><enum name="numberPassword" value="0"/><enum name="textPassword" value="1"/><enum name="textVisiblePassword" value="2"/><enum name="textWebPassword" value="3"/></attr></declare-styleable>
@@ -79,6 +100,8 @@
     <dimen name="btn_large">45dp</dimen>
     <dimen name="btn_medium">36.5dp</dimen>
     <dimen name="btn_small">@dimen/view_30</dimen>
+    <dimen name="chat_nick_margin_left">12dp</dimen>
+    <dimen name="chat_nick_text_size">13sp</dimen>
     <dimen name="dialog_corner">5dp</dimen>
     <dimen name="divider">1px</dimen>
     <dimen name="divider_minus">-1px</dimen>
@@ -89,14 +112,17 @@
     <dimen name="et_right">@dimen/view_0</dimen>
     <dimen name="header_footer_left_right_padding">24dp</dimen>
     <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="height_top_bar">46dp</dimen>
     <dimen name="indicator_corner_radius">12dp</dimen>
     <dimen name="indicator_internal_padding">4dp</dimen>
     <dimen name="indicator_right_padding">10dp</dimen>
     <dimen name="login_et_margin_top">@dimen/view_30</dimen>
     <dimen name="login_logo_padding">@dimen/view_30</dimen>
+    <dimen name="margin_chat_activity">5dp</dimen>
     <dimen name="msg_ring">18dp</dimen>
     <dimen name="pager_paddding">8.5dp</dimen>
     <dimen name="password_text">15sp</dimen>
+    <dimen name="size_avatar">48dp</dimen>
     <dimen name="stroke">@dimen/view_1</dimen>
     <dimen name="stroke_null">-1dp</dimen>
     <dimen name="text_12_5">12.5sp</dimen>
@@ -106,6 +132,7 @@
     <dimen name="text_large_x">16sp</dimen>
     <dimen name="text_large_xx">17sp</dimen>
     <dimen name="text_large_xxx">18sp</dimen>
+    <dimen name="text_large_xxxx">20sp</dimen>
     <dimen name="text_medium">11sp</dimen>
     <dimen name="text_medium_x">12sp</dimen>
     <dimen name="text_medium_xx">13sp</dimen>
@@ -115,6 +142,7 @@
     <dimen name="text_title">16sp</dimen>
     <dimen name="title_height">49dp</dimen>
     <dimen name="view_0">0dp</dimen>
+    <dimen name="view_0.5">0.5dp</dimen>
     <dimen name="view_1">1dp</dimen>
     <dimen name="view_10">10dp</dimen>
     <dimen name="view_100">100dp</dimen>
@@ -141,6 +169,7 @@
     <dimen name="view_23">23dp</dimen>
     <dimen name="view_234">234dp</dimen>
     <dimen name="view_24">24dp</dimen>
+    <dimen name="view_240">240dp</dimen>
     <dimen name="view_25">25dp</dimen>
     <dimen name="view_26">26dp</dimen>
     <dimen name="view_260">260dp</dimen>
@@ -161,6 +190,7 @@
     <dimen name="view_40">40dp</dimen>
     <dimen name="view_42">42dp</dimen>
     <dimen name="view_44">44dp</dimen>
+    <dimen name="view_46">46dp</dimen>
     <dimen name="view_48">48dp</dimen>
     <dimen name="view_49">49dp</dimen>
     <dimen name="view_5">5dp</dimen>
@@ -288,6 +318,18 @@
     <item name="webview" type="id"/>
     <item name="zoom_in" type="id"/>
     <item name="zoom_out" type="id"/>
+    <string name="Did_not_download">Not yet downloaded</string>
+    <string name="Download_the_pictures">Download the pictures: 0%</string>
+    <string name="Download_the_pictures_new">Download the pictures:</string>
+    <string name="Failed_to_download_file">Failed to download file:</string>
+    <string name="File_does_not_exist">File does not exist</string>
+    <string name="Have_downloaded">Already downloaded</string>
+    <string name="Is_download_voice_click_later">Downloading the voice message, click later</string>
+    <string name="Recording_without_permission">Recording without permission</string>
+    <string name="Send_voice_need_sdcard_support">Send voice need sdcard support</string>
+    <string name="The_file_is_not_greater_than_10_m">The file is not greater than 10 m</string>
+    <string name="The_recording_time_is_too_short">The recording time is too short</string>
+    <string name="Whether_to_empty_all_chats">Clear all messages?</string>
     <string name="_address">地址</string>
     <string name="_eval">评价</string>
     <string name="_original_price">原 价</string>
@@ -298,6 +340,10 @@
     <string name="alipay">支付宝</string>
     <string name="anonymous_evaluation">匿名评价</string>
     <string name="app_name">拍拍学车</string>
+    <string name="attach_file">File</string>
+    <string name="attach_location">Location</string>
+    <string name="attach_picture">Image</string>
+    <string name="attach_take_pic">Capture</string>
     <string name="back">返回</string>
     <string name="balance">当前余额：</string>
     <string name="balance2">余额：</string>
@@ -309,16 +355,21 @@
     <string name="bottom_home">首页</string>
     <string name="branch_sch">请选择报名分校</string>
     <string name="branch_school">分校</string>
+    <string name="button_pushtotalk">Hold to talk</string>
+    <string name="button_send">Send</string>
     <string name="cancel">取消</string>
     <string name="cancel_fail">取消失败</string>
     <string name="cancel_order">取消订单</string>
     <string name="canceling_order">正在取消订单</string>
+    <string name="cant_find_pictures">"Can't find pictures"</string>
     <string name="car">车辆</string>
     <string name="colon">：</string>
     <string name="confirm">确定</string>
     <string name="confirm_order">确认订单</string>
     <string name="confirm_payment">确认支付</string>
+    <string name="confirm_resend">Confirm to resend？</string>
     <string name="confirmed">已确认</string>
+    <string name="connect_failuer_toast">Please check the network or try again later</string>
     <string name="contact_phone">联系电话：</string>
     <string name="course">课程</string>
     <string name="course_no_order">该科目未来7天内没有培训计划</string>
@@ -328,12 +379,16 @@
     <string name="delete_message_fail">删除消息失败</string>
     <string name="delete_record_or_not">是否删除该记录？</string>
     <string name="distance_km"><ns1:g id="duration">%1$.1f</ns1:g>km</string>
+    <string name="downwaiting">Downloading the file, please try again later</string>
     <string name="duration">时长</string>
+    <string name="dynamic_expression">[Dynamic expression]</string>
     <string name="end_sign_in">结束签到</string>
+    <string name="error_send_invalid_content">The message content is not allowed to be sent!</string>
     <string name="eval"><ns1:g id="eval">%1$.1f</ns1:g>分</string>
     <string name="evaled">查看评价</string>
     <string name="evaluation_detail">评价详情</string>
     <string name="fee">费用</string>
+    <string name="file">[file]</string>
     <string name="finished">完成</string>
     <string name="formated_money"><ns1:g id="fee">%1$.2f</ns1:g>元</string>
     <string name="get_captcha">获取验证码</string>
@@ -355,10 +410,16 @@
     <string name="id_card_hint">请输入身份证号码</string>
     <string name="id_num">请输入身份证号码</string>
     <string name="in_training">培训中</string>
+    <string name="is_down_please_wait">Downloading video, please try again later</string>
+    <string name="location_message">The location information</string>
+    <string name="location_prefix">[my location]</string>
+    <string name="location_recv">[%1$s location]</string>
     <string name="login">登录</string>
     <string name="logout">退出登录</string>
+    <string name="message_content_beyond_limit">The message content beyond the limit</string>
     <string name="modify_password">修改支付密码</string>
     <string name="modify_pay_pwd">修改支付密码</string>
+    <string name="move_up_to_cancel">Finger up to cancel sending</string>
     <string name="my_coupon">我的优惠券</string>
     <string name="my_location">我的位置</string>
     <string name="my_message">我的消息</string>
@@ -368,6 +429,9 @@
     <string name="new_password">新密码</string>
     <string name="new_password_again">确认新密码</string>
     <string name="no_data">无记录</string>
+    <string name="no_more_messages">no more messages</string>
+    <string name="not_download">Did not download:</string>
+    <string name="ok">OK</string>
     <string name="old_password">原密码</string>
     <string name="operate_fail_update_app">操作失败，请更新应用</string>
     <string name="operation_success">操作成功</string>
@@ -396,6 +460,7 @@
     <string name="personal_center_tv_title">我的</string>
     <string name="personal_info">个人资料</string>
     <string name="phone">电话</string>
+    <string name="picture">[Picture]</string>
     <string name="please_input_pay_password">请输入支付密码。</string>
     <string name="please_select_car">请选择车辆</string>
     <string name="please_select_pay_type">请选择支付方式</string>
@@ -403,6 +468,7 @@
     <string name="please_select_yue">结算金额为0.00元，请使用余额支付。</string>
     <string name="preferential_amount">已优惠</string>
     <string name="preferential_price">活动价</string>
+    <string name="prompt">Prompt</string>
     <string name="pull_to_refresh_from_bottom_pull_label">上拉加载…</string>
     <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
     <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
@@ -412,11 +478,14 @@
     <string name="query_datas_fail">查询数据失败，请稍后重试</string>
     <string name="query_pay_type_fail">查询支付方式失败</string>
     <string name="querying">正在查询</string>
+    <string name="recoding_fail">The recording failure, please try again！</string>
     <string name="region">请选择所在地区</string>
     <string name="register">注册</string>
+    <string name="release_to_cancel">Finger release to cancel sending</string>
     <string name="remaining_time">剩余时间</string>
     <string name="reset_pay_pwd">重置支付密码</string>
     <string name="rmb">￥</string>
+    <string name="robot_menu">[Menu Message]</string>
     <string name="save">保存</string>
     <string name="scan">扫描二维码</string>
     <string name="scan_result_abnormal">扫描结果异常</string>
@@ -424,6 +493,7 @@
     <string name="school_no_location">该分校没有提供位置信息</string>
     <string name="school_no_trainer">该分校没有可预约教练</string>
     <string name="school_registration">报名分校：</string>
+    <string name="sd_card_does_not_exist">"SD card does not exist, can't take pictures"</string>
     <string name="search_by_trainer_name">按教练姓名查询</string>
     <string name="search_school_yard">搜索培训分校场地</string>
     <string name="select_car">选择车辆</string>
@@ -431,10 +501,17 @@
     <string name="select_label">选择标签</string>
     <string name="select_period">选择时段</string>
     <string name="selected_order_time"><ns1:g id="date">%1$s</ns1:g> <ns1:g id="start_time">%2$s</ns1:g>--<ns1:g id="end_time">%3$s</ns1:g></string>
+    <string name="send_fail">Send failed</string>
+    <string name="send_failure_please">Send failure, please test whether the server connection</string>
     <string name="service_phone">服务电话</string>
     <string name="set_password">设置支付密码</string>
     <string name="set_password_hint">请设置您的支付密码以便后续操作</string>
+    <string name="setting">Settings</string>
     <string name="settlement_amount">结算金额</string>
+    <string name="share_rule_1">1.每推荐一名好友报名，您将获得100元奖励，您的好友报名费立减200元。</string>
+    <string name="share_rule_2">2.如发现作弊行为将取消用户活动资格，并扣除所获奖励。</string>
+    <string name="share_rule_3">3.如对本活动规则有任何疑问，请联系拍拍学车客服。</string>
+    <string name="share_rule_4">4.本活动最终解释权归拍拍学车所有。</string>
     <string name="ssdk_alipay">支付宝好友</string>
     <string name="ssdk_alipay_client_inavailable">目前您的支付宝版本过低或未安装，需要安装支付宝才能使用</string>
     <string name="ssdk_alipaymoments">支付宝生活圈</string>
@@ -454,6 +531,7 @@
     <string name="ssdk_instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
     <string name="ssdk_instapager_email_or_password_incorrect">Email或密码不正确</string>
     <string formatted="false" name="ssdk_instapager_login_html">
+        
 &lt;!DOCTYPE html>
 &lt;html>
 &lt;head>
@@ -588,12 +666,15 @@ function login(form){
     <string name="ssdk_youdao">有道云笔记</string>
     <string name="start_sign_in">开始签到</string>
     <string name="status">状态</string>
+    <string name="str_recorder_recording">release to end</string>
     <string name="submit_anonymous_evaluation">提交匿名评价</string>
     <string name="submit_evaluation_or_not">是否提交评价？</string>
     <string name="submit_fail">请求失败</string>
     <string name="submit_order">提交订单</string>
     <string name="submitting_request">正在提交请求</string>
     <string name="suggestion_and_complaint_hint">其它建议和投诉（内容匿名，学员放心填写）</string>
+    <string name="text_ack_msg">Read</string>
+    <string name="text_delivered_msg">Delivered</string>
     <string name="time">时间</string>
     <string name="time_registration">报名时间：</string>
     <string name="toast_get_captcha">请先获取验证码</string>
@@ -613,14 +694,19 @@ function login(form){
     <string name="training_fee">培训费用</string>
     <string name="training_period">培训学时</string>
     <string name="training_record">培训记录</string>
+    <string name="transfertocs">Transfer Kefu</string>
+    <string name="tuijian1">每推荐一名好友报名，您将获得100元奖励</string>
+    <string name="tuijian2">好友报名立减200元</string>
     <string name="unknown">未知</string>
     <string name="unselect_coupon">不使用优惠券</string>
     <string name="unusable_coupon">查看不可用券</string>
     <string name="useable_coupon">可用优惠券(<ns1:g id="size">%d</ns1:g>)</string>
     <string name="verify_code">验证码</string>
-    <string name="version_name">1.0.7</string>
+    <string name="version_name">1.0.8</string>
     <string name="version_update">版本更新</string>
     <string name="vicinity">附近</string>
+    <string name="video">[Video]</string>
+    <string name="voice_prefix">[Voice]</string>
     <string name="waiting_confirm">待确认</string>
     <string name="we_chat">微信</string>
     <string name="your_apply_school">您的报名分校</string>
@@ -628,6 +714,50 @@ function login(form){
     <string name="your_last_school">您上一次培训场地</string>
     <string name="your_last_school_km">您上一次培训场地：\n距离<ns1:g id="duration">%1$.1f</ns1:g>km</string>
     <string name="yuan">元</string>
+    <style name="ActionSheetDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
+    </style>
+    <style name="ActionSheetDialogStyle" parent="@android:style/Theme.Dialog">
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog以外的区域模糊效果 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimation</item>
+    </style>
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/ease_push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/ease_push_bottom_out</item>
+    </style>
+    <style name="AnimFade" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/ease_fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/ease_hold</item>
+        <item name="android:activityCloseExitAnimation">@anim/ease_fade_out</item>
+    </style>
+    <style name="AnimFade2" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/ease_slide_in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/ease_slide_out_to_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/ease_slide_out_to_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/ease_slide_in_from_left</item>
+    </style>
+    <style name="AnimHead" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/ease_head_in</item>
+        <item name="android:windowExitAnimation">@anim/ease_head_out</item>
+    </style>
+    <style name="AnimTop2" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/ease_push_top_in2</item>
+        <item name="android:windowExitAnimation">@anim/ease_push_top_out2</item>
+    </style>
     <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
         <!--
             Theme customizations available in newer API levels can go in
@@ -698,6 +828,58 @@ function login(form){
         <item name="android:layout_weight">1</item>
         <item name="android:singleLine">true</item>
     </style>
+    <style name="MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="SignPayDetailDialog" parent="android:style/Theme.Dialog">
+        <!--背景颜色及和透明程度-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--是否去除标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否去除边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否模糊-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="Theme_Audio_Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="chat_content_date_style">
+        <item name="android:minHeight">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:background">#bfbfbf</item>
+    </style>
+    <style name="chat_text_date_style">
+        <item name="android:padding">2dp</item>
+        <item name="android:paddingTop">2dip</item>
+        <item name="android:paddingBottom">2dip</item>
+        <item name="android:paddingLeft">12dip</item>
+        <item name="android:paddingRight">12dip</item>
+        <item name="android:textColor">@color/btn_gray_normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@drawable/ease_timestampe_bg</item>
+    </style>
+    <style name="chat_text_name_style">
+        <item name="android:textColor">#818181</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
     <style name="divider">
 	    <item name="android:layout_width">match_parent</item>
 	    <item name="android:layout_height">1dp</item>
@@ -708,6 +890,14 @@ function login(form){
 	    <item name="android:layout_height">0.5dp</item>
 	    <item name="android:background">@color/divider2</item>
 	</style>
+    <style name="horizontal_slide" parent="android:Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/AnimFade2</item>
+    </style>
+    <style name="myRatingBar" parent="@android:style/Widget.RatingBar">
+ 	    <item name="android:progressDrawable">@drawable/ease_ratingbar_drawable</item>
+ 	    <item name="android:minHeight">52dip</item>
+ 	    <item name="android:maxHeight">52dip</item>
+ 	</style>
     <style name="no_data_tv">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>

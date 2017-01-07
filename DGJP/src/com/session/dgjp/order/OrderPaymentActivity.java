@@ -185,6 +185,7 @@ public class OrderPaymentActivity extends BaseActivity implements VerificationLi
         findViewById(R.id.cancel).setOnClickListener(this);
         int originalFee = order.getOriginalFee();
         int preferentialFee = order.getPreferentialFee();
+
         TextView originalFeeTv = (TextView) findViewById(R.id.original_fee);
         originalFeeTv.setText(getString(R.string.formated_money, originalFee / 100.0));
         TextView preferentialFeeTv = (TextView) findViewById(R.id.preferential_fee);
@@ -250,20 +251,20 @@ public class OrderPaymentActivity extends BaseActivity implements VerificationLi
                     toast(R.string.please_select_pay_type, Toast.LENGTH_SHORT);
                     return;
                 }
-                // TODO: 2016-11-29 取消注释
-//                if (order.getFee() == 0 && !PayType.YUE.equals(payType.getId())) {
-//                    toast(R.string.please_select_yue, Toast.LENGTH_SHORT);
-//                    List<PayType> payTypes = payTypeAdapter.getList();
-//                    for (int i = 0; i < payTypes.size(); i++) {
-//                        PayType item = payTypes.get(i);
-//                        if (PayType.YUE.equals(item.getId())) {
-//                            payTypeAdapter.setSelectedItem(item);
-//                            payTypeAdapter.notifyDataSetChanged();
-//                            break;
-//                        }
-//                    }
-//                    return;
-//                }
+
+                if (order.getFee() == 0 && !PayType.YUE.equals(payType.getId())) {
+                    toast(R.string.please_select_yue, Toast.LENGTH_SHORT);
+                    List<PayType> payTypes = payTypeAdapter.getList();
+                    for (int i = 0; i < payTypes.size(); i++) {
+                        PayType item = payTypes.get(i);
+                        if (PayType.YUE.equals(item.getId())) {
+                            payTypeAdapter.setSelectedItem(item);
+                            payTypeAdapter.notifyDataSetChanged();
+                            break;
+                        }
+                    }
+                    return;
+                }
 
                 if (PayType.YUE.equals(payType.getId())) {
                     if (order.getFee() > payType.getBalance()) {
@@ -528,18 +529,12 @@ public class OrderPaymentActivity extends BaseActivity implements VerificationLi
         requestData.setOperateType(OperateOrderRequestData.PAYMENT);
         requestData.setPayType(payType);
         requestData.setFee(order.getFee());
-        logI("account.getAccount()="+account.getAccount());
-        logI("order.getId()="+order.getId());
-        logI("OperateOrderRequestData.PAYMENT="+OperateOrderRequestData.PAYMENT);
-        logI("payType="+payType);
-        logI("order.getFee()="+order.getFee());
         Coupon coupon = couponAdapter.getSelectedCoupon();
         if (coupon != null) {
             requestData.setStudentCouponId(coupon.getId());
         }
         String data = new Gson().toJson(requestData);
         new BaseRequestTask() {
-
             @Override
             protected void onResponse(int code, String msg, String response) {
                 logI("response="+response);

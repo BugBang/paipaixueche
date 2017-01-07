@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.session.dgjp"
-    android:versionCode="107"
+    android:versionCode="108"
     android:versionName="@string/version_name" >
 
     <uses-sdk
@@ -176,6 +176,16 @@
             android:exported="false"
             android:screenOrientation="behind" >
         </activity>
+
+
+        <activity
+            android:name="com.session.dgjp.UpActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+
+
         <activity
             android:name="com.alipay.sdk.auth.AuthActivity"
             android:configChanges="orientation|keyboardHidden|navigation"
@@ -184,6 +194,13 @@
         </activity>
         <activity
             android:name="com.session.dgjp.WebViewActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+        <!-- 分享页面 -->
+        <activity
+            android:name="com.session.dgjp.share.ShareActivity"
             android:configChanges="orientation|keyboardHidden|navigation"
             android:exported="false"
             android:screenOrientation="behind" >
@@ -321,11 +338,14 @@
 
         <!--微信分享回调 -->
         <activity
-            android:name="com.session.dgjp.wxapi.WXEntryActivity"
+            android:name=".wxapi.WXEntryActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="true"
             android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.session.dgjp.service.LocationService"/>
 
     </application>
 

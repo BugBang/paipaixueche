@@ -342,7 +342,7 @@
     <string name="uneval">未评价</string>
     <string name="unknown">未知</string>
     <string name="verify_code">验证码</string>
-    <string name="version_name">1.0.7</string>
+    <string name="version_name">1.0.8</string>
     <string name="version_update">版本更新</string>
     <string name="waiting_confirm">待确认</string>
     <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">

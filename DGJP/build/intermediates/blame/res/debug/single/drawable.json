@@ -1,35 +1,39 @@
 [
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_sign_now_bg.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\btn_sign_now_bg.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_orange.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\btn_orange.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_6.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\divider_6.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\checked_text_view_bg.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\checked_text_view_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\tv_input_bg.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\tv_input_bg.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_selector.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_btn_blue_selector.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\list_selector.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\list_selector.xml"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\tv_input_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\tv_input_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_red_o5.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\btn_red_o5.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_red.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\btn_red.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\sign_top_search.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\sign_top_search.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_send_btn_selector.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_chat_send_btn_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_gray_round.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\bg_gray_round.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_blue_checked.xml",
@@ -40,40 +44,32 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\about_press.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_white.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\btn_white.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_me_img_bg.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\bottom_me_img_bg.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\upper_round_corner_bg.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\upper_round_corner_bg.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\underline_red_bg.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\underline_red_bg.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_1.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\divider_1.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_dialog_button.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\divider_dialog_button.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\rating_bar_small.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\rating_bar_small.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\comment_tag_color.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\comment_tag_color.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatfrom_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_chatfrom_bg.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\PullToRefresh\\unspecified\\res\\drawable\\indicator_bg_bottom.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\comment_tag_color.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\comment_tag_color.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\carousel_layout_page.xml",
@@ -84,40 +80,48 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\bg_blue.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_bg.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\dialog_bg.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_cancel_pressed_shape.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_btn_cancel_pressed_shape.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_home_img_bg.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\bottom_home_img_bg.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_green.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\bg_green.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\check_box_bg2.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\check_box_bg2.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_7.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\divider_7.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_black.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\bg_black.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_white_1.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\btn_white_1.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_5.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\divider_5.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_gray.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\bg_gray.xml"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_takepic_selector.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_chat_takepic_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_2.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\divider_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_dialog_material_background_light.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\under_round_corner_bg.xml",
@@ -128,6 +132,10 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\bg_gray_unable.xml"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_msg.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\ic_msg.xml"
     },
@@ -136,8 +144,8 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\item_layout_bg.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\btn_blue.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_3.xml",
@@ -148,8 +156,8 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\bg_gray_unable_2.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\et_top.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\et_top.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\drawable\\design_fab_background.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\checked_text_view_color.xml",
@@ -160,44 +168,56 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\ssdk_oks_classic_platform_cell_back.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_bg_2.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\dialog_bg_2.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatting_setmode_voice_btn.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_chatting_setmode_voice_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_recording_text_hint_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_recording_text_hint_bg.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\et_bottom.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\et_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_text_color.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\radio_text_color.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\divider.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\divider.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_8.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\divider_8.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_pressed_shape.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_btn_blue_pressed_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_drive_img_bg.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\bottom_drive_img_bg.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_orange.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\bg_orange.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_ratingbar_full_material.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_4.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\divider_4.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_white_enable.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\btn_white_enable.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_voice_to_icon.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_voice_to_icon.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\comment_tag_bg.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\comment_tag_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\underline_gray_bg.xml",
@@ -208,8 +228,224 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\bottom_tv_color.xml"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_cancel_normal_shape.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_btn_cancel_normal_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_bg_sumbit_button.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_bg_sumbit_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow_down.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\arrow_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\text_blue_selector.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\text_blue_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_file_selector.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_chat_file_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_9.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\divider_9.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_gray_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\circle_gray_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_location_selector.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_chat_location_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_sign_now_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\btn_sign_now_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_6.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\divider_6.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\checked_text_view_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\checked_text_view_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatto_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_chatto_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_recording_hint_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_recording_hint_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_image_selector.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_chat_image_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\sign_top_search.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\sign_top_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_timestampe_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_timestampe_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_white.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\btn_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_me_img_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\bottom_me_img_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\underline_red_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\underline_red_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_dialog_button.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\divider_dialog_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\PullToRefresh\\unspecified\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\dialog_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_recorder_recording.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\btn_recorder_recording.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_green.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\bg_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_7.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\divider_7.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_msg_state_failed_resend.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_msg_state_failed_resend.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_black.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\bg_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_5.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\divider_5.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_cancel_bj.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_btn_cancel_bj.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_press_speak_btn.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_chat_press_speak_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_context_menu_item_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_context_menu_item_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\btn_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\et_top.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\et_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_bg_2.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\dialog_bg_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_voice_from_icon.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_voice_from_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_text_color.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\radio_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_8.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\divider_8.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_orange.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\bg_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_4.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\divider_4.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_white_enable.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\btn_white_enable.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_ratingbar_drawable.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_ratingbar_drawable.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_common_tab_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_common_tab_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_normal_shape.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_btn_blue_normal_shape.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\check_box_bg.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\check_box_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_edit_text_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_edit_text_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
@@ -220,39 +456,51 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\bg_red.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow_down.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\arrow_down.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatting_setmode_keyboard_btn.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_chatting_setmode_keyboard_btn.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_blue_2.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\bg_blue_2.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\text_blue_selector.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\text_blue_selector.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_recorder_normal.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\btn_recorder_normal.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\rating_bar.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\rating_bar.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_9.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\divider_9.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_button_bg.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\radio_button_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_2.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\btn_blue_2.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ssdk_oks_classic_progressbar.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\ssdk_oks_classic_progressbar.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_gray_bg.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\circle_gray_bg.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_2.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable\\btn_blue_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_bg_button_satisfaction.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_bg_button_satisfaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_type_select_btn.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_type_select_btn.xml"
     }
 ]

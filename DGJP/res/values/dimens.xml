@@ -14,6 +14,7 @@
     <!-- 常量 -->
     <dimen name="view_minus_1">-1dp</dimen>
     <dimen name="view_0">0dp</dimen>
+    <dimen name="view_0.5">0.5dp</dimen>
     <dimen name="view_1">1dp</dimen>
     <dimen name="view_2">2dp</dimen>
     <dimen name="view_2_5">2.5dp</dimen>
@@ -57,6 +58,7 @@
     <dimen name="view_40">40dp</dimen>
     <dimen name="view_42">42dp</dimen>
     <dimen name="view_44">44dp</dimen>
+    <dimen name="view_46">46dp</dimen>
     <dimen name="view_48">48dp</dimen>
     <dimen name="view_49">49dp</dimen>
     <dimen name="view_50">50dp</dimen>
@@ -76,6 +78,7 @@
     <dimen name="view_180">180dp</dimen>
     <dimen name="view_200">200dp</dimen>
     <dimen name="view_234">234dp</dimen>
+    <dimen name="view_240">240dp</dimen>
     <dimen name="view_260">260dp</dimen>
     
     <!-- 引用常量的配置 -->
@@ -108,6 +111,7 @@
     <dimen name="text_large_x">16sp</dimen>
     <dimen name="text_large_xx">17sp</dimen>
     <dimen name="text_large_xxx">18sp</dimen>
+    <dimen name="text_large_xxxx">20sp</dimen>
     <dimen name="text_title">16sp</dimen>
     <dimen name="text_btn">18sp</dimen>
     <dimen name="password_text">15sp</dimen>

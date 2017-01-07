@@ -1,426 +1,451 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+
+
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/gray_bg"
-        android:orientation="vertical">
+        android:layout_height="@dimen/title_height"
+        android:background="@color/app_color"
+        android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="0dp"
             android:layout_height="@dimen/title_height"
-            android:background="@color/app_color"
-            android:orientation="horizontal">
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:src="@drawable/iv_back"/>
 
-            <ImageView
-                android:id="@+id/iv_back"
-                android:layout_width="0dp"
-                android:layout_height="@dimen/title_height"
-                android:layout_weight="1"
-                android:scaleType="center"
-                android:src="@drawable/iv_back"/>
+        <TextView
+            android:id="@id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="支付报名费"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_title"/>
 
-            <TextView
-                android:id="@id/tvTitle"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="6"
-                android:ellipsize="marquee"
-                android:gravity="center"
-                android:marqueeRepeatLimit="marquee_forever"
-                android:scrollHorizontally="true"
-                android:singleLine="true"
-                android:text="支付报名费"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/text_title"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/title_height"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
 
-            <View
-                android:layout_width="0dp"
-                android:layout_height="@dimen/title_height"
-                android:layout_weight="1"
-                />
-        </LinearLayout>
+    <ScrollView
 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/white"
             android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/view_50"
-                android:layout_marginLeft="@dimen/view_20"
-                android:layout_marginRight="@dimen/view_20"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="报考城市"
-                    android:textColor="@color/text_gray2"
-                    android:textSize="@dimen/text_medium_xxx"
-                    />
-
-                <View
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"/>
-
-                <TextView
-                    android:gravity="center"
-                    android:id="@+id/tv_city"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="深圳"
-                    android:textColor="@color/gray_888888"
-                    android:textSize="@dimen/text_medium_xxx"
-                    />
-            </LinearLayout>
-
-            <View
-                style="@style/divider2"
-                android:layout_marginLeft="@dimen/view_20"/>
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_marginLeft="@dimen/view_20"
-                android:layout_marginRight="@dimen/view_20"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
                 <LinearLayout
-                    android:id="@+id/ll_item_drive_type"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/view_50">
+                    android:layout_height="@dimen/view_50"
+                    android:layout_marginLeft="@dimen/view_20"
+                    android:layout_marginRight="@dimen/view_20"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="报考驾驶证类别"
+                        android:text="报考城市"
                         android:textColor="@color/text_gray2"
                         android:textSize="@dimen/text_medium_xxx"
                         />
+
                     <View
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"/>
+
                     <TextView
-                        android:id="@+id/tv_drive_type"
+                        android:id="@+id/tv_city"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/text_red"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="未知"
+                        android:textColor="@color/gray_888888"
                         android:textSize="@dimen/text_medium_xxx"
                         />
-                    <ImageView
-                        android:id="@+id/iv_drive_type_arr"
-                        android:layout_marginLeft="@dimen/view_10"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/arr_down"
-                        />
-
                 </LinearLayout>
+
+                <View
+                    style="@style/divider2"
+                    android:layout_marginLeft="@dimen/view_20"/>
 
                 <LinearLayout
-                    android:id="@+id/ll_drive_type"
                     android:layout_width="match_parent"
-                    android:orientation="vertical"
-                    android:paddingBottom="@dimen/view_20"
+                    android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/view_20"
-                    android:layout_height="wrap_content">
+                    android:layout_marginRight="@dimen/view_20"
+                    android:orientation="vertical">
+
                     <LinearLayout
-                        android:orientation="horizontal"
+                        android:id="@+id/ll_item_drive_type"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="@dimen/view_50"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="C1  手动档"
+                            android:text="报考驾驶证类别"
                             android:textColor="@color/text_gray2"
                             android:textSize="@dimen/text_medium_xxx"
                             />
+
                         <View
                             android:layout_width="0dp"
-                            android:layout_height="@dimen/view_1"
-                            android:layout_weight="1"/>
-                        <ImageView
-                            android:id="@+id/iv_c1"
-                            android:background="@drawable/type_circle_normal"
-                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            />
+                            android:layout_weight="1"/>
 
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_marginTop="@dimen/view_20"
-                        android:orientation="horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
                         <TextView
+                            android:id="@+id/tv_drive_type"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="C2  自动挡"
-                            android:textColor="@color/text_gray2"
+                            android:textColor="@color/text_red"
                             android:textSize="@dimen/text_medium_xxx"
                             />
-                        <View
-                            android:layout_width="0dp"
-                            android:layout_height="@dimen/view_1"
-                            android:layout_weight="1"/>
+
                         <ImageView
-                            android:id="@+id/iv_c2"
-                            android:background="@drawable/type_circle_normal"
+                            android:id="@+id/iv_drive_type_arr"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/view_10"
+                            android:background="@drawable/arr_down"
                             />
 
                     </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_drive_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/view_20"
+                        android:orientation="vertical"
+                        android:paddingBottom="@dimen/view_20">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="C1  手动档"
+                                android:textColor="@color/text_gray2"
+                                android:textSize="@dimen/text_medium_xxx"
+                                />
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="@dimen/view_1"
+                                android:layout_weight="1"/>
+
+                            <ImageView
+                                android:id="@+id/iv_c1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/type_circle_normal"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/view_20"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="C2  自动挡"
+                                android:textColor="@color/text_gray2"
+                                android:textSize="@dimen/text_medium_xxx"
+                                />
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="@dimen/view_1"
+                                android:layout_weight="1"/>
+
+                            <ImageView
+                                android:id="@+id/iv_c2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/type_circle_normal"
+                                />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <View
+                    style="@style/divider2"
+                    android:layout_marginLeft="@dimen/view_20"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/view_50"
+                    android:layout_marginLeft="@dimen/view_20"
+                    android:layout_marginRight="@dimen/view_20"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="报考驾校"
+                        android:textColor="@color/text_gray2"
+                        android:textSize="@dimen/text_medium_xxx"
+                        />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/tv_school"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="未知"
+                        android:textColor="@color/gray_888888"
+                        android:textSize="@dimen/text_medium_xxx"
+                        />
+                </LinearLayout>
+
+                <View
+                    style="@style/divider2"
+                    android:layout_marginLeft="@dimen/view_20"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/view_50"
+                    android:layout_marginLeft="@dimen/view_20"
+                    android:layout_marginRight="@dimen/view_20"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="报考班别"
+                        android:textColor="@color/text_gray2"
+                        android:textSize="@dimen/text_medium_xxx"
+                        />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/tv_class"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="未知"
+                        android:textColor="@color/gray_888888"
+                        android:textSize="@dimen/text_medium_xxx"
+                        />
                 </LinearLayout>
             </LinearLayout>
 
-
-
-            <View
-                style="@style/divider2"
-                android:layout_marginLeft="@dimen/view_20"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/view_50"
-                android:layout_marginLeft="@dimen/view_20"
-                android:layout_marginRight="@dimen/view_20"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="报考驾校"
-                    android:textColor="@color/text_gray2"
-                    android:textSize="@dimen/text_medium_xxx"
-                    />
-
-                <View
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"/>
-
-                <TextView
-                    android:gravity="center"
-                    android:id="@+id/tv_school"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="快捷驾校石牌分校"
-                    android:textColor="@color/gray_888888"
-                    android:textSize="@dimen/text_medium_xxx"
-                    />
-            </LinearLayout>
-
-            <View
-                style="@style/divider2"
-                android:layout_marginLeft="@dimen/view_20"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/view_50"
-                android:layout_marginLeft="@dimen/view_20"
-                android:layout_marginRight="@dimen/view_20"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="报考班别"
-                    android:textColor="@color/text_gray2"
-                    android:textSize="@dimen/text_medium_xxx"
-                    />
-
-                <View
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"/>
-
-                <TextView
-                    android:gravity="center"
-                    android:id="@+id/tv_class"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="计时培训班"
-                    android:textColor="@color/gray_888888"
-                    android:textSize="@dimen/text_medium_xxx"
-                    />
-            </LinearLayout>
-        </LinearLayout>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/view_20"
-            android:layout_marginTop="@dimen/view_10"
-            android:text="支付方式"
-            android:textColor="@color/text_gray2"
-            android:textSize="@dimen/text_medium_xx"
-            />
-        <LinearLayout
-            android:layout_marginTop="@dimen/view_10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/white"
-            android:orientation="vertical">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/view_50"
-                android:layout_marginLeft="@dimen/view_20"
-                android:layout_marginRight="@dimen/view_20"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:gravity="center"
-                    android:drawablePadding="@dimen/view_10"
-                    android:drawableLeft="@drawable/wx_icon"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="微信支付"
-                    android:textColor="@color/text_gray2"
-                    android:textSize="@dimen/text_medium_xxx"
-                    />
-
-                <View
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"/>
-
-                <ImageView
-                    android:id="@+id/iv_wecharpay"
-                    android:background="@drawable/type_circle_normal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    />
-            </LinearLayout>
-
-            <View
-                style="@style/divider2"
-                android:layout_marginLeft="@dimen/view_20"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/view_50"
-                android:layout_marginLeft="@dimen/view_20"
-                android:layout_marginRight="@dimen/view_20"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:gravity="center"
-                    android:drawablePadding="@dimen/view_10"
-                    android:drawableLeft="@drawable/alipay_icon"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="支付宝支付"
-                    android:textColor="@color/text_gray2"
-                    android:textSize="@dimen/text_medium_xxx"
-                    />
-
-                <View
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"/>
-
-                <ImageView
-                    android:id="@+id/iv_alipay"
-                    android:background="@drawable/type_circle_normal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    />
-            </LinearLayout>
-
-            <View
-                style="@style/divider2"
-                android:layout_marginLeft="@dimen/view_20"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/view_50"
-                android:layout_marginLeft="@dimen/view_20"
-                android:layout_marginRight="@dimen/view_20"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:gravity="center"
-                    android:drawablePadding="@dimen/view_10"
-                    android:drawableLeft="@drawable/balance_icon"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="账户余额支付"
-                    android:textColor="@color/text_gray2"
-                    android:textSize="@dimen/text_medium_xxx"
-                    />
-
-                <View
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"/>
-
-                <ImageView
-                    android:id="@+id/iv_balancepay"
-                    android:background="@drawable/type_circle_normal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    />
-            </LinearLayout>
-        </LinearLayout>
-
-
-
-        <LinearLayout
-            android:layout_marginTop="@dimen/view_120"
-            android:background="@color/white"
-            android:layout_width="match_parent"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
-            android:layout_height="@dimen/view_48">
-
             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/view_20"
-                android:layout_width="wrap_content"
+                android:layout_marginTop="@dimen/view_10"
+                android:text="支付方式"
+                android:textColor="@color/text_gray2"
+                android:textSize="@dimen/text_medium_xx"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="实付金额:  "
-                android:textColor="@color/text_red"
-                android:textSize="@dimen/text_medium_x"
-                />
-            <TextView
-                android:id="@+id/tv_need_pay"
-                android:layout_marginLeft="@dimen/view_5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="￥1988.00"
-                android:textColor="@color/red"
-                android:textSize="@dimen/text_large_x"
-                />
-            <View
-                android:layout_width="@dimen/view_0"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                />
-            <Button
-                android:id="@+id/bt_pay_now"
-                android:layout_width="@dimen/view_120"
-                android:background="@color/red"
-                android:text="立即支付"
-                android:textColor="@color/white"
-                android:textSize="@dimen/text_large"
-                android:layout_height="match_parent"/>
+                android:layout_marginTop="@dimen/view_10"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/view_50"
+                    android:layout_marginLeft="@dimen/view_20"
+                    android:layout_marginRight="@dimen/view_20"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/wx_icon"
+                        android:drawablePadding="@dimen/view_10"
+                        android:gravity="center"
+                        android:text="微信支付"
+                        android:textColor="@color/text_gray2"
+                        android:textSize="@dimen/text_medium_xxx"
+                        />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+
+                    <ImageView
+                        android:id="@+id/iv_wecharpay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/type_circle_normal"
+                        />
+                </LinearLayout>
+
+                <View
+                    style="@style/divider2"
+                    android:layout_marginLeft="@dimen/view_20"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/view_50"
+                    android:layout_marginLeft="@dimen/view_20"
+                    android:layout_marginRight="@dimen/view_20"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/alipay_icon"
+                        android:drawablePadding="@dimen/view_10"
+                        android:gravity="center"
+                        android:text="支付宝支付"
+                        android:textColor="@color/text_gray2"
+                        android:textSize="@dimen/text_medium_xxx"
+                        />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+
+                    <ImageView
+                        android:id="@+id/iv_alipay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/type_circle_normal"
+                        />
+                </LinearLayout>
+
+                <View
+                    style="@style/divider2"
+                    android:layout_marginLeft="@dimen/view_20"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/view_50"
+                    android:layout_marginLeft="@dimen/view_20"
+                    android:layout_marginRight="@dimen/view_20"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/balance_icon"
+                        android:drawablePadding="@dimen/view_10"
+                        android:gravity="center"
+                        android:text="账户余额支付"
+                        android:textColor="@color/text_gray2"
+                        android:textSize="@dimen/text_medium_xxx"
+                        />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+
+                    <ImageView
+                        android:id="@+id/iv_balancepay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/type_circle_normal"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_48"
+                android:layout_marginTop="@dimen/view_150"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/view_20"
+                    android:text="实付金额:  "
+                    android:textColor="@color/text_red"
+                    android:textSize="@dimen/text_medium_x"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_need_pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/view_5"
+                    android:text="请选择驾驶证类别"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/text_large_x"
+                    />
+
+                <View
+                    android:layout_width="@dimen/view_0"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    />
+
+                <Button
+                    android:id="@+id/bt_pay_now"
+                    android:layout_width="@dimen/view_120"
+                    android:layout_height="match_parent"
+                    android:background="@color/red"
+                    android:text="立即支付"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_large"/>
+            </LinearLayout>
+
         </LinearLayout>
 
-    </LinearLayout>
-</ScrollView>
+    </ScrollView>
+
+</LinearLayout>

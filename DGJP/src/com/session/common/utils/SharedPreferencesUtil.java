@@ -1,10 +1,10 @@
 package com.session.common.utils;
 
-import java.util.Map;
-
 import android.content.SharedPreferences;
 
 import com.session.dgjp.AppInstance;
+
+import java.util.Map;
 
 /** SharedPreferences相关的工具类 */
 public final class SharedPreferencesUtil {
@@ -18,7 +18,13 @@ public final class SharedPreferencesUtil {
 	public final static String KEY_PASSWORD = "password";
 	/**自动登录*/
 	public final static String KEY_AUTO_LOGIN = "auto_login";
-	
+    /**经纬度*/
+	public final static String Latitude = "latitude";
+	public final static String Longitude = "longitude";
+    /**环信的账号密码*/
+    public final static String EASE_USER_NAME = "ease_user_name";
+    public final static String EASE_USER_PASSWORD = "ease_user_password";
+
 	/**
 	 * 获取SharedPreferences所有的键值对
 	 */
@@ -36,7 +42,7 @@ public final class SharedPreferencesUtil {
 		if (null == sp) {
 			return;
 		}
-		sp.edit().putString(key, value).commit();
+		sp.edit().putString(key, value).apply();
 	}
 
 	/** 保存布尔值 */
@@ -45,7 +51,7 @@ public final class SharedPreferencesUtil {
 		if (null == sp) {
 			return;
 		}
-		sp.edit().putBoolean(key, value).commit();
+		sp.edit().putBoolean(key, value).apply();
 	}
 
 	/** 保存整型 */
@@ -54,7 +60,7 @@ public final class SharedPreferencesUtil {
 		if (null == sp) {
 			return;
 		}
-		sp.edit().putInt(key, value).commit();
+		sp.edit().putInt(key, value).apply();
 	}
 
 	/** 保存浮点型 */
@@ -63,7 +69,7 @@ public final class SharedPreferencesUtil {
 		if (null == sp) {
 			return;
 		}
-		sp.edit().putFloat(key, value).commit();
+		sp.edit().putFloat(key, value).apply();
 	}
 
 	/** 保存长整型 */
@@ -72,7 +78,7 @@ public final class SharedPreferencesUtil {
 		if (null == sp) {
 			return;
 		}
-		sp.edit().putLong(key, value).commit();
+		sp.edit().putLong(key, value).apply();
 	}
 
 	/** 读取字符串 */
@@ -135,7 +141,7 @@ public final class SharedPreferencesUtil {
 		if (null == sp) {
 			return;
 		}
-		sp.edit().putString(key, value).commit();
+		sp.edit().putString(key, value).apply();
 	}
 
 	/** 保存布尔值 */
@@ -143,7 +149,7 @@ public final class SharedPreferencesUtil {
 		if (null == sp) {
 			return;
 		}
-		sp.edit().putBoolean(key, value).commit();
+		sp.edit().putBoolean(key, value).apply();
 	}
 
 	/** 保存整型 */
@@ -151,7 +157,7 @@ public final class SharedPreferencesUtil {
 		if (null == sp) {
 			return;
 		}
-		sp.edit().putInt(key, value).commit();
+		sp.edit().putInt(key, value).apply();
 	}
 
 	/** 保存浮点型 */
@@ -159,7 +165,7 @@ public final class SharedPreferencesUtil {
 		if (null == sp) {
 			return;
 		}
-		sp.edit().putFloat(key, value).commit();
+		sp.edit().putFloat(key, value).apply();
 	}
 
 	/** 保存长整型 */
@@ -167,7 +173,7 @@ public final class SharedPreferencesUtil {
 		if (null == sp) {
 			return;
 		}
-		sp.edit().putLong(key, value).commit();
+		sp.edit().putLong(key, value).apply();
 	}
 
 	/** 读取字符串 */

@@ -27,8 +27,10 @@
 -keep class com.session.dgjp.ScanQRCodeActivity { <init>(); }
 -keep class com.session.dgjp.wxapi.WXPayEntryActivity { <init>(); }
 -keep class com.alipay.sdk.app.H5PayActivity { <init>(); }
+-keep class com.session.dgjp.UpActivity { <init>(); }
 -keep class com.alipay.sdk.auth.AuthActivity { <init>(); }
 -keep class com.session.dgjp.WebViewActivity { <init>(); }
+-keep class com.session.dgjp.share.ShareActivity { <init>(); }
 -keep class cn.jpush.android.ui.PushActivity { <init>(); }
 -keep class cn.jpush.android.service.DownloadService { <init>(); }
 -keep class cn.jpush.android.service.PushService { <init>(); }
@@ -38,6 +40,14 @@
 -keep class com.amap.api.location.APSService { <init>(); }
 -keep class com.mob.tools.MobUIShell { <init>(); }
 -keep class com.session.dgjp.wxapi.WXEntryActivity { <init>(); }
+-keep class com.session.dgjp.service.LocationService { <init>(); }
+-keep class com.hyphenate.helpdesk.easeui.ui.ShowBigImageActivity { <init>(); }
+-keep class com.hyphenate.helpdesk.easeui.ui.ShowNormalFileActivity { <init>(); }
+-keep class com.hyphenate.helpdesk.easeui.ui.ShowVideoActivity { <init>(); }
+-keep class com.hyphenate.helpdesk.easeui.ui.BaseChatActivity { <init>(); }
+-keep class com.hyphenate.chat.EMChatService { <init>(); }
+-keep class com.hyphenate.chat.EMJobService { <init>(); }
+-keep class com.hyphenate.chat.EMMonitorReceiver { <init>(); }
 -keep public class * extends android.app.backup.BackupAgent {
     <init>();
 }

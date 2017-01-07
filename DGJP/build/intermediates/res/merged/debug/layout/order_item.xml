@@ -100,7 +100,7 @@
             android:gravity="center"
             android:layout_marginTop="@dimen/view_10"
             android:textSize="@dimen/text_12_5"
-            android:textColor="@color/blue_00BFF3"
+            android:textColor="@color/red_ff4848"
             android:background="@drawable/btn_white"/>
     </LinearLayout>
 

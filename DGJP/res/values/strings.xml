@@ -35,7 +35,7 @@
     <string name="select_date">选择日期</string>
     <string name="select_period">选择时段</string>
     <string name="app_name">拍拍学车</string>
-    <string name="version_name">1.0.7</string>
+    <string name="version_name">1.0.8</string>
 
     <!-- 扫描二维码 -->
     <string name="scan">扫描二维码</string>
@@ -209,6 +209,13 @@
     <string name="home_tv_title">拍拍学车</string>
     <string name="home_tv_call">客服</string>
     <string name="personal_center_tv_title">我的</string>
+    <!--分享界面-->
+    <string name="share_rule_1">1.每推荐一名好友报名，您将获得100元奖励，您的好友报名费立减200元。</string>
+    <string name="share_rule_2">2.如发现作弊行为将取消用户活动资格，并扣除所获奖励。</string>
+    <string name="share_rule_3">3.如对本活动规则有任何疑问，请联系拍拍学车客服。</string>
+    <string name="share_rule_4">4.本活动最终解释权归拍拍学车所有。</string>
+    <string name="tuijian1">每推荐一名好友报名，您将获得100元奖励</string>
+    <string name="tuijian2">好友报名立减200元</string>
 
 
 </resources>

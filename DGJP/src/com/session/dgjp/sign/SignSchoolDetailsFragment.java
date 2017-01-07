@@ -8,6 +8,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.google.gson.Gson;
 import com.session.common.BaseFragment;
 import com.session.common.BaseRequestTask;
@@ -51,6 +52,7 @@ public class SignSchoolDetailsFragment extends BaseFragment implements SignSchoo
 
 
     private ImageView mIvBack;
+    private ImageView mIvTopImg;
     private TextView mTvTitle;
     private NoScrollListview mNoScrollListview;
     private Gson mGson;
@@ -79,6 +81,8 @@ public class SignSchoolDetailsFragment extends BaseFragment implements SignSchoo
         mDialogUtil = new DialogUtil(act);
 
         mIvBack = (ImageView) view.findViewById(R.id.iv_back);
+        mIvTopImg = (ImageView) view.findViewById(R.id.iv_top_img);
+
         mTvTitle = (TextView) view.findViewById(R.id.tv_title);
         mTvTime = (TextView) view.findViewById(R.id.tv_time);
         mTvAddress = (TextView) view.findViewById(R.id.tv_address);
@@ -124,9 +128,7 @@ public class SignSchoolDetailsFragment extends BaseFragment implements SignSchoo
         ProgressDialog progressDialog = buildProcessDialog(null, "请稍等", false);
         SignSchoolDetailsRequestData requestData = new SignSchoolDetailsRequestData();
         requestData.setId(id);
-
         String data = new Gson().toJson(requestData);
-
         new BaseRequestTask() {
             @Override
             protected void onResponse(int code, String msg, String response) {
@@ -165,6 +167,9 @@ public class SignSchoolDetailsFragment extends BaseFragment implements SignSchoo
     private void setSchoolData() {
         mBsListBean = mSchoolDetails.getBsList().get(0);
         String timePeroid = mBsListBean.getTimePeroid();
+        String img = mBsListBean.getPhotoUrl();
+
+        Glide.with(this).load(Constants.URL_IMG_IP+img).placeholder(R.drawable.placeholder_img).into(mIvTopImg);
         mTvTime.setText(timePeroid);
 
         mTvAddress.setText(mBsListBean.getAddress());

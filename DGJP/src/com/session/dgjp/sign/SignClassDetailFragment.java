@@ -59,7 +59,7 @@ public class SignClassDetailFragment extends BaseFragment {
         settings.setLoadWithOverviewMode(true);
 
         mWvContent.setWebChromeClient(new MyWebChromeClient());
-        mWvContent.loadUrl("http://10.0.0.43/cheet/cheet.html");
+        mWvContent.loadUrl("http://www.papaxueche.com/cheet/cheet.html");
 //        mWvContent.loadUrl("http://10.0.0.43/222/index.html");
     }
 

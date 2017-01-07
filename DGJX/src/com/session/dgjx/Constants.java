@@ -8,11 +8,12 @@ public final class Constants {
 	/** 通信协议版本 */
 	public final static String VERSION_PROTOCOL = "1.0";
 	/** 生产环境IP地址 */
-	public final static String RELEASE_URL = "https://api.papaxueche.com:8443/";
+	public final static String RELEASE_URL = "https://120.76.168.132:8443/";
 	/** 测试环境IP地址 */
-	public final static String TEST_URL = "https://183.62.251.19:8443/";
+//	public final static String TEST_URL = "https://183.62.251.19:8443/";
+	public final static String TEST_URL = "https://10.0.0.101:8443/";
 	/** 后台接口主机IP地址 */
-	public final static String URL_IP = RELEASE_URL;
+	public final static String URL_IP = TEST_URL;
 	/** 后台接口地址 */
 	public final static String URL = URL_IP + "DGFDS/";
 	/** 初始化接口地址 */

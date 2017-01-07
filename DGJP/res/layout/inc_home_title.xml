@@ -11,13 +11,14 @@
         android:layout_height="@dimen/title_height"
         android:orientation="horizontal" >
 
-       <!--  <ImageView
+      <ImageView
+          android:visibility="invisible"
             android:id="@id/ivTitleLeft"
             android:layout_width="@dimen/title_height"
             android:layout_height="@dimen/title_height"
             android:contentDescription="@null"
             android:scaleType="center"
-            android:src="@drawable/btn_account" /> -->
+            android:src="@drawable/btn_account" />
 
         <TextView
             android:id="@id/tvTitle"
@@ -33,7 +34,7 @@
             android:textColor="@android:color/white"
             android:textSize="@dimen/text_title" />
 
-         <!--<FrameLayout
+        <FrameLayout
             android:id="@id/btnMsg"
             android:layout_width="@dimen/title_height"
             android:layout_height="@dimen/title_height" >
@@ -58,7 +59,7 @@
                 android:textColor="@color/text_white"
                 android:textSize="12sp" />
         </FrameLayout>
-        -->
+
     </LinearLayout>
 
     <View style="@style/divider" />

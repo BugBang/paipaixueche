@@ -101,7 +101,7 @@
     <orderEntry type="library" exported="" name="core-3.1.0" level="project" />
     <orderEntry type="library" exported="" name="ShareSDK-Wechat-2.7.10" level="project" />
     <orderEntry type="library" exported="" name="android-support-v13" level="project" />
-    <orderEntry type="library" exported="" name="glide-3.6.1" level="project" />
+    <orderEntry type="library" exported="" name="glide-3.7.0" level="project" />
     <orderEntry type="library" exported="" name="alipaySdk-20160812" level="project" />
     <orderEntry type="library" exported="" name="ShareSDK-QQ-2.7.10" level="project" />
     <orderEntry type="library" exported="" name="ormlite-core-4.38" level="project" />
@@ -118,6 +118,7 @@
     <orderEntry type="library" exported="" name="common_sdk" level="project" />
     <orderEntry type="library" exported="" name="ShareSDK-Email-2.7.10" level="project" />
     <orderEntry type="library" exported="" name="AMap_Location_V2.4.1_20160414" level="project" />
+    <orderEntry type="module" module-name="kefu-easeui" exported="" />
     <orderEntry type="module" module-name="PullToRefresh" exported="" />
   </component>
 </module>

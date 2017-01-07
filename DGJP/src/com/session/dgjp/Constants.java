@@ -7,16 +7,25 @@ public final class Constants {
 
 	/** 通信协议版本 */
 	public final static String VERSION_PROTOCOL = "1.0";
+//-------------------------------------------------------------
 	/** 生产环境IP地址 */
-	public final static String RELEASE_URL = "https://api.papaxueche.com:8443/";
+//	public final static String RELEASE_URL = "https://papaxueche.cn:8443/";
+	public final static String RELEASE_URL = "https://120.76.168.132:8443/";
 	/** 测试环境IP地址 */
-//	public final static String TEST_URL = "https://192.168.7.203:8443/";
-//	public final static String TEST_URL = "https://120.24.86.214:8443/";
-	public final static String TEST_URL = "https://10.0.0.189:8443/";
-	/** 后台接口主机IP地址 */
-	public final static String URL_IP = TEST_URL;
-	/** 后台接口地址 */
-	public final static String URL = URL_IP + "DGFDS/";
+//    public final static String TEST_URL ="https://www.papaxueche.cn:8443/";
+    public final static String TEST_URL ="https://10.0.0.101:8443/";
+    /** 后台接口主机IP地址 */
+    public final static String URL_IP = RELEASE_URL;
+    /** 后台接口地址 */
+    public final static String URL = URL_IP + "DGFDS/";
+//------------------------------------------------------------
+    /** 生产环境图片拼接地址 */
+    public final static String RELEASE_IMG_URL = "http://120.76.184.175/files";
+    /** 测试环境图片拼接地址 */
+    public final static String TEST_IMG_URL = "";
+    /** 图片拼接IP地址 */
+    public final static String URL_IMG_IP = RELEASE_IMG_URL;
+//-------------------------------------------------------------
 	/** 初始化接口地址 */
 	public final static String URL_INIT = URL + "token.flow";
 	/** 注册接口地址 */
@@ -70,6 +79,18 @@ public final class Constants {
     public final static String URL_GET_HOME_DATA = URL + "branchSchool/getBanner.flow";
     /**首页图片*/
     public final static String URL_GET_HOME_IMG = URL + "banner/getBannerList.flow";
+    /**上传身份证照片*/
+    public final static String URL_UP_LOAD_IDCARD = URL + "upload/uploadIdcard.flow";
+    /**获取用户信息*/
+    public final static String URL_GET_STUDENT_INFO = URL + "registration/getRegInfo.flow";
+    /**更新报名信息*/
+    public final static String URL_UPDATA_STUDENT_INFO = URL + "registration/updateRegInfo.flow";
+    /**获取环信聊天的账号密码*/
+    public final static String URL_GET_EASE_USER = URL + "account/robotLogin.flow";
+    /**获取分享参数*/
+    public final static String URL_GET_SHARE_DATA = URL + "util/getShare.flow";
+    /**获取报名付款明细*/
+    public final static String URL_GET_SIGN_PAY_DETAIL = URL + "cost/getCostList.flow";
 
 	private Constants() {
 		// 常量配置类，不需要实例

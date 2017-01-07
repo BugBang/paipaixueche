@@ -13,7 +13,8 @@
             android:layout_width="@dimen/view_100"
             android:layout_height="@dimen/view_74"
             android:layout_centerVertical="true"
-            android:background="#323232"
+            android:src="#323232"
+            android:scaleType="centerCrop"
             android:layout_marginLeft="@dimen/view_20"
             />
         <LinearLayout

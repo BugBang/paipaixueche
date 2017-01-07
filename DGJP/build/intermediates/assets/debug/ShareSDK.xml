@@ -60,9 +60,9 @@
     <SinaWeibo
         Id="1"
         SortId="1"
-        AppKey="568898243"
-        AppSecret="38a4f8204cc784f81f9f0daaf31e02e3"
-        RedirectUrl="http://www.sharesdk.cn"
+        AppKey="1056578415"
+        AppSecret="7104e45b0a357f845438491aa3dc61b6"
+        RedirectUrl="http://www.paipaixueche.com/"
         ShareByAppClient="true"
         Enable="true" />
 
@@ -100,11 +100,12 @@
         <!--AppSecret="64020361b8ec4c99936c0e3999a9f249"-->
         <!--BypassApproval="true"-->
         <!--Enable="true" /> -->
+
     <Wechat
         Id="4"
         SortId="4"
-        AppId="wx129628f8a9b9b0d0"
-        AppSecret="042ef61485f2ea5699b9d92f72238eda"
+        AppId="wx7932188d040bea42"
+        AppSecret="48be5c16640bb4268a03be6d2bb7086e"
         BypassApproval="false"
         Enable="true" />
     
@@ -118,8 +119,8 @@
     <WechatMoments
         Id="5"
         SortId="5"
-        AppId="wx129628f8a9b9b0d0"
-        AppSecret="042ef61485f2ea5699b9d92f72238eda"
+        AppId="wx7932188d040bea42"
+        AppSecret="48be5c16640bb4268a03be6d2bb7086e"
         BypassApproval="false"
         Enable="true" />
         
@@ -134,8 +135,8 @@
 	<QQ
         Id="7"
         SortId="7"
-        AppId="100371282"
-        AppKey="aed9b0303e3ed1e27bae87c33761161d"
+        AppId="101371407"
+        AppKey="663a008769e567228a5f574afade5ea0"
         ShareByAppClient="true"
         Enable="true" />
     

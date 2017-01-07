@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.EditText;
@@ -16,15 +15,12 @@ import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.amap.api.location.AMapLocation;
-import com.amap.api.location.AMapLocationClient;
-import com.amap.api.location.AMapLocationClientOption;
-import com.amap.api.location.AMapLocationListener;
 import com.google.gson.Gson;
 import com.handmark.pulltorefresh.library.PullToRefreshBase;
 import com.handmark.pulltorefresh.library.PullToRefreshScrollView;
 import com.session.common.BaseFragment;
 import com.session.common.BaseRequestTask;
+import com.session.common.utils.SharedPreferencesUtil;
 import com.session.dgjp.Constants;
 import com.session.dgjp.R;
 import com.session.dgjp.enity.SignSchoolList;
@@ -35,7 +31,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-public class SignSchoolFragment extends BaseFragment implements AMapLocationListener {
+public class SignSchoolFragment extends BaseFragment  {
 
     private Drawable tvSelect;
     private Drawable tvNormal;
@@ -48,11 +44,14 @@ public class SignSchoolFragment extends BaseFragment implements AMapLocationList
     private int currentPosition;
     private boolean isShowFilter;
     private String currentInterface = "allType";
-    private AMapLocationClientOption mLocationOption = null;
-    private AMapLocationClient mlocationClient = null;
+//    private AMapLocationClientOption mLocationOption = null;
+//    private AMapLocationClient mlocationClient = null;
     private Gson mGson;
     private SignSchoolListAdapter mSignSchoolListAdapter;
     private PullToRefreshScrollView mPullToRefreshScrollView;
+    private float mLatitude;
+    private float mLongitude;
+
 
     private static final String All = "allType";
     private static final String DISTANCE = "distanceType"; //距离
@@ -72,25 +71,8 @@ public class SignSchoolFragment extends BaseFragment implements AMapLocationList
 
     @Override
     protected void init(Bundle savedInstanceState) {
+        initLocal();
         mSignSchoolListAdapter = new SignSchoolListAdapter(model, act);
-        mlocationClient = new AMapLocationClient(act);
-        //初始化定位参数
-        mLocationOption = new AMapLocationClientOption();
-        mLocationOption.setOnceLocation(true);
-        //设置定位监听
-        mlocationClient.setLocationListener(this);
-        //设置定位模式为高精度模式，Battery_Saving为低功耗模式，Device_Sensors是仅设备模式
-        mLocationOption.setLocationMode(AMapLocationClientOption.AMapLocationMode.Hight_Accuracy);
-        //设置定位间隔,单位毫秒,默认为2000ms
-        //        mLocationOption.setInterval(2000);
-        //设置定位参数
-        mlocationClient.setLocationOption(mLocationOption);
-        // 此方法为每隔固定时间会发起一次定位请求，为了减少电量消耗或网络流量消耗，
-        // 注意设置合适的定位时间的间隔（最小间隔支持为2000ms），并且在合适时间调用stopLocation()方法来取消定位请求
-        // 在定位结束后，在合适的生命周期调用onDestroy()方法
-        // 在单次定位情况下，定位无论成功与否，都无需调用stopLocation()方法移除请求，定位sdk内部会移除
-        //启动定位
-        mlocationClient.startLocation();
 
         tvSelect = getResources().getDrawable(R.drawable.triangle_select);
         tvSelect.setBounds(0, 0, tvSelect.getMinimumWidth(), tvSelect.getMinimumHeight());
@@ -99,7 +81,7 @@ public class SignSchoolFragment extends BaseFragment implements AMapLocationList
         tvNormal.setBounds(0, 0, tvNormal.getMinimumWidth(), tvNormal.getMinimumHeight());
 
         mPullToRefreshScrollView = (PullToRefreshScrollView) view.findViewById(R.id.pull_refresh);
-        mPullToRefreshScrollView.setMode(PullToRefreshBase.Mode.BOTH);
+        mPullToRefreshScrollView.setMode(PullToRefreshBase.Mode.PULL_FROM_START);
         mPullToRefreshScrollView.setOnRefreshListener(new PullToRefreshBase.OnRefreshListener<ScrollView>() {
             SimpleDateFormat formatter = new SimpleDateFormat("HH:mm:ss ");
             Date curDate = new Date(System.currentTimeMillis());
@@ -165,13 +147,18 @@ public class SignSchoolFragment extends BaseFragment implements AMapLocationList
                 Bundle _b = new Bundle();
                 _b.putInt(SignSchoolDetailsFragment.SCHOOL_ID, data.get(position).getId());
                 _b.putString(SignSchoolDetailsFragment.SCHOOL_TITLE, data.get(position).getName());
-                logI("id=" + data.get(position).getId());
                 addFragment(R.id.content, SignSchoolDetailsFragment.newInstance(), _b);
             }
         });
         mListView.setAdapter(mSignSchoolListAdapter);
         intiEditView();
+        getData();
 
+    }
+
+    private void initLocal() {
+        mLatitude = SharedPreferencesUtil.getFloat(SharedPreferencesUtil.Latitude,-1f);
+        mLongitude = SharedPreferencesUtil.getFloat(SharedPreferencesUtil.Longitude,-1f);
     }
 
 
@@ -195,7 +182,7 @@ public class SignSchoolFragment extends BaseFragment implements AMapLocationList
     }
 
     private void getData() {
-        ProgressDialog progressDialog = buildProcessDialog(null, "请稍等", false);
+        ProgressDialog progressDialog = buildProcessDialog(null, "请稍等...", false);
         SignSchoolListRequsetData requestData = new SignSchoolListRequsetData();
         requestData.setLatitude(mLatitude);
         requestData.setLongitude(mLongitude);
@@ -214,7 +201,6 @@ public class SignSchoolFragment extends BaseFragment implements AMapLocationList
         new BaseRequestTask() {
             @Override
             protected void onResponse(int code, String msg, String response) {
-                logI("response="+response);
                 try {
                     switch (code) {
                         case BaseRequestTask.CODE_SUCCESS:
@@ -325,28 +311,5 @@ public class SignSchoolFragment extends BaseFragment implements AMapLocationList
         }
         mTvItem[position].setTextColor(Color.parseColor("#ff4848"));
         mTvItem[position].setCompoundDrawables(null, null, tvSelect, null);
-    }
-
-    private double mLatitude;
-    private double mLongitude;
-
-    @Override
-    public void onLocationChanged(AMapLocation amapLocation) {
-        if (amapLocation != null) {
-            if (amapLocation.getErrorCode() == 0) {
-                //定位成功回调信息，设置相关消息
-                mLatitude = amapLocation.getLatitude();//获取纬度
-                mLongitude = amapLocation.getLongitude();//获取经度
-                getData();
-            } else {
-                mLatitude = 0;//获取纬度
-                mLongitude = 0;//获取经度
-                getData();
-                //显示错误信息ErrCode是错误码，errInfo是错误信息，详见错误码表。
-                Log.e("AmapError", "location Error, ErrCode:"
-                        + amapLocation.getErrorCode() + ", errInfo:"
-                        + amapLocation.getErrorInfo());
-            }
-        }
     }
 }

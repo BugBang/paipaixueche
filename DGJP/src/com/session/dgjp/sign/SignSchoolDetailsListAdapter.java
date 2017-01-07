@@ -4,10 +4,13 @@ import android.app.Activity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.session.common.BXBaseAdapter;
 import com.session.common.ViewHolder;
+import com.session.dgjp.Constants;
 import com.session.dgjp.R;
 import com.session.dgjp.enity.SchoolDetails;
 
@@ -26,7 +29,7 @@ public class SignSchoolDetailsListAdapter extends BXBaseAdapter<SchoolDetails.Sc
         if (convertView == null) {
             convertView = mInflater.inflate(R.layout.sign_school_details_item, null);
         }
-//        ImageView mIvClassPhoto = ViewHolder.get(convertView, R.id.iv_class_photo);
+        ImageView mIvClassPhoto = ViewHolder.get(convertView, R.id.iv_class_photo);
         TextView mTvClassTitle = ViewHolder.get(convertView, R.id.tv_class_title);
 //        TextView mClassSignNum = ViewHolder.get(convertView, R.id.class_sign_num);
         TextView mTvClassDetail = ViewHolder.get(convertView, R.id.tv_class_detail);
@@ -40,7 +43,7 @@ public class SignSchoolDetailsListAdapter extends BXBaseAdapter<SchoolDetails.Sc
             }
         });
         if (model != null) {
-//            Glide.with(mActivity).load(Constants.TEST_URL+model.getSmallPhotoUrl()).into(mIvClassPhoto);
+            Glide.with(mActivity).load(Constants.TEST_URL+model.getPhoto()).placeholder(R.drawable.placeholder_img).into(mIvClassPhoto);
             mTvClassTitle.setText(model.getClassName());
             mTvClassDetail.setText(model.getClassTitle());
             mTvClassMoney.setText("￥"+model.getClassCost());

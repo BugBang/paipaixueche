@@ -1,9 +1,5 @@
 package com.session.dgjp.login;
 
-import java.util.List;
-
-import org.json.JSONObject;
-
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
@@ -26,7 +22,7 @@ import com.session.common.utils.SharedPreferencesUtil;
 import com.session.dgjp.AppInstance;
 import com.session.dgjp.CacheValues;
 import com.session.dgjp.Constants;
-import com.session.dgjp.HomeActivity;
+import com.session.dgjp.MainActivity;
 import com.session.dgjp.R;
 import com.session.dgjp.enity.Account;
 import com.session.dgjp.enity.BranchSchool;
@@ -36,6 +32,10 @@ import com.session.dgjp.request.GetCityBranchSchoolListRequestData;
 import com.session.dgjp.request.GetVerifyCodeRequestData;
 import com.session.dgjp.request.LoginRequestData;
 import com.session.dgjp.request.RegisterRequestData;
+
+import org.json.JSONObject;
+
+import java.util.List;
 
 /** 注册 */
 public class RegisterActivity extends BaseActivity {
@@ -308,7 +308,7 @@ public class RegisterActivity extends BaseActivity {
 
 	/** 进入主页 */
 	private void gotoHome() {
-		Intent in = new Intent(ctx, HomeActivity.class);
+		Intent in = new Intent(ctx, MainActivity.class);
 		in.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
 		startActivity(in);
 		finish();

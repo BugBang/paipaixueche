@@ -30,11 +30,11 @@ public class SignSchoolList {
         private String address;
         private int countNum;
         private String smallPhotoUrl;
-        private int score;
+        private double score;
         private String name;
         private double interval;
         private int id;
-        private int expenses;
+        private double expenses;
         private String distance;
 
         public String getDistance() {
@@ -69,11 +69,11 @@ public class SignSchoolList {
             this.smallPhotoUrl = smallPhotoUrl;
         }
 
-        public int getScore() {
+        public double getScore() {
             return score;
         }
 
-        public void setScore(int score) {
+        public void setScore(double score) {
             this.score = score;
         }
 
@@ -101,11 +101,11 @@ public class SignSchoolList {
             this.id = id;
         }
 
-        public int getExpenses() {
+        public double getExpenses() {
             return expenses;
         }
 
-        public void setExpenses(int expenses) {
+        public void setExpenses(double expenses) {
             this.expenses = expenses;
         }
 

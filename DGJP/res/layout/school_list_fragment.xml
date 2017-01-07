@@ -173,14 +173,26 @@
                 android:src="@drawable/list" />
         </LinearLayout>
 
+        <!--<ImageView-->
+            <!---->
+            <!--android:id="@+id/ivLocate"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="start|bottom"-->
+            <!--android:layout_marginBottom="@dimen/view_20"-->
+            <!--android:layout_marginLeft="@dimen/view_14"-->
+            <!--android:layout_marginStart="@dimen/view_14"-->
+            <!--android:contentDescription="@null"-->
+            <!--android:src="@drawable/locate" />-->
         <ImageView
+
             android:id="@+id/ivLocate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="start|bottom"
-            android:layout_marginBottom="@dimen/view_20"
-            android:layout_marginLeft="@dimen/view_14"
-            android:layout_marginStart="@dimen/view_14"
+            android:layout_gravity="end|bottom"
+            android:layout_marginBottom="@dimen/view_240"
+            android:layout_marginEnd="@dimen/view_16"
+            android:layout_marginRight="@dimen/view_16"
             android:contentDescription="@null"
             android:src="@drawable/locate" />
 
@@ -188,7 +200,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end|bottom"
-            android:layout_marginBottom="@dimen/view_20"
+            android:layout_marginBottom="@dimen/view_180"
             android:layout_marginEnd="@dimen/view_16"
             android:layout_marginRight="@dimen/view_16"
             android:orientation="vertical" >

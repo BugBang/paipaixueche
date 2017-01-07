@@ -17,7 +17,6 @@ import com.session.common.utils.CryptoUtil;
 import com.session.common.utils.SharedPreferencesUtil;
 import com.session.dgjp.AppInstance;
 import com.session.dgjp.Constants;
-import com.session.dgjp.HomeActivity;
 import com.session.dgjp.MainActivity;
 import com.session.dgjp.R;
 import com.session.dgjp.enity.Account;
@@ -72,14 +71,12 @@ public class LoginActivity extends BaseActivity {
 						toastShort("验证码发送到" + phone.substring(7, 11) + "手机，请注意查收！");
 						totalTime = TOTAL_TIME;
 						new CountDownTimer(TOTAL_TIME * 1000, 1000) {
-
 							@Override
 							public void onTick(long millisUntilFinished) {
 								btnCaptcha.setText("获取验证码" + "(" + (--totalTime) + ")");
 								btnCaptcha.setBackgroundResource(R.drawable.btn_white_enable);
 								btnCaptcha.setTextColor(getResources().getColor(R.color.text_hint));
 							}
-
 							@Override
 							public void onFinish() {
 								btnCaptcha.setText("获取验证码");

@@ -48,12 +48,13 @@
             android:layout_weight="1"
             android:background="@drawable/btn_white_1"
             android:text="@string/cancel"
-            android:textColor="@color/text_blue"
+            android:textColor="@color/app_color"
             android:textSize="15sp" />
 
         <Button
             android:id="@id/btnPositive"
             style="@style/ButtonBlue"
+            android:background="@color/app_color"
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"

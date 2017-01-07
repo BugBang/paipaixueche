@@ -1,17 +1,5 @@
 package com.session.common;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Modifier;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-
-import org.apache.http.NameValuePair;
-import org.apache.http.message.BasicNameValuePair;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -31,6 +19,19 @@ import com.session.dgjp.Constants;
 import com.session.dgjp.enity.Account;
 import com.session.dgjp.login.LoginActivity;
 import com.session.dgjp.request.LoginRequestData;
+
+import org.apache.http.NameValuePair;
+import org.apache.http.client.utils.URLEncodedUtils;
+import org.apache.http.message.BasicNameValuePair;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.lang.reflect.Field;
+import java.lang.reflect.Modifier;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 /** 请求基类 */
 public abstract class BaseRequestTask extends AsyncTask<Void, Integer, String> {
@@ -111,18 +112,18 @@ public abstract class BaseRequestTask extends AsyncTask<Void, Integer, String> {
 
 	@Override
 	protected void onPostExecute(String result) {
-		super.onPostExecute(result);
+        super.onPostExecute(result);
 		if (null != mProgressDialog && mProgressDialog.isShowing()) {
 			mProgressDialog.cancel();
 		}
 		// ToastUtil.showShort(BaseApplication.getInstance(), result);
 		try {
-			JSONObject jobj = new JSONObject(result);
+            LogUtil.i("com.session.common.result解析前 = ",result);
+            JSONObject jobj = new JSONObject(result);
 			int code = jobj.optInt(KEY_CODE);
 			String msg = jobj.optString(KEY_MSG);
-			if (code == CODE_RE_INIT || code == CODE_SESSION_ABATE) {
+            if (code == CODE_RE_INIT || code == CODE_SESSION_ABATE) {
 				new InitRequestTask() {
-
 					@Override
 					protected void onResponse(int code, String msg, String response) {
 						if (code == CODE_SUCCESS) {
@@ -146,14 +147,15 @@ public abstract class BaseRequestTask extends AsyncTask<Void, Integer, String> {
 				String data = jobj.optString(KEY_DATA);
 				if (!TextUtils.isEmpty(data)) {
 					String str_data = CryptoUtil.decrypt(data);
+                    LogUtil.i("com.session.common.result解析后 = ",str_data);
 					onResponse(code, msg, str_data);
-					LogUtil.e(TAG, str_data);
+                    LogUtil.e(TAG, str_data);
 				} else {
 					onResponse(code, msg, null);
 				}
 			}
 		} catch (JSONException e) {
-			e.printStackTrace();
+            e.printStackTrace();
 			onResponse(99, "返回结果无法解释", result);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -266,7 +268,9 @@ public abstract class BaseRequestTask extends AsyncTask<Void, Integer, String> {
 		} else {
 			executeOnExecutor(THREAD_POOL_EXECUTOR);
 		}
-	}
+        LogUtil.e("com.session.common.url == ",url);
+        LogUtil.e("com.session.common.params == ",URLEncodedUtils.format(mParams,"utf-8"));
+    }
 
 	public void request(String url, List<NameValuePair> params, ProgressDialog dialog) {
 		if (TextUtils.isEmpty(url)) {

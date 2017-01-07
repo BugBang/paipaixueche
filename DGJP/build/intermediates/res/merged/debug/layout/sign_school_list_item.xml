@@ -18,7 +18,7 @@
             android:layout_height="@dimen/view_80"
             android:layout_centerVertical="true"
             android:layout_marginLeft="@dimen/view_25"
-            android:background="#323232"
+            android:background="#ffffff"
             />
 
         <LinearLayout

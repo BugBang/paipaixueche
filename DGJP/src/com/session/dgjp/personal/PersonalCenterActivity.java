@@ -75,7 +75,6 @@ public class PersonalCenterActivity extends BaseActivity {
 	/** 版本检测 */
 	private void checkVersion() {
 		UpdateUtil.checkUpdate(new OnVersionInfoListener() {
-
 			@Override
 			public void onVersionInfo(VersionInfo info) {
 				int code = AppUtil.getVersionCode(getApplicationContext());

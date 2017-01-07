@@ -1,8 +1,5 @@
 package com.session.dgjp;
 
-import java.io.IOException;
-import java.util.Vector;
-
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -23,6 +20,9 @@ import com.mining.app.zxing.decoding.InactivityTimer;
 import com.mining.app.zxing.view.ViewfinderView;
 import com.session.common.BaseActivity;
 import com.session.common.utils.RegularMatchingUtil;
+
+import java.io.IOException;
+import java.util.Vector;
 
 /** 扫描二维码 */
 public class ScanQRCodeActivity extends BaseActivity implements OnClickListener, Callback {
@@ -61,7 +61,7 @@ public class ScanQRCodeActivity extends BaseActivity implements OnClickListener,
 			finish();
 			break;
 		case R.id.flashlight:
-			 CameraManager.get().flashHandler();
+			CameraManager.get().flashHandler();
 			break;
 		default:
 			break;
@@ -113,6 +113,7 @@ public class ScanQRCodeActivity extends BaseActivity implements OnClickListener,
 	 * @param barcode
 	 */
 	public void handleDecode(Result result, Bitmap barcode) {
+        logI("handleDecode result = " + result.getText());
 		inactivityTimer.onActivity();
 		// playBeepSoundAndVibrate();
 		String resultString = result.getText();

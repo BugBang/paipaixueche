@@ -220,7 +220,7 @@
             android:textSize="@dimen/text_medium_xxx" />
 
         <Button
-            android:id="@id/btnCaptcha"
+            android:id="@+id/btnCaptcha"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/btn_small"
             android:background="@drawable/btn_white_1"
@@ -229,13 +229,14 @@
             android:paddingRight="@dimen/view_5"
             android:paddingTop="@dimen/view_2"
             android:text="@string/get_captcha"
-            android:textColor="@color/blue"
+            android:textColor="@color/app_color"
             android:textSize="@dimen/text_medium_xxx" />
     </LinearLayout>
 
     <Button
         android:id="@id/btnRegister"
         style="@style/ButtonBlue"
+        android:background="@color/app_color"
         android:layout_marginLeft="@dimen/pager_paddding"
         android:layout_marginRight="@dimen/pager_paddding"
         android:layout_marginTop="@dimen/login_et_margin_top"
@@ -246,12 +247,5 @@
         android:layout_height="0dp"
         android:layout_weight="1" />
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="30dp"
-        android:contentDescription="@null"
-        android:src="@drawable/carlulu_logo" />
 
 </LinearLayout>

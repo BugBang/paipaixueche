@@ -11,6 +11,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
@@ -30,6 +31,8 @@ import com.session.dgjp.request.CommonRequestData;
 import com.session.dgjp.school.SchoolListFragment;
 import com.session.dgjp.school.SchoolListFragment.OnMapListChangeListener;
 import com.session.dgjp.training.TrainingListFragment;
+import com.session.dgjp.usb.OnTabActivityResultListener;
+import com.session.dgjp.usb.OnTabFragmentResultListener;
 import com.session.dgjp.view.MyViewPager;
 
 import org.json.JSONObject;
@@ -40,7 +43,7 @@ import java.util.List;
 /**
  * 主页
  */
-public class HomeActivity extends BaseActivity implements OnMapListChangeListener {
+public class HomeActivity extends BaseActivity implements OnMapListChangeListener,OnTabActivityResultListener{
 
     public final static String FROM_NOTIFICATION = "from_notification";//表示intent时候来源于通知
     public final static String ACTION_ORDER_SUCCESS = "action_order_success";//表示直接创建订单并完成支付
@@ -51,24 +54,27 @@ public class HomeActivity extends BaseActivity implements OnMapListChangeListene
     private List<BaseFragment> fragments = new ArrayList<BaseFragment>();
     // tab的id,顺序与fragments的顺序一致
     private List<Integer> ids = new ArrayList<Integer>();
-//    private TextView msgCountTv;
+    private TextView msgCountTv;
     private MyMessageDao myMessageDao;
     private BaseFragmentPagerAdapter adapter;
     /*private TrainerListFragment trainerListFragment;
     private MapFragment mapFragment;*/
     private String schoolName;
+
     public String getSchoolName() {
         return schoolName;
     }
+
     public void setSchoolName(String schoolName) {
         this.schoolName = schoolName;
     }
+
     private BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
 
         @Override
         public void onReceive(Context context, Intent intent) {
             if (ACTION_MSG_COUNT_CHANGED.equals(intent.getAction())) {
-//                showUnreadMsgCount();
+                showUnreadMsgCount();
             } else if (ACTION_ORDER_SUCCESS.equals(intent.getAction())) {
                 ((SchoolListFragment) fragments.get(0)).updateLatestSchool();
                 ((OrderListFragment) fragments.get(1)).setNeedLoadFlag(true);
@@ -76,7 +82,7 @@ public class HomeActivity extends BaseActivity implements OnMapListChangeListene
 
             }
             /*if(intent.getBooleanExtra(ORDER_PAY_SUCCESS, false))
-			{
+            {
 				((SchoolListFragment)fragments.get(0)).updateLatestSchool();
 				OrderListFragment fragment = (OrderListFragment) fragments.get(1);
 				if (fragment.isFirstLoading())
@@ -97,9 +103,9 @@ public class HomeActivity extends BaseActivity implements OnMapListChangeListene
     @Override
     protected void init(Bundle savedInstanceState) {
         setContentView(R.layout.act_home);
-        //		initTitle(R.string.app_name);
-        //		findViewById(R.id.ivTitleRight).setOnClickListener(this);
-        //		msgCountTv = (TextView) findViewById(R.id.tvMsgCount);
+        initTitle(R.string.app_name, false);
+        findViewById(R.id.ivTitleRight).setOnClickListener(this);
+        msgCountTv = (TextView) findViewById(R.id.tvMsgCount);
         SchoolListFragment schoolListFragment = new SchoolListFragment();
         schoolListFragment.setOnMapListChangeListener(this);
         fragments.add(schoolListFragment);
@@ -116,7 +122,6 @@ public class HomeActivity extends BaseActivity implements OnMapListChangeListene
         adapter = new BaseFragmentPagerAdapter(getFragmentManager(), fragments);
         viewPager.setAdapter(adapter);
         viewPager.setOnPageChangeListener(new OnPageChangeListener() {
-
             @Override
             public void onPageSelected(int index) {
                 int id = radioGroup.getCheckedRadioButtonId();
@@ -158,6 +163,8 @@ public class HomeActivity extends BaseActivity implements OnMapListChangeListene
         if (AppInstance.getInstance().getExtraMap().getExtra(HomeActivity.FROM_NOTIFICATION, false)) {
             startActivity(new Intent(ctx, MessageActivity.class));
         }
+
+        showUnreadMsgCount();
     }
 
     /**
@@ -197,7 +204,6 @@ public class HomeActivity extends BaseActivity implements OnMapListChangeListene
      */
     private void checkVersion() {
         UpdateUtil.checkUpdate(new OnVersionInfoListener() {
-
             @Override
             public void onVersionInfo(VersionInfo info) {
                 int code = AppUtil.getVersionCode(getApplicationContext());
@@ -216,9 +222,9 @@ public class HomeActivity extends BaseActivity implements OnMapListChangeListene
             //		case R.id.ivTitleLeft: // 个人中心
             //			startActivity(new Intent(ctx, PersonalCenterActivity.class));
             //			break;
-            //		case R.id.ivTitleRight: // 我的消息
-            //			startActivity(new Intent(ctx, MessageActivity.class));
-            //			break;
+            case R.id.ivTitleRight: // 我的消息
+                startActivity(new Intent(ctx, MessageActivity.class));
+                break;
             default:
                 super.onClick(v);
                 break;
@@ -241,23 +247,22 @@ public class HomeActivity extends BaseActivity implements OnMapListChangeListene
         return radioGroup;
     }
 
-//    private void showUnreadMsgCount() {
-//        try {
-//            if (myMessageDao == null) {
-//                myMessageDao = new MyMessageDao();
-//            }
-//            long count = myMessageDao.count(account.getAccount(), false, null);
-//            if (count > 0) {
-//                msgCountTv.setVisibility(View.VISIBLE);
-//                msgCountTv.setText(String.valueOf(count));
-//            } else {
-//                msgCountTv.setVisibility(View.INVISIBLE);
-//            }
-//        } catch (SQLException e) {
-//            msgCountTv.setVisibility(View.INVISIBLE);
-//            LogUtil.e(TAG, e.toString(), e);
-//        }
-//    }
+    private void showUnreadMsgCount() {
+        try {
+            if (myMessageDao == null) {
+                myMessageDao = new MyMessageDao();
+            }
+            long count = myMessageDao.count(account.getAccount(), false, null);
+            if (count > 0) {
+                msgCountTv.setVisibility(View.VISIBLE);
+                msgCountTv.setText(String.valueOf(count));
+            } else {
+                msgCountTv.setVisibility(View.INVISIBLE);
+            }
+        } catch (Exception e) {
+            msgCountTv.setVisibility(View.INVISIBLE);
+        }
+    }
 
     @Override
     protected void onDestroy() {
@@ -268,7 +273,7 @@ public class HomeActivity extends BaseActivity implements OnMapListChangeListene
     @Override
     protected void onResume() {
         super.onResume();
-//        showUnreadMsgCount();
+        showUnreadMsgCount();
     }
 
     @Override
@@ -302,5 +307,10 @@ public class HomeActivity extends BaseActivity implements OnMapListChangeListene
         }
     }
 
-
+    @Override
+    public void onTabActivityResult(int requestCode, int resultCode, Intent data) {
+        OrderListFragment orderListFragment = OrderListFragment.newInstance();
+        OnTabFragmentResultListener listener = (OnTabFragmentResultListener) orderListFragment;
+        listener.onTabFragmentResult(requestCode, resultCode, data);
+    }
 }

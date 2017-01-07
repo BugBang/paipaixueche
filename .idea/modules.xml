@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/DGJP/DGJP.iml" filepath="$PROJECT_DIR$/DGJP/DGJP.iml" />
       <module fileurl="file://$PROJECT_DIR$/DGJX/DGJX.iml" filepath="$PROJECT_DIR$/DGJX/DGJX.iml" />
       <module fileurl="file://$PROJECT_DIR$/PullToRefresh/PullToRefresh.iml" filepath="$PROJECT_DIR$/PullToRefresh/PullToRefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kefu-easeui/kefu-easeui.iml" filepath="$PROJECT_DIR$/kefu-easeui/kefu-easeui.iml" />
       <module fileurl="file://$PROJECT_DIR$/paipaixueche.iml" filepath="$PROJECT_DIR$/paipaixueche.iml" />
     </modules>
   </component>

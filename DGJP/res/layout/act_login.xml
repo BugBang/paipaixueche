@@ -77,13 +77,14 @@
                 android:paddingRight="@dimen/view_5"
                 android:paddingTop="@dimen/view_2"
                 android:text="@string/get_captcha"
-                android:textColor="@color/blue"
+                android:textColor="@color/app_color"
                 android:textSize="@dimen/text_medium_xxx" />
         </LinearLayout>
 
         <Button
             android:id="@+id/btnLogin"
             style="@style/ButtonBlue"
+            android:background="@color/app_color"
             android:layout_marginTop="@dimen/login_et_margin_top"
             android:text="@string/login" />
 
@@ -94,7 +95,7 @@
             android:layout_marginTop="@dimen/view_15"
             android:background="@drawable/btn_white_1"
             android:text="@string/register"
-            android:textColor="@color/blue"
+            android:textColor="@color/app_color"
             android:textSize="@dimen/text_btn" />
     </LinearLayout>
 
@@ -103,12 +104,6 @@
         android:layout_height="0dp"
         android:layout_weight="1" />
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="30dp"
-        android:contentDescription="@null"
-        android:src="@drawable/carlulu_logo" />
+
 
 </LinearLayout>
