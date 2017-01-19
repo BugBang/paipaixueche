@@ -5,6 +5,7 @@ import android.content.SharedPreferences;
 
 import com.hyphenate.chat.ChatClient;
 import com.hyphenate.helpdesk.easeui.UIProvider;
+import com.orhanobut.logger.Logger;
 import com.session.common.BaseApplication;
 import com.session.common.ExtraMap;
 import com.session.common.utils.AppUtil;
@@ -82,6 +83,7 @@ public class AppInstance extends BaseApplication {
     public void onCreate() {
         super.onCreate();
         boolean isDebug = AppUtil.isDebuggable(this);
+        Logger.init("BAO");
         JPushInterface.setDebugMode(isDebug);
         JPushInterface.init(this);
         MobclickAgent.setDebugMode(true);

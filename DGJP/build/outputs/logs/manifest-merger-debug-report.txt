@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:2:1-352:12
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:2:1-367:12
 	package
 		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:3:5-31
 	android:versionName
@@ -18,6 +18,9 @@ ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:multidex:1.0.1] C:\Users\user\paipaixueche\DGJP\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
 MERGED from [paipaixueche:PullToRefresh:unspecified] C:\Users\user\paipaixueche\DGJP\build\intermediates\exploded-aar\paipaixueche\PullToRefresh\unspecified\AndroidManifest.xml:7:5-43
 MERGED from [paipaixueche:kefu-easeui:unspecified] C:\Users\user\paipaixueche\DGJP\build\intermediates\exploded-aar\paipaixueche\kefu-easeui\unspecified\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\user\paipaixueche\DGJP\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [org.xwalk:xwalk_core_library:22.52.561.4] C:\Users\user\paipaixueche\DGJP\build\intermediates\exploded-aar\org.xwalk\xwalk_core_library\22.52.561.4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.orhanobut:logger:1.8] C:\Users\user\paipaixueche\DGJP\build\intermediates\exploded-aar\com.orhanobut\logger\1.8\AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
 		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:9:9-38
 	android:minSdkVersion
@@ -148,462 +151,486 @@ uses-permission#android.permission.BLUETOOTH_ADMIN
 ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:53:5-74
 	android:name
 		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:53:22-71
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:55:5-80
+	android:name
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:55:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:56:5-71
+MERGED from [paipaixueche:kefu-easeui:unspecified] C:\Users\user\paipaixueche\DGJP\build\intermediates\exploded-aar\paipaixueche\kefu-easeui\unspecified\AndroidManifest.xml:14:5-71
+	android:name
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:56:22-68
 supports-screens
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:55:5-51
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:59:5-51
 	android:anyDensity
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:55:23-48
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:59:23-48
 application
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:57:5-350:19
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:61:5-365:19
 MERGED from [paipaixueche:PullToRefresh:unspecified] C:\Users\user\paipaixueche\DGJP\build\intermediates\exploded-aar\paipaixueche\PullToRefresh\unspecified\AndroidManifest.xml:9:5-20
 MERGED from [paipaixueche:kefu-easeui:unspecified] C:\Users\user\paipaixueche\DGJP\build\intermediates\exploded-aar\paipaixueche\kefu-easeui\unspecified\AndroidManifest.xml:29:5-74:19
+MERGED from [com.orhanobut:logger:1.8] C:\Users\user\paipaixueche\DGJP\build\intermediates\exploded-aar\com.orhanobut\logger\1.8\AndroidManifest.xml:11:5-47
 	android:label
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:61:9-41
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:65:9-41
+	android:hardwareAccelerated
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:68:9-43
 	android:allowBackup
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:59:9-35
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:63:9-35
 	android:icon
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:60:9-45
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:64:9-45
 	android:theme
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:63:9-40
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:67:9-40
 	android:logo
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:62:9-45
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:66:9-45
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:58:9-36
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:62:9-36
 activity#com.session.dgjp.login.WelcomActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:66:9-75:20
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:72:9-81:20
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:68:13-49
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:74:13-49
 	android:theme
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:69:13-54
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:75:13-54
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:67:13-65
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:73:13-65
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:70:13-74:29
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:76:13-80:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:71:17-69
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:77:17-69
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:71:25-66
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:77:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:73:17-77
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:79:17-77
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:73:27-74
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:79:27-74
 activity#com.session.dgjp.login.LoginActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:77:9-79:52
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:83:9-86:52
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:79:13-49
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:86:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:84:13-52
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:78:13-64
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:85:13-64
 activity#com.session.dgjp.login.RegisterActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:81:9-83:52
-	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:83:13-49
-	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:82:13-67
-activity#com.session.dgjp.MainActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:85:9-87:52
-	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:87:13-49
-	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:86:13-57
-activity#com.session.dgjp.HomePagerActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:89:9-91:52
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:88:9-91:52
 	android:screenOrientation
 		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:91:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:89:13-52
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:90:13-62
-activity#com.session.dgjp.sign.SignActivity
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:90:13-67
+activity#com.session.dgjp.MainActivity
 ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:93:9-96:52
 	android:screenOrientation
 		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:96:13-49
 	android:windowSoftInputMode
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:95:13-54
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:94:13-64
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:94:13-62
-activity#com.session.dgjp.HomeActivity
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:95:13-57
+activity#com.session.dgjp.HomePagerActivity
 ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:98:9-101:52
 	android:screenOrientation
 		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:101:13-49
-	android:launchMode
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:100:13-44
+	android:windowSoftInputMode
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:99:13-64
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:99:13-57
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:100:13-62
+activity#com.session.dgjp.sign.SignActivity
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:103:9-106:52
+	android:screenOrientation
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:106:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:105:13-64
+	android:name
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:104:13-62
+activity#com.session.dgjp.HomeActivity
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:108:9-112:52
+	android:screenOrientation
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:112:13-49
+	android:launchMode
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:110:13-44
+	android:windowSoftInputMode
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:111:13-64
+	android:name
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:109:13-57
 activity#com.session.dgjp.personal.PersonalCenterActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:103:9-105:52
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:114:9-116:52
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:105:13-49
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:116:13-49
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:104:13-76
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:115:13-76
 activity#com.session.dgjp.personal.SetPayPasswordActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:107:9-109:52
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:118:9-120:52
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:109:13-49
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:120:13-49
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:108:13-76
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:119:13-76
 activity#com.session.dgjp.personal.ModifyPayPasswordActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:111:9-113:52
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:122:9-124:52
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:113:13-49
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:124:13-49
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:112:13-79
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:123:13-79
 activity#com.session.dgjp.personal.ResetPayPasswordActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:115:9-117:52
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:126:9-128:52
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:117:13-49
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:128:13-49
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:116:13-78
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:127:13-78
 activity#com.session.dgjp.personal.MyWalletActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:119:9-121:52
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:130:9-132:52
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:121:13-49
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:132:13-49
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:120:13-70
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:131:13-70
 activity#com.session.dgjp.personal.MyCouponActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:123:9-125:52
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:134:9-136:52
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:125:13-49
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:136:13-49
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:124:13-70
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:135:13-70
 activity#com.session.dgjp.personal.PersonalInfoActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:127:9-129:52
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:138:9-140:52
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:129:13-49
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:140:13-49
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:128:13-74
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:139:13-74
 activity#com.session.dgjp.personal.AboutAppActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:131:9-133:52
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:142:9-144:52
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:133:13-49
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:144:13-49
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:132:13-70
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:143:13-70
 activity#com.session.dgjp.message.MessageActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:135:9-137:52
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:146:9-148:52
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:137:13-49
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:148:13-49
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:136:13-68
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:147:13-68
 activity#com.session.dgjp.training.TrainingEvaluationActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:139:9-142:20
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:150:9-153:20
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:141:13-49
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:152:13-49
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:140:13-80
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:151:13-80
 activity#com.session.dgjp.trainer.TrainerListActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:144:9-146:52
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:155:9-157:52
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:146:13-49
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:157:13-49
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:145:13-72
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:156:13-72
+activity#com.session.dgjp.school.SchoolListActivity
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:159:9-161:52
+	android:screenOrientation
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:161:13-49
+	android:name
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:160:13-70
 activity#com.session.dgjp.trainer.OrderActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:148:9-150:52
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:163:9-165:52
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:150:13-49
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:165:13-49
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:149:13-66
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:164:13-66
 activity#com.session.dgjp.order.OrderPaymentActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:152:9-154:52
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:167:9-169:52
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:154:13-49
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:169:13-49
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:153:13-71
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:168:13-71
 activity#com.session.dgjp.order.PaidOrderDetailActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:156:9-158:52
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:171:9-173:52
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:158:13-49
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:173:13-49
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:157:13-74
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:172:13-74
 activity#com.session.dgjp.order.UnpaidOrderDetailActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:160:9-162:52
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:175:9-177:52
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:162:13-49
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:177:13-49
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:161:13-76
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:176:13-76
 activity#com.session.dgjp.ScanQRCodeActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:164:9-166:52
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:179:9-181:52
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:166:13-49
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:181:13-49
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:165:13-63
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:180:13-63
 activity#com.session.dgjp.wxapi.WXPayEntryActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:168:9-171:46
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:183:9-186:46
 	android:launchMode
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:171:13-43
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:186:13-43
 	android:exported
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:170:13-36
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:185:13-36
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:169:13-69
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:184:13-69
 activity#com.alipay.sdk.app.H5PayActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:173:9-178:20
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:188:9-193:20
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:177:13-47
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:192:13-47
 	android:exported
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:176:13-37
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:191:13-37
 	android:configChanges
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:175:13-74
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:190:13-74
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:174:13-60
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:189:13-60
 activity#com.session.dgjp.UpActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:181:9-186:20
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:196:9-201:20
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:185:13-47
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:200:13-47
 	android:exported
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:184:13-37
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:199:13-37
 	android:configChanges
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:183:13-74
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:198:13-74
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:182:13-55
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:197:13-55
 activity#com.alipay.sdk.auth.AuthActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:189:9-194:20
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:204:9-209:20
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:193:13-47
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:208:13-47
 	android:exported
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:192:13-37
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:207:13-37
 	android:configChanges
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:191:13-74
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:206:13-74
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:190:13-60
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:205:13-60
 activity#com.session.dgjp.WebViewActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:195:9-200:20
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:210:9-215:20
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:199:13-47
-	android:exported
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:198:13-37
-	android:configChanges
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:197:13-74
-	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:196:13-60
-activity#com.session.dgjp.share.ShareActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:202:9-207:20
-	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:206:13-47
-	android:exported
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:205:13-37
-	android:configChanges
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:204:13-74
-	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:203:13-64
-activity#cn.jpush.android.ui.PushActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:210:9-221:20
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:214:13-47
 	android:exported
 		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:213:13-37
 	android:configChanges
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:212:13-63
-	android:theme
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:214:13-60
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:212:13-74
 	android:name
 		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:211:13-60
+activity#com.session.dgjp.share.ShareActivity
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:217:9-222:20
+	android:screenOrientation
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:221:13-47
+	android:exported
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:220:13-37
+	android:configChanges
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:219:13-74
+	android:name
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:218:13-64
+activity#cn.jpush.android.ui.PushActivity
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:225:9-236:20
+	android:exported
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:228:13-37
+	android:configChanges
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:227:13-63
+	android:theme
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:229:13-60
+	android:name
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:226:13-60
 intent-filter#android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity+com.session.dgjp
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:215:13-220:29
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:230:13-235:29
 action#cn.jpush.android.ui.PushActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:216:17-75
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:231:17-75
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:216:25-72
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:231:25-72
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:218:17-76
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:233:17-76
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:218:27-73
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:233:27-73
 category#com.session.dgjp
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:219:17-61
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:234:17-61
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:219:27-58
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:234:27-58
 service#cn.jpush.android.service.DownloadService
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:223:9-227:19
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:238:9-242:19
 	android:enabled
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:225:13-35
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:240:13-35
 	android:exported
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:226:13-37
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:241:13-37
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:224:13-68
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:239:13-68
 service#cn.jpush.android.service.PushService
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:231:9-241:19
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:246:9-256:19
 	android:enabled
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:233:13-35
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:248:13-35
 	android:exported
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:234:13-37
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:249:13-37
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:232:13-64
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:247:13-64
 intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:235:13-240:29
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:250:13-255:29
 action#cn.jpush.android.intent.REGISTER
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:236:17-75
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:251:17-75
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:236:25-72
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:251:25-72
 action#cn.jpush.android.intent.REPORT
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:237:17-73
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:252:17-73
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:237:25-70
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:252:25-70
 action#cn.jpush.android.intent.PushService
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:238:17-78
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:253:17-78
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:238:25-75
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:253:25-75
 action#cn.jpush.android.intent.PUSH_TIME
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:239:17-76
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:254:17-76
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:239:25-73
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:254:25-73
 receiver#cn.jpush.android.service.PushReceiver
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:244:9-263:20
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:259:9-278:20
 	android:enabled
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:246:13-35
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:261:13-35
 	android:exported
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:247:13-37
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:262:13-37
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:245:13-65
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:260:13-65
 intent-filter#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+com.session.dgjp
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:248:13-251:29
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:263:13-266:29
 	android:priority
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:248:28-51
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:263:28-51
 action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:249:17-94
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:264:17-94
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:249:25-91
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:264:25-91
 intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:252:13-255:29
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:267:13-270:29
 action#android.intent.action.USER_PRESENT
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:253:17-77
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:268:17-77
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:253:25-74
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:268:25-74
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:254:17-79
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:269:17-79
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:254:25-76
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:269:25-76
 intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:257:13-262:29
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:272:13-277:29
 action#android.intent.action.PACKAGE_ADDED
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:258:17-78
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:273:17-78
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:258:25-75
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:273:25-75
 action#android.intent.action.PACKAGE_REMOVED
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:259:17-80
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:274:17-80
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:259:25-77
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:274:25-77
 data
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:261:17-50
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:276:17-50
 	android:scheme
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:261:23-47
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:276:23-47
 receiver#com.session.dgjp.receiver.JpushReceiver
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:266:9-280:20
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:281:9-295:20
 	android:enabled
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:268:13-35
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:283:13-35
 	android:exported
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:269:13-37
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:284:13-37
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:267:13-51
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:282:13-51
 intent-filter#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK+cn.jpush.android.intent.CONNECTION+cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+cn.jpush.android.intent.UNREGISTRATION+com.session.dgjp
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:270:13-279:29
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:285:13-294:29
 action#cn.jpush.android.intent.REGISTRATION
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:271:17-79
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:286:17-79
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:271:25-76
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:286:25-76
 action#cn.jpush.android.intent.UNREGISTRATION
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:272:17-81
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:287:17-81
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:272:25-78
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:287:25-78
 action#cn.jpush.android.intent.MESSAGE_RECEIVED
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:273:17-83
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:288:17-83
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:273:25-80
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:288:25-80
 action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:274:17-88
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:289:17-88
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:274:25-85
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:289:25-85
 action#cn.jpush.android.intent.NOTIFICATION_OPENED
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:275:17-86
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:290:17-86
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:275:25-83
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:290:25-83
 action#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:276:17-91
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:291:17-91
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:276:25-88
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:291:25-88
 action#cn.jpush.android.intent.CONNECTION
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:277:17-77
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:292:17-77
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:277:25-74
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:292:25-74
 receiver#cn.jpush.android.service.AlarmReceiver
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:283:9-285:40
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:298:9-300:40
 	android:exported
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:285:13-37
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:300:13-37
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:284:13-66
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:299:13-66
 meta-data#JPUSH_CHANNEL
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:288:9-290:40
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:303:9-305:40
 	android:value
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:290:13-37
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:305:13-37
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:289:13-41
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:304:13-41
 meta-data#JPUSH_APPKEY
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:291:9-293:56
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:306:9-308:56
 	android:value
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:293:13-53
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:308:13-53
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:292:13-40
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:307:13-40
 service#com.amap.api.location.APSService
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:297:9-68
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:312:9-68
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:297:18-65
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:312:18-65
 meta-data#com.amap.api.v2.apikey
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:300:9-302:64
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:315:9-317:64
 	android:value
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:302:13-61
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:317:13-61
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:301:13-50
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:316:13-50
 meta-data#UMENG_APPKEY
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:310:9-312:56
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:325:9-327:56
 	android:value
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:312:13-53
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:327:13-53
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:311:13-40
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:326:13-40
 meta-data#UMENG_CHANNEL
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:313:9-315:40
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:328:9-330:40
 	android:value
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:315:13-37
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:330:13-37
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:314:13-41
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:329:13-41
 activity#com.mob.tools.MobUIShell
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:318:9-337:20
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:333:9-352:20
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:322:13-49
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:337:13-49
 	android:windowSoftInputMode
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:323:13-67
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:338:13-67
 	android:configChanges
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:321:13-74
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:336:13-74
 	android:theme
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:320:13-72
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:335:13-72
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:319:13-52
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:334:13-52
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:325:13-330:29
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:340:13-345:29
 action#android.intent.action.VIEW
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:327:17-69
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:342:17-69
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:327:25-66
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:342:25-66
 category#android.intent.category.BROWSABLE
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:328:17-78
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:343:17-78
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:328:27-75
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:343:27-75
 intent-filter#android.intent.category.DEFAULT+com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:333:13-336:29
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:348:13-351:29
 action#com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:334:17-92
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:349:17-92
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:334:25-89
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:349:25-89
 activity#com.session.dgjp.wxapi.WXEntryActivity
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:340:9-345:52
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:355:9-360:52
 	android:screenOrientation
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:345:13-49
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:360:13-49
 	android:exported
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:344:13-36
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:359:13-36
 	android:configChanges
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:343:13-74
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:358:13-74
 	android:theme
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:342:13-72
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:357:13-72
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:341:13-50
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:356:13-50
 service#com.session.dgjp.service.LocationService
-ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:347:9-348:70
+ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:362:9-363:70
 	android:name
-		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:348:13-68
-uses-permission#android.permission.RECORD_AUDIO
-ADDED from [paipaixueche:kefu-easeui:unspecified] C:\Users\user\paipaixueche\DGJP\build\intermediates\exploded-aar\paipaixueche\kefu-easeui\unspecified\AndroidManifest.xml:14:5-71
-	android:name
-		ADDED from [paipaixueche:kefu-easeui:unspecified] C:\Users\user\paipaixueche\DGJP\build\intermediates\exploded-aar\paipaixueche\kefu-easeui\unspecified\AndroidManifest.xml:14:22-68
+		ADDED from C:\Users\user\paipaixueche\DGJP\AndroidManifest.xml:363:13-68
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
 ADDED from [paipaixueche:kefu-easeui:unspecified] C:\Users\user\paipaixueche\DGJP\build\intermediates\exploded-aar\paipaixueche\kefu-easeui\unspecified\AndroidManifest.xml:24:5-81
 	android:name

@@ -11,6 +11,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.orhanobut.logger.Logger;
 import com.session.common.utils.LogUtil;
 import com.session.dgjp.AppInstance;
 import com.session.dgjp.enity.Account;
@@ -202,6 +203,13 @@ public abstract class BaseFragment extends Fragment implements OnClickListener {
      */
     protected void LogE(Throwable throwable) {
         LogUtil.e(TAG, throwable.toString(), throwable);
+    }
+
+    /**
+     * 打印日志
+     */
+    protected void $log(String msg) {
+        Logger.i(msg);
     }
 
     @Override

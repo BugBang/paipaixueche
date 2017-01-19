@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.support.v4.app.FragmentActivity;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -15,6 +16,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.orhanobut.logger.Logger;
 import com.session.common.utils.LogUtil;
 import com.session.common.utils.ToastUtil;
 import com.session.dgjp.AppInstance;
@@ -54,7 +56,7 @@ public abstract class BaseActivity extends FragmentActivity implements OnClickLi
         progressDialog = new ProgressDialog(this);
         progressDialog.setCancelable(false);
         init(savedInstanceState);
-        logI("Start  Activity -- :" + TAG);
+        Logger.i(TAG);
     }
 
     /**
@@ -211,6 +213,31 @@ public abstract class BaseActivity extends FragmentActivity implements OnClickLi
      */
     protected void logI(String text) {
         LogUtil.i(TAG, text);
+    }
+    /**
+     * 打印日志
+     */
+    protected void $log(String text) {
+        Logger.i(text);
+    }
+    /**
+     * 分段打印出较长log文本
+     * @param log        原log文本
+     */
+    public  void LogII(String log){
+        if(log.length() >2000){
+            String show = log.substring(0, 2000);
+            android.util.Log.i(TAG, show+"");
+            if((log.length() - 2000)>2000){//剩下的文本还是大于规定长度
+                String partLog = log.substring(2000,log.length());
+                LogII(partLog);
+            }else{
+                String surplusLog = log.substring(2000, log.length());
+                Log.i(TAG, surplusLog+"");
+            }
+        }else{
+            Log.i(TAG, log+"");
+        }
     }
 
     /**

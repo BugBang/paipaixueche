@@ -71,6 +71,7 @@
     <dimen name="view_90">90dp</dimen>
     <dimen name="view_100">100dp</dimen>
     <dimen name="view_120">120dp</dimen>
+    <dimen name="view_130">130dp</dimen>
     <dimen name="view_136">136dp</dimen>
     <dimen name="view_150">150dp</dimen>
     <dimen name="view_160">160dp</dimen>

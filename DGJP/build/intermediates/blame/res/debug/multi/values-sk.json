@@ -7,17 +7,17 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 106,
-                    "endOffset": 157
+                    "endColumn": 68,
+                    "endOffset": 119
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-sk\\values-sk.xml",
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
                     "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 106,
-                        "endOffset": 157
+                        "startLine": 20,
+                        "startColumn": 0,
+                        "startOffset": 1266,
+                        "endColumn": 64,
+                        "endOffset": 1330
                     }
                 }
             },
@@ -25,18 +25,18 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 162,
-                    "endColumn": 107,
-                    "endOffset": 265
+                    "startOffset": 124,
+                    "endColumn": 67,
+                    "endOffset": 187
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-sk\\values-sk.xml",
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
                     "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 162,
-                        "endColumn": 107,
-                        "endOffset": 265
+                        "startLine": 24,
+                        "startColumn": 0,
+                        "startOffset": 1521,
+                        "endColumn": 63,
+                        "endOffset": 1584
                     }
                 }
             },
@@ -44,18 +44,18 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 270,
-                    "endColumn": 122,
-                    "endOffset": 388
+                    "startOffset": 192,
+                    "endColumn": 64,
+                    "endOffset": 252
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-sk\\values-sk.xml",
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
                     "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 270,
-                        "endColumn": 122,
-                        "endOffset": 388
+                        "startLine": 21,
+                        "startColumn": 0,
+                        "startOffset": 1331,
+                        "endColumn": 60,
+                        "endOffset": 1391
                     }
                 }
             },
@@ -63,18 +63,18 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 393,
-                    "endColumn": 99,
-                    "endOffset": 488
+                    "startOffset": 257,
+                    "endColumn": 70,
+                    "endOffset": 323
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-sk\\values-sk.xml",
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
                     "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 393,
-                        "endColumn": 99,
-                        "endOffset": 488
+                        "startLine": 38,
+                        "startColumn": 0,
+                        "startOffset": 2450,
+                        "endColumn": 66,
+                        "endOffset": 2516
                     }
                 }
             },
@@ -82,18 +82,18 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 493,
-                    "endColumn": 110,
-                    "endOffset": 599
+                    "startOffset": 328,
+                    "endColumn": 68,
+                    "endOffset": 392
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-sk\\values-sk.xml",
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
                     "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 493,
-                        "endColumn": 110,
-                        "endOffset": 599
+                        "startLine": 39,
+                        "startColumn": 0,
+                        "startOffset": 2517,
+                        "endColumn": 64,
+                        "endOffset": 2581
                     }
                 }
             },
@@ -101,18 +101,18 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 604,
-                    "endColumn": 85,
-                    "endOffset": 685
+                    "startOffset": 397,
+                    "endColumn": 68,
+                    "endOffset": 461
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-sk\\values-sk.xml",
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
                     "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 604,
-                        "endColumn": 85,
-                        "endOffset": 685
+                        "startLine": 33,
+                        "startColumn": 0,
+                        "startOffset": 2090,
+                        "endColumn": 64,
+                        "endOffset": 2154
                     }
                 }
             },
@@ -120,18 +120,18 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 690,
-                    "endColumn": 107,
-                    "endOffset": 793
+                    "startOffset": 466,
+                    "endColumn": 67,
+                    "endOffset": 529
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-sk\\values-sk.xml",
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
                     "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 690,
-                        "endColumn": 107,
-                        "endOffset": 793
+                        "startLine": 29,
+                        "startColumn": 0,
+                        "startOffset": 1823,
+                        "endColumn": 63,
+                        "endOffset": 1886
                     }
                 }
             },
@@ -139,18 +139,18 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 798,
-                    "endColumn": 117,
-                    "endOffset": 911
+                    "startOffset": 534,
+                    "endColumn": 73,
+                    "endOffset": 603
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-sk\\values-sk.xml",
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
                     "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 798,
-                        "endColumn": 117,
-                        "endOffset": 911
+                        "startLine": 32,
+                        "startColumn": 0,
+                        "startOffset": 2020,
+                        "endColumn": 69,
+                        "endOffset": 2089
                     }
                 }
             },
@@ -158,18 +158,18 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 916,
-                    "endColumn": 77,
-                    "endOffset": 989
+                    "startOffset": 608,
+                    "endColumn": 69,
+                    "endOffset": 673
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-sk\\values-sk.xml",
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
                     "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 916,
-                        "endColumn": 77,
-                        "endOffset": 989
+                        "startLine": 30,
+                        "startColumn": 0,
+                        "startOffset": 1887,
+                        "endColumn": 65,
+                        "endOffset": 1952
                     }
                 }
             },
@@ -177,18 +177,18 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 994,
-                    "endColumn": 77,
-                    "endOffset": 1067
+                    "startOffset": 678,
+                    "endColumn": 70,
+                    "endOffset": 744
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-sk\\values-sk.xml",
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
                     "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 994,
-                        "endColumn": 77,
-                        "endOffset": 1067
+                        "startLine": 31,
+                        "startColumn": 0,
+                        "startOffset": 1953,
+                        "endColumn": 66,
+                        "endOffset": 2019
                     }
                 }
             },
@@ -196,18 +196,18 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1072,
-                    "endColumn": 83,
-                    "endOffset": 1151
+                    "startOffset": 749,
+                    "endColumn": 53,
+                    "endOffset": 798
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-sk\\values-sk.xml",
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_content_strings.xml",
                     "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1072,
-                        "endColumn": 83,
-                        "endOffset": 1151
+                        "startLine": 2,
+                        "startColumn": 0,
+                        "startOffset": 110,
+                        "endColumn": 49,
+                        "endOffset": 159
                     }
                 }
             },
@@ -215,18 +215,18 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1156,
-                    "endColumn": 104,
-                    "endOffset": 1256
+                    "startOffset": 803,
+                    "endColumn": 71,
+                    "endOffset": 870
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-sk\\values-sk.xml",
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_content_strings.xml",
                     "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1156,
-                        "endColumn": 104,
-                        "endOffset": 1256
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 228,
+                        "endColumn": 67,
+                        "endOffset": 295
                     }
                 }
             },
@@ -234,18 +234,18 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1261,
-                    "endColumn": 108,
-                    "endOffset": 1365
+                    "startOffset": 875,
+                    "endColumn": 71,
+                    "endOffset": 942
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-sk\\values-sk.xml",
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_content_strings.xml",
                     "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1261,
-                        "endColumn": 108,
-                        "endOffset": 1365
+                        "startLine": 3,
+                        "startColumn": 0,
+                        "startOffset": 160,
+                        "endColumn": 67,
+                        "endOffset": 227
                     }
                 }
             },
@@ -253,18 +253,18 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1370,
-                    "endColumn": 98,
-                    "endOffset": 1464
+                    "startOffset": 947,
+                    "endColumn": 100,
+                    "endOffset": 1043
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-sk\\values-sk.xml",
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
                     "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1370,
-                        "endColumn": 98,
-                        "endOffset": 1464
+                        "startLine": 45,
+                        "startColumn": 0,
+                        "startOffset": 2990,
+                        "endColumn": 96,
+                        "endOffset": 3086
                     }
                 }
             },
@@ -272,18 +272,18 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1469,
-                    "endColumn": 105,
-                    "endOffset": 1570
+                    "startOffset": 1048,
+                    "endColumn": 106,
+                    "endOffset": 1150
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-sk\\values-sk.xml",
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
                     "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1469,
-                        "endColumn": 105,
-                        "endOffset": 1570
+                        "startLine": 43,
+                        "startColumn": 0,
+                        "startOffset": 2778,
+                        "endColumn": 102,
+                        "endOffset": 2880
                     }
                 }
             },
@@ -291,18 +291,18 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1575,
-                    "endColumn": 110,
-                    "endOffset": 1681
+                    "startOffset": 1155,
+                    "endColumn": 62,
+                    "endOffset": 1213
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-sk\\values-sk.xml",
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
                     "position": {
                         "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1575,
-                        "endColumn": 110,
-                        "endOffset": 1681
+                        "startColumn": 0,
+                        "startOffset": 1050,
+                        "endColumn": 58,
+                        "endOffset": 1108
                     }
                 }
             },
@@ -310,18 +310,18 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1686,
-                    "endColumn": 108,
-                    "endOffset": 1790
+                    "startOffset": 1218,
+                    "endColumn": 60,
+                    "endOffset": 1274
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-sk\\values-sk.xml",
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
                     "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1686,
-                        "endColumn": 108,
-                        "endOffset": 1790
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 812,
+                        "endColumn": 56,
+                        "endOffset": 868
                     }
                 }
             },
@@ -329,18 +329,18 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1795,
-                    "endColumn": 123,
-                    "endOffset": 1914
+                    "startOffset": 1279,
+                    "endColumn": 63,
+                    "endOffset": 1338
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-sk\\values-sk.xml",
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
                     "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1795,
-                        "endColumn": 123,
-                        "endOffset": 1914
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 571,
+                        "endColumn": 59,
+                        "endOffset": 630
                     }
                 }
             },
@@ -348,18 +348,18 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1919,
-                    "endColumn": 97,
-                    "endOffset": 2012
+                    "startOffset": 1343,
+                    "endColumn": 62,
+                    "endOffset": 1401
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-sk\\values-sk.xml",
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
                     "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1919,
-                        "endColumn": 97,
-                        "endOffset": 2012
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 753,
+                        "endColumn": 58,
+                        "endOffset": 811
                     }
                 }
             },
@@ -367,18 +367,721 @@
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 2017,
-                    "endColumn": 100,
-                    "endOffset": 2113
+                    "startOffset": 1406,
+                    "endColumn": 62,
+                    "endOffset": 1464
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-sk\\values-sk.xml",
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
                     "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 2017,
-                        "endColumn": 100,
-                        "endOffset": 2113
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 869,
+                        "endColumn": 58,
+                        "endOffset": 927
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1469,
+                    "endColumn": 67,
+                    "endOffset": 1532
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 928,
+                        "endColumn": 63,
+                        "endOffset": 991
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1537,
+                    "endColumn": 59,
+                    "endOffset": 1592
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 296,
+                        "endColumn": 55,
+                        "endOffset": 351
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1597,
+                    "endColumn": 61,
+                    "endOffset": 1654
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 695,
+                        "endColumn": 57,
+                        "endOffset": 752
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1659,
+                    "endColumn": 62,
+                    "endOffset": 1717
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 512,
+                        "endColumn": 58,
+                        "endOffset": 570
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1722,
+                    "endColumn": 61,
+                    "endOffset": 1779
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 1109,
+                        "endColumn": 57,
+                        "endOffset": 1166
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1784,
+                    "endColumn": 61,
+                    "endOffset": 1841
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 992,
+                        "endColumn": 57,
+                        "endOffset": 1049
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1846,
+                    "endColumn": 67,
+                    "endOffset": 1909
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 631,
+                        "endColumn": 63,
+                        "endOffset": 694
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1914,
+                    "endColumn": 53,
+                    "endOffset": 1963
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 352,
+                        "endColumn": 49,
+                        "endOffset": 401
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1968,
+                    "endColumn": 60,
+                    "endOffset": 2024
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 402,
+                        "endColumn": 56,
+                        "endOffset": 458
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2029,
+                    "endColumn": 56,
+                    "endOffset": 2081
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 459,
+                        "endColumn": 52,
+                        "endOffset": 511
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2086,
+                    "endColumn": 102,
+                    "endOffset": 2184
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 1167,
+                        "endColumn": 98,
+                        "endOffset": 1265
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 2189,
+                    "endColumn": 62,
+                    "endOffset": 2247
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 0,
+                        "startOffset": 2719,
+                        "endColumn": 58,
+                        "endOffset": 2777
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2252,
+                    "endColumn": 71,
+                    "endOffset": 2319
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 0,
+                        "startOffset": 2582,
+                        "endColumn": 67,
+                        "endOffset": 2649
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2324,
+                    "endColumn": 61,
+                    "endOffset": 2381
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 0,
+                        "startOffset": 1392,
+                        "endColumn": 57,
+                        "endOffset": 1449
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2386,
+                    "endColumn": 72,
+                    "endOffset": 2454
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 0,
+                        "startOffset": 2650,
+                        "endColumn": 68,
+                        "endOffset": 2718
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2459,
+                    "endColumn": 84,
+                    "endOffset": 2539
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 0,
+                        "startOffset": 2369,
+                        "endColumn": 80,
+                        "endOffset": 2449
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2544,
+                    "endColumn": 112,
+                    "endOffset": 2652
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 0,
+                        "startOffset": 110,
+                        "endColumn": 108,
+                        "endOffset": 218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2657,
+                    "endColumn": 58,
+                    "endOffset": 2711
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_content_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 625,
+                        "endColumn": 54,
+                        "endOffset": 679
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2716,
+                    "endColumn": 153,
+                    "endOffset": 2865
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_content_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 369,
+                        "endColumn": 149,
+                        "endOffset": 518
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2870,
+                    "endColumn": 109,
+                    "endOffset": 2975
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_content_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 519,
+                        "endColumn": 105,
+                        "endOffset": 624
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2980,
+                    "endColumn": 76,
+                    "endOffset": 3052
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_content_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 296,
+                        "endColumn": 72,
+                        "endOffset": 368
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 3057,
+                    "endColumn": 72,
+                    "endOffset": 3125
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_content_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 680,
+                        "endColumn": 68,
+                        "endOffset": 748
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 3130,
+                    "endColumn": 74,
+                    "endOffset": 3200
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 0,
+                        "startOffset": 1450,
+                        "endColumn": 70,
+                        "endOffset": 1520
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 3205,
+                    "endColumn": 80,
+                    "endOffset": 3281
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 0,
+                        "startOffset": 219,
+                        "endColumn": 76,
+                        "endOffset": 295
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 3286,
+                    "endColumn": 112,
+                    "endOffset": 3394
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 0,
+                        "startOffset": 2881,
+                        "endColumn": 108,
+                        "endOffset": 2989
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 3399,
+                    "endColumn": 80,
+                    "endOffset": 3475
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_content_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1064,
+                        "endColumn": 76,
+                        "endOffset": 1140
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 3480,
+                    "endColumn": 135,
+                    "endOffset": 3611
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_content_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 932,
+                        "endColumn": 131,
+                        "endOffset": 1063
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3616,
+                    "endColumn": 76,
+                    "endOffset": 3688
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_content_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 749,
+                        "endColumn": 72,
+                        "endOffset": 821
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3693,
+                    "endColumn": 113,
+                    "endOffset": 3802
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_content_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 822,
+                        "endColumn": 109,
+                        "endOffset": 931
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 3807,
+                    "endColumn": 54,
+                    "endOffset": 3857
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 0,
+                        "startOffset": 1654,
+                        "endColumn": 50,
+                        "endOffset": 1704
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 3862,
+                    "endColumn": 72,
+                    "endOffset": 3930
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 0,
+                        "startOffset": 2155,
+                        "endColumn": 68,
+                        "endOffset": 2223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 3935,
+                    "endColumn": 74,
+                    "endOffset": 4005
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 0,
+                        "startOffset": 2224,
+                        "endColumn": 70,
+                        "endOffset": 2294
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 4010,
+                    "endColumn": 54,
+                    "endOffset": 4060
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 0,
+                        "startOffset": 1705,
+                        "endColumn": 50,
+                        "endOffset": 1755
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 4065,
+                    "endColumn": 77,
+                    "endOffset": 4138
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 0,
+                        "startOffset": 2295,
+                        "endColumn": 73,
+                        "endOffset": 2368
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 4143,
+                    "endColumn": 70,
+                    "endOffset": 4209
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 0,
+                        "startOffset": 1756,
+                        "endColumn": 66,
+                        "endOffset": 1822
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 4214,
+                    "endColumn": 75,
+                    "endOffset": 4285
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 0,
+                        "startOffset": 3087,
+                        "endColumn": 71,
+                        "endOffset": 3158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 4290,
+                    "endColumn": 72,
+                    "endOffset": 4358
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\values-sk\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 0,
+                        "startOffset": 1585,
+                        "endColumn": 68,
+                        "endOffset": 1653
                     }
                 }
             }

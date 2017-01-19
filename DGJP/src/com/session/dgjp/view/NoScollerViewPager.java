@@ -14,7 +14,6 @@ public class NoScollerViewPager extends ViewPager{
     public NoScollerViewPager(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
-    //��ֹ����
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         return this.isPagingEnabled && super.onTouchEvent(event);
@@ -26,7 +25,6 @@ public class NoScollerViewPager extends ViewPager{
     public void setPagingEnabled(boolean b) {
         this.isPagingEnabled = b;
     }
-    //ȥ��ҳ���л�ʱ�Ļ�����ҳЧ��  
     @Override  
     public void setCurrentItem(int item, boolean smoothScroll) {  
         super.setCurrentItem(item, smoothScroll);  

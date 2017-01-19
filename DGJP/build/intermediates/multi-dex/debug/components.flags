@@ -90,6 +90,10 @@
     <init>();
 }
 
+-keep class com.session.dgjp.school.SchoolListActivity {
+    <init>();
+}
+
 -keep class com.session.dgjp.trainer.OrderActivity {
     <init>();
 }

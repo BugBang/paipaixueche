@@ -2,6 +2,7 @@ package com.session.dgjp.sign;
 
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -14,8 +15,10 @@ import com.session.common.BaseFragment;
 import com.session.common.BaseRequestTask;
 import com.session.common.utils.DialogUtil;
 import com.session.common.utils.IntentUtil;
+import com.session.common.utils.TextUtil;
 import com.session.dgjp.Constants;
 import com.session.dgjp.R;
+import com.session.dgjp.WebViewActivity;
 import com.session.dgjp.enity.SchoolDetails;
 import com.session.dgjp.request.SignSchoolDetailsRequestData;
 import com.session.dgjp.view.NoScrollListview;
@@ -60,6 +63,9 @@ public class SignSchoolDetailsFragment extends BaseFragment implements SignSchoo
     public static final String SCHOOL_TITLE = "school_title";
     private DialogUtil mDialogUtil;
     private SignSchoolDetailsListAdapter mSignSchoolDetailsListAdapter;
+    private String mPanoramaUrl;
+    private ImageView mIvPanorama;
+    private String mTitle;
 
     public static SignSchoolDetailsFragment newInstance() {
         return new SignSchoolDetailsFragment();
@@ -82,6 +88,7 @@ public class SignSchoolDetailsFragment extends BaseFragment implements SignSchoo
 
         mIvBack = (ImageView) view.findViewById(R.id.iv_back);
         mIvTopImg = (ImageView) view.findViewById(R.id.iv_top_img);
+        mIvPanorama = (ImageView) view.findViewById(R.id.iv_panorama);
 
         mTvTitle = (TextView) view.findViewById(R.id.tv_title);
         mTvTime = (TextView) view.findViewById(R.id.tv_time);
@@ -109,6 +116,7 @@ public class SignSchoolDetailsFragment extends BaseFragment implements SignSchoo
         mNoScrollListview = (NoScrollListview) view.findViewById(R.id.lv_class_list);
         mNoScrollListview.setAdapter(mSignSchoolDetailsListAdapter);
         mIvBack.setOnClickListener(this);
+        mIvPanorama.setOnClickListener(this);
         mTvCallCenter.setOnClickListener(this);
         mTvAllComments.setOnClickListener(this);
     }
@@ -119,8 +127,8 @@ public class SignSchoolDetailsFragment extends BaseFragment implements SignSchoo
         Bundle arguments = getArguments();
         if (arguments != null) {
             id = arguments.getInt(SCHOOL_ID);
-            String title = arguments.getString(SCHOOL_TITLE);
-            mTvTitle.setText(title);
+            mTitle = arguments.getString(SCHOOL_TITLE);
+            mTvTitle.setText(mTitle);
         }
     }
 
@@ -168,6 +176,7 @@ public class SignSchoolDetailsFragment extends BaseFragment implements SignSchoo
         mBsListBean = mSchoolDetails.getBsList().get(0);
         String timePeroid = mBsListBean.getTimePeroid();
         String img = mBsListBean.getPhotoUrl();
+        mPanoramaUrl = mBsListBean.getPanoramicUrl();
 
         Glide.with(this).load(Constants.URL_IMG_IP+img).placeholder(R.drawable.placeholder_img).into(mIvTopImg);
         mTvTime.setText(timePeroid);
@@ -240,6 +249,18 @@ public class SignSchoolDetailsFragment extends BaseFragment implements SignSchoo
                 Bundle _b = new Bundle();
                 _b.putInt(SignAllCommentFragment.ID, id);
                 addFragment(R.id.content, SignAllCommentFragment.newInstance(), _b);
+                break;
+            case R.id.iv_panorama:
+                if (!TextUtil.isEmpty(mPanoramaUrl)){
+                    Intent intent = new Intent();
+                    intent.setClass(act, WebViewActivity.class);
+                    intent.putExtra(WebViewActivity.LOAD_URL, mPanoramaUrl);
+                    intent.putExtra(WebViewActivity.TITLE, mTitle+"全景");
+                    startActivity(intent);
+                }else {
+                    toastLong("该分校暂时无法预览全景");
+                }
+
                 break;
         }
     }

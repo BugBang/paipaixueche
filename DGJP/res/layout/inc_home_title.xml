@@ -12,13 +12,21 @@
         android:orientation="horizontal" >
 
       <ImageView
-          android:visibility="invisible"
+          android:visibility="gone"
             android:id="@id/ivTitleLeft"
             android:layout_width="@dimen/title_height"
             android:layout_height="@dimen/title_height"
             android:contentDescription="@null"
             android:scaleType="center"
             android:src="@drawable/btn_account" />
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/ivTitleCoach"
+            android:layout_width="@dimen/title_height"
+            android:layout_height="@dimen/title_height"
+            android:contentDescription="@null"
+            android:scaleType="center"
+            android:src="@drawable/title_to_coach" />
 
         <TextView
             android:id="@id/tvTitle"
@@ -33,8 +41,16 @@
             android:text="@string/app_name"
             android:textColor="@android:color/white"
             android:textSize="@dimen/text_title" />
+        <ImageView
+            android:id="@+id/ivTitleSchool"
+            android:layout_width="@dimen/title_height"
+            android:layout_height="@dimen/title_height"
+            android:contentDescription="@null"
+            android:scaleType="center"
+            android:src="@drawable/title_to_school" />
 
         <FrameLayout
+            android:visibility="gone"
             android:id="@id/btnMsg"
             android:layout_width="@dimen/title_height"
             android:layout_height="@dimen/title_height" >

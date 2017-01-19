@@ -4,18 +4,27 @@ dependencies {
     compile fileTree(include: '*.jar', dir: 'libs')
     compile project(':PullToRefresh')
     compile files('libs/nineoldandroids-2.4.0.jar')
-    //    compile files('libs/glide-3.6.1.jar')
     compile files('libs/MobCommons-2016.1107.1809.jar')
-    //环信客服SDK
-    //        compile 'com.hyphenate:kefu-easeui-android:latest.release'
-    // 或者
-    //    compile 'com.hyphenate:kefu-easeui-android:1.0.2'
     compile project(':kefu-easeui')
     compile 'com.android.support:support-v4:23.1.1'
-    //    compile 'com.android.support:recyclerview-v7:24.1.1'
-    //    compile 'com.android.support:design:23.2.1'
-}
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'org.xwalk:xwalk_core_library:22.52.561.4'
+    compile 'com.orhanobut:logger:1.8'
 
+//    compile 'com.squareup.retrofit:retrofit:2.0.0-beta1'
+//    compile 'com.squareup.retrofit:adapter-rxjava:2.0.0-beta1'
+//    compile 'io.reactivex:rxandroid:1.0.1'
+//    compile 'org.xwalk:xwalk_core_library:22.52.561.4-arm@aar'
+//    compile 'org.xwalk:xwalk_core_library:18.48.477.13'
+}
+repositories {
+    maven {
+        url 'https://download.01.org/crosswalk/releases/crosswalk/android/maven2'
+    }
+//    flatDir {
+//        dirs 'libs'
+//    }
+}
 android {
     signingConfigs {
         dgjp_key {
@@ -42,6 +51,7 @@ android {
     }
     configurations {
         all*.exclude group: 'com.android.support', module: 'support-v4'
+        all*.exclude group: 'com.android.support', module: 'support-annotations'
     }
     sourceSets {
         main {

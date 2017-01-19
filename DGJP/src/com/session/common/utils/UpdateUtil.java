@@ -48,8 +48,8 @@ public final class UpdateUtil {
 	public static void checkUpdate(final OnVersionInfoListener listener) {
 		CheckVersionRequestData requestData = new CheckVersionRequestData();
 		String data = new Gson().toJson(requestData);
+        LogUtil.i("com.session.common",data);
 		new BaseRequestTask() {
-
 			@Override
 			protected void onResponse(int code, String msg, String response) {
 				VersionInfo info = null;

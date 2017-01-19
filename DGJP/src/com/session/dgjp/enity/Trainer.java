@@ -3,190 +3,206 @@ package com.session.dgjp.enity;
 import java.io.Serializable;
 import java.util.List;
 
-public class Trainer implements Serializable,Comparable<Trainer>{
+public class Trainer implements Serializable, Comparable<Trainer> {
 
-	private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
-	/**最近预约的教练{@link #trainerType}*/
-	public final static String TYPE_LATEST = "2";
-	/**其它教练{@link #trainerType}*/
-	public final static String TYPE_OTHER = "";
-	
-	/** 教练账号 */
-	private String account;
-	/** 姓名 */
-	private String name;
-	/** 手机号码 */
-	private String phone;
-	/** 所属分校ID */
-	private long branchSchoolId;
-	/** 所属分校 */
-	private String branchSchoolName;
-	/** 驾校名称 */
-	private String driverSchoolName;
-	/** 预约次数。单位次 */
-	private int orderTimes;
-	/** 该教练平均评分 */
-	private float eval;
-	/** 头像地址 */
-	private String photoUrl;
-	/** 最近登录时间，若为空，则表示是首次登录 */
-	private String lastLoginTime;
-	/** 教练类型*/
-	private String trainerType;
+    /**
+     * 最近预约的教练{@link #trainerType}
+     */
+    public final static String TYPE_LATEST = "2";
+    /**
+     * 其它教练{@link #trainerType}
+     */
+    public final static String TYPE_OTHER = "";
 
-	private BranchSchool branchSchool;
-	
-	private List<Integer> timePeroid;//分校的教学时段
+    /**
+     * 教练账号
+     */
+    private String account;
+    /**
+     * 姓名
+     */
+    private String name;
+    /**
+     * 手机号码
+     */
+    private String phone;
+    /**
+     * 所属分校ID
+     */
+    private long branchSchoolId;
+    /**
+     * 所属分校
+     */
+    private String branchSchoolName;
+    /**
+     * 驾校名称
+     */
+    private String driverSchoolName;
+    /**
+     * 预约次数。单位次
+     */
+    private int orderTimes;
+    /**
+     * 该教练平均评分
+     */
+    private float eval;
+    /**
+     * 头像地址
+     */
+    private String photoUrl;
+    /**
+     * 最近登录时间，若为空，则表示是首次登录
+     */
+    private String lastLoginTime;
+    /**
+     * 教练类型
+     */
+    private String trainerType;
 
-	public String getAccount() {
-		return account;
-	}
+    private BranchSchool branchSchool;
 
-	public void setAccount(String account) {
-		this.account = account;
-	}
+    private List<Integer> timePeroid;//分校的教学时段
 
-	public String getName() {
-		return name;
-	}
+    public String getAccount() {
+        return account;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public void setAccount(String account) {
+        this.account = account;
+    }
 
-	public String getPhone() {
-		return phone;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public void setPhone(String phone) {
-		this.phone = phone;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public long getBranchSchoolId() {
-		return branchSchoolId;
-	}
+    public String getPhone() {
+        return phone;
+    }
 
-	public void setBranchSchoolId(long branchSchoolId) {
-		this.branchSchoolId = branchSchoolId;
-	}
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
 
-	public String getBranchSchoolName() {
-		return branchSchoolName;
-	}
+    public long getBranchSchoolId() {
+        return branchSchoolId;
+    }
 
-	public void setBranchSchoolName(String branchSchoolName) {
-		this.branchSchoolName = branchSchoolName;
-	}
+    public void setBranchSchoolId(long branchSchoolId) {
+        this.branchSchoolId = branchSchoolId;
+    }
 
-	public String getDriverSchoolName() {
-		return driverSchoolName;
-	}
+    public String getBranchSchoolName() {
+        return branchSchoolName;
+    }
 
-	public void setDriverSchoolName(String driverSchoolName) {
-		this.driverSchoolName = driverSchoolName;
-	}
+    public void setBranchSchoolName(String branchSchoolName) {
+        this.branchSchoolName = branchSchoolName;
+    }
 
-	public int getOrderTimes() {
-		return orderTimes;
-	}
+    public String getDriverSchoolName() {
+        return driverSchoolName;
+    }
 
-	public void setOrderTimes(int orderTimes) {
-		this.orderTimes = orderTimes;
-	}
+    public void setDriverSchoolName(String driverSchoolName) {
+        this.driverSchoolName = driverSchoolName;
+    }
 
-	public float getEval() {
-		return eval;
-	}
+    public int getOrderTimes() {
+        return orderTimes;
+    }
 
-	public void setEval(float eval) {
-		this.eval = eval;
-	}
+    public void setOrderTimes(int orderTimes) {
+        this.orderTimes = orderTimes;
+    }
 
-	public String getPhotoUrl() {
-		return photoUrl;
-	}
+    public float getEval() {
+        return eval;
+    }
 
-	public void setPhotoUrl(String photoUrl) {
-		this.photoUrl = photoUrl;
-	}
+    public void setEval(float eval) {
+        this.eval = eval;
+    }
 
-	public String getLastLoginTime() {
-		return lastLoginTime;
-	}
+    public String getPhotoUrl() {
+        return photoUrl;
+    }
 
-	public void setLastLoginTime(String lastLoginTime) {
-		this.lastLoginTime = lastLoginTime;
-	}
+    public void setPhotoUrl(String photoUrl) {
+        this.photoUrl = photoUrl;
+    }
 
-	public BranchSchool getBranchSchool() {
-		return branchSchool;
-	}
+    public String getLastLoginTime() {
+        return lastLoginTime;
+    }
 
-	public void setBranchSchool(BranchSchool branchSchool) {
-		this.branchSchool = branchSchool;
-	}
-	
-	public List<Integer> getTimePeroid()
-	{
-		return timePeroid;
-	}
+    public void setLastLoginTime(String lastLoginTime) {
+        this.lastLoginTime = lastLoginTime;
+    }
 
-	public void setTimePeroid(List<Integer> timePeroid)
-	{
-		this.timePeroid = timePeroid;
-	}
-	
-	public String getTrainerType()
-	{
-		return trainerType;
-	}
+    public BranchSchool getBranchSchool() {
+        return branchSchool;
+    }
 
-	public void setTrainerType(String trainerType)
-	{
-		this.trainerType = trainerType;
-	}
+    public void setBranchSchool(BranchSchool branchSchool) {
+        this.branchSchool = branchSchool;
+    }
 
-	@Override
-	public int hashCode()
-	{
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + ((account == null) ? 0 : account.hashCode());
-		return result;
-	}
+    public List<Integer> getTimePeroid() {
+        return timePeroid;
+    }
 
-	@Override
-	public boolean equals(Object obj)
-	{
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Trainer other = (Trainer) obj;
-		if (account == null)
-		{
-			if (other.account != null)
-				return false;
-		} else if (!account.equals(other.account))
-			return false;
-		return true;
-	}
+    public void setTimePeroid(List<Integer> timePeroid) {
+        this.timePeroid = timePeroid;
+    }
 
-	@Override
-	public int compareTo(Trainer another)
-	{
-		if(another.getEval()-eval>0)
-		{
-			return 1;
-		}else if(another.getEval()-eval<0)
-		{
-			return -1;
-		}else {
-			return 0;
-		}
-	}
-	
+    public String getTrainerType() {
+        return trainerType;
+    }
+
+    public void setTrainerType(String trainerType) {
+        this.trainerType = trainerType;
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((account == null) ? 0 : account.hashCode());
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Trainer other = (Trainer) obj;
+        if (account == null) {
+            if (other.account != null)
+                return false;
+        } else if (!account.equals(other.account))
+            return false;
+        return true;
+    }
+
+    @Override
+    public int compareTo(Trainer another) {
+        if (another.getEval() - eval > 0) {
+            return 1;
+        } else if (another.getEval() - eval < 0) {
+            return -1;
+        } else {
+            return 0;
+        }
+    }
+
 }

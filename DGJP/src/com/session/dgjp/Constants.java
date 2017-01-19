@@ -9,13 +9,13 @@ public final class Constants {
 	public final static String VERSION_PROTOCOL = "1.0";
 //-------------------------------------------------------------
 	/** 生产环境IP地址 */
-//	public final static String RELEASE_URL = "https://papaxueche.cn:8443/";
-	public final static String RELEASE_URL = "https://120.76.168.132:8443/";
+	public final static String RELEASE_URL = "https://papaxueche.cn:8443/";
+//	public final static String RELEASE_URL = "https://120.76.168.132:8443/";
 	/** 测试环境IP地址 */
 //    public final static String TEST_URL ="https://www.papaxueche.cn:8443/";
-    public final static String TEST_URL ="https://10.0.0.101:8443/";
+    public final static String TEST_URL ="https://10.0.0.32:8443/";
     /** 后台接口主机IP地址 */
-    public final static String URL_IP = RELEASE_URL;
+    public final static String URL_IP = TEST_URL;
     /** 后台接口地址 */
     public final static String URL = URL_IP + "DGFDS/";
 //------------------------------------------------------------
@@ -91,6 +91,13 @@ public final class Constants {
     public final static String URL_GET_SHARE_DATA = URL + "util/getShare.flow";
     /**获取报名付款明细*/
     public final static String URL_GET_SIGN_PAY_DETAIL = URL + "cost/getCostList.flow";
+    /**获取底部教练列表*/
+    public final static String URL_GET_COACH_LIST = URL + "branchSchool/queryTrainer.flow";
+    /**获取城市及其对应驾校*/
+    public final static String URL_GET_CITY_AND_SCHOOL = URL + "branchSchool/queryCountySchoolList.flow";
+    /**获取教练详细信息*/
+    public final static String URL_GET_COACH_DETAIL = URL + "trainer/getTrainerTeachingSchedule.flow";
+
 
 	private Constants() {
 		// 常量配置类，不需要实例

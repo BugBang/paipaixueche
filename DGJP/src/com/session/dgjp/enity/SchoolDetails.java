@@ -141,6 +141,15 @@ public class SchoolDetails {
         private int longitude;
         private List<?> schoolClassVo;
         private List<?> commentVo;
+        private String panoramicUrl;//全景图网址
+
+        public String getPanoramicUrl() {
+            return panoramicUrl;
+        }
+
+        public void setPanoramicUrl(String panoramicUrl) {
+            this.panoramicUrl = panoramicUrl;
+        }
 
         public String getAddress() {
             return address;

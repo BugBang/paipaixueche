@@ -69,8 +69,10 @@ public class LocationService extends Service implements AMapLocationListener {
                 //定位成功回调信息，设置相关消息
                 float latitude = (float) amapLocation.getLatitude();
                 float longitude = (float) amapLocation.getLongitude();
+                String city = amapLocation.getCity();
                 SharedPreferencesUtil.saveFloat(SharedPreferencesUtil.Latitude, latitude);
                 SharedPreferencesUtil.saveFloat(SharedPreferencesUtil.Longitude, longitude);
+                SharedPreferencesUtil.saveString(SharedPreferencesUtil.CITY, city);
             } else {
                 //显示错误信息ErrCode是错误码，errInfo是错误信息，详见错误码表。
                 Log.e("AmapError","location Error, ErrCode:"
@@ -78,6 +80,7 @@ public class LocationService extends Service implements AMapLocationListener {
                         + amapLocation.getErrorInfo());
                 SharedPreferencesUtil.saveFloat(SharedPreferencesUtil.Latitude, -1f);
                 SharedPreferencesUtil.saveFloat(SharedPreferencesUtil.Longitude, -1f);
+                SharedPreferencesUtil.saveString(SharedPreferencesUtil.CITY, "");
             }
         }
     }

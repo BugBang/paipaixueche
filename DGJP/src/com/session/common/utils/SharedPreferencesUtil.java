@@ -21,6 +21,7 @@ public final class SharedPreferencesUtil {
     /**经纬度*/
 	public final static String Latitude = "latitude";
 	public final static String Longitude = "longitude";
+	public final static String CITY = "city";
     /**环信的账号密码*/
     public final static String EASE_USER_NAME = "ease_user_name";
     public final static String EASE_USER_PASSWORD = "ease_user_password";

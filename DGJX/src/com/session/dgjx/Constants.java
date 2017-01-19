@@ -11,7 +11,7 @@ public final class Constants {
 	public final static String RELEASE_URL = "https://120.76.168.132:8443/";
 	/** 测试环境IP地址 */
 //	public final static String TEST_URL = "https://183.62.251.19:8443/";
-	public final static String TEST_URL = "https://10.0.0.101:8443/";
+	public final static String TEST_URL = "https://10.0.0.32:8443/";
 	/** 后台接口主机IP地址 */
 	public final static String URL_IP = TEST_URL;
 	/** 后台接口地址 */

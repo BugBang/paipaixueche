@@ -171,5 +171,4 @@ public final class LogUtil {
 		if (Debuggable && Level <= ERROR)
 			android.util.Log.e(tag, msg, tr);
 	}
-
 }

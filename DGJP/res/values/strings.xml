@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string-array name="city">
+        <item>东莞市</item>
+        <item>佛山市</item>
+    </string-array>
     <!-- 通用 -->
     <string name="colon">：</string>
     <string name="confirm">确定</string>
@@ -88,7 +92,7 @@
     <string name="order">单</string>
     <string name="book">预约</string>
     <string name="search_by_trainer_name">按教练姓名查询</string>
-    <string name="search_school_yard">搜索培训分校场地</string>
+    <string name="search_school_yard">输入地址寻找驾校</string>
     <string name="service_phone">服务电话</string>
     <string name="phone">电话</string>
     <string name="_address">地址</string>

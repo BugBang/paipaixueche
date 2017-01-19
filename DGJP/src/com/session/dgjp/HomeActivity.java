@@ -9,6 +9,7 @@ import android.support.v4.content.LocalBroadcastManager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.text.TextUtils;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.TextView;
@@ -28,6 +29,7 @@ import com.session.dgjp.message.MessageActivity;
 import com.session.dgjp.order.OrderListFragment;
 import com.session.dgjp.personal.SetPayPasswordActivity;
 import com.session.dgjp.request.CommonRequestData;
+import com.session.dgjp.school.SchoolListActivity;
 import com.session.dgjp.school.SchoolListFragment;
 import com.session.dgjp.school.SchoolListFragment.OnMapListChangeListener;
 import com.session.dgjp.training.TrainingListFragment;
@@ -104,8 +106,34 @@ public class HomeActivity extends BaseActivity implements OnMapListChangeListene
     protected void init(Bundle savedInstanceState) {
         setContentView(R.layout.act_home);
         initTitle(R.string.app_name, false);
-        findViewById(R.id.ivTitleRight).setOnClickListener(this);
+
+        ImageView iv = (ImageView) findViewById(R.id.ivTitleRight);
+        iv.setOnClickListener(this);
+        iv.setVisibility(View.GONE);
+        ImageView iv2 = (ImageView) findViewById(R.id.ivTitleLeft);
+        iv2.setOnClickListener(this);
+        iv2.setVisibility(View.GONE);
+
         msgCountTv = (TextView) findViewById(R.id.tvMsgCount);
+        msgCountTv.setVisibility(View.GONE);
+
+
+        findViewById(R.id.ivTitleCoach).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                toastLong("ivTitleCoach");
+            }
+        });
+        findViewById(R.id.ivTitleSchool).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(HomeActivity.this, SchoolListActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
         SchoolListFragment schoolListFragment = new SchoolListFragment();
         schoolListFragment.setOnMapListChangeListener(this);
         fragments.add(schoolListFragment);
@@ -116,6 +144,7 @@ public class HomeActivity extends BaseActivity implements OnMapListChangeListene
         fragments.add(new TrainingListFragment());
         ids.add(R.id.training);
         radioGroup = (RadioGroup) findViewById(R.id.radio_group);
+        radioGroup.setVisibility(View.GONE);
         viewPager = (MyViewPager) findViewById(R.id.view_pager);
         viewPager.setCanScroll(false);
         viewPager.setOffscreenPageLimit(fragments.size());
@@ -254,7 +283,7 @@ public class HomeActivity extends BaseActivity implements OnMapListChangeListene
             }
             long count = myMessageDao.count(account.getAccount(), false, null);
             if (count > 0) {
-                msgCountTv.setVisibility(View.VISIBLE);
+//                msgCountTv.setVisibility(View.VISIBLE);
                 msgCountTv.setText(String.valueOf(count));
             } else {
                 msgCountTv.setVisibility(View.INVISIBLE);

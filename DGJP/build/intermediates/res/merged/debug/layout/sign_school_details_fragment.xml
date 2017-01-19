@@ -55,13 +55,32 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/iv_top_img"
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/view_180"
-                android:src="#ffffff"
-                android:scaleType="centerCrop"
-                />
+                android:layout_height="@dimen/view_180">
+                <ImageView
+                    android:id="@+id/iv_top_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="#ffffff"
+                    android:scaleType="centerCrop"
+                    />
+                <ImageView
+
+                    android:paddingRight="@dimen/view_5"
+                    android:paddingBottom="@dimen/view_5"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/iv_panorama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/panorama_img"
+                    android:scaleType="centerCrop"
+                    />
+
+
+            </RelativeLayout>
+
 
             <LinearLayout
                 android:layout_width="match_parent"

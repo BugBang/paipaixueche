@@ -8,6 +8,7 @@ import android.text.TextUtils;
 
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
+import com.orhanobut.logger.Logger;
 import com.session.common.utils.CryptoUtil;
 import com.session.common.utils.HttpUtil;
 import com.session.common.utils.LogUtil;
@@ -118,7 +119,7 @@ public abstract class BaseRequestTask extends AsyncTask<Void, Integer, String> {
 		}
 		// ToastUtil.showShort(BaseApplication.getInstance(), result);
 		try {
-            LogUtil.i("com.session.common.result解析前 = ",result);
+            Logger.i("com.session.common.result解析前 = "+result);
             JSONObject jobj = new JSONObject(result);
 			int code = jobj.optInt(KEY_CODE);
 			String msg = jobj.optString(KEY_MSG);
@@ -147,9 +148,8 @@ public abstract class BaseRequestTask extends AsyncTask<Void, Integer, String> {
 				String data = jobj.optString(KEY_DATA);
 				if (!TextUtils.isEmpty(data)) {
 					String str_data = CryptoUtil.decrypt(data);
-                    LogUtil.i("com.session.common.result解析后 = ",str_data);
 					onResponse(code, msg, str_data);
-                    LogUtil.e(TAG, str_data);
+                    Logger.json(str_data);
 				} else {
 					onResponse(code, msg, null);
 				}

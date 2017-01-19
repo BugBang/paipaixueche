@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="city">
+        <item>东莞市</item>
+        <item>佛山市</item>
+    </string-array>
     <string-array name="message_operations">
         <item>删除</item>
     </string-array>
+    <string-array name="xwalk_resources_list">
+<item>icudtl.dat</item>
+<item>xwalk.pak</item>
+<item>xwalk_100_percent.pak</item>
+</string-array>
+    <attr format="reference" name="select_dialog_multichoice"/>
+    <attr format="reference" name="select_dialog_singlechoice"/>
     <color name="app_color">#ff4848</color>
     <color name="bg_message_time">#F4F4F4</color>
     <color name="black_333333">#333333</color>
@@ -14,6 +25,8 @@
     <color name="btn_blue_pressed">#0066FF</color>
     <color name="btn_gray_normal">#c0c0c0</color>
     <color name="btn_gray_pressed_status">#b5b5b6</color>
+    <color name="color_picker_background_color">#FFFFFF</color>
+    <color name="color_picker_border_color">#B0B0B0</color>
     <color name="common_background">#EBEBEB</color>
     <color name="common_background_transparent">#AAEBEBEB</color>
     <color name="common_bg">#fcfcfc</color>
@@ -21,6 +34,8 @@
     <color name="dialog_background">#EEEEEE</color>
     <color name="divider">#D2D2D2</color>
     <color name="divider2">#bababa</color>
+    <color name="dropdown_dark_divider_color">#C0C0C0</color>
+    <color name="dropdown_divider_color">#E5E5E5</color>
     <color name="emojicon_tab_nomal">#ffffff</color>
     <color name="emojicon_tab_selected">#D9D9D9</color>
     <color name="gray">#B8B8B8</color>
@@ -47,6 +62,7 @@
     <color name="gray_normal">#666667</color>
     <color name="gray_pressed">#b5b5b6</color>
     <color name="green_00A00B">#00A00B</color>
+    <color name="half_transparent">#e0000000</color>
     <color name="holo_blue_bright">#ff00ddff</color>
     <color name="holo_green_light">#ff99cc00</color>
     <color name="holo_orange_light">#ffffbb33</color>
@@ -82,16 +98,20 @@
     <color name="text_title">#555555</color>
     <color name="text_white">@color/white</color>
     <color name="top_bar_normal_bg">#ff4848</color>
+    <color name="transparent">#00000000</color>
     <color name="viewfinder_mask">#60000000</color>
     <color name="white">#FFFFFF</color>
     <color name="yellow_FEB53F">#FEB53F</color>
     <declare-styleable name="BubbleImageView"><attr format="dimension|reference" name="bubble_arrowTop"/><attr format="dimension|reference" name="bubble_arrowWidth"/><attr format="dimension|reference" name="bubble_arrowHeight"/><attr format="dimension|reference" name="bubble_arrowOffset"/><attr format="dimension|reference" name="bubble_angle"/><attr format="enum" name="bubble_arrowLocation"><enum name="left" value="0"/><enum name="right" value="1"/></attr></declare-styleable>
+    <declare-styleable name="ButtonCompat"><attr format="reference|color" name="buttonColor"/><attr format="boolean" name="buttonRaised"/></declare-styleable>
     <declare-styleable name="EaseChatExtendMenu"><attr format="integer" name="numColumns"/></declare-styleable>
     <declare-styleable name="EaseChatMessageList"><attr format="reference" name="msgListMyBubbleBackground"/><attr format="reference" name="msgListOtherBubbleBackground"/><attr format="boolean" name="msgListShowUserAvatar"/><attr format="boolean" name="msgListShowUserNick"/></declare-styleable>
     <declare-styleable name="EaseTitleBar"><attr format="string" name="titleBarTitle"/><attr format="reference" name="titleBarLeftImage"/><attr format="reference" name="titleBarRightImage"/><attr format="reference|color" name="titleBarBackground"/></declare-styleable>
     <declare-styleable name="EmojiconMenu"><attr format="integer" name="bigEmojiconRows"/><attr format="integer" name="emojiconColumns"/></declare-styleable>
     <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle"><flag name="rotate" value="0x0"/><flag name="flip" value="0x1"/></attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
     <declare-styleable name="RatingBar"><attr format="dimension" name="starDistance"/><attr format="dimension" name="starSize"/><attr format="integer" name="starCount"/><attr format="reference" name="starEmpty"/><attr format="reference" name="starFill"/></declare-styleable>
+    <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
+    <declare-styleable name="TextViewWithLeading"><attr format="reference|dimension" name="leading"/></declare-styleable>
     <declare-styleable name="gridPasswordView"><attr format="color|reference" name="gpvTextColor"/><attr format="dimension" name="gpvTextSize"/><attr format="color" name="gpvLineColor"/><attr format="color" name="gpvGridColor"/><attr format="dimension" name="gpvLineWidth"/><attr format="integer" name="gpvPasswordLength"/><attr format="string" name="gpvPasswordTransformation"/><attr format="enum" name="gpvPasswordType"><enum name="numberPassword" value="0"/><enum name="textPassword" value="1"/><enum name="textVisiblePassword" value="2"/><enum name="textWebPassword" value="3"/></attr></declare-styleable>
     <dimen name="about_logo">56dp</dimen>
     <dimen name="about_menu_height">@dimen/view_50</dimen>
@@ -102,9 +122,14 @@
     <dimen name="btn_small">@dimen/view_30</dimen>
     <dimen name="chat_nick_margin_left">12dp</dimen>
     <dimen name="chat_nick_text_size">13sp</dimen>
+    <dimen name="color_button_height">60dp</dimen>
+    <dimen name="color_picker_gradient_margin">14.5dp</dimen>
+    <dimen name="config_min_scaling_span">12.0mm</dimen>
     <dimen name="dialog_corner">5dp</dimen>
     <dimen name="divider">1px</dimen>
     <dimen name="divider_minus">-1px</dimen>
+    <dimen name="dropdown_item_divider_height">1px</dimen>
+    <dimen name="dropdown_item_height">44dp</dimen>
     <dimen name="et_corner">@dimen/view_1</dimen>
     <dimen name="et_drawable_paddding">@dimen/view_5</dimen>
     <dimen name="et_login_height">@dimen/view_50</dimen>
@@ -116,6 +141,13 @@
     <dimen name="indicator_corner_radius">12dp</dimen>
     <dimen name="indicator_internal_padding">4dp</dimen>
     <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <dimen name="keyboard_accessory_chip_height">32dp</dimen>
+    <dimen name="keyboard_accessory_half_padding">4dp</dimen>
+    <dimen name="keyboard_accessory_height">48dp</dimen>
+    <dimen name="keyboard_accessory_padding">8dp</dimen>
+    <dimen name="keyboard_accessory_text_size">14sp</dimen>
+    <dimen name="link_preview_overlay_radius">7dp</dimen>
     <dimen name="login_et_margin_top">@dimen/view_30</dimen>
     <dimen name="login_logo_padding">@dimen/view_30</dimen>
     <dimen name="margin_chat_activity">5dp</dimen>
@@ -150,6 +182,7 @@
     <dimen name="view_12">12dp</dimen>
     <dimen name="view_120">120dp</dimen>
     <dimen name="view_13">13dp</dimen>
+    <dimen name="view_130">130dp</dimen>
     <dimen name="view_136">136dp</dimen>
     <dimen name="view_14">14dp</dimen>
     <dimen name="view_15">15dp</dimen>
@@ -243,6 +276,8 @@
     <item name="distance" type="id"/>
     <item name="distance_layout" type="id"/>
     <item name="divider" type="id"/>
+    <item name="download_service_notification" type="id"/>
+    <item name="dropdown_popup_window" type="id"/>
     <item name="duration" type="id"/>
     <item name="etAddr" type="id"/>
     <item name="etCaptcha" type="id"/>
@@ -257,6 +292,7 @@
     <item name="gridview" type="id"/>
     <item name="hint" type="id"/>
     <item name="icon" type="id"/>
+    <item name="item_touch_helper_previous_elevation" type="id"/>
     <item name="ivHead" type="id"/>
     <item name="ivShowId" type="id"/>
     <item name="ivSplash" type="id"/>
@@ -335,6 +371,19 @@
     <string name="_original_price">原 价</string>
     <string name="_trainer_name">教练姓名</string>
     <string name="about">关于</string>
+    <string name="accessibility_date_picker_month">"Month"</string>
+    <string name="accessibility_date_picker_week">"Week"</string>
+    <string name="accessibility_date_picker_year">"Year"</string>
+    <string name="accessibility_datetime_picker_date">"Date"</string>
+    <string name="accessibility_datetime_picker_time">"Time"</string>
+    <string name="accessibility_time_picker_ampm">"AM/PM"</string>
+    <string name="accessibility_time_picker_hour">"Hour"</string>
+    <string name="accessibility_time_picker_milli">"Millisecond"</string>
+    <string name="accessibility_time_picker_minute">"Minute"</string>
+    <string name="accessibility_time_picker_second">"Second"</string>
+    <string name="actionbar_share">"Share"</string>
+    <string name="actionbar_textselection_title">"Text selection"</string>
+    <string name="actionbar_web_search">"Web search"</string>
     <string name="actual_payment">实际支付</string>
     <string name="address">住址：</string>
     <string name="alipay">支付宝</string>
@@ -344,6 +393,8 @@
     <string name="attach_location">Location</string>
     <string name="attach_picture">Image</string>
     <string name="attach_take_pic">Capture</string>
+    <string name="autofill_keyboard_accessory_content_description">"Suggestions available"</string>
+    <string name="autofill_popup_content_description">"Showing autofill popup"</string>
     <string name="back">返回</string>
     <string name="balance">当前余额：</string>
     <string name="balance2">余额：</string>
@@ -364,6 +415,21 @@
     <string name="cant_find_pictures">"Can't find pictures"</string>
     <string name="car">车辆</string>
     <string name="colon">：</string>
+    <string name="color_picker_button_black">"Black"</string>
+    <string name="color_picker_button_blue">"Blue"</string>
+    <string name="color_picker_button_cancel">"Cancel"</string>
+    <string name="color_picker_button_cyan">"Cyan"</string>
+    <string name="color_picker_button_green">"Green"</string>
+    <string name="color_picker_button_magenta">"Magenta"</string>
+    <string name="color_picker_button_more">"More"</string>
+    <string name="color_picker_button_red">"Red"</string>
+    <string name="color_picker_button_set">"Set"</string>
+    <string name="color_picker_button_white">"White"</string>
+    <string name="color_picker_button_yellow">"Yellow"</string>
+    <string name="color_picker_dialog_title">"Select color"</string>
+    <string name="color_picker_hue">"Hue"</string>
+    <string name="color_picker_saturation">"Saturation"</string>
+    <string name="color_picker_value">"Value"</string>
     <string name="confirm">确定</string>
     <string name="confirm_order">确认订单</string>
     <string name="confirm_payment">确认支付</string>
@@ -371,14 +437,29 @@
     <string name="confirmed">已确认</string>
     <string name="connect_failuer_toast">Please check the network or try again later</string>
     <string name="contact_phone">联系电话：</string>
+    <string name="copy_to_clipboard_failure_message">"Failed to copy to the clipboard"</string>
     <string name="course">课程</string>
     <string name="course_no_order">该科目未来7天内没有培训计划</string>
+    <string name="crosswalk_install_title">"Crosswalk Project Install"</string>
+    <string name="date_picker_dialog_clear">"Clear"</string>
+    <string name="date_picker_dialog_other_button_label">"Other"</string>
+    <string name="date_picker_dialog_set">"Set"</string>
+    <string name="date_picker_dialog_title">"Set date"</string>
+    <string name="date_time_picker_dialog_title">"Set date and time"</string>
     <string name="declare">声明：</string>
     <string name="declare_detail">感谢您使用<ns1:g id="app_name1">%s</ns1:g>客户端应用程序。如有疑问，请联系<ns1:g id="app_name2">%s</ns1:g>管理人员。欢迎您提供宝贵的意见。</string>
+    <string name="decompression_progress_message">"Decompressing the Crosswalk Project Service..."</string>
     <string name="default_error_msg">应用异常，请稍后重试</string>
     <string name="delete_message_fail">删除消息失败</string>
     <string name="delete_record_or_not">是否删除该记录？</string>
     <string name="distance_km"><ns1:g id="duration">%1$.1f</ns1:g>km</string>
+    <string name="download_already_exists_toast">"Downloading file already exists, abort."</string>
+    <string name="download_failed_message">"Download failed."</string>
+    <string name="download_failed_toast">"Failed to download file."</string>
+    <string name="download_finished_toast">"Finished to download file."</string>
+    <string name="download_no_permission_toast">"No permission to write, abort."</string>
+    <string name="download_progress_message">"Downloading the Crosswalk Project Service from remote host..."</string>
+    <string name="download_start_toast">"Downloading file:"</string>
     <string name="downwaiting">Downloading the file, please try again later</string>
     <string name="duration">时长</string>
     <string name="dynamic_expression">[Dynamic expression]</string>
@@ -395,6 +476,7 @@
     <string name="get_cars_fail">获取车辆信息失败</string>
     <string name="get_labels_fail">获取标签列表失败</string>
     <string name="get_message_fail">获取消息失败</string>
+    <string name="google_play_store">"Google Play Store"</string>
     <string name="hint">提示</string>
     <string name="hint_input_captcha">请输入验证码</string>
     <string name="hint_input_phone">请输入手机号码</string>
@@ -405,20 +487,34 @@
     <string name="home_tv_call">客服</string>
     <string name="home_tv_local">深圳</string>
     <string name="home_tv_title">拍拍学车</string>
+    <string name="http_auth_log_in">"Log In"</string>
+    <string name="http_auth_password">"Password"</string>
+    <string name="http_auth_title">"Authentication Required"</string>
+    <string name="http_auth_user_name">"Username"</string>
     <string name="id">身份证号码：</string>
     <string name="id_card">身份证号码</string>
     <string name="id_card_hint">请输入身份证号码</string>
     <string name="id_num">请输入身份证号码</string>
     <string name="in_training">培训中</string>
     <string name="is_down_please_wait">Downloading video, please try again later</string>
+    <string name="js_alert_title">"Javascript Alert"</string>
+    <string name="js_confirm_title">"Javascript Confirm"</string>
+    <string name="js_prompt_title">"Javascript Prompt"</string>
     <string name="location_message">The location information</string>
     <string name="location_prefix">[my location]</string>
     <string name="location_recv">[%1$s location]</string>
     <string name="login">登录</string>
     <string name="logout">退出登录</string>
+    <string name="low_memory_error">"Unable to complete previous operation due to low memory"</string>
+    <string name="media_player_error_button">"OK"</string>
+    <string name="media_player_error_text_invalid_progressive_playback">"Sorry, this video is not valid for streaming to this device."</string>
+    <string name="media_player_error_text_unknown">"Sorry, this video cannot be played."</string>
+    <string name="media_player_error_title">"Cannot play video"</string>
+    <string name="media_player_loading_video">"Loading video"</string>
     <string name="message_content_beyond_limit">The message content beyond the limit</string>
     <string name="modify_password">修改支付密码</string>
     <string name="modify_pay_pwd">修改支付密码</string>
+    <string name="month_picker_dialog_title">"Set month"</string>
     <string name="move_up_to_cancel">Finger up to cancel sending</string>
     <string name="my_coupon">我的优惠券</string>
     <string name="my_location">我的位置</string>
@@ -433,6 +529,7 @@
     <string name="not_download">Did not download:</string>
     <string name="ok">OK</string>
     <string name="old_password">原密码</string>
+    <string name="opening_file_error">"Failed to open selected file"</string>
     <string name="operate_fail_update_app">操作失败，请更新应用</string>
     <string name="operation_success">操作成功</string>
     <string name="order">单</string>
@@ -445,6 +542,7 @@
     <string name="order_times">预约次数</string>
     <string name="order_trainer">预约教练</string>
     <string name="original_price">原价</string>
+    <string name="password_generation_popup_content_description">"Showing password generation popup"</string>
     <string name="pay">支付</string>
     <string name="pay_fail">支付失败</string>
     <string name="pay_fee">支付费用</string>
@@ -468,6 +566,10 @@
     <string name="please_select_yue">结算金额为0.00元，请使用余额支付。</string>
     <string name="preferential_amount">已优惠</string>
     <string name="preferential_price">活动价</string>
+    <string name="profiler_error_toast">"Failed to start profiler"</string>
+    <string name="profiler_no_storage_toast">"Can\'t start profiler because external storage is not ready"</string>
+    <string name="profiler_started_toast">"Profiler started"</string>
+    <string name="profiler_stopped_toast">"Profiler finished. Results are in %1$s."</string>
     <string name="prompt">Prompt</string>
     <string name="pull_to_refresh_from_bottom_pull_label">上拉加载…</string>
     <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
@@ -495,11 +597,12 @@
     <string name="school_registration">报名分校：</string>
     <string name="sd_card_does_not_exist">"SD card does not exist, can't take pictures"</string>
     <string name="search_by_trainer_name">按教练姓名查询</string>
-    <string name="search_school_yard">搜索培训分校场地</string>
+    <string name="search_school_yard">输入地址寻找驾校</string>
     <string name="select_car">选择车辆</string>
     <string name="select_date">选择日期</string>
     <string name="select_label">选择标签</string>
     <string name="select_period">选择时段</string>
+    <string name="select_store_message">"Please select STORE_NAME to download the Crosswalk Project Service."</string>
     <string name="selected_order_time"><ns1:g id="date">%1$s</ns1:g> <ns1:g id="start_time">%2$s</ns1:g>--<ns1:g id="end_time">%3$s</ns1:g></string>
     <string name="send_fail">Send failed</string>
     <string name="send_failure_please">Send failure, please test whether the server connection</string>
@@ -664,7 +767,19 @@ function login(form){
     <string name="ssdk_yixin_client_inavailable">目前您的易信版本过低或未安装，需要安装易信才能使用</string>
     <string name="ssdk_yixinmoments">易信朋友圈</string>
     <string name="ssdk_youdao">有道云笔记</string>
+    <string name="ssl_alert_title">"Ssl Certificate Error Alert"</string>
+    <string name="ssl_error_deny_request">"Request was denied for security."</string>
     <string name="start_sign_in">开始签到</string>
+    <string name="startup_architecture_mismatch_message">"The Crosswalk Project Service must be updated to match the CPU architecture of the device. Please install it from the app store, then restart APP_NAME."</string>
+    <string name="startup_architecture_mismatch_title">"Mismatch of CPU Architecture"</string>
+    <string name="startup_newer_version_message">"APP_NAME is not compatible with the installed version of the Crosswalk Project Service."</string>
+    <string name="startup_newer_version_title">"Incompatible Crosswalk Project Service"</string>
+    <string name="startup_not_found_message">"APP_NAME requires the Crosswalk Project Service to work. Please install it from the app store, then restart APP_NAME."</string>
+    <string name="startup_not_found_title">"Crosswalk Project Service Not Found"</string>
+    <string name="startup_older_version_message">"The version of the Crosswalk Project Service on this system must be updated. Please install it from the app store, then restart APP_NAME."</string>
+    <string name="startup_older_version_title">"New Crosswalk Project Service Required"</string>
+    <string name="startup_signature_check_error_message">"The integrity of the Crosswalk Project Service cannot be verified. Please uninstall it and restart APP_NAME."</string>
+    <string name="startup_signature_check_error_title">"The Crosswalk Project Signature Verification Failed"</string>
     <string name="status">状态</string>
     <string name="str_recorder_recording">release to end</string>
     <string name="submit_anonymous_evaluation">提交匿名评价</string>
@@ -676,6 +791,12 @@ function login(form){
     <string name="text_ack_msg">Read</string>
     <string name="text_delivered_msg">Delivered</string>
     <string name="time">时间</string>
+    <string name="time_picker_dialog_am">"AM"</string>
+    <string name="time_picker_dialog_hour_minute_separator">":"</string>
+    <string name="time_picker_dialog_minute_second_separator">":"</string>
+    <string name="time_picker_dialog_pm">"PM"</string>
+    <string name="time_picker_dialog_second_subsecond_separator">"."</string>
+    <string name="time_picker_dialog_title">"Set time"</string>
     <string name="time_registration">报名时间：</string>
     <string name="toast_get_captcha">请先获取验证码</string>
     <string name="toast_input_captcha">请输入验证码</string>
@@ -699,7 +820,9 @@ function login(form){
     <string name="tuijian2">好友报名立减200元</string>
     <string name="unknown">未知</string>
     <string name="unselect_coupon">不使用优惠券</string>
+    <string name="unsupported_store_message">"The application stores on your device don\'t support Crosswalk Project Service. Please download Crosswalk Project Service manually from the official website (https://crosswalk-project.org/)."</string>
     <string name="unusable_coupon">查看不可用券</string>
+    <string name="updating_chrome">"Updating Chrome..."</string>
     <string name="useable_coupon">可用优惠券(<ns1:g id="size">%d</ns1:g>)</string>
     <string name="verify_code">验证码</string>
     <string name="version_name">1.0.8</string>
@@ -709,6 +832,12 @@ function login(form){
     <string name="voice_prefix">[Voice]</string>
     <string name="waiting_confirm">待确认</string>
     <string name="we_chat">微信</string>
+    <string name="week_picker_dialog_title">"Set week"</string>
+    <string name="xwalk_cancel">"Cancel"</string>
+    <string name="xwalk_close">"Close"</string>
+    <string name="xwalk_continue">"Continue"</string>
+    <string name="xwalk_get_crosswalk">"Get Crosswalk"</string>
+    <string name="xwalk_retry">"Retry"</string>
     <string name="your_apply_school">您的报名分校</string>
     <string name="your_apply_school_km">您的报名分校：\n距离<ns1:g id="duration">%1$.1f</ns1:g>km</string>
     <string name="your_last_school">您上一次培训场地</string>
@@ -779,6 +908,74 @@ function login(form){
         <item name="android:textSize">@dimen/text_btn</item>
         <item name="android:textColor">@android:color/white</item>
     </style>
+    <style name="ButtonCompat" parent="ButtonCompatBase">
+    
+        
+    <item name="android:background">@drawable/button_compat_shape</item>
+    
+        
+    <item name="android:textStyle">bold</item>
+    
+    
+  </style>
+    <style name="ButtonCompatBase">
+    
+        
+    <item name="android:minWidth">88dp</item>
+    
+        
+    <item name="android:minHeight">36dp</item>
+    
+        
+    <item name="android:textSize">14sp</item>
+    
+        
+    <item name="android:paddingLeft">20dp</item>
+    
+        
+    <item name="android:paddingRight">20dp</item>
+    
+        
+    <item name="android:paddingTop">5dp</item>
+    
+        
+    <item name="android:paddingBottom">5dp</item>
+    
+        
+    <item name="android:textAllCaps">true</item>
+    
+        
+    <item name="android:focusable">true</item>
+    
+        
+    <item name="android:clickable">true</item>
+    
+        
+    <item name="android:gravity">center_vertical|center_horizontal</item>
+    
+    
+  </style>
+    <style name="ButtonCompatBorderless" parent="ButtonCompat">
+    
+        
+    <item name="android:background">?android:attr/selectableItemBackground</item>
+    
+    
+  </style>
+    <style name="ButtonCompatBorderlessOverlay">
+    
+        
+    <item name="android:buttonStyle">@style/ButtonCompatBorderless</item>
+    
+    
+  </style>
+    <style name="ButtonCompatOverlay">
+    
+        
+    <item name="android:buttonStyle">@style/ButtonCompat</item>
+    
+    
+  </style>
     <style name="ButtonOrange">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/btn_medium</item>
@@ -806,6 +1003,13 @@ function login(form){
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsFloating">true</item>
     </style>
+    <style name="DropdownPopupWindow" parent="@android:style/Widget.ListPopupWindow">
+    
+        
+    <item name="android:popupBackground">@drawable/dropdown_popup_background</item>
+    
+    
+  </style>
     <style name="FullScreenDialg">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFrame">@null</item>
@@ -838,6 +1042,30 @@ function login(form){
         <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
         <item name="android:backgroundDimEnabled">true</item>
     </style>
+    <style name="SelectActionMenuShare">
+    
+        
+    <item name="android:icon">@drawable/ic_menu_share_holo_light</item>
+    
+    
+  </style>
+    <style name="SelectActionMenuWebSearch">
+    
+        
+    <item name="android:icon">@drawable/ic_search</item>
+    
+    
+  </style>
+    <style name="SelectPopupDialog">
+    
+        
+    <item name="select_dialog_singlechoice">@android:layout/select_dialog_singlechoice</item>
+    
+        
+    <item name="select_dialog_multichoice">@android:layout/select_dialog_multichoice</item>
+    
+    
+  </style>
     <style name="SignPayDetailDialog" parent="android:style/Theme.Dialog">
         <!--背景颜色及和透明程度-->
         <item name="android:windowBackground">@android:color/transparent</item>

@@ -29,17 +29,17 @@ public class OperateOrderRequestData extends BaseRequestData {
 		this.id = id;
 	}
 
-	public String getOperateType() {
-		return operateType;
-	}
+    public String getOperateType() {
+        return operateType;
+    }
 
-	public void setOperateType(String operateType) {
-		this.operateType = operateType;
-	}
+    public void setOperateType(String operateType) {
+        this.operateType = operateType;
+    }
 
-	@Override
-	protected String getSpecificUrlPath() {
-		return "";
+    @Override
+    protected String getSpecificUrlPath() {
+        return "";
 	}
 
 }

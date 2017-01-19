@@ -76,8 +76,8 @@ public class HomePagerActivity extends BaseActivity implements OnClickListener {
     }
 
     private void getLocalEase() {
-        mEaseName = SharedPreferencesUtil.getString(SharedPreferencesUtil.EASE_USER_NAME,"");
-        mPassword = SharedPreferencesUtil.getString(SharedPreferencesUtil.EASE_USER_PASSWORD,"");
+        mEaseName = SharedPreferencesUtil.getString(SharedPreferencesUtil.EASE_USER_NAME, "");
+        mPassword = SharedPreferencesUtil.getString(SharedPreferencesUtil.EASE_USER_PASSWORD, "");
     }
 
     private void startLocalService() {
@@ -181,8 +181,8 @@ public class HomePagerActivity extends BaseActivity implements OnClickListener {
             Intent intent = new IntentBuilder(HomePagerActivity.this)
                     .setServiceIMNumber("kefuchannelimid_148313")
                     .setVisitorInfo(ContentFactory.createVisitorInfo(null)
-                    .nickName(account.getName())
-                    .phone(account.getPhone()))
+                            .nickName(account.getName())
+                            .phone(account.getPhone()))
                     .build();
             startActivity(intent);
         } else {
@@ -219,24 +219,24 @@ public class HomePagerActivity extends BaseActivity implements OnClickListener {
 
 
     private void paresData(String response) {
-        if (mGson == null){
+        if (mGson == null) {
             mGson = new Gson();
         }
         EaseUser easeUser = mGson.fromJson(response, EaseUser.class);
         final String name = easeUser.getUserName();
         final String password = easeUser.getPassword();
 
-//        if (easeUser.getResult().equals("success2")) {
-            CreateEase(name, password);
-//            return;
-//        }
-        if (!mEaseName.equals(name)){
-            SharedPreferencesUtil.saveString(SharedPreferencesUtil.EASE_USER_NAME,name);
-            SharedPreferencesUtil.saveString(SharedPreferencesUtil.EASE_USER_PASSWORD,password);
+        //        if (easeUser.getResult().equals("success2")) {
+        CreateEase(name, password);
+        //            return;
+        //        }
+        if (!mEaseName.equals(name)) {
+            SharedPreferencesUtil.saveString(SharedPreferencesUtil.EASE_USER_NAME, name);
+            SharedPreferencesUtil.saveString(SharedPreferencesUtil.EASE_USER_PASSWORD, password);
             ChatClient.getInstance().logout(true, new Callback() {
                 @Override
                 public void onSuccess() {
-                    LoginEase(name,password);
+                    LoginEase(name, password);
                 }
 
                 @Override
@@ -249,23 +249,24 @@ public class HomePagerActivity extends BaseActivity implements OnClickListener {
 
                 }
             });
-//            return;
+            //            return;
         }
-//        if (!ChatClient.getInstance().isLoggedInBefore()){
-//            LoginEase(name,password);
-//        }
+        //        if (!ChatClient.getInstance().isLoggedInBefore()){
+        //            LoginEase(name,password);
+        //        }
     }
+
     private void CreateEase(final String name, final String passWord) {
 
-        ChatClient.getInstance().createAccount(name,passWord, new Callback(){
+        ChatClient.getInstance().createAccount(name, passWord, new Callback() {
             @Override
             public void onSuccess() {
-                LoginEase(name,passWord);
+                LoginEase(name, passWord);
             }
 
             @Override
             public void onError(int i, String s) {
-                LoginEase(name,passWord);
+                LoginEase(name, passWord);
             }
 
             @Override
@@ -275,11 +276,11 @@ public class HomePagerActivity extends BaseActivity implements OnClickListener {
         });
     }
 
-    private void LoginEase(String name,String passWord) {
-        ChatClient.getInstance().login(name, passWord, new Callback(){
+    private void LoginEase(String name, String passWord) {
+        ChatClient.getInstance().login(name, passWord, new Callback() {
             @Override
             public void onSuccess() {
-                if (mIsCheck){
+                if (mIsCheck) {
                     mIsCheck = false;
                     toChat();
                 }

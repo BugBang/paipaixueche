@@ -5,7 +5,7 @@
     android:versionName="@string/version_name" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="16"
         android:targetSdkVersion="22" />
 
     <permission
@@ -52,10 +52,11 @@
     <!-- 蓝牙分享所需的权限 -->
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <supports-screens android:anyDensity="true" />
 
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
     <uses-permission android:name="android.permission.BROADCAST_STICKY" />
@@ -63,6 +64,7 @@
     <application
         android:name="com.session.dgjp.AppInstance"
         android:allowBackup="true"
+        android:hardwareAccelerated="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:logo="@drawable/ic_launcher"
@@ -82,29 +84,34 @@
         <!-- 登录 -->
         <activity
             android:name="com.session.dgjp.login.LoginActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
         <!-- 注册 -->
         <activity
             android:name="com.session.dgjp.login.RegisterActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
         <!-- 主页依附ViewPager的Activity -->
         <activity
             android:name="com.session.dgjp.MainActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
         <!-- 首页 -->
         <activity
             android:name="com.session.dgjp.HomePagerActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
         <!-- 报名页 -->
         <activity
             android:name="com.session.dgjp.sign.SignActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden" />
+            android:windowSoftInputMode="adjustPan|stateHidden" />
         <!-- 地图页 -->
         <activity
             android:name="com.session.dgjp.HomeActivity"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
         <!-- 个人中心 -->
         <activity
             android:name="com.session.dgjp.personal.PersonalCenterActivity"
@@ -149,6 +156,10 @@
         <!-- 教练列表 -->
         <activity
             android:name="com.session.dgjp.trainer.TrainerListActivity"
+            android:screenOrientation="portrait" />
+        <!-- 学校列表 -->
+        <activity
+            android:name="com.session.dgjp.school.SchoolListActivity"
             android:screenOrientation="portrait" />
         <!-- 预约培训 -->
         <activity

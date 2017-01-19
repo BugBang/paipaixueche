@@ -4,4 +4,4 @@
     android:layout_height="wrap_content"
     android:contentDescription="@null"
     android:scaleType="centerCrop"
-    android:src="@drawable/location_marker" />
+    android:src="@drawable/location_marker2" />

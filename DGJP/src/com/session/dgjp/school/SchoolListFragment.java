@@ -1,9 +1,15 @@
 package com.session.dgjp.school;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
@@ -16,6 +22,7 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
 import android.widget.Filter.FilterListener;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -35,12 +42,29 @@ import com.amap.api.maps2d.model.BitmapDescriptorFactory;
 import com.amap.api.maps2d.model.LatLng;
 import com.amap.api.maps2d.model.Marker;
 import com.amap.api.maps2d.model.MarkerOptions;
+import com.google.gson.Gson;
 import com.session.common.BaseFragment;
+import com.session.common.BaseRequest;
+import com.session.common.BaseRequestTask;
+import com.session.common.BaseResponse;
+import com.session.common.utils.LogUtil;
+import com.session.dgjp.Constants;
 import com.session.dgjp.R;
 import com.session.dgjp.enity.BranchSchool;
+import com.session.dgjp.enity.Coach;
+import com.session.dgjp.enity.Course;
+import com.session.dgjp.enity.Teaching;
+import com.session.dgjp.enity.TeachingSchedule;
+import com.session.dgjp.enity.Trainer;
 import com.session.dgjp.helper.BranchSchoolHelper;
 import com.session.dgjp.helper.BranchSchoolHelper.BranchSchoolListener;
+import com.session.dgjp.request.CoachListRequestData;
+import com.session.dgjp.request.TeachingScheduleRequestData;
+import com.session.dgjp.request.TrainerListRequestData;
+import com.session.dgjp.response.TeachingScheduleResponseData;
+import com.session.dgjp.response.TrainerListResponseData;
 import com.session.dgjp.school.SchoolAdapter.OrderListener;
+import com.session.dgjp.trainer.OrderActivity;
 import com.session.dgjp.trainer.TrainerListActivity;
 
 import java.util.ArrayList;
@@ -83,7 +107,74 @@ public class SchoolListFragment extends BaseFragment implements OrderListener, B
     private Map<BranchSchool, MarkerHolder> markerMap = new HashMap<BranchSchool, SchoolListFragment.MarkerHolder>();
     private MarkerHolder myMarkerHolder;
     private LayoutInflater inflater;
+    private RecyclerView mCoachList;
+    private CoachListAdapter mCoachListAdapter;
+    private Coach mCoach;
 
+    private final static int ORDER_RQ = 1;
+    private final static int GET_TRAINERS_SUCCESS = 1;
+    private final static int GET_TRAINERS_FAIL = 2;
+    private final static int GET_TEACHING_SCHEDULE_SUCCESS = 3;
+    private final static int GET_TEACHING_SCHEDULE_FAIL = 4;
+    private Handler handler = new Handler() {
+        @Override
+        public void handleMessage(Message msg) {
+            switch (msg.what) {
+                case GET_TRAINERS_SUCCESS:
+                    TrainerListResponseData responseData = (TrainerListResponseData) msg.obj;
+                    mList = responseData.getList();
+                    break;
+                case GET_TRAINERS_FAIL:
+                    BaseResponse<TrainerListResponseData> baseResponse = (BaseResponse<TrainerListResponseData>) msg.obj;
+                    if (baseResponse != null) {
+                        if (baseResponse.toLogin()) {
+                            toLogin();
+                        }
+                        toast(baseResponse.getMsg(), R.string.query_datas_fail, Toast.LENGTH_SHORT);
+                    } else {
+                        toast(R.string.query_datas_fail, Toast.LENGTH_SHORT);
+                    }
+                    break;
+                case GET_TEACHING_SCHEDULE_SUCCESS:
+                    List<TeachingSchedule> schedules = (List<TeachingSchedule>) msg.obj;
+                    if (schedules == null) {
+                        toast(R.string.trainer_no_order, Toast.LENGTH_SHORT);
+                        break;
+                    }
+                    int sum = 0;
+                    for (int i = 0; i < schedules.size(); i++) {
+                        List<Teaching> teachings = schedules.get(i).getTeachingList();
+                        if (teachings != null && !teachings.isEmpty()) {
+                            sum++;
+                        }
+                    }
+                    if (sum == 0) {
+                        toast(R.string.trainer_no_order, Toast.LENGTH_SHORT);
+                        break;
+                    }
+                    Intent intent = new Intent(act, OrderActivity.class);
+                    intent.putExtra(Trainer.class.getName(), mList.get(mPosition));
+                    intent.putParcelableArrayListExtra(OrderActivity.SCHEDULES, (ArrayList<TeachingSchedule>) schedules);
+                    startActivityForResult(intent, ORDER_RQ);
+                    break;
+                case GET_TEACHING_SCHEDULE_FAIL:
+                    BaseResponse<TeachingScheduleResponseData> response = (BaseResponse<TeachingScheduleResponseData>) msg.obj;
+                    if (response != null) {
+                        if (response.toLogin()) {
+                            toLogin();
+                        }
+                        toast(response.getMsg(), R.string.query_datas_fail, Toast.LENGTH_SHORT);
+                    } else {
+                        toast(R.string.query_datas_fail, Toast.LENGTH_SHORT);
+                    }
+                    break;
+                default:
+                    super.handleMessage(msg);
+                    break;
+            }
+        }
+    };
+    private List<Trainer> mList;
 
     @Override
     protected int getContentRes() {
@@ -98,6 +189,9 @@ public class SchoolListFragment extends BaseFragment implements OrderListener, B
         mapLayout.findViewById(R.id.ivTrainerList).setOnClickListener(this);
         mapLayout.findViewById(R.id.zoom_out).setOnClickListener(this);
         mapLayout.findViewById(R.id.zoom_in).setOnClickListener(this);
+
+
+
         // 获取地图控件引用
         mapView = (MapView) mapLayout.findViewById(R.id.map);
         // 在activity执行onCreate时执行mMapView.onCreate(savedInstanceState)，实现地图生命周期管理
@@ -173,6 +267,112 @@ public class SchoolListFragment extends BaseFragment implements OrderListener, B
         // 在定位结束后，在合适的生命周期调用onDestroy()方法
         // 在单次定位情况下，定位无论成功与否，都无需调用stopLocation()方法移除请求，定位sdk内部会移除
         locationClient.startLocation();
+
+        //初始化底部教练列表
+        initCoachList();
+    }
+
+    private int mPosition;
+    private void initCoachList() {
+        mCoachList = (RecyclerView) mapLayout.findViewById(R.id.coach_list);
+        //创建默认的线性LayoutManager
+        LinearLayoutManager mLayoutManager = new LinearLayoutManager(act);
+        mLayoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
+        mCoachList.setLayoutManager(mLayoutManager);
+        //如果可以确定每个item的高度是固定的，设置这个选项可以提高性能
+        mCoachList.setHasFixedSize(true);
+        //创建并设置Adapter
+        mCoachListAdapter = new CoachListAdapter(mCoach,act);
+
+        mCoachListAdapter.setOnOrderClickListener(new CoachListAdapter.OnOrderClickListener() {
+            @Override
+            public void onOrderClick(String id,int position) {
+                mPosition = position;
+                getCoachDetail(mList.get(position).getAccount());
+            }
+        });
+        mCoachList.setAdapter(mCoachListAdapter);
+
+        if(mCoach == null){
+            mCoachList.setVisibility(View.GONE);
+        }
+    }
+
+    private void getCoachDetail(final String id) {
+        progressDialog.setMessage(getText(R.string.querying));
+        progressDialog.show();
+        AsyncTask.THREAD_POOL_EXECUTOR.execute(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    TeachingScheduleRequestData requestData = new TeachingScheduleRequestData();
+                    requestData.setTrainerAccount(id);
+                    BaseRequest request = new BaseRequest(requestData);
+                    BaseResponse<TeachingScheduleResponseData> response = request.sendRequest(TeachingScheduleResponseData.class);
+                    Message msg = Message.obtain();
+                    if (BaseResponse.CODE_SUCCESS == response.getCode()) {
+                        msg.what = GET_TEACHING_SCHEDULE_SUCCESS;
+                        List<TeachingSchedule> list = response.getResponseData().getList();
+                        List<TeachingSchedule> schedules = new ArrayList<TeachingSchedule>();
+                        for (int i = 0; i < list.size(); i++) {
+                            TeachingSchedule teachingSchedule = list.get(i);
+                            if (teachingSchedule.getCourse().equals(Course.K2.getCode()) || teachingSchedule.getCourse().equals(Course.K3.getCode())) {
+                                schedules.add(teachingSchedule);
+                            }
+                        }
+                        Bundle bundle = new Bundle();
+                        msg.setData(bundle);
+                        msg.obj = schedules;
+                    } else {
+                        msg.what = GET_TEACHING_SCHEDULE_FAIL;
+                        msg.obj = response;
+                    }
+                    handler.sendMessage(msg);
+                } catch (Exception e) {
+                    handler.sendEmptyMessage(GET_TEACHING_SCHEDULE_FAIL);
+                    LogUtil.e(TAG, e.toString(), e);
+                } finally {
+                    progressDialog.dismiss();
+                }
+            }
+        });
+    }
+
+
+    private void requestCoachList(final long id) {
+        ProgressDialog progressDialog = buildProcessDialog(null, "加载中...", false);
+        CoachListRequestData requestData = new CoachListRequestData();
+        requestData.setId(id);
+        String data = new Gson().toJson(requestData);
+        new BaseRequestTask() {
+            @Override
+            protected void onResponse(int code, String msg, String response) {
+                switch (code) {
+                    case BaseRequestTask.CODE_SUCCESS:
+                        parseCostList(response);
+                        break;
+                    case BaseRequestTask.CODE_SESSION_ABATE:
+                        requestCoachList(id);
+                        break;
+                    default:
+                        break;
+                }
+            }
+        }.request(Constants.URL_GET_COACH_LIST, data, progressDialog, true);
+    }
+
+    private void parseCostList(String response) {
+        Gson gson = new Gson();
+        mCoach = gson.fromJson(response, Coach.class);
+        if (mCoach.getList().size() != 0){
+            mCoachList.setVisibility(View.VISIBLE);
+            mCoachListAdapter.setCoach(mCoach);
+            mCoachListAdapter.notifyDataSetChanged();
+        }else {
+            toastLong("该驾校暂无可预约教练");
+            mCoachList.setVisibility(View.GONE);
+        }
+
     }
 
     /**
@@ -417,10 +617,12 @@ public class SchoolListFragment extends BaseFragment implements OrderListener, B
         mapSchoolAdapter = new ArrayAdapter<BranchSchool>(getActivity(), R.layout.drop_down_textview_2, schools);
         mapSchoolSearchTv.setAdapter(mapSchoolAdapter);
         Resources resources = getResources();
-        int width = view.findViewById(R.id.search_layout).getWidth() + resources.getDimensionPixelOffset(R.dimen.view_10);
-        int offset = -resources.getDimensionPixelOffset(R.dimen.view_30);
+        LinearLayout linearLayout = (LinearLayout) view.findViewById(R.id.search_layout);
+        int width = linearLayout.getWidth()+30;
+        int offset = -resources.getDimensionPixelOffset(R.dimen.view_130);
         mapSchoolSearchTv.setDropDownWidth(width);
         mapSchoolSearchTv.setDropDownHorizontalOffset(offset);
+        mapSchoolSearchTv.setDropDownVerticalOffset(0);
         listSchoolAdapter.setList(schools);
         listSchoolAdapter.getFilter().filter(listSchoolSearchEt.getText().toString().trim(), this);
     }
@@ -482,6 +684,7 @@ public class SchoolListFragment extends BaseFragment implements OrderListener, B
 	}*/
 
 
+    private long mSchoolId;
     /**
      * 对marker标注点点击响应事件
      */
@@ -492,10 +695,44 @@ public class SchoolListFragment extends BaseFragment implements OrderListener, B
         Entry<BranchSchool, MarkerHolder> entry = getEntry(marker);
         if (entry != null) {
             map.moveCamera(CameraUpdateFactory.zoomTo(ZOOM_LEVEL));
-            listSchoolSearchEt.setText(entry.getKey().getName());
-            switchToList();
+            mSchoolId = entry.getKey().getId();
+            requestCoachList(mSchoolId);
+            getTrainers(mSchoolId);
+//            listSchoolSearchEt.setText(entry.getKey().getName());
+//            switchToList();
         }
         return false;
+    }
+
+    private void getTrainers(final long schoolId) {
+        progressDialog.setMessage(getText(R.string.querying));
+        progressDialog.show();
+        AsyncTask.SERIAL_EXECUTOR.execute(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    TrainerListRequestData requestData = new TrainerListRequestData();
+                    requestData.setBranchSchoolId(schoolId);
+                    BaseRequest request = new BaseRequest(requestData);
+                    BaseResponse<TrainerListResponseData> response = request.sendRequest(TrainerListResponseData.class);
+                    Message msg = Message.obtain();
+                    if (response.getCode() == BaseResponse.CODE_SUCCESS) {
+                        msg.what = GET_TRAINERS_SUCCESS;
+                        msg.obj = response.getResponseData();
+                    } else {
+                        msg.what = GET_TRAINERS_FAIL;
+                        msg.obj = response;
+                    }
+                    handler.sendMessage(msg);
+                } catch (Exception e) {
+                    handler.sendEmptyMessage(GET_TRAINERS_FAIL);
+                    LogUtil.e(TAG, e.toString(), e);
+                } finally {
+                    progressDialog.dismiss();
+                }
+            }
+        });
+
     }
 
 
