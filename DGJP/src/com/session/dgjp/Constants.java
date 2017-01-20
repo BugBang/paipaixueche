@@ -15,7 +15,7 @@ public final class Constants {
 //    public final static String TEST_URL ="https://www.papaxueche.cn:8443/";
     public final static String TEST_URL ="https://10.0.0.32:8443/";
     /** 后台接口主机IP地址 */
-    public final static String URL_IP = TEST_URL;
+    public final static String URL_IP = RELEASE_URL;
     /** 后台接口地址 */
     public final static String URL = URL_IP + "DGFDS/";
 //------------------------------------------------------------

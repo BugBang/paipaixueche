@@ -190,8 +190,6 @@ public class SchoolListFragment extends BaseFragment implements OrderListener, B
         mapLayout.findViewById(R.id.zoom_out).setOnClickListener(this);
         mapLayout.findViewById(R.id.zoom_in).setOnClickListener(this);
 
-
-
         // 获取地图控件引用
         mapView = (MapView) mapLayout.findViewById(R.id.map);
         // 在activity执行onCreate时执行mMapView.onCreate(savedInstanceState)，实现地图生命周期管理
@@ -618,8 +616,8 @@ public class SchoolListFragment extends BaseFragment implements OrderListener, B
         mapSchoolSearchTv.setAdapter(mapSchoolAdapter);
         Resources resources = getResources();
         LinearLayout linearLayout = (LinearLayout) view.findViewById(R.id.search_layout);
-        int width = linearLayout.getWidth()+30;
         int offset = -resources.getDimensionPixelOffset(R.dimen.view_130);
+        int width = act.getWindowManager().getDefaultDisplay().getWidth();
         mapSchoolSearchTv.setDropDownWidth(width);
         mapSchoolSearchTv.setDropDownHorizontalOffset(offset);
         mapSchoolSearchTv.setDropDownVerticalOffset(0);

@@ -32,6 +32,7 @@
             android:textSize="@dimen/text_title"/>
 
         <ImageView
+            android:visibility="invisible"
             android:id="@+id/iv_to_coach"
             android:layout_width="0dp"
             android:layout_height="@dimen/title_height"
@@ -73,7 +74,7 @@
                 android:layout_centerVertical="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/arr_down"
+                android:src="@drawable/arrow_down_normal"
                 />
 
         </RelativeLayout>
