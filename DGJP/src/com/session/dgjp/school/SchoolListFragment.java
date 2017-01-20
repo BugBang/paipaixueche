@@ -111,6 +111,7 @@ public class SchoolListFragment extends BaseFragment implements OrderListener, B
     private CoachListAdapter mCoachListAdapter;
     private Coach mCoach;
 
+
     private final static int ORDER_RQ = 1;
     private final static int GET_TRAINERS_SUCCESS = 1;
     private final static int GET_TRAINERS_FAIL = 2;
