@@ -271,7 +271,8 @@ public class SchoolListFragment extends BaseFragment implements OrderListener, B
         initCoachList();
     }
 
-    private int mPosition;
+    private int mPosition = -1;
+
     private void initCoachList() {
         mCoachList = (RecyclerView) mapLayout.findViewById(R.id.coach_list);
         //创建默认的线性LayoutManager
@@ -281,18 +282,27 @@ public class SchoolListFragment extends BaseFragment implements OrderListener, B
         //如果可以确定每个item的高度是固定的，设置这个选项可以提高性能
         mCoachList.setHasFixedSize(true);
         //创建并设置Adapter
-        mCoachListAdapter = new CoachListAdapter(mCoach,act);
+        mCoachListAdapter = new CoachListAdapter(mCoach, act);
 
         mCoachListAdapter.setOnOrderClickListener(new CoachListAdapter.OnOrderClickListener() {
             @Override
-            public void onOrderClick(String id,int position) {
-                mPosition = position;
-                getCoachDetail(mList.get(position).getAccount());
+            public void onOrderClick(String id, int position) {
+                for (int i = 0; i < mList.size(); i++) {
+                    if (mCoach.getList().get(position).getTrainerName().equals(mList.get(i).getName())) {
+                        mPosition = i;
+                        break;
+                    }
+                }
+                if (mPosition == -1) {
+                    toastLong("该教练暂时无法预约");
+                    return;
+                }
+                getCoachDetail(mList.get(mPosition).getAccount());
             }
         });
         mCoachList.setAdapter(mCoachListAdapter);
 
-        if(mCoach == null){
+        if (mCoach == null) {
             mCoachList.setVisibility(View.GONE);
         }
     }
@@ -363,11 +373,11 @@ public class SchoolListFragment extends BaseFragment implements OrderListener, B
     private void parseCostList(String response) {
         Gson gson = new Gson();
         mCoach = gson.fromJson(response, Coach.class);
-        if (mCoach.getList().size() != 0){
+        if (mCoach.getList().size() != 0) {
             mCoachList.setVisibility(View.VISIBLE);
             mCoachListAdapter.setCoach(mCoach);
             mCoachListAdapter.notifyDataSetChanged();
-        }else {
+        } else {
             toastLong("该驾校暂无可预约教练");
             mCoachList.setVisibility(View.GONE);
         }
@@ -434,7 +444,7 @@ public class SchoolListFragment extends BaseFragment implements OrderListener, B
             if (flag) {
                 if (lastLocation != null) {
                     /*如果location和lastLocation之间的距离小于50米，则不需要重新计算分校/分店的距离，否则需要计算分校的距离，
-					 * 且lastLocation指向location
+                     * 且lastLocation指向location
 					 */
                     LatLng lastLatLng = new LatLng(lastLocation.getLatitude(), lastLocation.getLongitude());
                     if (AMapUtils.calculateLineDistance(startLatLng, lastLatLng) < 50f) {
@@ -545,7 +555,7 @@ public class SchoolListFragment extends BaseFragment implements OrderListener, B
             schools = new ArrayList<BranchSchool>();
         }
         schools.clear();
-        if (list != null){
+        if (list != null) {
             schools.addAll(list);
             initSchoolList();
             progressDialog.dismiss();
@@ -674,6 +684,7 @@ public class SchoolListFragment extends BaseFragment implements OrderListener, B
 
     /**
      * 预约成功的回调接口
+     *
      * @author YJ Liang
      * 2016  上午8:55:05
      */
@@ -684,6 +695,7 @@ public class SchoolListFragment extends BaseFragment implements OrderListener, B
 
 
     private long mSchoolId;
+
     /**
      * 对marker标注点点击响应事件
      */
@@ -697,8 +709,8 @@ public class SchoolListFragment extends BaseFragment implements OrderListener, B
             mSchoolId = entry.getKey().getId();
             requestCoachList(mSchoolId);
             getTrainers(mSchoolId);
-//            listSchoolSearchEt.setText(entry.getKey().getName());
-//            switchToList();
+            //            listSchoolSearchEt.setText(entry.getKey().getName());
+            //            switchToList();
         }
         return false;
     }

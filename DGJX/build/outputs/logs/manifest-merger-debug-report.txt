@@ -18,6 +18,7 @@ ADDED from C:\Users\user\paipaixueche\DGJX\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:multidex:1.0.1] C:\Users\user\paipaixueche\DGJX\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
 MERGED from [paipaixueche:PullToRefresh:unspecified] C:\Users\user\paipaixueche\DGJX\build\intermediates\exploded-aar\paipaixueche\PullToRefresh\unspecified\AndroidManifest.xml:7:5-43
 MERGED from [com.jakewharton:butterknife:8.1.0] C:\Users\user\paipaixueche\DGJX\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.1.0\AndroidManifest.xml:5:5-43
+MERGED from [com.orhanobut:logger:1.8] C:\Users\user\paipaixueche\DGJX\build\intermediates\exploded-aar\com.orhanobut\logger\1.8\AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
 		ADDED from C:\Users\user\paipaixueche\DGJX\AndroidManifest.xml:9:9-38
 	android:minSdkVersion
@@ -119,6 +120,7 @@ ADDED from C:\Users\user\paipaixueche\DGJX\AndroidManifest.xml:45:5-51
 application
 ADDED from C:\Users\user\paipaixueche\DGJX\AndroidManifest.xml:47:5-211:19
 MERGED from [paipaixueche:PullToRefresh:unspecified] C:\Users\user\paipaixueche\DGJX\build\intermediates\exploded-aar\paipaixueche\PullToRefresh\unspecified\AndroidManifest.xml:9:5-20
+MERGED from [com.orhanobut:logger:1.8] C:\Users\user\paipaixueche\DGJX\build\intermediates\exploded-aar\com.orhanobut\logger\1.8\AndroidManifest.xml:11:5-47
 	android:label
 		ADDED from C:\Users\user\paipaixueche\DGJX\AndroidManifest.xml:51:9-41
 	android:allowBackup

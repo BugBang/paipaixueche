@@ -36,6 +36,10 @@ public final class Constants {
 	public final static String URL_CHECK_PAY_PASSWORD = URL + "account/checkPayPassword.flow";
 	/** 操作订单接口地址 */
 	public final static String URL_OPERATE_ORDER = URL + "order/operateOrder.flow";
+    /** 获取教练个人信息 */
+    public final static String URL_GET_ACCOUNT_DATA = URL + "trainer/getTraninerPhotoOrMoney.flow";
+    /** 获取教练收入列表信息*/
+    public final static String URL_GET_COACH_INCOME_DATA = URL + "trainer/getTrainerSrListPage.flow";
 	/** 日志 */
 	public final static String LOG = Environment.getExternalStorageDirectory().getAbsolutePath() + "/log/dgjx";
 

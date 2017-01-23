@@ -3,6 +3,7 @@ package com.session.dgjp.response;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.orhanobut.logger.Logger;
 import com.session.common.BaseListResponseData;
 import com.session.common.utils.GsonUtil;
 import com.session.common.utils.LogUtil;
@@ -25,6 +26,7 @@ public class TrainerListResponseData extends BaseListResponseData {
 
     @Override
     public void parseData(String jsonStr) {
+        Logger.i("json = " + jsonStr );
         JsonParser parser = new JsonParser();
         JsonObject dataObj = (JsonObject) parser.parse(jsonStr);
         setEndFlag(GsonUtil.getInt(dataObj, ENDFLAG, EndFlag.Flag_1.getValue()));

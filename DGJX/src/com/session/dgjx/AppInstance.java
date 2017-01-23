@@ -1,11 +1,8 @@
 package com.session.dgjx;
 
-import java.util.HashSet;
-import java.util.Set;
-
 import android.content.SharedPreferences;
-import cn.jpush.android.api.JPushInterface;
-import cn.jpush.android.api.TagAliasCallback;
+
+import com.orhanobut.logger.Logger;
 import com.session.common.BaseApplication;
 import com.session.common.ExtraMap;
 import com.session.common.utils.AppUtil;
@@ -14,6 +11,12 @@ import com.session.common.utils.SharedPreferencesUtil;
 import com.session.common.utils.TextUtil;
 import com.session.dgjx.enity.Account;
 import com.umeng.analytics.MobclickAgent;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import cn.jpush.android.api.JPushInterface;
+import cn.jpush.android.api.TagAliasCallback;
 
 public class AppInstance extends BaseApplication{
 
@@ -79,6 +82,7 @@ public class AppInstance extends BaseApplication{
 	public void onCreate() {
 		super.onCreate();
 		boolean isDebug = AppUtil.isDebuggable(this);
+        Logger.init("BAO");
 		JPushInterface.setDebugMode(isDebug);
 		JPushInterface.init(this);
 		MobclickAgent.setDebugMode(true);

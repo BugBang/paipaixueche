@@ -66,7 +66,6 @@ public class SchoolListActivity extends BaseActivity implements BranchSchoolHelp
         getData();
     }
 
-
     private float mLatitude;
     private float mLongitude;
     private String mCity;
