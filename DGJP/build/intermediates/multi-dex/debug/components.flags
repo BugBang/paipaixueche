@@ -1,7 +1,7 @@
 -injars 'C:\Users\user\paipaixueche\DGJP\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
 -outjars 'C:\Users\user\paipaixueche\DGJP\build\intermediates\multi-dex\debug\componentClasses.jar'
 
--libraryjars 'C:\Users\newuser\sdk\build-tools\24.0.0\lib\shrinkedAndroid.jar'
+-libraryjars 'C:\Users\newuser\sdk\build-tools\24.0.1\lib\shrinkedAndroid.jar'
 
 -forceprocessing
 -dontoptimize
@@ -82,6 +82,14 @@
     <init>();
 }
 
+-keep class com.session.dgjp.personal.MyAddressActivity {
+    <init>();
+}
+
+-keep class com.session.dgjp.personal.AddNewAddressActivity {
+    <init>();
+}
+
 -keep class com.session.dgjp.training.TrainingEvaluationActivity {
     <init>();
 }
@@ -95,6 +103,10 @@
 }
 
 -keep class com.session.dgjp.trainer.OrderActivity {
+    <init>();
+}
+
+-keep class com.session.dgjp.personal.EventsActivity {
     <init>();
 }
 

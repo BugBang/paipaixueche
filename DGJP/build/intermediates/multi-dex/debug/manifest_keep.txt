@@ -18,10 +18,13 @@
 -keep class com.session.dgjp.personal.PersonalInfoActivity { <init>(); }
 -keep class com.session.dgjp.personal.AboutAppActivity { <init>(); }
 -keep class com.session.dgjp.message.MessageActivity { <init>(); }
+-keep class com.session.dgjp.personal.MyAddressActivity { <init>(); }
+-keep class com.session.dgjp.personal.AddNewAddressActivity { <init>(); }
 -keep class com.session.dgjp.training.TrainingEvaluationActivity { <init>(); }
 -keep class com.session.dgjp.trainer.TrainerListActivity { <init>(); }
 -keep class com.session.dgjp.school.SchoolListActivity { <init>(); }
 -keep class com.session.dgjp.trainer.OrderActivity { <init>(); }
+-keep class com.session.dgjp.personal.EventsActivity { <init>(); }
 -keep class com.session.dgjp.order.OrderPaymentActivity { <init>(); }
 -keep class com.session.dgjp.order.PaidOrderDetailActivity { <init>(); }
 -keep class com.session.dgjp.order.UnpaidOrderDetailActivity { <init>(); }

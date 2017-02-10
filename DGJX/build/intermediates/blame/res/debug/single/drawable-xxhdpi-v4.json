@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bottom_order_checked.png",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\bottom_order_checked.png"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\flashlight.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\flashlight.png"
     },
@@ -12,12 +16,12 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\star_gray_small.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\back.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\back.png"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\clock.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\clock.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\back.png",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\back.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_account.png",
@@ -40,6 +44,10 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\ic_phone.png"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bottom_home_normal.png",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\bottom_home_normal.png"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\phone.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\phone.png"
     },
@@ -48,12 +56,20 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\checkbox_uncheck.png"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bottom_me_checked.png",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\bottom_me_checked.png"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\checkbox_checked.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\checkbox_checked.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\arrow_down_pressed.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\arrow_down_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bottom_order_normal.png",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\bottom_order_normal.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_show_id.png",
@@ -70,6 +86,10 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\arrow_down_normal.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\arrow_down_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bottom_home_checked.png",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\bottom_home_checked.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_back.png",
@@ -102,6 +122,10 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_msg.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\btn_msg.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bottom_me_normal.png",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\bottom_me_normal.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_message.9.png",

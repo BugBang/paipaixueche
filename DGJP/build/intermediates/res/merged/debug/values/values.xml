@@ -452,6 +452,7 @@
     <string name="default_error_msg">应用异常，请稍后重试</string>
     <string name="delete_message_fail">删除消息失败</string>
     <string name="delete_record_or_not">是否删除该记录？</string>
+    <string name="desc_check_mark">check mark</string>
     <string name="distance_km"><ns1:g id="duration">%1$.1f</ns1:g>km</string>
     <string name="download_already_exists_toast">"Downloading file already exists, abort."</string>
     <string name="download_failed_message">"Download failed."</string>
@@ -516,6 +517,7 @@
     <string name="modify_pay_pwd">修改支付密码</string>
     <string name="month_picker_dialog_title">"Set month"</string>
     <string name="move_up_to_cancel">Finger up to cancel sending</string>
+    <string name="my_address">上车地址</string>
     <string name="my_coupon">我的优惠券</string>
     <string name="my_location">我的位置</string>
     <string name="my_message">我的消息</string>
@@ -887,6 +889,10 @@ function login(form){
         <item name="android:windowEnterAnimation">@anim/ease_push_top_in2</item>
         <item name="android:windowExitAnimation">@anim/ease_push_top_out2</item>
     </style>
+    <style name="Animation_Bottom_Dialog">
+        <item name="android:windowEnterAnimation">@anim/bottom_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/bottom_dialog_exit</item>
+    </style>
     <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
         <!--
             Theme customizations available in newer API levels can go in
@@ -1084,6 +1090,20 @@ function login(form){
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowFrame">@null</item>
         <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Theme_Transparent" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="bottom_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/Animation_Bottom_Dialog</item>
     </style>
     <style name="chat_content_date_style">
         <item name="android:minHeight">50dp</item>
@@ -1315,4 +1335,15 @@ function login(form){
 	    <item name="android:layout_height">@dimen/view_20</item>
 	    <item name="android:contentDescription">@null</item>
 	</style>
+    <style name="tab">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:text">请选择</item>
+        <item name="android:textColor">@color/selector_text_color_tab</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:visibility">gone</item>
+    </style>
 </resources>

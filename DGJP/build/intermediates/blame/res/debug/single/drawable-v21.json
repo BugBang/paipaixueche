@@ -1,10 +1,22 @@
 [
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\button_compat.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\drawable-v21\\button_compat.xml"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\button_borderless_compat.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\drawable-v21\\button_borderless_compat.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
     }
 ]

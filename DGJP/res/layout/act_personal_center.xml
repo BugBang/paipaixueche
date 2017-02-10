@@ -236,6 +236,33 @@
             </LinearLayout>
 
             <View style="@style/divider" />
+           <LinearLayout
+               android:id="@+id/ll_address"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@drawable/about_press"
+               android:gravity="center"
+               android:minHeight="@dimen/about_menu_height"
+               android:orientation="horizontal"
+               android:padding="@dimen/pager_paddding" >
+
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:background="@android:color/transparent"
+                   android:text="@string/my_address"
+                   android:textColor="@color/text_personal_center_item"
+                   android:textSize="@dimen/text_medium_xxx" />
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:contentDescription="@null"
+                   android:src="@drawable/ic_more" />
+           </LinearLayout>
+
+           <View style="@style/divider" />
 
             <LinearLayout
                 android:id="@id/llVersion"

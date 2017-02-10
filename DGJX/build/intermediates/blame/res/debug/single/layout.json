@@ -16,6 +16,10 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_welcome.xml"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_main.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_main.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\PullToRefresh\\unspecified\\res\\layout\\pull_to_refresh_header_horizontal.xml"
     },
@@ -26,6 +30,10 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_create_qrcode.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_create_qrcode.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_home_pager.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_home_pager.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\it_message.xml",
@@ -112,12 +120,12 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_about_app.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\textview.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\textview.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\training_item.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\training_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\textview.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\textview.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\tv_input_bg.xml",
@@ -134,5 +142,9 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\student_item.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\student_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\item_tab_view.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\item_tab_view.xml"
     }
 ]

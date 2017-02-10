@@ -149,7 +149,7 @@ public abstract class BaseRequestTask extends AsyncTask<Void, Integer, String> {
 				if (!TextUtils.isEmpty(data)) {
 					String str_data = CryptoUtil.decrypt(data);
 					onResponse(code, msg, str_data);
-                    Logger.json(str_data);
+                    Logger.i("com.session.common.result解析后 = "+str_data);
 				} else {
 					onResponse(code, msg, null);
 				}

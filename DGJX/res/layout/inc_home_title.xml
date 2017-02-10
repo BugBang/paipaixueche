@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical" 
-    android:background="@color/blue_00BFF3">
+    android:background="@color/app_color">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,6 +12,7 @@
         android:orientation="horizontal" >
 
         <ImageView
+            android:visibility="invisible"
             android:id="@id/ivTitleLeft"
             android:layout_width="@dimen/title_height"
             android:layout_height="@dimen/title_height"
@@ -29,11 +30,12 @@
             android:marqueeRepeatLimit="marquee_forever"
             android:scrollHorizontally="true"
             android:singleLine="true"
-            android:text="@string/app_name"
+            android:text="预约"
             android:textColor="@android:color/white"
             android:textSize="@dimen/text_title" />
 
         <FrameLayout
+            android:visibility="invisible"
             android:id="@id/btnMsg"
             android:layout_width="@dimen/title_height"
             android:layout_height="@dimen/title_height" >

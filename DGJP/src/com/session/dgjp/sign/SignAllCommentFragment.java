@@ -74,7 +74,6 @@ public class SignAllCommentFragment extends BaseFragment {
         new BaseRequestTask() {
             @Override
             protected void onResponse(int code, String msg, String response) {
-                logI("response="+response);
                 try {
                     switch (code) {
                         case BaseRequestTask.CODE_SUCCESS:

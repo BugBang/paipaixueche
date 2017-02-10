@@ -13,9 +13,9 @@ public final class Constants {
 //	public final static String RELEASE_URL = "https://120.76.168.132:8443/";
 	/** 测试环境IP地址 */
 //    public final static String TEST_URL ="https://www.papaxueche.cn:8443/";
-    public final static String TEST_URL ="https://10.0.0.32:8443/";
+    public final static String TEST_URL ="https://10.0.0.35:8443/";
     /** 后台接口主机IP地址 */
-    public final static String URL_IP = RELEASE_URL;
+    public final static String URL_IP = TEST_URL;
     /** 后台接口地址 */
     public final static String URL = URL_IP + "DGFDS/";
 //------------------------------------------------------------
@@ -97,7 +97,16 @@ public final class Constants {
     public final static String URL_GET_CITY_AND_SCHOOL = URL + "branchSchool/queryCountySchoolList.flow";
     /**获取教练详细信息*/
     public final static String URL_GET_COACH_DETAIL = URL + "trainer/getTrainerTeachingSchedule.flow";
-
+    /**获取学员上车地址*/
+    public final static String URL_GET_STUDENT_ADDRESS = URL + "student/queryAddressList.flow";
+    /**添加学员上车地址*/
+    public final static String URL_ADD_STUDENT_ADDRESS = URL + "student/updateAddressInfo.flow";
+    /**删除学员上车地址*/
+    public final static String URL_DELETE_STUDENT_ADDRESS = URL + "student/delAddress.flow";
+    /**修改默认选中上车地址*/
+    public final static String URL_EDITOR_DEFAULT_STUDENT_ADDRESS = URL + "student/updateMoRenPlace.flow";
+    /**修改默认上车地址*/
+    public final static String URL_EDITOR_DEFAULT_PLACE_STUDENT_ADDRESS = URL + "student/updateMoRenAddress.flow";
 
 	private Constants() {
 		// 常量配置类，不需要实例

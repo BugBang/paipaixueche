@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <color name="app_color">#ff4848</color>
     <color name="common_background">#EBEBEB</color>
     <color name="dialog_background">#EEEEEE</color>
     <color name="text_title">#555555</color>

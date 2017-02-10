@@ -36,6 +36,10 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\bg_gray_unable.xml"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_background_selector.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\tab_background_selector.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\upper_round_corner_bg.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\upper_round_corner_bg.xml"
     },
@@ -112,6 +116,10 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\bg_gray_unable_2.xml"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_home_img_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\bottom_home_img_bg.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_gray.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\bg_gray.xml"
     },
@@ -138,6 +146,10 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_2.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\divider_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_order_img_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\bottom_order_img_bg.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
@@ -168,12 +180,20 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\btn_white_enable.xml"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_tv_color.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\bottom_tv_color.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\check_box_bg.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\check_box_bg.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\et_top.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\et_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_me_img_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\bottom_me_img_bg.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_bg_2.xml",

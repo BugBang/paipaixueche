@@ -3,6 +3,7 @@
     <string-array name="message_operations">
         <item>删除</item>
     </string-array>
+    <color name="app_color">#ff4848</color>
     <color name="bg_message_time">#F4F4F4</color>
     <color name="black_333333">#333333</color>
     <color name="blue">#1990DE</color>

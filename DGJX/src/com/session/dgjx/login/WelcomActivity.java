@@ -1,7 +1,5 @@
 package com.session.dgjx.login;
 
-import java.util.ArrayList;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
@@ -12,7 +10,6 @@ import android.text.TextUtils;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import cn.jpush.android.api.JPushInterface;
 
 import com.google.gson.Gson;
 import com.session.common.BaseActivity;
@@ -20,10 +17,14 @@ import com.session.common.BaseRequestTask;
 import com.session.common.utils.SharedPreferencesUtil;
 import com.session.dgjx.AppInstance;
 import com.session.dgjx.Constants;
-import com.session.dgjx.HomeActivity;
+import com.session.dgjx.MainActivity;
 import com.session.dgjx.R;
 import com.session.dgjx.enity.Account;
 import com.session.dgjx.request.LoginRequestData;
+
+import java.util.ArrayList;
+
+import cn.jpush.android.api.JPushInterface;
 
 /** 欢迎 */
 public class WelcomActivity extends BaseActivity {
@@ -132,7 +133,8 @@ public class WelcomActivity extends BaseActivity {
 	
 	/** 进入主页 */
 	private void gotoHome() {
-		Intent in = new Intent(ctx, HomeActivity.class);
+//		Intent in = new Intent(ctx, HomeActivity.class);
+		Intent in = new Intent(ctx, MainActivity.class);
 		in.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
 		startActivity(in);
 		finish();

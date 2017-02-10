@@ -18,6 +18,7 @@ import android.widget.Toast;
 
 import com.orhanobut.logger.Logger;
 import com.session.common.utils.LogUtil;
+import com.session.common.utils.TextUtil;
 import com.session.common.utils.ToastUtil;
 import com.session.dgjp.AppInstance;
 import com.session.dgjp.R;
@@ -218,7 +219,11 @@ public abstract class BaseActivity extends FragmentActivity implements OnClickLi
      * 打印日志
      */
     protected void $log(String text) {
-        Logger.i(text);
+        if (TextUtil.isEmpty(text)){
+            Logger.i("TextUtil.isEmpty");
+        }else {
+            Logger.i(text);
+        }
     }
     /**
      * 分段打印出较长log文本

@@ -1,6 +1,5 @@
 package com.session.dgjx;
 
-import android.app.ProgressDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -15,11 +14,9 @@ import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.gson.Gson;
 import com.session.common.BaseActivity;
 import com.session.common.BaseFragment;
 import com.session.common.BaseFragmentPagerAdapter;
-import com.session.common.BaseRequestTask;
 import com.session.common.utils.AppUtil;
 import com.session.common.utils.LogUtil;
 import com.session.common.utils.UpdateUtil;
@@ -29,8 +26,8 @@ import com.session.dgjx.daytraining.DayTrainingListFragment;
 import com.session.dgjx.db.MyMessageDao;
 import com.session.dgjx.message.MessageActivity;
 import com.session.dgjx.order.OrderListFragment;
+import com.session.dgjx.personal.PersonalCenterActivity;
 import com.session.dgjx.receiver.JpushReceiver;
-import com.session.dgjx.request.GetPersonalDataRequestData;
 import com.session.dgjx.training.TrainingListFragment;
 
 import java.sql.SQLException;
@@ -66,7 +63,7 @@ public class HomeActivity extends BaseActivity {
     @Override
     protected void init(Bundle savedInstanceState) {
         setContentView(R.layout.act_home);
-        initTitle(R.string.app_name);
+//        initTitle("预约");
         findViewById(R.id.ivTitleRight).setOnClickListener(this);
         msgCountTv = (TextView) findViewById(R.id.tvMsgCount);
         fragments.add(new OrderListFragment());
@@ -142,8 +139,8 @@ public class HomeActivity extends BaseActivity {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.ivTitleLeft: // 个人中心
-//                startActivity(new Intent(ctx, PersonalCenterActivity.class));
-                get();
+                startActivity(new Intent(ctx, PersonalCenterActivity.class));
+//                get();
                 break;
             case R.id.ivTitleRight: // 我的消息
                 startActivity(new Intent(ctx, MessageActivity.class));
@@ -154,35 +151,35 @@ public class HomeActivity extends BaseActivity {
         }
     }
 
-    private void get() {
-        ProgressDialog progressDialog = buildProcessDialog(null, "正在退出登录...", false);
-        GetPersonalDataRequestData requestData = new GetPersonalDataRequestData();
-        requestData.setAccount(account.getAccount());
-        String data = new Gson().toJson(requestData);
-        new BaseRequestTask() {
-            @Override
-            protected void onResponse(int code, String msg, String response) {
-                $log("get = "+response);
-                try {
-                    switch (code) {
-                        case BaseRequestTask.CODE_SUCCESS:
-
-                            break;
-                        case BaseRequestTask.CODE_SESSION_ABATE:
-                            get();
-                            break;
-                        default:
-                            toastShort(msg);
-                            break;
-                    }
-                } catch (Exception e) {
-                    e.printStackTrace();
-                    toastShort("网络异常，请稍后重试");
-                } finally {
-                }
-            }
-        }.request(Constants.URL_GET_COACH_INCOME_DATA, data, progressDialog, true);
-    }
+//    private void get() {
+//        ProgressDialog progressDialog = buildProcessDialog(null, "正在退出登录...", false);
+//        GetPersonalDataRequestData requestData = new GetPersonalDataRequestData();
+//        requestData.setAccount(account.getAccount());
+//        String data = new Gson().toJson(requestData);
+//        new BaseRequestTask() {
+//            @Override
+//            protected void onResponse(int code, String msg, String response) {
+//                $log("get = "+response);
+//                try {
+//                    switch (code) {
+//                        case BaseRequestTask.CODE_SUCCESS:
+//
+//                            break;
+//                        case BaseRequestTask.CODE_SESSION_ABATE:
+//                            get();
+//                            break;
+//                        default:
+//                            toastShort(msg);
+//                            break;
+//                    }
+//                } catch (Exception e) {
+//                    e.printStackTrace();
+//                    toastShort("网络异常，请稍后重试");
+//                } finally {
+//                }
+//            }
+//        }.request(Constants.URL_GET_COACH_INCOME_DATA, data, progressDialog, true);
+//    }
 
 
     @Override

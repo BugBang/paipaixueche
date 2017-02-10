@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.orhanobut.logger.Logger;
 import com.session.common.utils.LogUtil;
+import com.session.common.utils.TextUtil;
 import com.session.dgjp.AppInstance;
 import com.session.dgjp.enity.Account;
 import com.session.dgjp.login.LoginActivity;
@@ -208,8 +209,12 @@ public abstract class BaseFragment extends Fragment implements OnClickListener {
     /**
      * 打印日志
      */
-    protected void $log(String msg) {
-        Logger.i(msg);
+    protected void $log(String text) {
+        if (TextUtil.isEmpty(text)){
+            Logger.i("TextUtil.isEmpty");
+        }else {
+            Logger.i(text);
+        }
     }
 
     @Override

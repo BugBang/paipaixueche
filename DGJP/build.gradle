@@ -7,15 +7,20 @@ dependencies {
     compile files('libs/MobCommons-2016.1107.1809.jar')
     compile project(':kefu-easeui')
     compile 'com.android.support:support-v4:23.1.1'
+    //    compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.android.support:recyclerview-v7:23.1.1'
     compile 'org.xwalk:xwalk_core_library:22.52.561.4'
     compile 'com.orhanobut:logger:1.8'
-
-//    compile 'com.squareup.retrofit:retrofit:2.0.0-beta1'
-//    compile 'com.squareup.retrofit:adapter-rxjava:2.0.0-beta1'
-//    compile 'io.reactivex:rxandroid:1.0.1'
-//    compile 'org.xwalk:xwalk_core_library:22.52.561.4-arm@aar'
-//    compile 'org.xwalk:xwalk_core_library:18.48.477.13'
+    //    compile ('com.github.chihane:JDAddressSelector:1.1.4'){
+    //        exclude group: 'com.google.code.gson',module: 'gson'
+    //    }
+    //    compile 'com.squareup.retrofit:retrofit:2.0.0-beta1'
+    //    compile 'com.squareup.retrofit:adapter-rxjava:2.0.0-beta1'
+    //    compile 'io.reactivex:rxandroid:1.0.1'
+    //    compile 'org.xwalk:xwalk_core_library:22.52.561.4-arm@aar'
+    //    compile 'org.xwalk:xwalk_core_library:18.48.477.13'
+    compile project(':address-selector')
+    compile files('libs/AMap_Search_V4.0.0_20170111.jar')
 }
 repositories {
     maven {
@@ -34,8 +39,9 @@ android {
             keyPassword 'sessiontech'
         }
     }
-    compileSdkVersion 22
-    buildToolsVersion "24.0.0"
+    compileSdkVersion 24
+    buildToolsVersion '24.0.1'
+    useLibrary 'org.apache.http.legacy'
     defaultConfig {
         multiDexEnabled true
         ndk {

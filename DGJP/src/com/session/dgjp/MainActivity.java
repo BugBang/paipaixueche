@@ -40,7 +40,7 @@ public class MainActivity extends BaseActivity{
         activities = new Activity[3];
         activities[0] = homePagerActivity;
         activities[1] = homeActivity;
-        activities[0] = personalCenterActivity;
+        activities[2] = personalCenterActivity;
 		mactivityManager = new LocalActivityManager(this, true);
         mactivityManager.dispatchCreate(savedInstanceState);
 		initView();

@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
 import com.google.gson.Gson;
 import com.session.common.BaseActivity;
 import com.session.common.BaseDialog;
@@ -35,7 +36,7 @@ public class PersonalCenterActivity extends BaseActivity {
 
 	private ImageView ivHead;
 	private TextView tvName, tvPhone;
-	private LinearLayout llVersion;
+	private LinearLayout llVersion,mLlMyAddress;
 	private Button btnLogout;
 
 	@Override
@@ -47,7 +48,10 @@ public class PersonalCenterActivity extends BaseActivity {
 		tvName.setText(account.getName());
 		tvPhone = (TextView) findViewById(R.id.tvPhone);
 		tvPhone.setText(account.getPhone());
-		// try {
+
+        mLlMyAddress = (LinearLayout) findViewById(R.id.ll_address);
+        mLlMyAddress.setOnClickListener(this);
+        // try {
 		// Bitmap bm = BitmapFactory.decodeResource(getResources(),
 		// R.drawable.img_def_head);
 		// CircleDrawable head = new CircleDrawable(bm);
@@ -173,6 +177,9 @@ public class PersonalCenterActivity extends BaseActivity {
 			break;
 		case R.id.llAbout: // 关于
 			startActivity(new Intent(ctx, AboutAppActivity.class));
+			break;
+        case R.id.ll_address: // 上车地址
+            startActivity(new Intent(ctx,MyAddressActivity.class));
 			break;
 		case R.id.btnLogout: // 退出登录
 			BaseDialog dialog = new BaseDialog.Builder(ctx).setTitle("提示").setMessage("您确定要退出登录吗？").setPositiveButton("确定", new OnClickListener() {

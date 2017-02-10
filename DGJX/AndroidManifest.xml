@@ -63,9 +63,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- TabHostActivity -->
+        <activity
+            android:name="com.session.dgjx.MainActivity"
+            android:screenOrientation="portrait" />
         <!-- 登录 -->
         <activity
             android:name="com.session.dgjx.login.LoginActivity"
+            android:screenOrientation="portrait" />
+        <!-- 首页 -->
+        <activity
+            android:name="com.session.dgjx.HomePagerActivity"
             android:screenOrientation="portrait" />
         <!-- 注册 -->
         <activity

@@ -72,6 +72,7 @@
     <string name="reset_pay_pwd">重置支付密码</string>
     <string name="my_wallet">我的钱包</string>
     <string name="my_coupon">我的优惠券</string>
+    <string name="my_address">上车地址</string>
     <string name="personal_info">个人资料</string>
     <string name="version_update">版本更新</string>
     <string name="declare">声明：</string>

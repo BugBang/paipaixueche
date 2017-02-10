@@ -56,13 +56,6 @@
       <sourceFolder url="file://$MODULE_DIR$/assets" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/jni" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/jni" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
@@ -70,6 +63,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/jni" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/bundles" />
@@ -93,7 +93,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
-    <orderEntry type="jdk" jdkName="Android API 22 Platform" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android API 24 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="gson-2.3.1" level="project" />
     <orderEntry type="library" exported="" name="picasso-2.5.2" level="project" />
@@ -113,10 +113,12 @@
     <orderEntry type="library" exported="" name="umeng-analytics-v6.0.1" level="project" />
     <orderEntry type="library" exported="" name="AMap_2DMap_V2.9.0_20160525" level="project" />
     <orderEntry type="library" exported="" name="MobTools-2016.1107.1809" level="project" />
+    <orderEntry type="library" exported="" name="AMap_Search_V4.0.0_20170111" level="project" />
     <orderEntry type="library" exported="" name="ShareSDK-Wechat-Moments-2.7.10" level="project" />
     <orderEntry type="library" exported="" name="MobCommons-2016.1107.1809" level="project" />
     <orderEntry type="library" exported="" name="xwalk_core_library-22.52.561.4" level="project" />
     <orderEntry type="library" exported="" name="logger-1.8" level="project" />
+    <orderEntry type="library" exported="" name="dbflow-core-3.0.0-beta6" level="project" />
     <orderEntry type="library" exported="" name="ShareSDK-Core-2.7.10" level="project" />
     <orderEntry type="library" exported="" name="ormlite-android-4.38" level="project" />
     <orderEntry type="library" exported="" name="multidex-1.0.1" level="project" />
@@ -125,6 +127,8 @@
     <orderEntry type="library" exported="" name="ShareSDK-Email-2.7.10" level="project" />
     <orderEntry type="library" exported="" name="AMap_Location_V2.4.1_20160414" level="project" />
     <orderEntry type="module" module-name="kefu-easeui" exported="" />
+    <orderEntry type="module" module-name="address-selector" exported="" />
     <orderEntry type="module" module-name="PullToRefresh" exported="" />
+    <orderEntry type="library" exported="" name="org.apache.http.legacy-android-24" level="project" />
   </component>
 </module>

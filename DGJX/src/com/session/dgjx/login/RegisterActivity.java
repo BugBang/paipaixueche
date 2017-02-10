@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 import com.session.common.BaseActivity;
 import com.session.common.BaseDialog;
-import com.session.dgjx.HomeActivity;
+import com.session.dgjx.MainActivity;
 import com.session.dgjx.R;
 
 import java.util.Random;
@@ -99,7 +99,8 @@ public class RegisterActivity extends BaseActivity {
 	}
 
 	private void gotoHome() {
-		Intent in = new Intent(this, HomeActivity.class);
+//		Intent in = new Intent(this, HomeActivity.class);
+		Intent in = new Intent(this, MainActivity.class);
 		in.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
 		startActivity(in);
 		finish();

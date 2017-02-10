@@ -146,6 +146,14 @@
         <activity
             android:name="com.session.dgjp.message.MessageActivity"
             android:screenOrientation="portrait" />
+        <!-- 上车地址 -->
+        <activity
+            android:name="com.session.dgjp.personal.MyAddressActivity"
+            android:screenOrientation="portrait" />
+        <!-- 添加上车地址 -->
+        <activity
+            android:name="com.session.dgjp.personal.AddNewAddressActivity"
+            android:screenOrientation="portrait" />
         <!-- 培训点评 -->
         <activity
             android:name="com.session.dgjp.training.TrainingEvaluationActivity"
@@ -162,6 +170,10 @@
         <!-- 预约培训 -->
         <activity
             android:name="com.session.dgjp.trainer.OrderActivity"
+            android:screenOrientation="portrait" />
+        <!-- 拖拽地图定位 -->
+        <activity
+            android:name="com.session.dgjp.personal.EventsActivity"
             android:screenOrientation="portrait" />
         <!-- 订单支付 -->
         <activity

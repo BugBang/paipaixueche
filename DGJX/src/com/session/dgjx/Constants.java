@@ -2,6 +2,8 @@ package com.session.dgjx;
 
 import android.os.Environment;
 
+import com.session.dgjx.personal.PersonalCenterActivity;
+
 /** 常量配置 */
 public final class Constants {
 
@@ -11,7 +13,7 @@ public final class Constants {
 	public final static String RELEASE_URL = "https://120.76.168.132:8443/";
 	/** 测试环境IP地址 */
 //	public final static String TEST_URL = "https://183.62.251.19:8443/";
-	public final static String TEST_URL = "https://10.0.0.32:8443/";
+	public final static String TEST_URL = "https://10.0.0.31:8443/";
 	/** 后台接口主机IP地址 */
 	public final static String URL_IP = TEST_URL;
 	/** 后台接口地址 */
@@ -46,5 +48,31 @@ public final class Constants {
 	private Constants() {
 		// 常量配置类，不需要实例
 	}
+
+    public static final class ConValue{
+
+        /**
+         * Tab选项卡的图标
+         */
+        public static int mImageViewArray[] = {
+                R.drawable.bottom_home_img_bg,
+                R.drawable.bottom_order_img_bg,
+                R.drawable.bottom_me_img_bg
+        };
+
+        /**
+         * Tab选项卡的文字
+         */
+        public static String mTextViewArray[] = {"首页", "预约", "我的"};
+
+        /**
+         * 每一个Tab界面
+         */
+        public static Class<?> mTabClassArray[] = {
+                HomePagerActivity.class,
+                HomeActivity.class,
+                PersonalCenterActivity.class
+        };
+    }
 
 }

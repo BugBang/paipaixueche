@@ -2,6 +2,7 @@ package com.session.dgjp;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.support.multidex.MultiDex;
 
 import com.hyphenate.chat.ChatClient;
 import com.hyphenate.helpdesk.easeui.UIProvider;
@@ -81,6 +82,7 @@ public class AppInstance extends BaseApplication {
 
     @Override
     public void onCreate() {
+        MultiDex.install(this);
         super.onCreate();
         boolean isDebug = AppUtil.isDebuggable(this);
         Logger.init("BAO");
