@@ -9,7 +9,7 @@
     <RadioGroup
         android:id="@id/radio_group"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/view_50"
         android:background="@color/white"
         android:orientation="horizontal"
         android:paddingLeft="@dimen/radio_group_padding"
@@ -17,15 +17,17 @@
 
         <RadioButton
             android:id="@id/booking_order"
+            android:layout_height="match_parent"
             style="@style/radio_button"
             android:text="@string/booking_order" />
 
-        <RadioButton
-            android:id="@id/day_training"
-            style="@style/radio_button"
-            android:text="@string/day_training" />
+        <!--<RadioButton-->
+            <!--android:id="@id/day_training"-->
+            <!--style="@style/radio_button"-->
+            <!--android:text="@string/day_training" />-->
 
         <RadioButton
+            android:layout_height="match_parent"
             android:id="@id/training"
             style="@style/radio_button"
             android:text="@string/history_order" />

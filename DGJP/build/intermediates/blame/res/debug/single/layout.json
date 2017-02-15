@@ -8,10 +8,6 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\web_view.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\item_wallet_month.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\item_wallet_month.xml"
     },
@@ -26,10 +22,6 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_my_address.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_my_address.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_about_app.xml",
@@ -60,16 +52,12 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\sign_school_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\PullToRefresh\\unspecified\\res\\layout\\pull_to_refresh_header_vertical.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\autofill_keyboard_accessory_item.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\layout\\autofill_keyboard_accessory_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\PullToRefresh\\unspecified\\res\\layout\\pull_to_refresh_header_vertical.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\notification_download.xml",
@@ -84,24 +72,12 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_my_wallet.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_voice.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_received_voice.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\address_selector.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\address-selector\\unspecified\\res\\layout\\address_selector.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_menu.xml",
@@ -116,16 +92,12 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_widget_emojicon_tab_bar.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_expression.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_expression.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_show_big_image.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_activity_show_big_image.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_expression.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_expression.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\ease_chat_message_list.xml",
@@ -140,20 +112,8 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\PullToRefresh\\unspecified\\res\\layout\\pull_to_refresh_header_horizontal.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_search_view.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_scan_qrcode.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_scan_qrcode.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_big_media.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\my_location_marker.xml",
@@ -166,10 +126,6 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\order_option_dialog.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\order_option_dialog.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\item_area.xml",
@@ -188,16 +144,12 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\it_splash.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\info_window.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\info_window.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_add_new_address.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_add_new_address.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\info_window.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\info_window.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\enter_person_information_fragment2.xml",
@@ -228,28 +180,8 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_personal_info.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\uptest.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\uptest.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_message.xml",
@@ -264,10 +196,6 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\spinner_tv.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_picture_new.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_sent_picture_new.xml"
     },
@@ -278,10 +206,6 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\trainer_layout.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\trainer_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_bigexpression.xml",
@@ -306,10 +230,6 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_picture.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_sent_picture.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\ease_scroll_tab_item.xml",
@@ -344,16 +264,8 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\layout\\color_picker_advanced_component.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\training_list_fragment.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\training_list_fragment.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_welcome.xml",
@@ -372,10 +284,6 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_widget_chat_primary_menu.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_bootm_personal_center.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_bootm_personal_center.xml"
     },
@@ -384,24 +292,12 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_sent_bigexpression.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_media_action.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_school_list.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_school_list.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_chat_input_menu.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_widget_chat_input_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\item_my_address.xml",
@@ -480,20 +376,12 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\school_list_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_sign.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_sign.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\period_tv.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\period_tv.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\unpaid_order_detail_activity.xml",
@@ -510,10 +398,6 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_message.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_sent_message.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\date_time_picker_dialog.xml",
@@ -536,10 +420,6 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\layout\\color_picker_dialog_title.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\sign_all_comment_fragment.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\sign_all_comment_fragment.xml"
     },
@@ -548,16 +428,8 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\dig_show_share.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_file.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_sent_file.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\paid_order_detail_activity.xml",
@@ -574,10 +446,6 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\drop_down_textview_2.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\drop_down_textview_2.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_show_file.xml",
@@ -616,10 +484,6 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\coupon_item.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_lines.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\trainer_list_activity.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\trainer_list_activity.xml"
     },
@@ -628,20 +492,8 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\sign_pay_success_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_transfertokefu.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_sent_transfertokefu.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_big_expression.xml",
@@ -714,10 +566,6 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_reset_pay_password.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_reset_pay_password.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_title_bar.xml",

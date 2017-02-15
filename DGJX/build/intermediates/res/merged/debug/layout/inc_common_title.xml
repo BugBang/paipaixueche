@@ -3,7 +3,7 @@
     android:id="@id/layoutTitle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/blue_00BFF3"
+    android:background="@color/app_color"
     android:orientation="vertical" >
 
     <LinearLayout
@@ -44,4 +44,5 @@
     </LinearLayout>
 
     <View style="@style/divider" />
-</LinearLayout>
+
+</LinearLayout>

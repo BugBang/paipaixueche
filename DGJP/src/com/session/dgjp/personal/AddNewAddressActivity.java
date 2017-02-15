@@ -19,6 +19,7 @@ import android.widget.TextView;
 import com.google.gson.Gson;
 import com.session.common.BaseActivity;
 import com.session.common.BaseRequestTask;
+import com.session.common.utils.PhoneFormatCheckUtils;
 import com.session.common.utils.TextUtil;
 import com.session.dgjp.Constants;
 import com.session.dgjp.R;
@@ -141,6 +142,10 @@ public class AddNewAddressActivity extends BaseActivity {
         if (TextUtil.isEmpty(mType)||TextUtil.isEmpty(mPhone)||
                 TextUtil.isEmpty(mLocation)||TextUtil.isEmpty(mDetailAddress)){
             toastLong("请填写完整的地址信息");
+            return false;
+        }
+        if (!PhoneFormatCheckUtils.isPhoneLegal(mPhone)){
+            toastLong("请填写正确的手机号码");
             return false;
         }
         return true;

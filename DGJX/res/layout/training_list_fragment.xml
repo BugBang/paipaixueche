@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/view_42"
+        android:layout_height="wrap_content"
         android:background="@android:color/white"
         android:gravity="center_vertical"
-        android:orientation="horizontal" >
+        android:orientation="vertical">
 
         <!-- <LinearLayout
             android:layout_width="0dp"
@@ -29,27 +29,38 @@
                 android:textColor="@color/black_333333"
                 android:textSize="@dimen/text_medium_xx" />
         </LinearLayout> -->
-        <TextView
-            android:id="@id/begin_time"
-           	android:layout_width="0dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:drawableEnd="@drawable/arrow_down_yellow"
-            android:drawableRight="@drawable/arrow_down_yellow"
-            android:gravity="center"
-            android:textColor="@color/black_333333"
-            android:textSize="@dimen/text_medium_xx"
-            android:paddingLeft="@dimen/view_45"
-            android:paddingStart="@dimen/view_45"
-            android:paddingRight="@dimen/view_45"
-            android:paddingEnd="@dimen/view_45"
-            />
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/view_50"
+                android:layout_marginLeft="@dimen/view_15"
+                android:gravity="center"
+                android:text="开始时间"
+                android:textColor="@color/black_333333"
+                android:textSize="@dimen/text_large"
+                />
+
+            <TextView
+                android:paddingRight="@dimen/view_15"
+                android:id="@id/begin_time"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_50"
+                android:gravity="center_vertical|right"
+                android:textColor="@color/gray_9B9B9B"
+                android:textSize="@dimen/text_large"
+                />
+
+        </LinearLayout>
 
         <View
-            android:layout_width="@dimen/divider"
-            android:layout_height="match_parent"
-            android:background="@color/divider" />
-
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_0.5"
+            android:background="@color/gray_EDEDED"
+            />
         <!-- <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -68,28 +79,36 @@
                 android:textColor="@color/black_333333"
                 android:textSize="@dimen/text_medium_xx" />
         </LinearLayout> -->
-        <TextView
-            android:id="@id/end_time"
-            android:layout_width="0dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:drawableEnd="@drawable/arrow_down_yellow"
-            android:drawableRight="@drawable/arrow_down_yellow"
-            android:gravity="center"
-            android:textColor="@color/black_333333"
-            android:textSize="@dimen/text_medium_xx"
-            android:paddingLeft="@dimen/view_45"
-            android:paddingStart="@dimen/view_45"
-            android:paddingRight="@dimen/view_45"
-            android:paddingEnd="@dimen/view_45"
-            />
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/view_50"
+                android:layout_marginLeft="@dimen/view_15"
+                android:gravity="center"
+                android:text="结束日期"
+                android:textColor="@color/black_333333"
+                android:textSize="@dimen/text_large"
+                />
+            <TextView
+                android:id="@id/end_time"
+                android:paddingRight="@dimen/view_15"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_50"
+                android:gravity="center_vertical|right"
+                android:textColor="@color/gray_9B9B9B"
+                android:textSize="@dimen/text_large"
+                />
+        </LinearLayout>
     </LinearLayout>
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1" 
-        android:layout_marginTop="@dimen/pager_paddding">
+        android:layout_marginTop="@dimen/pager_paddding"
+        android:layout_weight="1">
 
         <com.handmark.pulltorefresh.library.PullToRefreshListView
             android:id="@id/list_view"
@@ -98,7 +117,7 @@
             android:background="@color/common_background"
             android:divider="@null"
             />
-        
+
         <TextView
             android:id="@id/no_data"
             style="@style/no_data_tv"

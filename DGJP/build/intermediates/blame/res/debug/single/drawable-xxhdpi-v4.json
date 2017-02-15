@@ -20,24 +20,8 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\locate.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\star_empty.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\star_empty.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\personal_top_bg.png",
@@ -58,14 +42,6 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\delect_icon.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\delect_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_more.png",
@@ -92,14 +68,6 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\personal_user_photo.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\panorama_img.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\panorama_img.png"
     },
@@ -116,20 +84,12 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\btn_show_id.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bottom_drive_checked.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\bottom_drive_checked.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_kf2.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\img_kf2.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\add_gray_small.png",
@@ -152,16 +112,12 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\wx_icon.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\tc.9.png",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\tc.9.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\main_call_center.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\main_call_center.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\tc.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\tc.9.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\triangle_select.png",
@@ -174,10 +130,6 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\list.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\list.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\search.png",
@@ -196,44 +148,24 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\bottom_me_checked.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\address_home.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\address_home.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_account.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\btn_account.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\coach_icon.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\coach_icon.png"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_account.png",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\btn_account.png"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\main_experence.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\main_experence.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sign_school_details_address.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\sign_school_details_address.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\we_chat.png",
@@ -252,18 +184,6 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\location_marker2.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\map.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\map.png"
     },
@@ -272,12 +192,8 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\white_zoom_in.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pin.png",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\pin.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\flashlight.png",
@@ -308,16 +224,12 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\zoom_out.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\main_drive_flow.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\main_drive_flow.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\address_company.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\address_company.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\main_drive_flow.png",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\main_drive_flow.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_sch.png",
@@ -332,10 +244,6 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\clock.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\clock.png"
     },
@@ -344,32 +252,24 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\last_order.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sign_pay_success.png",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\sign_pay_success.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sign_school_details_peo_num.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\sign_school_details_peo_num.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sign_pay_success.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\sign_pay_success.png"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\add_image.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\add_image.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\loca_icon.png",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\loca_icon.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\arr_down.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\arr_down.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\loca_icon.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\loca_icon.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\zoom_in.png",
@@ -380,40 +280,24 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\back.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\address_now_normal.png",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\address_now_normal.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_menu_share_holo_light.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\drawable-xxhdpi\\ic_menu_share_holo_light.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\address_now_normal.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\address_now_normal.png"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\main_share.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\main_share.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\main_top_ad.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\main_top_ad.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\main_sign_now.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\main_sign_now.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_warning.png",
@@ -448,48 +332,32 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\arr_gray_right.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\star_gray.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\star_gray.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\verify_checkmark.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\drawable-xxhdpi\\verify_checkmark.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\address_delete.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\address_delete.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\verify_checkmark.png",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\drawable-xxhdpi\\verify_checkmark.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\main_q_a.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\main_q_a.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\school_marker2.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\school_marker2.png"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_check.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\address-selector\\unspecified\\res\\drawable-xxhdpi-v4\\ic_check.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\school_marker2.png",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\school_marker2.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_message.9.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\bg_message.9.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qianbao.png",
@@ -520,16 +388,8 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\home_ad.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\address_other.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\address_other.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_welcome_1.png",
@@ -538,14 +398,6 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\address_now_select.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\address_now_select.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\checkbox_uncheck.png",
@@ -562,14 +414,6 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\location_marker.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\location_marker.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\star_full.png",
@@ -592,16 +436,8 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\school_marker.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\triangle_normal.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\triangle_normal.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_full_open_on_phone.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-xxhdpi\\common_full_open_on_phone.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\checkbox_checked.png",
@@ -616,20 +452,8 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\title_to_coach.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\address_school.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\address_school.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\default_address_normal.png",
@@ -638,18 +462,6 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_back3.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\drawable-xxhdpi\\btn_back3.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_msg.png",

@@ -393,7 +393,6 @@ org/chromium/base/annotations/SuppressFBWarnings.class
 com/alipay/sdk/auth/a.class
 cn/jpush/b/a/b/b.class
 com/session/dgjp/trainer/TrainerListActivity$3.class
-com/amap/api/maps2d/model/Marker.class
 com/session/dgjp/enity/TeachingSchedule.class
 android/support/v4/media/session/PlaybackStateCompatApi22.class
 android/support/v4/media/session/MediaSessionCompat$MediaSessionImplBase.class
@@ -635,6 +634,7 @@ com/alipay/sdk/authjs/a$a.class
 android/support/v4/widget/EdgeEffectCompat.class
 com/session/dgjp/HomePagerActivity$6.class
 android/support/v4/app/FragmentHostCallback.class
+com/session/common/utils/PhoneFormatCheckUtils.class
 com/bumptech/glide/Glide.class
 android/support/v4/app/NoSaveStateFrameLayout.class
 android/support/v4/media/RatingCompat$StarStyle.class

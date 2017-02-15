@@ -61,7 +61,7 @@
 
     <!-- 个人中心 -->
     <string name="logout">退出登录</string>
-    <string name="about">关于</string>
+    <string name="about">关于拍拍</string>
     <string name="personal_center">个人中心</string>
     <string name="modify_pay_pwd">修改支付密码</string>
     <string name="reset_pay_pwd">重置支付密码</string>

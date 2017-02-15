@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="24"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/view_15"
+            android:layout_marginBottom="@dimen/view_15"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="@dimen/view_100">
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_large"
+                android:textColor="@color/app_color"
+                android:text="8:00-9:00"
+                />
+            <TextView
+                android:id="@+id/tv_time_long"
+                android:layout_marginTop="@dimen/view_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_333333"
+                android:textSize="@dimen/text_large"
+                android:text="1小时"
+                />
+        </LinearLayout>
+        <View
+            android:layout_marginTop="@dimen/view_10"
+            android:layout_marginBottom="@dimen/view_10"
+            android:layout_width="@dimen/view_0.5"
+            android:layout_height="match_parent"
+            android:background="@color/gray"
+            />
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/view_15"
+            android:layout_marginBottom="@dimen/view_15"
+            android:layout_width="0dp"
+            android:layout_weight="17"
+            android:orientation="horizontal"
+            android:layout_height="@dimen/view_100">
+            <ImageView
+                android:id="@+id/iv_user_photo"
+                android:layout_marginLeft="@dimen/view_14"
+                android:layout_gravity="center_vertical"
+                android:layout_width="@dimen/view_60"
+                android:layout_height="@dimen/view_60"
+                android:background="#323232"
+                />
+            <LinearLayout
+                android:layout_marginRight="@dimen/view_15"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/view_10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/tv_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="李晓明 科目二"
+                            android:textSize="@dimen/text_medium_x"
+                            android:textColor="@color/gray_888888"
+                            />
+                        <TextView
+                            android:id="@+id/tv_call_phone"
+                            android:drawablePadding="@dimen/view_3"
+                            android:drawableRight="@drawable/phone_icon"
+                            android:layout_marginTop="@dimen/view_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="13580374158"
+                            android:textSize="@dimen/text_medium_x"
+                            android:textColor="@color/gray_888888"
+                            />
+                    </LinearLayout>
+                    <View
+                        android:layout_width="@dimen/view_0"
+                        android:layout_height="@dimen/view_1"
+                        android:layout_weight="1"
+                        />
+
+                    <Button
+                        android:id="@+id/bt_sign"
+                        android:background="@drawable/bt_red_round"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_width="@dimen/view_60"
+                        android:layout_height="@dimen/view_30"
+                        android:text="开始签到"
+                        android:textSize="12sp"
+                        android:textColor="@color/text_white"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_address"
+                    android:layout_marginTop="@dimen/view_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="地址 :深圳市南山区学府路95号怡化金融科技大厦702"
+                    android:textSize="@dimen/text_medium"
+                    android:textColor="@color/gray_888888"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_0.5"
+        android:background="@color/gray"
+        />
+</LinearLayout>

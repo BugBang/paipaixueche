@@ -13,7 +13,7 @@
 
     <TextView
         android:id="@+id/text_name"
-        android:textSize="@dimen/text_medium_x"
+        android:textSize="@dimen/text_medium"
         android:textColor="@drawable/bottom_tv_color"
         android:ellipsize="marquee"
         android:singleLine="true"

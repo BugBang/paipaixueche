@@ -53,6 +53,6 @@ public class SignSchoolDetailsListAdapter extends BXBaseAdapter<SchoolDetails.Sc
     }
 
     public interface SignListener{
-        public abstract void onSign(SchoolDetails.ScListBean scListBean);
+        void onSign(SchoolDetails.ScListBean scListBean);
     }
 }

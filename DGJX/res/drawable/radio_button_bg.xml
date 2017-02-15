@@ -6,7 +6,7 @@
             <item android:top="@dimen/radio_button_lower_bar_height_minus" android:left="@dimen/radio_button_lower_bar_height_minus" android:right="@dimen/radio_button_lower_bar_height_minus">
                 <shape>
                     <solid android:color="@android:color/transparent" />
-                    <stroke android:width="@dimen/radio_button_lower_bar_height" android:color="@color/blue_00BFF3" />
+                    <stroke android:width="@dimen/radio_button_lower_bar_height" android:color="@color/app_color" />
                 </shape>
             </item>
         </layer-list>

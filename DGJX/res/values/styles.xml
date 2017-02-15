@@ -64,7 +64,6 @@
         <item name="android:layout_height">@dimen/radio_button_height</item>
         <item name="android:layout_weight">1</item>
         <item name="android:button">@null</item>
-        <item name="android:background">@drawable/radio_button_bg</item>
         <item name="android:textColor">@drawable/radio_text_color</item>
         <item name="android:textSize">@dimen/text_large</item>
         <item name="android:gravity">center</item>

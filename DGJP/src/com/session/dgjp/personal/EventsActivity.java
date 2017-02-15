@@ -11,17 +11,14 @@ import android.widget.Toast;
 import com.amap.api.maps2d.AMap;
 import com.amap.api.maps2d.CameraUpdateFactory;
 import com.amap.api.maps2d.MapView;
-import com.amap.api.maps2d.model.BitmapDescriptorFactory;
 import com.amap.api.maps2d.model.CameraPosition;
 import com.amap.api.maps2d.model.LatLng;
-import com.amap.api.maps2d.model.Marker;
 import com.amap.api.maps2d.model.MarkerOptions;
 import com.amap.api.services.core.LatLonPoint;
 import com.amap.api.services.geocoder.GeocodeResult;
 import com.amap.api.services.geocoder.GeocodeSearch;
 import com.amap.api.services.geocoder.RegeocodeQuery;
 import com.amap.api.services.geocoder.RegeocodeResult;
-import com.orhanobut.logger.Logger;
 import com.session.common.utils.SharedPreferencesUtil;
 import com.session.common.utils.TextUtil;
 import com.session.dgjp.R;
@@ -35,7 +32,7 @@ public class EventsActivity extends Activity implements AMap.OnCameraChangeListe
     private MarkerOptions mMarkerOptions;
     private ImageView mBack;
     private String mFormatAddress;
-    private Marker mMarker;
+//    private Marker mMarker;
     public static final int LOCATION_SUCCESS = 2;
     public static final int LOCATION_FAIL = 3;
     private int id;
@@ -157,25 +154,6 @@ public class EventsActivity extends Activity implements AMap.OnCameraChangeListe
             @Override
             public void onRegeocodeSearched(RegeocodeResult result, int rCode) {
                 mFormatAddress = result.getRegeocodeAddress().getFormatAddress();
-
-                mMarker = aMap.addMarker(
-                        new MarkerOptions()
-                                .title(mFormatAddress)
-                                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE))
-                                .visible(true)
-                                .draggable(false)
-                );
-                mMarker.setPositionByPixels(getWindowManager().getDefaultDisplay().getWidth() / 2,
-                        getWindowManager().getDefaultDisplay().getHeight() / 2);
-
-                //                mMarkerOptions.position(cameraPosition.target);
-                //                mMarkerOptions.title("当前选中: " + mFormatAddress);
-                //                mMarkerOptions.visible(true);
-                //                BitmapDescriptor bitmapDescriptor = BitmapDescriptorFactory.fromBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.location_marker));
-                //                mMarkerOptions.icon(bitmapDescriptor);
-                //                aMap.addMarker(mMarkerOptions);
-                Logger.i("mFormatAddress:" + mFormatAddress);
-
             }
         });
         LatLonPoint lp = new LatLonPoint(cameraPosition.target.latitude, cameraPosition.target.longitude);
@@ -195,7 +173,7 @@ public class EventsActivity extends Activity implements AMap.OnCameraChangeListe
             new Handler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
-                    Toast.makeText(EventsActivity.this, mFormatAddress, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(EventsActivity.this, "已选中 : "+mFormatAddress, Toast.LENGTH_LONG).show();
                 }
             }, 500);
 

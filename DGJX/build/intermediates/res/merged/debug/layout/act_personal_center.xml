@@ -1,18 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_background"
+    android:orientation="vertical">
+
+
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/common_background"
     android:orientation="vertical" >
 
-    <include layout="@layout/inc_common_title" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/personal_top_bg"
+        android:layout_height="@dimen/view_180">
+        <ImageView
+            android:id="@id/ivHead"
+            android:layout_marginTop="@dimen/view_36"
+            android:layout_centerHorizontal="true"
+            android:textSize="15sp"
+            android:layout_width="@dimen/view_60"
+            android:layout_height="@dimen/view_60"
+            android:textColor="@color/text_white"
+            />
+        <TextView
+            android:layout_below="@id/ivHead"
+            android:id="@+id/tvName"
+            android:layout_marginTop="@dimen/view_10"
+            android:layout_centerHorizontal="true"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_white"
+            android:text="陈教练"
+            />
+        <LinearLayout
+            android:layout_marginTop="@dimen/view_8"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/tvName"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_white"
+                android:text="总收入 (元)"
+                />
+            <TextView
+                android:id="@+id/tv_income"
+                android:layout_marginLeft="@dimen/view_10"
+                android:layout_centerHorizontal="true"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_white"
+                android:text="10000.00"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
 
-    <View
-        style="@style/divider"
-        android:layout_marginTop="@dimen/pager_paddding"
-        android:visibility="invisible" />
+    </RelativeLayout>
 
     <LinearLayout
+        android:visibility="gone"
         android:id="@id/llPersonInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,7 +78,6 @@
         android:padding="@dimen/pager_paddding" >
 
         <ImageView
-            android:id="@id/ivHead"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:contentDescription="@null"
@@ -37,7 +92,6 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@id/tvName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/text_black"
@@ -58,9 +112,166 @@
             android:contentDescription="@null"
             android:src="@drawable/ic_more" />
     </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_my_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/about_press"
+        android:gravity="center"
+        android:minHeight="@dimen/about_menu_height"
+        android:orientation="horizontal"
+        android:padding="@dimen/pager_paddding" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的订单"
+                android:textColor="@color/text_gray_dark"
+                android:textSize="@dimen/text_medium_xxx" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_more" />
+    </LinearLayout>
 
     <View style="@style/divider" />
+    <LinearLayout
+        android:id="@+id/ll_come_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/about_press"
+        android:gravity="center"
+        android:minHeight="@dimen/about_menu_height"
+        android:orientation="horizontal"
+        android:padding="@dimen/pager_paddding" >
 
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的收入"
+                android:textColor="@color/text_gray_dark"
+                android:textSize="@dimen/text_medium_xxx" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_more" />
+    </LinearLayout>
+
+    <View style="@style/divider" />
+    <LinearLayout
+        android:id="@+id/ll_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/about_press"
+        android:gravity="center"
+        android:minHeight="@dimen/about_menu_height"
+        android:orientation="horizontal"
+        android:padding="@dimen/pager_paddding" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="消息中心"
+                android:textColor="@color/text_gray_dark"
+                android:textSize="@dimen/text_medium_xxx" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_more" />
+    </LinearLayout>
+
+    <View style="@style/divider" />
+    <LinearLayout
+        android:id="@+id/ll_faq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/about_press"
+        android:gravity="center"
+        android:minHeight="@dimen/about_menu_height"
+        android:orientation="horizontal"
+        android:padding="@dimen/pager_paddding" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="常见问题"
+                android:textColor="@color/text_gray_dark"
+                android:textSize="@dimen/text_medium_xxx" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_more" />
+    </LinearLayout>
+
+    <View style="@style/divider" />
+    <LinearLayout
+        android:id="@+id/ll_online_student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/about_press"
+        android:gravity="center"
+        android:minHeight="@dimen/about_menu_height"
+        android:orientation="horizontal"
+        android:padding="@dimen/pager_paddding" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="在线客户"
+                android:textColor="@color/text_gray_dark"
+                android:textSize="@dimen/text_medium_xxx" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_more" />
+    </LinearLayout>
+
+    <View style="@style/divider" />
     <LinearLayout
         android:id="@id/llVersion"
         android:layout_width="match_parent"
@@ -81,7 +292,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/version_update"
-                android:textColor="@color/text_black"
+                android:textColor="@color/text_gray_dark"
                 android:textSize="@dimen/text_medium_xxx" />
         </LinearLayout>
 
@@ -110,7 +321,7 @@
             android:layout_weight="1"
             android:background="@android:color/transparent"
             android:text="@string/about"
-            android:textColor="@color/text_black"
+            android:textColor="@color/text_gray_dark"
             android:textSize="@dimen/text_medium_xxx" />
 
         <ImageView
@@ -123,13 +334,21 @@
     <View
         style="@style/divider"
         android:visibility="invisible" />
-
     <Button
         android:id="@+id/btnLogout"
-        style="@style/ButtonBlue"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_54"
+        android:background="@drawable/btn_blue"
+        android:textSize="@dimen/text_btn"
+        android:textColor="@color/text_white"
         android:layout_marginLeft="@dimen/view_10"
         android:layout_marginRight="@dimen/view_10"
         android:layout_marginTop="@dimen/login_et_margin_top"
         android:text="@string/logout" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_40"/>
 
 </LinearLayout>
+
+</ScrollView>

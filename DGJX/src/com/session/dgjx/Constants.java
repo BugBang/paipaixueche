@@ -9,11 +9,13 @@ public final class Constants {
 
 	/** 通信协议版本 */
 	public final static String VERSION_PROTOCOL = "1.0";
-	/** 生产环境IP地址 */
+	/** 图片拼接地址 */
+	public final static String IMG_URL = "http://www.paipaixueche.com/files";
+    /** 生产环境IP地址 */
 	public final static String RELEASE_URL = "https://120.76.168.132:8443/";
 	/** 测试环境IP地址 */
 //	public final static String TEST_URL = "https://183.62.251.19:8443/";
-	public final static String TEST_URL = "https://10.0.0.31:8443/";
+	public final static String TEST_URL = "https://10.0.0.35:8443/";
 	/** 后台接口主机IP地址 */
 	public final static String URL_IP = TEST_URL;
 	/** 后台接口地址 */
@@ -42,6 +44,8 @@ public final class Constants {
     public final static String URL_GET_ACCOUNT_DATA = URL + "trainer/getTraninerPhotoOrMoney.flow";
     /** 获取教练收入列表信息*/
     public final static String URL_GET_COACH_INCOME_DATA = URL + "trainer/getTrainerSrListPage.flow";
+    /** 获取首页信息*/
+    public final static String URL_GET_STUDENT_ORDER_LIST_AND_COMEIN_DATA = URL + "trainer/queryCoachOrderPageInfo.flow";
 	/** 日志 */
 	public final static String LOG = Environment.getExternalStorageDirectory().getAbsolutePath() + "/log/dgjx";
 

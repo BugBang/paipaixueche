@@ -8,6 +8,15 @@ import com.session.common.BaseRequestData;
 public class EditorDefaultAddressRequestData extends BaseRequestData {
     private String stuAccount;
     private int id;
+    private int placeState;
+
+    public int getPlaceState() {
+        return placeState;
+    }
+
+    public void setPlaceState(int placeState) {
+        this.placeState = placeState;
+    }
 
     public String getStuAccount() {
         return stuAccount;

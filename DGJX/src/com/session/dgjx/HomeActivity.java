@@ -22,7 +22,6 @@ import com.session.common.utils.LogUtil;
 import com.session.common.utils.UpdateUtil;
 import com.session.common.utils.UpdateUtil.OnVersionInfoListener;
 import com.session.common.utils.VersionInfo;
-import com.session.dgjx.daytraining.DayTrainingListFragment;
 import com.session.dgjx.db.MyMessageDao;
 import com.session.dgjx.message.MessageActivity;
 import com.session.dgjx.order.OrderListFragment;
@@ -66,12 +65,16 @@ public class HomeActivity extends BaseActivity {
 //        initTitle("预约");
         findViewById(R.id.ivTitleRight).setOnClickListener(this);
         msgCountTv = (TextView) findViewById(R.id.tvMsgCount);
+
         fragments.add(new OrderListFragment());
         ids.add(R.id.booking_order);
-        fragments.add(new DayTrainingListFragment());
-        ids.add(R.id.day_training);
+
+//        fragments.add(new DayTrainingListFragment());
+//        ids.add(R.id.day_training);
+
         fragments.add(new TrainingListFragment());
         ids.add(R.id.training);
+
         radioGroup = (RadioGroup) findViewById(R.id.radio_group);
         viewPager = (ViewPager) findViewById(R.id.view_pager);
         viewPager.setOffscreenPageLimit(fragments.size());
@@ -150,37 +153,6 @@ public class HomeActivity extends BaseActivity {
                 break;
         }
     }
-
-//    private void get() {
-//        ProgressDialog progressDialog = buildProcessDialog(null, "正在退出登录...", false);
-//        GetPersonalDataRequestData requestData = new GetPersonalDataRequestData();
-//        requestData.setAccount(account.getAccount());
-//        String data = new Gson().toJson(requestData);
-//        new BaseRequestTask() {
-//            @Override
-//            protected void onResponse(int code, String msg, String response) {
-//                $log("get = "+response);
-//                try {
-//                    switch (code) {
-//                        case BaseRequestTask.CODE_SUCCESS:
-//
-//                            break;
-//                        case BaseRequestTask.CODE_SESSION_ABATE:
-//                            get();
-//                            break;
-//                        default:
-//                            toastShort(msg);
-//                            break;
-//                    }
-//                } catch (Exception e) {
-//                    e.printStackTrace();
-//                    toastShort("网络异常，请稍后重试");
-//                } finally {
-//                }
-//            }
-//        }.request(Constants.URL_GET_COACH_INCOME_DATA, data, progressDialog, true);
-//    }
-
 
     @Override
     public void onBackPressed() {

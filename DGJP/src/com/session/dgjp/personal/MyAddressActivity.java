@@ -36,6 +36,7 @@ public class MyAddressActivity extends BaseActivity implements AddressListAdapte
     private AddressListAdapter mAddressListAdapter;
     private List<Address.ListBean> mListAddress;
     private Gson mGson;
+    private int mFerryState = -1;
 
     @Override
     protected void init(Bundle savedInstanceState) {
@@ -84,13 +85,13 @@ public class MyAddressActivity extends BaseActivity implements AddressListAdapte
         if (resultCode == EventsActivity.LOCATION_SUCCESS) {
             String address = data.getStringExtra("address");
             int id = data.getIntExtra("id", -1);
-            int position = data.getIntExtra("position",-1);
-            upDataAddress(position,id, address);
+            int position = data.getIntExtra("position", -1);
+            upDataAddress(position, id, address);
             //            getStudentAddress();
         }
     }
 
-    private void upDataAddress(final int position,final int id, final String address) {
+    private void upDataAddress(final int position, final int id, final String address) {
         ProgressDialog progressDialog = buildProcessDialog(null, "请稍等", false);
         AddStudentAddressRequestData requestData = new AddStudentAddressRequestData();
         requestData.setStuAccount(account.getAccount());
@@ -109,7 +110,7 @@ public class MyAddressActivity extends BaseActivity implements AddressListAdapte
                             parseAddResponse(response);
                             break;
                         case BaseRequestTask.CODE_SESSION_ABATE:
-                            upDataAddress(position,id,address);
+                            upDataAddress(position, id, address);
                             break;
                         default:
                             break;
@@ -180,9 +181,8 @@ public class MyAddressActivity extends BaseActivity implements AddressListAdapte
 
     @Override
     public void onNowClick(Address.ListBean listBean) {
-        if (listBean.getPlaceState() == 1) {
-            return;
-        }
+        mFerryState = listBean.getPlaceState();
+        $log(mFerryState+"");
         editorDefaultAddress(listBean.getId());
     }
 
@@ -195,7 +195,7 @@ public class MyAddressActivity extends BaseActivity implements AddressListAdapte
     }
 
     @Override
-    public void onToLocaClick(Address.ListBean listBean,int position) {
+    public void onToLocaClick(Address.ListBean listBean, int position) {
         if (listBean != null) {
             Intent intent = new Intent(MyAddressActivity.this, EventsActivity.class);
             intent.putExtra("id", listBean.getId());
@@ -221,6 +221,7 @@ public class MyAddressActivity extends BaseActivity implements AddressListAdapte
         EditorDefaultAddressRequestData requestData = new EditorDefaultAddressRequestData();
         requestData.setStuAccount(account.getAccount());
         requestData.setId(id);
+        requestData.setPlaceState(mFerryState);
         String data = new Gson().toJson(requestData);
         new BaseRequestTask() {
             @Override
