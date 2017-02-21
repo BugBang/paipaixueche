@@ -16,12 +16,12 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\star_gray_small.png"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\clock.png",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\clock.png"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\back.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\clock.png",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\clock.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_account.png",
@@ -50,6 +50,10 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\personal_top_bg.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\personal_top_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\st_icon.jpg",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\st_icon.jpg"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\phone.png",
@@ -94,6 +98,10 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\arrow_down_normal.png",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\arrow_down_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\iv_back.png",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable-xxhdpi\\iv_back.png"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bottom_home_checked.png",

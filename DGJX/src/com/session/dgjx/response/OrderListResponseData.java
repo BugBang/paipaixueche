@@ -3,6 +3,7 @@ package com.session.dgjx.response;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.orhanobut.logger.Logger;
 import com.session.common.BaseListResponseData;
 import com.session.common.utils.DateUtil;
 import com.session.common.utils.GsonUtil;
@@ -23,6 +24,7 @@ public class OrderListResponseData extends BaseListResponseData {
 
     @Override
     public void parseData(String jsonStr) throws Exception {
+        Logger.i(jsonStr);
         JsonParser parser = new JsonParser();
         JsonObject dataObj = (JsonObject) parser.parse(jsonStr);
         setEndFlag(GsonUtil.getInt(dataObj, ENDFLAG, EndFlag.Flag_1.getValue()));
@@ -55,6 +57,7 @@ public class OrderListResponseData extends BaseListResponseData {
                 order.setRemark(GsonUtil.getString(obj, "remark"));
                 order.setOrderDuration(GsonUtil.getInt(obj, "orderDuration"));
                 order.setIsEval(GsonUtil.getString(obj, "isEval"));
+                order.setTimeInterval(GsonUtil.getString(obj, "timeInterval"));
                 order.setBeginTime(GsonUtil.getDate(obj, "beginTime", DateUtil.NETWORK_TIME_SDF));
                 order.setEndTime(GsonUtil.getDate(obj, "endTime", DateUtil.NETWORK_TIME_SDF));
                 order.setSubmitTime(GsonUtil.getDate(obj, "submitTime", DateUtil.NETWORK_TIME_SDF));

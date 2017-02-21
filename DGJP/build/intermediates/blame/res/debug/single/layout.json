@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\custom_info_window.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\custom_info_window.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\web_view.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\web_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\custom_info_window.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\custom_info_window.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\item_wallet_month.xml",
@@ -52,12 +52,12 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\sign_school_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\PullToRefresh\\unspecified\\res\\layout\\pull_to_refresh_header_vertical.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\autofill_keyboard_accessory_item.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\org.xwalk\\xwalk_core_library\\22.52.561.4\\res\\layout\\autofill_keyboard_accessory_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\PullToRefresh\\unspecified\\res\\layout\\pull_to_refresh_header_vertical.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\notification_download.xml",
@@ -92,12 +92,12 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_widget_emojicon_tab_bar.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_show_big_image.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_activity_show_big_image.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_expression.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_expression.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_show_big_image.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_activity_show_big_image.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\ease_chat_message_list.xml",
@@ -300,6 +300,10 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_widget_chat_input_menu.xml"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_order_list.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_order_list.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\item_my_address.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\item_my_address.xml"
     },
@@ -346,6 +350,10 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_register.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\act_training_list.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\layout\\act_training_list.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJP\\build\\intermediates\\res\\merged\\debug\\layout\\sign_school_details_item.xml",

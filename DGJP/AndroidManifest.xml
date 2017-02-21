@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.session.dgjp"
-    android:versionCode="110"
+    android:versionCode="111"
     android:versionName="@string/version_name" >
 
     <uses-sdk
@@ -157,6 +157,16 @@
         <!-- 培训点评 -->
         <activity
             android:name="com.session.dgjp.training.TrainingEvaluationActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 我的预约 -->
+        <activity
+            android:name="com.session.dgjp.order.OrderListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 我的订单 -->
+        <activity
+            android:name="com.session.dgjp.training.TrainingListActivity"
             android:screenOrientation="portrait" >
         </activity>
         <!-- 教练列表 -->

@@ -23,12 +23,11 @@ import com.session.dgjp.common.OptionListener;
 import com.session.dgjp.enity.Order;
 import com.session.dgjp.request.OperateOrderRequestData;
 import com.session.dgjp.request.OrderListRequestData;
-import com.session.dgjp.usb.OnTabFragmentResultListener;
 
 /**
  * 我的预约
  */
-public class OrderListFragment extends BaseOrderListFragment implements OptionListener,OnTabFragmentResultListener {
+public class OrderListFragment extends BaseOrderListFragment implements OptionListener {//,OnTabFragmentResultListener
 
     //private Order order;
     private final static int PAYMENT_RQ = 1;
@@ -38,6 +37,7 @@ public class OrderListFragment extends BaseOrderListFragment implements OptionLi
     public static OrderListFragment newInstance() {
         return new OrderListFragment();
     }
+
     @Override
     protected int getContentRes() {
         return R.layout.order_list_fragment;
@@ -66,11 +66,13 @@ public class OrderListFragment extends BaseOrderListFragment implements OptionLi
         } else if (Order.START_SIGN.equals(order.getNextOperate())) {
             Intent intent = new Intent(act, ScanQRCodeActivity.class);
             intent.putExtra("orderId", order.getId());
-            getHoldingActivity().getParent().startActivityForResult(intent, START_SIGN_RQ);
+            //            getHoldingActivity().getParent().startActivityForResult(intent, START_SIGN_RQ);
+            getActivity().startActivityForResult(intent, START_SIGN_RQ);
         } else if (Order.FINISH_SIGN.equals(order.getNextOperate())) {
             Intent intent = new Intent(act, ScanQRCodeActivity.class);
             intent.putExtra("orderId", order.getId());
-            getHoldingActivity().getParent().startActivityForResult(intent, FINISH_SIGN_RQ);
+            //            getHoldingActivity().getParent().startActivityForResult(intent, FINISH_SIGN_RQ);
+            getActivity().startActivityForResult(intent, FINISH_SIGN_RQ);
         } else if (Order.CONFIRM.equals(order.getNextOperate())) {
             BaseDialog dialog = new BaseDialog.Builder(act).setTitle("确认订单").setMessage("练车时未签到，为保证正常计费，请下次签到")
                     .setPositiveButton("确定", new OnClickListener() {
@@ -90,7 +92,8 @@ public class OrderListFragment extends BaseOrderListFragment implements OptionLi
         } else if (Order.PAY.equals(order.getNextOperate())) {
             Intent intent = new Intent(getActivity(), UnpaidOrderDetailActivity.class);
             intent.putExtra(Order.ID, order.getId());
-            getHoldingActivity().getParent().startActivityForResult(intent, PAYMENT_RQ);
+            //            getHoldingActivity().getParent().startActivityForResult(intent, PAYMENT_RQ);
+            getActivity().startActivityForResult(intent, PAYMENT_RQ);
         } else {
             toast("操作失败,请更新应用");
         }
@@ -100,11 +103,14 @@ public class OrderListFragment extends BaseOrderListFragment implements OptionLi
      * 操作订单
      */
     private void operateOrder(final String id, final String operateType) {
-//        ProgressDialog progressDialog = buildProcessDialog();
+        //        ProgressDialog progressDialog = buildProcessDialog();
         OperateOrderRequestData requestData = new OperateOrderRequestData();
         requestData.setAccount(AppInstance.getInstance().getAccount().getAccount());
         requestData.setId(id);
         requestData.setOperateType(operateType);
+
+        $log("AppInstance.getInstance().getAccount().getAccount() = "+AppInstance.getInstance().getAccount().getAccount()+"id = " + id
+        +"operateType = " + operateType);
         String data = new Gson().toJson(requestData);
         new BaseRequestTask() {
 
@@ -139,13 +145,13 @@ public class OrderListFragment extends BaseOrderListFragment implements OptionLi
         }.request(Constants.URL_OPERATE_ORDER, data, null, true);
     }
 
-//    protected ProgressDialog buildProcessDialog() {
-//        ProgressDialog pd = new ProgressDialog(getActivity().getParent());
-//        pd.setTitle(null);
-//        pd.setMessage("请稍等");
-//        pd.setCancelable(false);
-//        return pd;
-//    }
+    //    protected ProgressDialog buildProcessDialog() {
+    //        ProgressDialog pd = new ProgressDialog(getActivity().getParent());
+    //        pd.setTitle(null);
+    //        pd.setMessage("请稍等");
+    //        pd.setCancelable(false);
+    //        return pd;
+    //    }
 
     @Override
     protected void initAdapter() {
@@ -164,7 +170,8 @@ public class OrderListFragment extends BaseOrderListFragment implements OptionLi
         intent.putExtra(Order.ID, order.getId());
         if (Order.PAY.equals(order.getNextOperate())) {
             intent.setClass(getActivity(), UnpaidOrderDetailActivity.class);
-            getHoldingActivity().getParent().startActivityForResult(intent, PAYMENT_RQ);
+            //            getHoldingActivity().getParent().startActivityForResult(intent, PAYMENT_RQ);
+            getActivity().startActivityForResult(intent, PAYMENT_RQ);
         } else {
             intent.setClass(getActivity(), PaidOrderDetailActivity.class);
             startActivity(intent);
@@ -174,15 +181,15 @@ public class OrderListFragment extends BaseOrderListFragment implements OptionLi
 
 
     @Override
-    public void onTabFragmentResult(int requestCode, int resultCode, Intent data) {
-//        ProgressDialog progressDialog = buildProcessDialog();
-//        progressDialog.show();
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
         if (requestCode == PAYMENT_RQ) {
             if (resultCode == Activity.RESULT_OK) {
                 reload();
                 //从列表中删除该记录
                 /*List<Order> orders = adapter.getList();
-				int size = orders.size();
+                int size = orders.size();
 				if(order.equals(orders.get(size-1)))
 				{
 					//如果是最后一个，这需要修改lastrecordvalue
@@ -222,7 +229,56 @@ public class OrderListFragment extends BaseOrderListFragment implements OptionLi
         }
     }
 
-    private void toast(String msg){
-        Toast.makeText(AppInstance.getInstance(),msg,Toast.LENGTH_LONG).show();
+    //    @Override
+    //    public void onTabFragmentResult(int requestCode, int resultCode, Intent data) {
+    ////        ProgressDialog progressDialog = buildProcessDialog();
+    ////        progressDialog.show();
+    //        if (requestCode == PAYMENT_RQ) {
+    //            if (resultCode == Activity.RESULT_OK) {
+    //                reload();
+    //                //从列表中删除该记录
+    //                /*List<Order> orders = adapter.getList();
+    //				int size = orders.size();
+    //				if(order.equals(orders.get(size-1)))
+    //				{
+    //					//如果是最后一个，这需要修改lastrecordvalue
+    //					if(size == 1)
+    //					{
+    //						lastRecordValue = null;
+    //					}else{
+    //						setLastRecordValue(orders.get(size-2));
+    //					}
+    //				}
+    //				orders.remove(order);
+    //				adapter.notifyDataSetChanged();*/
+    //            }
+    //        } else {
+    //            if (resultCode == Activity.RESULT_OK) {
+    //                Bundle bundle = data.getExtras();
+    //                String result = bundle.getString("result");
+    //                String orderId = bundle.getString("orderId");
+    //                if (TextUtils.isEmpty(result) || TextUtils.isEmpty(orderId)) {
+    //                    return;
+    //                }
+    //                if (result.equals("01" + MD5Util.encode(orderId + "DGFDS"))) {
+    //                    switch (requestCode) {
+    //                        case START_SIGN_RQ: // 开始签到
+    //                            operateOrder(orderId, OperateOrderRequestData.START_SIGN);
+    //                            break;
+    //                        case FINISH_SIGN_RQ: // 结束签到
+    //                            operateOrder(orderId, OperateOrderRequestData.FINISH_SIGN);
+    //                            break;
+    //                        default:
+    //                            break;
+    //                    }
+    //                } else {
+    //                    toast("您扫描的不是该订单的二维码，请核对后再扫描");
+    //                }
+    //            }
+    //        }
+    //    }
+
+    private void toast(String msg) {
+        Toast.makeText(AppInstance.getInstance(), msg, Toast.LENGTH_LONG).show();
     }
 }

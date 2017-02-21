@@ -39,7 +39,7 @@
     <string name="select_date">选择日期</string>
     <string name="select_period">选择时段</string>
     <string name="app_name">拍拍学车</string>
-    <string name="version_name">1.1.0</string>
+    <string name="version_name">1.1.1</string>
 
     <!-- 扫描二维码 -->
     <string name="scan">扫描二维码</string>
@@ -68,6 +68,7 @@
     <string name="logout">退出登录</string>
     <string name="about">关于</string>
     <string name="personal_center">个人中心</string>
+    <string name="p_my_order">我的订单</string>
     <string name="modify_pay_pwd">修改支付密码</string>
     <string name="reset_pay_pwd">重置支付密码</string>
     <string name="my_wallet">我的钱包</string>

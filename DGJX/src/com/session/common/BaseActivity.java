@@ -5,6 +5,7 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
@@ -12,13 +13,20 @@ import android.widget.Toast;
 
 import com.orhanobut.logger.Logger;
 import com.session.common.utils.LogUtil;
+import com.session.common.utils.TextUtil;
 import com.session.common.utils.ToastUtil;
 import com.session.dgjx.AppInstance;
 import com.session.dgjx.R;
 import com.session.dgjx.enity.Account;
+import com.session.dgjx.event.EventMsg;
 import com.session.dgjx.login.LoginActivity;
 import com.umeng.analytics.MobclickAgent;
 
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
+
+import butterknife.Unbinder;
 import cn.jpush.android.api.JPushInterface;
 
 /**
@@ -41,7 +49,7 @@ public abstract class BaseActivity extends Activity implements OnClickListener {
     protected long mExitTime;
     protected Account account;
     private Toast toast;
-
+    private Unbinder bind;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,6 +58,7 @@ public abstract class BaseActivity extends Activity implements OnClickListener {
         progressDialog = new ProgressDialog(this);
         progressDialog.setCancelable(false);
         init(savedInstanceState);
+        EventBus.getDefault().register(this);
     }
 
     /**
@@ -117,6 +126,7 @@ public abstract class BaseActivity extends Activity implements OnClickListener {
 
     @Override
     protected void onDestroy() {
+        EventBus.getDefault().unregister(this);
         if (progressDialog != null && progressDialog.isShowing()) {
             progressDialog.dismiss();
         }
@@ -232,7 +242,9 @@ public abstract class BaseActivity extends Activity implements OnClickListener {
      * 打印日志
      */
     protected void $log(String msg) {
-        Logger.i(msg);
+        if (!TextUtil.isEmpty(msg)){
+            Logger.i(msg);
+        }
     }
 
     @Override
@@ -276,6 +288,26 @@ public abstract class BaseActivity extends Activity implements OnClickListener {
     protected void toLogin() {
         startActivity(new Intent(this, LoginActivity.class));
         finish();
+    }
+
+    @Subscribe(threadMode = ThreadMode.POSTING)
+    public void onMessageEventPostThread(EventMsg messageEvent) {
+        Log.e("PostThread", Thread.currentThread().getName());
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onMessageEventMainThread(EventMsg messageEvent) {
+        Log.e("MainThread", Thread.currentThread().getName());
+    }
+
+    @Subscribe(threadMode = ThreadMode.BACKGROUND)
+    public void onMessageEventBackgroundThread(EventMsg messageEvent) {
+        Log.e("BackgroundThread", Thread.currentThread().getName());
+    }
+
+    @Subscribe(threadMode = ThreadMode.ASYNC)
+    public void onMessageEventAsync(EventMsg messageEvent) {
+        Log.e("Async", Thread.currentThread().getName());
     }
 
 }

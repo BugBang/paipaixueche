@@ -1,19 +1,27 @@
 [
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\checked_text_view_color.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\checked_text_view_color.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\comment_tag_color.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\comment_tag_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\checked_text_view_color.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\checked_text_view_color.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\about_press.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\about_press.xml"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatting_setmode_keyboard_btn.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_chatting_setmode_keyboard_btn.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_black.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\bg_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_recorder_recording.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\btn_recorder_recording.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_blue.xml",
@@ -32,24 +40,64 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\list_selector.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_gray_unable.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\bg_gray_unable.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_background_selector.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\tab_background_selector.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\upper_round_corner_bg.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\upper_round_corner_bg.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_gray_unable.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\bg_gray_unable.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_selector.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_btn_blue_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_recording_text_hint_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_recording_text_hint_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_takepic_selector.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_chat_takepic_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_cancel_bj.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_btn_cancel_bj.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_dialog_button.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\divider_dialog_button.xml"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\upper_round_corner_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\upper_round_corner_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_send_btn_selector.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_chat_send_btn_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_cancel_pressed_shape.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_btn_cancel_pressed_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatto_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_chatto_bg.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_5.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\divider_5.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_common_tab_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_common_tab_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_ratingbar_drawable.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_ratingbar_drawable.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_cancel_normal_shape.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_btn_cancel_normal_shape.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_red_round.xml",
@@ -58,6 +106,10 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\rating_bar_small.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\rating_bar_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_normal_shape.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_btn_blue_normal_shape.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue.xml",
@@ -70,6 +122,10 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_white_1.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\btn_white_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_voice_from_icon.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_voice_from_icon.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_bg.xml",
@@ -92,6 +148,10 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\under_round_corner_bg.xml"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_context_menu_item_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_context_menu_item_bg.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\text_blue_selector.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\text_blue_selector.xml"
     },
@@ -112,12 +172,24 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\PullToRefresh\\unspecified\\res\\drawable\\indicator_bg_bottom.xml"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\et_eva_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\et_eva_bg.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\item_layout_bg.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\item_layout_bg.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_gray_unable_2.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\bg_gray_unable_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_file_selector.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_chat_file_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_recorder_normal.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\btn_recorder_normal.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_home_img_bg.xml",
@@ -128,8 +200,16 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\bg_gray.xml"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_gray_finish.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\bg_gray_finish.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\search_bg.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\search_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_timestampe_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_timestampe_bg.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_red.xml",
@@ -142,6 +222,14 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_button_bg.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\radio_button_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_type_select_btn.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_type_select_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_press_speak_btn.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_chat_press_speak_btn.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\checked_text_view_bg.xml",
@@ -168,6 +256,10 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\rating_bar.xml"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_edit_text_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_edit_text_bg.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_gray_bg.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\circle_gray_bg.xml"
     },
@@ -184,6 +276,14 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\btn_white_enable.xml"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_bg_sumbit_button.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_bg_sumbit_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_location_selector.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_chat_location_selector.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_tv_color.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\bottom_tv_color.xml"
     },
@@ -196,12 +296,44 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\et_top.xml"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_bg_button_satisfaction.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_bg_button_satisfaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\item_hist_order_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\item_hist_order_bg.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_me_img_bg.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\bottom_me_img_bg.xml"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_pressed_shape.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_btn_blue_pressed_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_image_selector.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_chat_image_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_voice_to_icon.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_voice_to_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatfrom_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_chatfrom_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_recording_hint_bg.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_recording_hint_bg.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_bg_2.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\dialog_bg_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_msg_state_failed_resend.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_msg_state_failed_resend.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_blue_checked.xml",
@@ -210,6 +342,10 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_green.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\bg_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatting_setmode_voice_btn.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\drawable\\ease_chatting_setmode_voice_btn.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_msg.xml",

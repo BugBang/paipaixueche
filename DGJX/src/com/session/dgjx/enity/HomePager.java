@@ -41,6 +41,24 @@ public class HomePager {
         private int totalMoney;
         private int placeState;
         private String studentAccount;
+        private String nextOperateName;
+        private String nextOperate;
+
+        public String getNextOperateName() {
+            return nextOperateName;
+        }
+
+        public void setNextOperateName(String nextOperateName) {
+            this.nextOperateName = nextOperateName;
+        }
+
+        public String getNextOperate() {
+            return nextOperate;
+        }
+
+        public void setNextOperate(String nextOperate) {
+            this.nextOperate = nextOperate;
+        }
 
         public int getPlaceState() {
             return placeState;

@@ -4,6 +4,7 @@
               android:layout_width="match_parent"
               android:layout_height="wrap_content">
     <LinearLayout
+        android:background="@color/white"
         android:orientation="horizontal"
         android:weightSum="24"
         android:layout_width="match_parent"
@@ -56,7 +57,7 @@
                 android:layout_gravity="center_vertical"
                 android:layout_width="@dimen/view_60"
                 android:layout_height="@dimen/view_60"
-                android:background="#323232"
+                android:src="@drawable/st_icon"
                 />
             <LinearLayout
                 android:layout_marginRight="@dimen/view_15"
@@ -105,7 +106,7 @@
                         android:layout_gravity="center_vertical|right"
                         android:layout_width="@dimen/view_60"
                         android:layout_height="@dimen/view_30"
-                        android:text="开始签到"
+                        android:text="status"
                         android:textSize="12sp"
                         android:textColor="@color/text_white"
                         />

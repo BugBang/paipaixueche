@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.session.dgjx"
-    android:versionCode="108"
+    android:versionCode="109"
     android:versionName="@string/version_name" >
 
     <uses-sdk
@@ -113,6 +113,18 @@
         <!-- 生成二维码 -->
         <activity
             android:name="com.session.dgjx.daytraining.CreateQRCodeActivity"
+            android:screenOrientation="portrait" />
+        <!-- 学生培训评价 -->
+        <activity
+            android:name="com.session.dgjx.training.EvaActivity"
+            android:screenOrientation="portrait" />
+        <!-- 教练收入列表 -->
+        <activity
+            android:name="com.session.dgjx.personal.ComeInActivity"
+            android:screenOrientation="portrait" />
+        <!-- WebView -->
+        <activity
+            android:name="com.session.dgjx.BWeb"
             android:screenOrientation="portrait" />
 
         <!-- Required SDK核心功能 -->

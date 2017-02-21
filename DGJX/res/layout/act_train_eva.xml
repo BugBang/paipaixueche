@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/white"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/app_color"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/iv_back"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/title_height"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:src="@drawable/iv_back"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="评价"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_title"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/title_height"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_eva_content"
+        android:layout_marginTop="@dimen/view_10"
+        android:layout_marginLeft="@dimen/view_15"
+        android:layout_marginRight="@dimen/view_15"
+        android:gravity="top|left"
+        android:background="@drawable/et_eva_bg"
+        android:padding="@dimen/view_10"
+        android:hint="给予学员培训评价"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_180"/>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/view_20"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/bt_cancel"
+            android:layout_marginLeft="@dimen/view_35"
+            android:background="@color/gray_EDEDED"
+            android:layout_width="@dimen/view_120"
+            android:layout_height="@dimen/view_40"
+            android:text="取消"
+            android:textColor="@color/black_333333"
+            android:textSize="@dimen/text_large"
+            />
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/view_0.5"
+            />
+        <Button
+            android:id="@+id/bt_confirm"
+            android:layout_marginRight="@dimen/view_35"
+            android:background="@color/app_color"
+            android:layout_width="@dimen/view_120"
+            android:layout_height="@dimen/view_40"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_large"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

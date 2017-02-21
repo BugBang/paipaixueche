@@ -13,12 +13,17 @@ import com.session.dgjx.R;
 import com.session.dgjx.common.BaseOrderListFragment;
 import com.session.dgjx.common.OptionListener;
 import com.session.dgjx.enity.Order;
+import com.session.dgjx.event.EventMsg;
+import com.session.dgjx.event.EventTag;
 import com.session.dgjx.request.OrderListRequestData;
+
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 
 import java.util.Calendar;
 import java.util.Date;
 
-public class TrainingListFragment extends BaseOrderListFragment implements OnDateSelectedListener, OptionListener {
+public class TrainingListFragment extends BaseOrderListFragment implements OnDateSelectedListener, OptionListener, TrainingAdapter.onTrainingListener {
     private TextView beginTimeTv, endTimeTv, timeTv;
     private DatePickerDialog datePickerDialog;
     private boolean firstLoadingFlag = true;
@@ -50,7 +55,7 @@ public class TrainingListFragment extends BaseOrderListFragment implements OnDat
 
     @Override
     protected void initAdapter() {
-        adapter = new TrainingAdapter(getActivity(), this);
+        adapter = new TrainingAdapter(getActivity(), this,this);
     }
 
     @Override
@@ -112,5 +117,26 @@ public class TrainingListFragment extends BaseOrderListFragment implements OnDat
         Intent intent = new Intent(getActivity(), TrainingRecordActivity.class);
         intent.putExtra(Order.ID, order.getId());
         startActivity(intent);
+    }
+
+    @Override
+    public void onFinishEva() {
+        toastLong("该订单已经评价过了");
+    }
+
+    @Override
+    public void onNoEva(Order order) {
+        Intent intent = new Intent(act,EvaActivity.class);
+        intent.putExtra("id",order.getId());
+        startActivity(intent);
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onMessageEventMainThread(EventMsg messageEvent) {
+        switch (messageEvent.getImsg()) {
+            case EventTag.EVENT_COMMENT_FINISH:
+                reload();
+                break;
+        }
     }
 }

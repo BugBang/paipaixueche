@@ -1,10 +1,10 @@
 package com.session.common.utils;
 
-import java.util.Map;
-
 import android.content.SharedPreferences;
 
 import com.session.dgjx.AppInstance;
+
+import java.util.Map;
 
 /** SharedPreferences相关的工具类 */
 public final class SharedPreferencesUtil {
@@ -18,7 +18,8 @@ public final class SharedPreferencesUtil {
 	public final static String KEY_PASSWORD = "password";
 	/**自动登录*/
 	public final static String KEY_AUTO_LOGIN = "auto_login";
-	
+    public final static String EASE_USER_NAME = "ease_user_name";
+    public final static String EASE_USER_PASSWORD = "ease_user_password";
 	/**
 	 * 获取SharedPreferences所有的键值对
 	 */

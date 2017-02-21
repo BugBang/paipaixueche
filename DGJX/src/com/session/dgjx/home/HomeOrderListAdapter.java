@@ -58,6 +58,7 @@ public class HomeOrderListAdapter extends BXBaseAdapter<HomePager.ListBean> {
         });
         if (model != null){
             mTvTime.setText(String.format("%s-%s", model.getBeginTime(), model.getEndTime()));
+            mBtSign.setText(model.getNextOperateName());
             if (!TextUtil.isEmpty(model.getOrderDuration())){
                 double time = Double.parseDouble(model.getOrderDuration())/60;
                 mTvTimeLong.setText(String.format("%s小时", time));

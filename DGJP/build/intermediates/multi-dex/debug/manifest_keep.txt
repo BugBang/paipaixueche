@@ -21,6 +21,8 @@
 -keep class com.session.dgjp.personal.MyAddressActivity { <init>(); }
 -keep class com.session.dgjp.personal.AddNewAddressActivity { <init>(); }
 -keep class com.session.dgjp.training.TrainingEvaluationActivity { <init>(); }
+-keep class com.session.dgjp.order.OrderListActivity { <init>(); }
+-keep class com.session.dgjp.training.TrainingListActivity { <init>(); }
 -keep class com.session.dgjp.trainer.TrainerListActivity { <init>(); }
 -keep class com.session.dgjp.school.SchoolListActivity { <init>(); }
 -keep class com.session.dgjp.trainer.OrderActivity { <init>(); }

@@ -1,23 +1,27 @@
 [
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\training_record_activity.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\training_record_activity.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_location.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_sent_location.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\order_list_fragment.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\order_list_fragment.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_scan_qrcode.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_scan_qrcode.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_menu.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_received_menu.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_welcome.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_welcome.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_main.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_main.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_file.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_received_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_bigexpression.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_received_bigexpression.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_bigexpression.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_sent_bigexpression.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
@@ -28,8 +32,12 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\divider.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_create_qrcode.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_create_qrcode.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_picture.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_received_picture.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_transfertokefu.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_sent_transfertokefu.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_home_pager.xml",
@@ -40,32 +48,40 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\it_message.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_personal_center.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_personal_center.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_voice.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_received_voice.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_expression_gridview.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_expression_gridview.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\day_training_item.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\day_training_item.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_home.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_home.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_login.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_login.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_register.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_register.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_chat_input_menu.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_widget_chat_input_menu.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\day_training_list_fragment.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\day_training_list_fragment.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_chat.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_activity_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_layout_emojicon_menu.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_layout_emojicon_menu.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_tv.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\spinner_tv.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_emojicon_tab_bar.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_widget_emojicon_tab_bar.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
@@ -74,14 +90,6 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\drop_down_textview.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\drop_down_textview.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_message.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_message.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\inc_home_title.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\inc_home_title.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\order_detail_activity.xml",
@@ -96,12 +104,164 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\date_picker_dialog.xml"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_video.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_sent_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_expression.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_expression.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\period_tv.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\period_tv.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_base.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\dialog_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_title_bar.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_widget_title_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\notification_download.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\notification_download.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_showvideo_activity.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_showvideo_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_emojicon.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_widget_emojicon.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_picture.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_sent_picture.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_layout_chat_primary_menu.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_layout_chat_primary_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\it_splash.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\it_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_alert_dialog.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_alert_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_picture_new.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_sent_picture_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_come_in.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_come_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\student_item.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\student_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\item_tab_view.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\item_tab_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\training_record_activity.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\training_record_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_file.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_sent_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\order_list_fragment.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\order_list_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_scan_qrcode.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_scan_qrcode.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_transfertokefu.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_received_transfertokefu.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_main.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_message.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_sent_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_location.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_received_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_scroll_tab_item.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_scroll_tab_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_create_qrcode.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_create_qrcode.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_fragment_chat.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_fragment_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_personal_center.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_personal_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_home.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_voice_recorder.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_widget_voice_recorder.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_register.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\day_training_list_fragment.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\day_training_list_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_chat_message_list.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_chat_message_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_message.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\inc_home_title.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\inc_home_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_voice.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_sent_voice.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_show_file.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_activity_show_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_message.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_received_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_bweb.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_bweb.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_chat_menu_item.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_chat_menu_item.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_tv_2.xml",
@@ -112,8 +272,8 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\training_list_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\notification_download.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\notification_download.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_chat_primary_menu.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_widget_chat_primary_menu.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_about_app.xml",
@@ -124,6 +284,14 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\item_student_order_list.xml"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_train_eva.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_train_eva.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_show_big_image.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_activity_show_big_image.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\textview.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\textview.xml"
     },
@@ -132,23 +300,23 @@
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\training_item.xml"
     },
     {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_big_expression.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_big_expression.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\tv_input_bg.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\tv_input_bg.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\it_splash.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\it_splash.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\item_come_in.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\item_come_in.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\act_personal_info.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\act_personal_info.xml"
     },
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\student_item.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\student_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\item_tab_view.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\layout\\item_tab_view.xml"
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_video.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\layout\\ease_row_received_video.xml"
     }
 ]

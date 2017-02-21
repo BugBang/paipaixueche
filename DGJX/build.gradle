@@ -2,11 +2,13 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.neenbedankt.android-apt'
 
 dependencies {
-    compile fileTree(dir: 'libs', include: '*.jar')
+    compile fileTree(include: '*.jar', dir: 'libs')
     compile project(':PullToRefresh')
     compile 'com.jakewharton:butterknife:8.1.0'
     apt 'com.jakewharton:butterknife-compiler:8.1.0'
     compile 'com.orhanobut:logger:1.8'
+    compile project(':kefu-easeui')
+    compile 'org.greenrobot:eventbus:3.0.0'
 }
 
 android {
@@ -15,9 +17,15 @@ android {
 
     defaultConfig {
         multiDexEnabled true
+        ndk {
+            //选择要添加的对应cpu类型的.so库
+            abiFilters 'armeabi', 'arm64-v8a'
+            //还可以添加 'armeabi-v7a', 'x86'
+        }
     }
     configurations {
         all*.exclude group: 'com.android.support', module: 'support-v4'
+        all*.exclude group: 'com.android.support', module: 'support-annotations'
     }
 
     sourceSets {

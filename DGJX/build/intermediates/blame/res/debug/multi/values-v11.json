@@ -22,6 +22,27 @@
                         "endOffset": 328
                     }
                 }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 204,
+                    "endLine": 7,
+                    "endColumn": 12,
+                    "endOffset": 374
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\exploded-aar\\paipaixueche\\kefu-easeui\\unspecified\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 4,
+                        "endColumn": 12,
+                        "endOffset": 225
+                    }
+                }
             }
         ]
     }

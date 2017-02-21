@@ -1,7 +1,10 @@
 package com.session.dgjx;
 
 import android.content.SharedPreferences;
+import android.support.multidex.MultiDex;
 
+import com.hyphenate.chat.ChatClient;
+import com.hyphenate.helpdesk.easeui.UIProvider;
 import com.orhanobut.logger.Logger;
 import com.session.common.BaseApplication;
 import com.session.common.ExtraMap;
@@ -80,6 +83,7 @@ public class AppInstance extends BaseApplication{
 
 	@Override
 	public void onCreate() {
+        MultiDex.install(this);
 		super.onCreate();
 		boolean isDebug = AppUtil.isDebuggable(this);
         Logger.init("BAO");
@@ -97,6 +101,16 @@ public class AppInstance extends BaseApplication{
 		locationClientOption.setWifiActiveScan(true);
 		locationClientOption.setHttpTimeOut(3000);// 默认超时3秒
 		locationClient.startLocation();*/
+
+        ChatClient.Options options = new ChatClient.Options();
+        options.setAppkey("1171161218178791#kefuchannelapp33173");//appkey获取地址：kefu.easemob.com，“管理员模式 > 渠道管理 > 手机APP”页面的关联的“AppKey”
+        options.setTenantId("33173");//tenantId获取地址：kefu.easemob.com，“管理员模式 > 设置 > 企业信息”页面的“租户ID”
+        // Kefu SDK 初始化
+        if (!ChatClient.getInstance().init(this, options)){
+            return;
+        }
+        // Kefu EaseUI的初始化
+        UIProvider.getInstance().init(this);
 	}
 
 	/*@Override

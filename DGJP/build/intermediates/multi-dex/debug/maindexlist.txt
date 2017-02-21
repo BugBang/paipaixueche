@@ -313,6 +313,7 @@ android/support/v7/widget/ChildHelper.class
 com/raizlabs/android/dbflow/annotation/provider/ContentUri$ContentType.class
 android/support/v4/media/MediaBrowserCompat$MediaBrowserImpl.class
 com/j256/ormlite/field/types/DateLongType.class
+com/session/dgjp/training/TrainingListActivity$1.class
 com/session/dgjp/enity/EaseUser.class
 android/support/v4/app/FragmentContainer.class
 com/session/dgjp/common/OptionListener.class
@@ -518,6 +519,7 @@ android/support/v4/app/Fragment$InstantiationException.class
 android/support/annotation/AnyRes.class
 com/session/common/utils/TextUtil.class
 com/session/dgjp/trainer/TrainerAdapter$OrderListener.class
+com/session/dgjp/order/OrderListActivity.class
 org/chromium/net/GURLUtils.class
 android/support/v4/app/FragmentManagerImpl$AnimateOnHWLayerIfNeededListener.class
 com/session/dgjp/personal/MyCouponAdapter.class
@@ -642,6 +644,7 @@ android/support/annotation/StringRes.class
 android/support/v4/widget/MaterialProgressDrawable$1.class
 org/chromium/content/browser/ContentViewCore.class
 com/session/dgjp/request/GetVerifyCodeRequestData.class
+com/session/dgjp/training/TrainingListActivity.class
 android/support/v7/widget/AdapterHelper.class
 com/session/dgjp/login/WelcomActivity$SplashAdapter.class
 com/session/dgjp/trainer/OrderOptionDialog$OnConfirmListener.class

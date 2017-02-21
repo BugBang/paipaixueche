@@ -6,14 +6,14 @@
 
             <solid android:color="@color/common_background" />
 
-            <stroke android:width="@dimen/stroke" android:color="@color/blue_press" />
+            <stroke android:width="@dimen/stroke" android:color="@color/red_FF0808" />
         </shape></item>
     <item><shape>
             <corners android:radius="@dimen/btn_corner" />
 
             <solid android:color="@color/white" />
 
-            <stroke android:width="@dimen/stroke" android:color="@color/blue_00BFF3" />
+            <stroke android:width="@dimen/stroke" android:color="@color/app_color" />
         </shape></item>
 
 </selector>

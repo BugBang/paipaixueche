@@ -98,7 +98,7 @@ public abstract class BaseOrderListFragment extends BaseFragment implements OnIt
         ListView lv = listView.getRefreshableView();
         lv.setHeaderDividersEnabled(false);
         lv.setFooterDividersEnabled(false);
-        lv.setDivider(getResources().getDrawable(R.drawable.divider));
+//        lv.setDivider(getResources().getDrawable(R.drawable.divider));
         initAdapter();
         listView.setAdapter(adapter);
     }

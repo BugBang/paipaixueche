@@ -17,7 +17,7 @@ public final class Constants {
 //	public final static String TEST_URL = "https://183.62.251.19:8443/";
 	public final static String TEST_URL = "https://10.0.0.35:8443/";
 	/** 后台接口主机IP地址 */
-	public final static String URL_IP = TEST_URL;
+	public final static String URL_IP = RELEASE_URL;
 	/** 后台接口地址 */
 	public final static String URL = URL_IP + "DGFDS/";
 	/** 初始化接口地址 */
@@ -46,6 +46,8 @@ public final class Constants {
     public final static String URL_GET_COACH_INCOME_DATA = URL + "trainer/getTrainerSrListPage.flow";
     /** 获取首页信息*/
     public final static String URL_GET_STUDENT_ORDER_LIST_AND_COMEIN_DATA = URL + "trainer/queryCoachOrderPageInfo.flow";
+    /** 提交教练评价*/
+    public final static String URL_POST_COACH_EVAL = URL + "trainer/updateCoachEval.flow";
 	/** 日志 */
 	public final static String LOG = Environment.getExternalStorageDirectory().getAbsolutePath() + "/log/dgjx";
 

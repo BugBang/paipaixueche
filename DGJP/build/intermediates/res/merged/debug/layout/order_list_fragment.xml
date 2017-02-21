@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:paddingTop="@dimen/pager_paddding" >
 
+
     <com.handmark.pulltorefresh.library.PullToRefreshListView
         android:id="@id/list_view"
         android:layout_width="match_parent"

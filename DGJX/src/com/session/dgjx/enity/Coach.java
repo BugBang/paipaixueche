@@ -28,7 +28,7 @@ public class Coach {
     public static class ListBean {
         private String phone;
         private String name;
-        private int money;
+        private double money;
         private String account;
         private String photoUrl;
 
@@ -48,11 +48,11 @@ public class Coach {
             this.name = name;
         }
 
-        public int getMoney() {
+        public double getMoney() {
             return money;
         }
 
-        public void setMoney(int money) {
+        public void setMoney(double money) {
             this.money = money;
         }
 

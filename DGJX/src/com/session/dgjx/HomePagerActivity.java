@@ -2,20 +2,25 @@ package com.session.dgjx;
 
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
+import com.handmark.pulltorefresh.library.PullToRefreshBase;
 import com.session.common.BaseActivity;
 import com.session.common.BaseRequestTask;
 import com.session.common.utils.DateUtil;
 import com.session.common.utils.DialogUtil;
 import com.session.common.utils.IntentUtil;
 import com.session.common.utils.TextUtil;
+import com.session.dgjx.daytraining.CreateQRCodeActivity;
 import com.session.dgjx.enity.HomePager;
+import com.session.dgjx.enity.Order;
 import com.session.dgjx.home.HomeOrderListAdapter;
 import com.session.dgjx.request.HomeDataRequestData;
 
@@ -29,7 +34,7 @@ import butterknife.ButterKnife;
 /**
  * Created by user on 2017-02-07.
  */
-public class HomePagerActivity extends BaseActivity implements HomeOrderListAdapter.onOrderListItemListener {
+public class HomePagerActivity extends BaseActivity implements HomeOrderListAdapter.onOrderListItemListener ,PullToRefreshBase.OnRefreshListener2<ListView> {
     @BindView(R.id.iv_msg)
     ImageView mIvMsg;
     @BindView(R.id.tv_top)
@@ -53,8 +58,11 @@ public class HomePagerActivity extends BaseActivity implements HomeOrderListAdap
     TextView mTvFriday;
     @BindView(R.id.tv_saturday)
     TextView mTvSaturday;
+    @BindView(R.id.tv_no_data)
+    TextView mTvNoData;
     @BindView(R.id.lv_order_list)
-    ListView mLvOrderList;
+    com.handmark.pulltorefresh.library.PullToRefreshListView mLvOrderList;
+//    ListView mLvOrderList;
     private String mTodayDate;
     private String[] mWeeks;
     private TextView[] mItems;
@@ -64,6 +72,8 @@ public class HomePagerActivity extends BaseActivity implements HomeOrderListAdap
     private List<HomePager.OlistBean> mCoachData;
     private HomeOrderListAdapter mAdapter;
     private DialogUtil mDialogUtil;
+    private final static int START_SIGN_RQ = 2;
+    private final static int FINISH_SIGN_RQ = 3;
 
     @Override
     protected void init(Bundle savedInstanceState) {
@@ -73,7 +83,11 @@ public class HomePagerActivity extends BaseActivity implements HomeOrderListAdap
         initListener();
         mDialogUtil = new DialogUtil(this);
         mAdapter = new HomeOrderListAdapter(mOrderList, this, this);
+        mLvOrderList.setMode(PullToRefreshBase.Mode.PULL_FROM_START);
+        mLvOrderList.setOnRefreshListener(this);
+//        mLvOrderList.setOnItemClickListener(this);
         mLvOrderList.setAdapter(mAdapter);//HomeOrderListAdapter
+
         mItems = new TextView[7];
         mItems[0] = mTvMonday;
         mItems[1] = mTvTuesday;
@@ -147,10 +161,7 @@ public class HomePagerActivity extends BaseActivity implements HomeOrderListAdap
         ProgressDialog progressDialog = buildProcessDialog(null, "请稍等...", false);
         HomeDataRequestData requestData = new HomeDataRequestData();
         requestData.setTrainerAccount(account.getAccount());
-        //        requestData.setBeginTime("2017-02-10");
         requestData.setBeginTime(mTodayDate);
-
-        $log("getdata = " + mTodayDate);
         String data = new Gson().toJson(requestData);
         new BaseRequestTask() {
             @Override
@@ -165,6 +176,7 @@ public class HomePagerActivity extends BaseActivity implements HomeOrderListAdap
                             getData();
                             break;
                         default:
+                            mLvOrderList.onRefreshComplete();
                             toastShort(msg);
                             break;
                     }
@@ -172,12 +184,49 @@ public class HomePagerActivity extends BaseActivity implements HomeOrderListAdap
                     e.printStackTrace();
                     toastShort("网络异常，请稍后重试");
                 } finally {
+                    mLvOrderList.onRefreshComplete();
                 }
             }
         }.request(Constants.URL_GET_STUDENT_ORDER_LIST_AND_COMEIN_DATA, data, progressDialog, true);
     }
 
+
+    public void onSignClick( HomePager.ListBean model) {
+        if (Order.START_SIGN.equals(model.getNextOperate())) {
+            // 开始签到
+            Intent intent = new Intent(this, CreateQRCodeActivity.class);
+            intent.putExtra("orderId", model.getId());
+            intent.putExtra("operation", Order.START_SIGN);
+            startActivityForResult(intent, START_SIGN_RQ);
+        } else if (Order.FINISH_SIGN.equals(model.getNextOperate())) {
+            // 结束签到
+            Intent intent = new Intent(this, CreateQRCodeActivity.class);
+            intent.putExtra("orderId", model.getId());
+            intent.putExtra("operation", Order.FINISH_SIGN);
+            startActivityForResult(intent, FINISH_SIGN_RQ);
+        } else {
+            toast(R.string.operate_fail_update_app, Toast.LENGTH_SHORT);
+        }
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        switch (requestCode) {
+            case START_SIGN_RQ:
+            case FINISH_SIGN_RQ:
+                getData();
+//                adapter.clear();
+//                lastRecordValue = null;
+//                getOrders();
+                break;
+
+            default:
+                break;
+        }
+    }
+
     private void parseData(String response) {
+        mLvOrderList.onRefreshComplete();
         if (mGson == null) {
             mGson = new Gson();
         }
@@ -188,6 +237,11 @@ public class HomePagerActivity extends BaseActivity implements HomeOrderListAdap
         mTvMonthComein.setText(String.format("%d", mCoachData.get(0).getTotalMoney()));
         mTvDayComein.setText(String.format("%d", mCoachData.get(0).getFee()));
 
+        if (mOrderList.size() == 0){
+            mTvNoData.setVisibility(View.VISIBLE);
+        }else {
+            mTvNoData.setVisibility(View.GONE);
+        }
         mAdapter.updateListViewData(mOrderList);
 
     }
@@ -258,13 +312,13 @@ public class HomePagerActivity extends BaseActivity implements HomeOrderListAdap
 
     @Override
     public void onSign(HomePager.ListBean model) {
-        toastLong(model.getStudentName());
+        onSignClick(model);
     }
 
     private void callStudentPhone(HomePager.ListBean model) {
         if (model != null) {
             final String phone = model.getPhone();
-            mDialogUtil.confirm("提示", "确定拨打电话?", new DialogInterface.OnClickListener() {
+            mDialogUtil.confirm("提示", "确定拨打该学员电话?", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     dialog.dismiss();
@@ -281,5 +335,15 @@ public class HomePagerActivity extends BaseActivity implements HomeOrderListAdap
                 }
             });
         }
+    }
+
+    @Override
+    public void onPullDownToRefresh(PullToRefreshBase<ListView> refreshView) {
+        getData();
+    }
+
+    @Override
+    public void onPullUpToRefresh(PullToRefreshBase<ListView> refreshView) {
+        toastLong("onPullUpToRefresh");
     }
 }

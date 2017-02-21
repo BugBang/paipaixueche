@@ -6,228 +6,253 @@ import java.util.Date;
 
 public class Order implements Serializable {
 
-	private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
-	/** {@link Order#status} 待培训 */
-	public final static String STATUS_WAITING_TRAIN = "C";
-	/** {@link Order#status} 取消预约 */
-	public final static String STATUS_CANCEL = "A";
-	/** {@link Order#status} 待培中/待确认 */
-	public final static String STATUS_TRAINING = "T";
-	/** {@link Order#status} 已完成 */
-	public final static String STATUS_FINISHED = "Y";
+    /**
+     * {@link Order#status} 待培训
+     */
+    public final static String STATUS_WAITING_TRAIN = "C";
+    /**
+     * {@link Order#status} 取消预约
+     */
+    public final static String STATUS_CANCEL = "A";
+    /**
+     * {@link Order#status} 待培中/待确认
+     */
+    public final static String STATUS_TRAINING = "T";
+    /**
+     * {@link Order#status} 已完成
+     */
+    public final static String STATUS_FINISHED = "Y";
 
-	/** {@link Order#isEval} 已评价} */
-	public final static String EVALED = "Y";
-	/** {@link Order#isEval} 未评价} */
-	public final static String UNEVAL = "N";
+    /**
+     * {@link Order#isEval} 已评价}
+     */
+    public final static String EVALED = "Y";
+    /**
+     * {@link Order#isEval} 未评价}
+     */
+    public final static String UNEVAL = "N";
 
-	public final static String ID = "id";
+    public final static String ID = "id";
 
-	private String id;// 订单号，由后台生成，YYYYMMDDHHmmSS+5位随机数
-	private Trainer trainer;// 教练
-	private Student student;// 学员
-	private Course course;// 课程
-	private Car car;
-	private String status;// 培训状态
-	private String statusName;// 状态名
-	private String nextOperate;//下一个操作码
-	private String nextOperateName;//下一个操作的名称
-	private Date beginTime;// 预约开始
-	private Date endTime;// 预约结束
-	private int orderDuration;// 预约时长，单位分钟
-	private Date checkinBeginTime;// 签到开始时间
-	private Date checkinEndTime;// 签到结束时间
-	private int checkinDuration;// 签到时长，单位分钟
-	private int fee;// 本次培训费用，单位分
-	private Date submitTime;// 提交时间
-	private Date updateTime;// 更新时间
-	private String remark;// 备注
-	private String isEval;// 是否已评价
-	private Yard yard;// 训练场地
+    private String id;// 订单号，由后台生成，YYYYMMDDHHmmSS+5位随机数
+    private Trainer trainer;// 教练
+    private Student student;// 学员
+    private Course course;// 课程
+    private Car car;
+    private String status;// 培训状态
+    private String statusName;// 状态名
+    private String nextOperate;//下一个操作码
+    private String nextOperateName;//下一个操作的名称
+    private Date beginTime;// 预约开始
+    private Date endTime;// 预约结束
+    private int orderDuration;// 预约时长，单位分钟
+    private Date checkinBeginTime;// 签到开始时间
+    private Date checkinEndTime;// 签到结束时间
+    private int checkinDuration;// 签到时长，单位分钟
+    private int fee;// 本次培训费用，单位分
+    private Date submitTime;// 提交时间
+    private Date updateTime;// 更新时间
+    private String remark;// 备注
+    private String isEval;// 是否已评价
+    private String timeInterval;// 培训持续时间
+    private Yard yard;// 训练场地
 
-	/** {@link Order#operation} 取消订单 */
-	public final static String CANCEL_ORDER = "A";
-	/** {@link Order#operation} 开始签到 */
-	public final static String START_SIGN = "O";
-	/** {@link Order#operation} 结束签到 */
-	public final static String FINISH_SIGN = "F";
-	/** {@link Order#operation} 确认 */
-	public final static String CONFIRM = "B";
-	/** {@link Order#operation} 支付 */
-	//public final static String PAY = "P";
+    /**
+     * {@link Order#operation} 取消订单
+     */
+    public final static String CANCEL_ORDER = "A";
+    /**
+     * {@link Order#operation} 开始签到
+     */
+    public final static String START_SIGN = "O";
+    /**
+     * {@link Order#operation} 结束签到
+     */
+    public final static String FINISH_SIGN = "F";
+    /**
+     * {@link Order#operation} 确认
+     */
+    public final static String CONFIRM = "B";
 
-	public String getId() {
-		return id;
-	}
+    /**
+     * {@link Order#operation} 支付
+     */
+    //public final static String PAY = "P";
+    public String getTimeInterval() {
+        return timeInterval;
+    }
 
-	public void setId(String id) {
-		this.id = id;
-	}
+    public void setTimeInterval(String timeInterval) {
+        this.timeInterval = timeInterval;
+    }
 
-	public Course getCourse() {
-		return course;
-	}
+    public String getId() {
+        return id;
+    }
 
-	public void setCourse(Course course) {
-		this.course = course;
-	}
+    public void setId(String id) {
+        this.id = id;
+    }
 
-	public String getStatus() {
-		return status;
-	}
+    public Course getCourse() {
+        return course;
+    }
 
-	public void setStatus(String status) {
-		this.status = status;
-	}
+    public void setCourse(Course course) {
+        this.course = course;
+    }
 
-	public Date getBeginTime() {
-		return beginTime;
-	}
+    public String getStatus() {
+        return status;
+    }
 
-	public void setBeginTime(Date beginTime) {
-		this.beginTime = beginTime;
-	}
+    public void setStatus(String status) {
+        this.status = status;
+    }
 
-	public Date getEndTime() {
-		return endTime;
-	}
+    public Date getBeginTime() {
+        return beginTime;
+    }
 
-	public void setEndTime(Date endTime) {
-		this.endTime = endTime;
-	}
+    public void setBeginTime(Date beginTime) {
+        this.beginTime = beginTime;
+    }
 
-	public int getOrderDuration() {
-		return orderDuration;
-	}
+    public Date getEndTime() {
+        return endTime;
+    }
 
-	public void setOrderDuration(int orderDuration) {
-		this.orderDuration = orderDuration;
-	}
+    public void setEndTime(Date endTime) {
+        this.endTime = endTime;
+    }
 
-	public Date getCheckinBeginTime() {
-		return checkinBeginTime;
-	}
+    public int getOrderDuration() {
+        return orderDuration;
+    }
 
-	public void setCheckinBeginTime(Date checkinBeginTime) {
-		this.checkinBeginTime = checkinBeginTime;
-	}
+    public void setOrderDuration(int orderDuration) {
+        this.orderDuration = orderDuration;
+    }
 
-	public Date getCheckinEndTime() {
-		return checkinEndTime;
-	}
+    public Date getCheckinBeginTime() {
+        return checkinBeginTime;
+    }
 
-	public void setCheckinEndTime(Date checkinEndTime) {
-		this.checkinEndTime = checkinEndTime;
-	}
+    public void setCheckinBeginTime(Date checkinBeginTime) {
+        this.checkinBeginTime = checkinBeginTime;
+    }
 
-	public int getCheckinDuration() {
-		return checkinDuration;
-	}
+    public Date getCheckinEndTime() {
+        return checkinEndTime;
+    }
 
-	public void setCheckinDuration(int checkinDuration) {
-		this.checkinDuration = checkinDuration;
-	}
+    public void setCheckinEndTime(Date checkinEndTime) {
+        this.checkinEndTime = checkinEndTime;
+    }
 
-	public int getFee() {
-		return fee;
-	}
+    public int getCheckinDuration() {
+        return checkinDuration;
+    }
 
-	public void setFee(int fee) {
-		this.fee = fee;
-	}
+    public void setCheckinDuration(int checkinDuration) {
+        this.checkinDuration = checkinDuration;
+    }
 
-	public Date getSubmitTime() {
-		return submitTime;
-	}
+    public int getFee() {
+        return fee;
+    }
 
-	public void setSubmitTime(Date submitTime) {
-		this.submitTime = submitTime;
-	}
+    public void setFee(int fee) {
+        this.fee = fee;
+    }
 
-	public Date getUpdateTime() {
-		return updateTime;
-	}
+    public Date getSubmitTime() {
+        return submitTime;
+    }
 
-	public void setUpdateTime(Date updateTime) {
-		this.updateTime = updateTime;
-	}
+    public void setSubmitTime(Date submitTime) {
+        this.submitTime = submitTime;
+    }
 
-	public String getRemark() {
-		return remark;
-	}
+    public Date getUpdateTime() {
+        return updateTime;
+    }
 
-	public void setRemark(String remark) {
-		this.remark = remark;
-	}
+    public void setUpdateTime(Date updateTime) {
+        this.updateTime = updateTime;
+    }
 
-	public Car getCar()
-	{
-		return car;
-	}
+    public String getRemark() {
+        return remark;
+    }
 
-	public void setCar(Car car)
-	{
-		this.car = car;
-	}
+    public void setRemark(String remark) {
+        this.remark = remark;
+    }
 
-	public Trainer getTrainer() {
-		return trainer;
-	}
+    public Car getCar() {
+        return car;
+    }
 
-	public void setTrainer(Trainer trainer) {
-		this.trainer = trainer;
-	}
+    public void setCar(Car car) {
+        this.car = car;
+    }
 
-	public Student getStudent() {
-		return student;
-	}
+    public Trainer getTrainer() {
+        return trainer;
+    }
 
-	public void setStudent(Student student) {
-		this.student = student;
-	}
+    public void setTrainer(Trainer trainer) {
+        this.trainer = trainer;
+    }
 
-	public String getIsEval() {
-		return isEval;
-	}
+    public Student getStudent() {
+        return student;
+    }
 
-	public void setIsEval(String isEval) {
-		this.isEval = isEval;
-	}
+    public void setStudent(Student student) {
+        this.student = student;
+    }
 
-	public Yard getYard() {
-		return yard;
-	}
+    public String getIsEval() {
+        return isEval;
+    }
 
-	public void setYard(Yard yard) {
-		this.yard = yard;
-	}
+    public void setIsEval(String isEval) {
+        this.isEval = isEval;
+    }
 
-	public String getStatusName() {
-		return statusName;
-	}
+    public Yard getYard() {
+        return yard;
+    }
 
-	public void setStatusName(String statusName) {
-		this.statusName = statusName;
-	}
+    public void setYard(Yard yard) {
+        this.yard = yard;
+    }
 
-	public String getNextOperate()
-	{
-		return nextOperate;
-	}
+    public String getStatusName() {
+        return statusName;
+    }
 
-	public void setNextOperate(String nextOperate)
-	{
-		this.nextOperate = nextOperate;
-	}
+    public void setStatusName(String statusName) {
+        this.statusName = statusName;
+    }
 
-	public String getNextOperateName()
-	{
-		return nextOperateName;
-	}
+    public String getNextOperate() {
+        return nextOperate;
+    }
 
-	public void setNextOperateName(String nextOperateName)
-	{
-		this.nextOperateName = nextOperateName;
-	}
+    public void setNextOperate(String nextOperate) {
+        this.nextOperate = nextOperate;
+    }
+
+    public String getNextOperateName() {
+        return nextOperateName;
+    }
+
+    public void setNextOperateName(String nextOperateName) {
+        this.nextOperateName = nextOperateName;
+    }
 }

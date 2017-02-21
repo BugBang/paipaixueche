@@ -94,6 +94,14 @@
     <init>();
 }
 
+-keep class com.session.dgjp.order.OrderListActivity {
+    <init>();
+}
+
+-keep class com.session.dgjp.training.TrainingListActivity {
+    <init>();
+}
+
 -keep class com.session.dgjp.trainer.TrainerListActivity {
     <init>();
 }

@@ -545,6 +545,7 @@
     <string name="order_times">预约次数</string>
     <string name="order_trainer">预约教练</string>
     <string name="original_price">原价</string>
+    <string name="p_my_order">我的订单</string>
     <string name="password_generation_popup_content_description">"Showing password generation popup"</string>
     <string name="pay">支付</string>
     <string name="pay_fail">支付失败</string>

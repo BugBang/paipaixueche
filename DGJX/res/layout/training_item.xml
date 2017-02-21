@@ -1,109 +1,192 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@drawable/list_selector"
-    android:gravity="center_horizontal"
-    android:orientation="vertical"
-    android:paddingBottom="@dimen/view_13"
-    android:paddingEnd="@dimen/view_19"
-    android:paddingLeft="@dimen/view_13"
-    android:paddingRight="@dimen/view_19"
-    android:paddingStart="@dimen/view_13"
-    android:paddingTop="@dimen/view_13" >
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_horizontal"
+              android:background="@drawable/item_hist_order_bg"
+              android:orientation="vertical"
+              >
 
     <!-- 预约培训时间 -->
 
-    <LinearLayout style="@style/order_item_layout" >
-
-        <TextView
-            style="@style/order_item_tv_1"
-            android:text="@string/time" />
-
-        <TextView
-            style="@style/order_item_tv_1"
-            android:text="@string/colon" />
-
-        <TextView
-            android:id="@id/time"
-            style="@style/order_item_tv_2" />
-    </LinearLayout>
-
     <LinearLayout
+
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/view_7_5"
-        android:baselineAligned="false"
-        android:gravity="top"
-        android:orientation="horizontal" >
+        android:layout_height="@dimen/view_130"
+        android:orientation="horizontal">
 
         <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:divider="@drawable/divider_7"
+            android:layout_marginLeft="@dimen/view_10"
             android:orientation="vertical"
-            android:showDividers="middle" >
+            style="@style/order_item_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
 
+            <!--<TextView-->
+                <!--style="@style/order_item_tv_1"-->
+                <!--android:text="@string/time"/>-->
+
+            <!--<TextView-->
+                <!--style="@style/order_item_tv_1"-->
+                <!--android:text="@string/colon"/>-->
+
+            <TextView
+                android:visibility="gone"
+                android:id="@id/time"
+                style="@style/order_item_tv_2"/>
+            <TextView
+                android:id="@+id/tv_time"
+                android:textSize="@dimen/text_medium_xxx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017-01-19"
+                android:textColor="@color/black_333333"
+                />
+            <TextView
+                android:id="@+id/tv_time_long"
+                android:layout_marginTop="@dimen/view_10"
+                android:textColor="@color/app_color"
+                android:textSize="@dimen/text_large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8:00-9:00"
+                />
+            <TextView
+                android:id="@+id/tv_time_hour"
+                android:layout_marginTop="@dimen/view_10"
+                android:textSize="@dimen/text_large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_333333"
+                android:text="1小时"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="@dimen/view_15"
+            android:layout_marginBottom="@dimen/view_15"
+            android:layout_marginLeft="@dimen/view_10"
+            android:layout_width="@dimen/view_0.5"
+            android:layout_height="match_parent"
+            android:background="@color/gray_D2D2D2"
+            />
+
+        <LinearLayout
+            android:layout_marginLeft="@dimen/view_10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+           >
+            <!-- 预约学员 -->
+
+            <LinearLayout style="@style/order_item_layout">
+
+                <TextView
+                    style="@style/order_item_tv_1"
+                    android:textSize="@dimen/text_large"
+                    android:text="@string/student"/>
+
+                <TextView
+                    android:textSize="@dimen/text_large"
+                    style="@style/order_item_tv_1"
+                    android:text="@string/colon"/>
+
+                <TextView
+                    android:textSize="@dimen/text_large"
+                    android:id="@id/student"
+                    style="@style/order_item_tv_2"/>
+            </LinearLayout>
             <!-- 培训课程 -->
 
-            <LinearLayout style="@style/order_item_layout" >
+            <LinearLayout style="@style/order_item_layout"
+                android:layout_marginTop="@dimen/view_10"
+                >
 
                 <TextView
+                    android:textSize="@dimen/text_large"
                     style="@style/order_item_tv_1"
-                    android:text="@string/course" />
+                    android:text="@string/course"/>
 
                 <TextView
+                    android:textSize="@dimen/text_large"
                     style="@style/order_item_tv_1"
-                    android:text="@string/colon" />
+                    android:text="@string/colon"/>
 
                 <TextView
+                    android:textSize="@dimen/text_large"
                     android:id="@id/course"
-                    style="@style/order_item_tv_2" />
+                    style="@style/order_item_tv_2"/>
             </LinearLayout>
 
             <!-- 预约教练 -->
 
-            <LinearLayout style="@style/order_item_layout" >
+            <LinearLayout style="@style/order_item_layout"
+                android:layout_marginTop="@dimen/view_10"
+                >
 
                 <TextView
+                    android:textSize="@dimen/text_large"
                     style="@style/order_item_tv_1"
-                    android:text="@string/car" />
+                    android:text="@string/car"/>
 
                 <TextView
+                    android:textSize="@dimen/text_large"
                     style="@style/order_item_tv_1"
-                    android:text="@string/colon" />
+                    android:text="@string/colon"/>
 
                 <TextView
+                    android:textSize="@dimen/text_large"
                     android:id="@id/carno"
-                    style="@style/order_item_tv_2" />
+                    style="@style/order_item_tv_2"/>
             </LinearLayout>
 
-            <!-- 预约学员 -->
 
-            <LinearLayout style="@style/order_item_layout" >
-
-                <TextView
-                    style="@style/order_item_tv_1"
-                    android:text="@string/student" />
-
-                <TextView
-                    style="@style/order_item_tv_1"
-                    android:text="@string/colon" />
-
-                <TextView
-                    android:id="@id/student"
-                    style="@style/order_item_tv_2" />
-            </LinearLayout>
         </LinearLayout>
 
-        <TextView
-            android:id="@id/status"
-            android:layout_width="@dimen/view_65"
-            android:layout_height="@dimen/view_25"
-            android:layout_marginTop="@dimen/view_10"
-            android:gravity="center"
-            android:textSize="@dimen/text_12_5" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/view_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@id/status"
+                android:layout_width="@dimen/view_65"
+                android:layout_height="@dimen/view_25"
+                android:gravity="center"
+                android:textSize="@dimen/text_12_5"/>
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_eva"
+                android:text="评价"
+                android:background="@drawable/btn_white"
+                android:layout_marginTop="@dimen/view_5"
+                android:layout_width="@dimen/view_50"
+                android:layout_height="@dimen/view_25"
+                android:textColor="@color/app_color"
+                android:gravity="center"
+                android:textSize="@dimen/text_medium"/>
+        </LinearLayout>
+
+
     </LinearLayout>
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="@dimen/view_7_5"-->
+    <!--android:baselineAligned="false"-->
+    <!--android:gravity="top"-->
+    <!--android:orientation="horizontal" >-->
+
+
+    <!---->
+    <!--</LinearLayout>-->
 
 </LinearLayout>

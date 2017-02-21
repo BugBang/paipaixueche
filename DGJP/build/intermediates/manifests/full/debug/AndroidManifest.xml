@@ -162,6 +162,16 @@
             android:name="com.session.dgjp.training.TrainingEvaluationActivity"
             android:screenOrientation="portrait" >
         </activity>
+        <!-- 我的预约 -->
+        <activity
+            android:name="com.session.dgjp.order.OrderListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 我的订单 -->
+        <activity
+            android:name="com.session.dgjp.training.TrainingListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
         <!-- 教练列表 -->
         <activity
             android:name="com.session.dgjp.trainer.TrainerListActivity"

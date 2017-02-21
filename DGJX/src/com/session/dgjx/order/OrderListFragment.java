@@ -11,6 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.orhanobut.logger.Logger;
 import com.session.common.BaseRequest;
 import com.session.common.BaseResponse;
 import com.session.common.utils.DateUtil;
@@ -179,8 +180,9 @@ public class OrderListFragment extends BaseOrderListFragment implements OnItemSe
             requestData.setEndTime(DateUtil.NETWORK_DATE_SDF.format(date));
         } else {
             Calendar calendar = Calendar.getInstance();
-            calendar.add(Calendar.DATE, 1);
+            calendar.add(Calendar.DATE,0);
             requestData.setBeginTime(DateUtil.NETWORK_DATE_SDF.format(calendar.getTime()));
+            Logger.i(DateUtil.NETWORK_DATE_SDF.format(calendar.getTime()));
         }
         requestData.setLastRecordValue(lastRecordValue);
         return requestData;
@@ -191,5 +193,4 @@ public class OrderListFragment extends BaseOrderListFragment implements OnItemSe
         orderDates.add(0, new OrderDate(null));
         initDateSpinner(orderDates);
     }
-
 }

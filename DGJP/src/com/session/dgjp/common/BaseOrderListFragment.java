@@ -1,31 +1,30 @@
 package com.session.dgjp.common;
 
-import java.util.List;
-
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.view.View;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.AdapterView.OnItemClickListener;
 
 import com.handmark.pulltorefresh.library.PullToRefreshBase;
-import com.handmark.pulltorefresh.library.PullToRefreshListView;
 import com.handmark.pulltorefresh.library.PullToRefreshBase.Mode;
 import com.handmark.pulltorefresh.library.PullToRefreshBase.OnRefreshListener2;
+import com.handmark.pulltorefresh.library.PullToRefreshListView;
 import com.session.common.BaseFragment;
 import com.session.common.BaseRequest;
 import com.session.common.BaseResponse;
 import com.session.common.utils.DateUtil;
 import com.session.common.utils.LogUtil;
-import com.session.dgjp.AppInstance;
 import com.session.dgjp.R;
 import com.session.dgjp.enity.Order;
 import com.session.dgjp.request.OrderListRequestData;
 import com.session.dgjp.response.OrderListResponseData;
+
+import java.util.List;
 
 public abstract class BaseOrderListFragment extends BaseFragment implements OnItemClickListener, OnRefreshListener2<ListView> {
     protected PullToRefreshListView listView;
@@ -99,6 +98,7 @@ public abstract class BaseOrderListFragment extends BaseFragment implements OnIt
         lv.setDivider(getResources().getDrawable(R.drawable.divider));
         initAdapter();
         listView.setAdapter(adapter);
+        getOrders();
     }
 
     protected abstract void initAdapter();
