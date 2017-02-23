@@ -16,6 +16,7 @@ import com.session.common.ViewHolder;
 import com.session.common.utils.TextUtil;
 import com.session.dgjx.R;
 import com.session.dgjx.enity.HomePager;
+import com.session.dgjx.enity.Order;
 
 import java.util.List;
 
@@ -50,14 +51,25 @@ public class HomeOrderListAdapter extends BXBaseAdapter<HomePager.ListBean> {
                 mOnOrderListItemListener.onCall(model);
             }
         });
-        mBtSign.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mOnOrderListItemListener.onSign(model);
-            }
-        });
         if (model != null){
             mTvTime.setText(String.format("%s-%s", model.getBeginTime(), model.getEndTime()));
+            if (model.getNextOperate().equals(Order.STATUS_FINISHED)){
+                mBtSign.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+
+                    }
+                });
+                mBtSign.setBackgroundResource(R.drawable.bt_gray_round);
+            }else {
+                mBtSign.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        mOnOrderListItemListener.onSign(model);
+                    }
+                });
+                mBtSign.setBackgroundResource(R.drawable.bt_red_round);
+            }
             mBtSign.setText(model.getNextOperateName());
             if (!TextUtil.isEmpty(model.getOrderDuration())){
                 double time = Double.parseDouble(model.getOrderDuration())/60;

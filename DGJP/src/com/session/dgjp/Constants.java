@@ -14,6 +14,7 @@ public final class Constants {
 	/** 测试环境IP地址 */
 //    public final static String TEST_URL ="https://www.papaxueche.cn:8443/";
     public final static String TEST_URL ="https://10.0.0.35:8443/";
+//    public final static String TEST_URL ="https://10.0.0.31:8443/";
     /** 后台接口主机IP地址 */
     public final static String URL_IP = RELEASE_URL;
     /** 后台接口地址 */

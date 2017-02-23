@@ -6314,14 +6314,7 @@
                     "endOffset": 30691
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 70,
-                        "startColumn": 4,
-                        "startOffset": 2629,
-                        "endColumn": 43,
-                        "endOffset": 2668
-                    }
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\values\\strings.xml"
                 }
             },
             {
@@ -8938,7 +8931,14 @@
                     "endOffset": 46418
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\user\\paipaixueche\\DGJP\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 1537,
+                        "endColumn": 46,
+                        "endOffset": 1579
+                    }
                 }
             },
             {

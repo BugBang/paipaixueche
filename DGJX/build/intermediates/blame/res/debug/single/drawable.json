@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\comment_tag_color.xml",
-        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\comment_tag_color.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\checked_text_view_color.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\checked_text_view_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\comment_tag_color.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\comment_tag_color.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\about_press.xml",
@@ -338,6 +338,10 @@
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_blue_checked.xml",
         "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\bg_blue_checked.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_gray_round.xml",
+        "source": "C:\\Users\\user\\paipaixueche\\DGJX\\res\\drawable\\bt_gray_round.xml"
     },
     {
         "merged": "C:\\Users\\user\\paipaixueche\\DGJX\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_green.xml",
